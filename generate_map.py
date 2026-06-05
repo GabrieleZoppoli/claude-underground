@@ -105,6 +105,12 @@ STATIONS = {
   "cellosaurus":  S("Cellosaurus MCP","gen","registry","Cell-line knowledge resource.","MCP: biocontext-ai/unofficial-cellosaurus-mcp."),
   "biostudies":   S("BioStudies MCP","gen","registry","EBI BioStudies datasets & supplementary data.","MCP: EBIBioStudies/biostudies-mcp-server — confirm repo."),
   "gwas":         S("GWAS Catalog MCP","gen","registry","GWAS associations (also inside BioMCP).","MCP: koido/gwas-catalog-mcp — confirm repo."),
+  "opengenes":    S("OpenGenes MCP","gen","verified","OpenGenes DB — aging-gene lifespan interventions, longevity hallmarks & population associations across model organisms.","Remote MCP: opengenes-mcp.longevity-genie.info/mcp (or pip install opengenes-mcp).","https://github.com/longevity-genie/opengenes-mcp"),
+  "synergyage":   S("SynergyAge MCP","gen","verified","SynergyAge DB — validated synergistic/antagonistic/epistatic genetic interventions affecting lifespan.","Remote MCP: synergy-age-mcp.longevity-genie.info/mcp (or pip install synergy-age-mcp).","https://github.com/longevity-genie/synergy-age-mcp"),
+  "expasygpt":    S("ExpasyGPT","gen","verified","SIB Swiss SPARQL gateway — UniProt, Bgee, Rhea, SwissLipids via natural-language SPARQL queries.","Remote MCP: chat.expasy.org/mcp","https://github.com/sib-swiss/sparql-llm"),
+  "disphase":     S("DisPhaseDB MCP","gen","verified","DisPhaseDB — LLPS proteins, disease-associated mutations & condensate associations.","Remote MCP: mcp.disphasedb.leloir.org.ar/mcp","https://gitlab.com/bioinformatics-fil/disphase-mcp"),
+  "bqbiomedical": S("BigQuery Biomedical","gen","registry","GCP BigQuery access to biomedical datasets (OpenTargets schema, AACT, etc.) via SQL.","MCP: navisbio/mcp_bigquery_biomedical — requires GCP service account.","https://github.com/navisbio/mcp_bigquery_biomedical"),
+  "flybase":      S("FlyBase MCP","gen","registry","FlyBase — Drosophila melanogaster genetics & molecular biology database.","MCP: sviatkh/flybase-mcp-server (uvx flybase-mcp-server@latest).","https://github.com/sviatkh/flybase-mcp-server"),
 
   # ====================================================== Compute ⚫
   "python":       S("Python · scanpy/squidpy","comp","live","scanpy/squidpy/anndata for sc & spatial; pandas/numpy/scipy — all verified installed.","Bash + Python 3.12; Claude writes & runs the analysis now."),
@@ -128,6 +134,7 @@ STATIONS = {
   "omnipath":     S("OmniPath MCP","comp","registry","Signaling/regulatory networks (Saez lab).","MCP: saezlab/omnipath-next."),
   "biocypher":    S("BioCypher MCP","comp","registry","Build & query biomedical knowledge graphs.","MCP: biocypher/biocypher-mcp."),
   "gget":         S("gget MCP","comp","registry","Swiss-army genomics queries (Ensembl/UniProt/BLAST/…).","MCP: longevity-genie/gget-mcp."),
+  "proteinhunter":S("Protein Hunter MCP","comp","registry","GPU-accelerated protein design & structure prediction (Boltz/Chai/LigandMPNN).","MCP: longevity-genie/protein_hunter_mcp — local install, GPU required.","https://github.com/longevity-genie/protein_hunter_mcp"),
 
   # ====================================================== Statistics 🔵
   "statsmodels":  S("statsmodels / scipy","stat","live","Regression, GLM, mixed models, hypothesis tests in Python.","Bash + Python; Claude writes the analysis."),

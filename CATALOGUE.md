@@ -71,6 +71,12 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - 📇 Cellosaurus cell lines — biocontext-ai-unofficial-cellosaurus-mcp · 📇 BioStudies — EBIBioStudies-biostudies-mcp-server
 - 🌐 GDC/TCGA API (incl. /analysis/survival) — gdc.cancer.gov/developers (⚠️ no GDC MCP found)
 - 🌐 No-MCP-verified but public: UCSC, dbSNP/dbVar, ENCODE (use via API/browser)
+- ✅ **OpenGenes MCP** (longevity-genie/opengenes-mcp) — lifespan-intervention experiments, longevity hallmarks & population associations; remote endpoint opengenes-mcp.longevity-genie.info/mcp
+- ✅ **SynergyAge MCP** (longevity-genie/synergy-age-mcp) — validated synergistic/antagonistic/epistatic genetic interactions affecting lifespan across model organisms; remote endpoint synergy-age-mcp.longevity-genie.info/mcp
+- ✅ **ExpasyGPT / SPARQL-LLM** (sib-swiss/sparql-llm, SIB Swiss) — UniProt, Bgee, Rhea, SwissLipids via SPARQL; official remote MCP at chat.expasy.org/mcp
+- ✅ **DisPhaseDB MCP** (bioinformatics-fil/disphase-mcp on GitLab) — liquid–liquid phase separation proteins, disease mutations & condensate associations; remote endpoint mcp.disphasedb.leloir.org.ar/mcp
+- 📇 **BigQuery Biomedical MCP** (navisbio/mcp_bigquery_biomedical) — GCP BigQuery access to biomedical datasets (OpenTargets, AACT schema); requires GCP service account
+- 📇 **FlyBase MCP** (sviatkh/flybase-mcp-server) — Drosophila melanogaster genetics & molecular biology (uvx install)
 
 ### ⚫ Line 3 — Compute & Pipelines (incl. single-cell / spatial)
 - ✅ ChatSpatial (spatial, ~60 methods) — cafferychen777/ChatSpatial
@@ -80,6 +86,7 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - 📇 STRING (PPI) — meringlab-string-mcp · 📇 Reactome (pathways) — Augmented-Nature-Reactome-MCP-Server
 - 📇 OmniPath networks (Saez lab) — saezlab-omnipath-next · 📇 BioCypher knowledge graphs — biocypher-biocypher-mcp
 - 📇 ToolUniverse (Harvard MIMS, 200+ tools aggregator) — mims-harvard-ToolUniverse · 📇 gget — longevity-genie-gget-mcp
+- 📇 **Protein Hunter MCP** (longevity-genie/protein_hunter_mcp) — GPU-accelerated protein design & structure prediction (Boltz/Chai/LigandMPNN); local install required
 - ✅ Marketplace skills: single-cell-rna-qc, nextflow-development (nf-core), scvi-tools — anthropics/life-sciences
 - Local (already installed): Python+scanpy/squidpy/anndata ✓ · R 4.5 ✓ (add Seurat/DESeq2 via BiocManager)
 
@@ -126,3 +133,9 @@ github.com/anthropics/life-sciences · biocontext.ai/registry · github.com/bioc
 github.com/genomoncology/biomcp · github.com/cBioPortal/cbioportal-mcp ·
 github.com/opentargets/open-targets-platform-mcp · github.com/cafferychen777/ChatSpatial ·
 github.com/scmcphub/scmcp · academic.oup.com/nar/article/54/D1/D1/8402365
+
+**Weekly discovery 2026-06-05 additions** (7 new candidates, all repo-verified):
+github.com/longevity-genie/opengenes-mcp · github.com/longevity-genie/synergy-age-mcp ·
+github.com/sib-swiss/sparql-llm · gitlab.com/bioinformatics-fil/disphase-mcp ·
+github.com/navisbio/mcp_bigquery_biomedical · github.com/sviatkh/flybase-mcp-server ·
+github.com/longevity-genie/protein_hunter_mcp

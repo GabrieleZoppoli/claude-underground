@@ -109,8 +109,7 @@ STATIONS = {
   "synergyage":   S("SynergyAge MCP","gen","verified","SynergyAge DB — validated synergistic/antagonistic/epistatic genetic interventions affecting lifespan.","Remote MCP: synergy-age-mcp.longevity-genie.info/mcp (or pip install synergy-age-mcp).","https://github.com/longevity-genie/synergy-age-mcp"),
   "expasygpt":    S("ExpasyGPT","gen","verified","SIB Swiss SPARQL gateway — UniProt, Bgee, Rhea, SwissLipids via natural-language SPARQL queries.","Remote MCP: chat.expasy.org/mcp","https://github.com/sib-swiss/sparql-llm"),
   "disphase":     S("DisPhaseDB MCP","gen","verified","DisPhaseDB — LLPS proteins, disease-associated mutations & condensate associations.","Remote MCP: mcp.disphasedb.leloir.org.ar/mcp","https://gitlab.com/bioinformatics-fil/disphase-mcp"),
-  "bqbiomedical": S("BigQuery Biomedical","gen","registry","GCP BigQuery access to biomedical datasets (OpenTargets schema, AACT, etc.) via SQL.","MCP: navisbio/mcp_bigquery_biomedical — requires GCP service account.","https://github.com/navisbio/mcp_bigquery_biomedical"),
-  "flybase":      S("FlyBase MCP","gen","registry","FlyBase — Drosophila melanogaster genetics & molecular biology database.","MCP: sviatkh/flybase-mcp-server (uvx flybase-mcp-server@latest).","https://github.com/sviatkh/flybase-mcp-server"),
+  "bqbiomedical": S("BigQuery Biomedical","gen","registry","GCP BigQuery access to biomedical datasets (OpenTargets schema, AACT, etc.) via SQL.","MCP: j-walheim/mcp_bigquery_biomedical — requires GCP service account.","https://github.com/j-walheim/mcp_bigquery_biomedical"),
 
   # ====================================================== Compute ⚫
   "python":       S("Python · scanpy/squidpy","comp","live","scanpy/squidpy/anndata for sc & spatial; pandas/numpy/scipy — all verified installed.","Bash + Python 3.12; Claude writes & runs the analysis now."),
@@ -279,6 +278,7 @@ branch("gen", "ucsc", "W", ["interpro","rnacentral","pdbe"])
 branch("gen", "ucsc", "N", ["uniprot","hgnc","vep"])
 branch("gen", "gdc", "W", ["gwas","evo2"])
 branch("gen", "gdc", "N", ["cellosaurus","biostudies"])
+branch("gen", "gdc", "NW", ["opengenes","synergyage","expasygpt","disphase"])  # weekly-discovery 2026-06-05
 
 # ----- Compute (North) ---------------------------------------------------------
 trunk("comp", "N", ["python","bioconductor","nextflow","snakemake"])
@@ -386,6 +386,7 @@ LABEL_OVERRIDE = {
     "cbioportalmcp":"W","opentargets":"W","biomart":"S","biobtree":"S","biothings":"S",
     "cellxgene":"N","ensemblmcp":"W","interpro":"S","rnacentral":"S","pdbe":"S",
     "uniprot":"W","hgnc":"W","vep":"W","gwas":"S","evo2":"S","cellosaurus":"W","biostudies":"W",
+    "opengenes":"NW","synergyage":"NW","expasygpt":"NW","disphase":"NW",
     # --- comp (N trunk; E rows + W rows)
     "python":"N","bioconductor":"N","nextflow":"N","snakemake":"N",
     "scmcp":"E","chatspatial":"E","jupyter":"W","galaxy":"W","cfdna":"W",

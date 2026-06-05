@@ -10,6 +10,7 @@
 <polyline points="979.6,769.6 857.8,769.6 736.0,769.6 614.2,769.6" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
 <polyline points="736.0,769.6 736.0,647.8 736.0,526.0" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
 <polyline points="878.8,668.8 878.8,547.0" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
+<polyline points="677.2,467.2 576.4,366.4 475.6,265.6 374.8,164.8 274.0,64.0" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
 <polyline points="1300.0,1090.0 1300.0,905.2 1300.0,783.4 1300.0,661.6 1300.0,539.8 1300.0,418.0" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
 <polyline points="1300.0,783.4 1421.8,783.4 1543.6,783.4" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
 <polyline points="1300.0,783.4 1178.2,783.4 1056.4,783.4 934.6,783.4" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
@@ -81,6 +82,14 @@
 <circle class="hit" data-sid="opentargets" cx="736.0" cy="526.0" r="15" fill="#000" opacity="0"/>
 <circle class="stn" data-sid="cellxgene" cx="878.8" cy="547.0" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
 <circle class="hit" data-sid="cellxgene" cx="878.8" cy="547.0" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="opengenes" cx="576.4" cy="366.4" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="opengenes" cx="576.4" cy="366.4" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="synergyage" cx="475.6" cy="265.6" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="synergyage" cx="475.6" cy="265.6" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="expasygpt" cx="374.8" cy="164.8" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="expasygpt" cx="374.8" cy="164.8" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="disphase" cx="274.0" cy="64.0" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="disphase" cx="274.0" cy="64.0" r="15" fill="#000" opacity="0"/>
 <circle class="stn" data-sid="python" cx="1300.0" cy="783.4" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
 <circle class="hit" data-sid="python" cx="1300.0" cy="783.4" r="15" fill="#000" opacity="0"/>
 <circle class="stn" data-sid="bioconductor" cx="1300.0" cy="661.6" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>

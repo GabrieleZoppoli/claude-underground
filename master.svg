@@ -10,6 +10,7 @@
 <polyline points="979.6,769.6 857.8,769.6 736.0,769.6 614.2,769.6" fill="none" stroke="#00782A" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
 <polyline points="736.0,769.6 736.0,647.8 736.0,526.0" fill="none" stroke="#00782A" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
 <polyline points="878.8,668.8 878.8,547.0" fill="none" stroke="#00782A" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<polyline points="677.2,467.2 576.4,366.4 475.6,265.6 374.8,164.8 274.0,64.0" fill="none" stroke="#00782A" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
 <polyline points="1300.0,1090.0 1300.0,905.2 1300.0,783.4 1300.0,661.6 1300.0,539.8 1300.0,418.0" fill="none" stroke="#1C1C1C" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
 <polyline points="1300.0,783.4 1421.8,783.4 1543.6,783.4" fill="none" stroke="#1C1C1C" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
 <polyline points="1300.0,783.4 1178.2,783.4 1056.4,783.4 934.6,783.4" fill="none" stroke="#1C1C1C" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
@@ -81,6 +82,14 @@
 <circle class="hit" data-sid="opentargets" cx="736.0" cy="526.0" r="15" fill="#000" opacity="0"/>
 <circle class="stn" data-sid="cellxgene" cx="878.8" cy="547.0" r="6.2" fill="#ffffff" stroke="#00782A" stroke-width="3.2"/>
 <circle class="hit" data-sid="cellxgene" cx="878.8" cy="547.0" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="opengenes" cx="576.4" cy="366.4" r="6.2" fill="#ffffff" stroke="#00782A" stroke-width="3.2"/>
+<circle class="hit" data-sid="opengenes" cx="576.4" cy="366.4" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="synergyage" cx="475.6" cy="265.6" r="6.2" fill="#ffffff" stroke="#00782A" stroke-width="3.2"/>
+<circle class="hit" data-sid="synergyage" cx="475.6" cy="265.6" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="expasygpt" cx="374.8" cy="164.8" r="6.2" fill="#ffffff" stroke="#00782A" stroke-width="3.2"/>
+<circle class="hit" data-sid="expasygpt" cx="374.8" cy="164.8" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="disphase" cx="274.0" cy="64.0" r="6.2" fill="#ffffff" stroke="#00782A" stroke-width="3.2"/>
+<circle class="hit" data-sid="disphase" cx="274.0" cy="64.0" r="15" fill="#000" opacity="0"/>
 <circle class="stn" data-sid="python" cx="1300.0" cy="783.4" r="6.4" fill="#1C1C1C" stroke="#ffffff" stroke-width="2.0"/>
 <circle class="hit" data-sid="python" cx="1300.0" cy="783.4" r="15" fill="#000" opacity="0"/>
 <circle class="stn" data-sid="bioconductor" cx="1300.0" cy="661.6" r="6.2" fill="#ffffff" stroke="#1C1C1C" stroke-width="3.2"/>
@@ -213,6 +222,10 @@
 <text x="723.0" y="651.8" font-size="12" text-anchor="end" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="3" stroke-linejoin="round">cBioPortal MCP</text>
 <text x="723.0" y="530.0" font-size="12" text-anchor="end" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="3" stroke-linejoin="round">Open Targets MCP</text>
 <text x="878.8" y="533.0" font-size="12" text-anchor="middle" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="3" stroke-linejoin="round">CELLxGENE</text>
+<text x="565.4" y="357.4" font-size="12" text-anchor="end" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="3" stroke-linejoin="round">OpenGenes MCP</text>
+<text x="464.6" y="256.6" font-size="12" text-anchor="end" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="3" stroke-linejoin="round">SynergyAge MCP</text>
+<text x="363.8" y="155.8" font-size="12" text-anchor="end" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="3" stroke-linejoin="round">ExpasyGPT</text>
+<text x="263.0" y="55.0" font-size="12" text-anchor="end" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="3" stroke-linejoin="round">DisPhaseDB MCP</text>
 <text x="1300.0" y="769.4" font-size="12" text-anchor="middle" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="3" stroke-linejoin="round">Python · scanpy/squidpy</text>
 <text x="1300.0" y="647.6" font-size="12" text-anchor="middle" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="3" stroke-linejoin="round">R · Bioconductor</text>
 <text x="1300.0" y="525.8" font-size="12" text-anchor="middle" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="3" stroke-linejoin="round">Nextflow / nf-core</text>

@@ -1,0 +1,1362 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>STATIONS_GUIDE</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <style>
+  @page { size: A4 landscape; margin: 12mm 12mm; }
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body{font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    color:#1c1c1c;background:#fbfaf6;line-height:1.5;font-size:11px;max-width:1180px;margin:0 auto;padding:8px 18px}
+  h1{font-size:25px;font-weight:800;margin:.2em 0 .1em;border-bottom:3px solid #D97757;padding-bottom:8px}
+  h2{font-size:17px;font-weight:800;margin:1.4em 0 .4em;padding:5px 10px;background:#f1ede2;border-left:5px solid #D97757;border-radius:3px}
+  h3{font-size:13.5px;font-weight:700;margin:1em 0 .2em;color:#7a4a36}
+  blockquote{margin:.6em 0;padding:8px 14px;background:#f4f1e8;border-left:4px solid #c9bfa6;color:#5f5848;border-radius:4px}
+  blockquote p{margin:.25em 0}
+  table{border-collapse:collapse;width:100%;margin:.5em 0 1.2em;font-size:10.7px}
+  th,td{border:1px solid #e1dccd;padding:6px 9px;text-align:left;vertical-align:top}
+  th{background:#efe9da;font-weight:700;font-size:10.5px}
+  tr:nth-child(even) td{background:#fdfcf8}
+  td:first-child{white-space:nowrap;font-size:11px}
+  code{font-family:'SF Mono',Menlo,Consolas,monospace;font-size:10px;background:#ece7d8;padding:1.5px 6px;border-radius:5px;color:#5a4632;white-space:nowrap}
+  a{color:#b5562f;text-decoration:none}
+  ol li,ul li{margin:.18em 0}
+  hr{border:none;border-top:1px solid #e1dccd;margin:1.4em 0}
+  h2,h3,tr{page-break-inside:avoid}
+  </style>
+</head>
+<body>
+<h1 id="the-zoppoli-research-underground-station-connection-guide">The
+Zoppoli Research Underground — Station &amp; Connection Guide</h1>
+<blockquote>
+<p>How to ride each line: what every station does, <strong>how to
+connect it</strong>, <strong>which functions to expect</strong>, whether
+Claude reaches it <strong>automatically or via a skill load</strong>,
+and the <strong>machine it runs best on</strong>.</p>
+</blockquote>
+<blockquote>
+<p>Generated from the live map data — <strong>78 stations</strong> (the
+super-confident set: ● live + ◉ verified). Registry-listed servers stay
+in <code>CATALOGUE.md</code> until their repo is confirmed. Re-run
+<code>python3 make_guide.py</code> after editing the map.</p>
+</blockquote>
+<blockquote>
+<p><strong>On the <code>Real?</code> column (is it actually in there, or
+did I make it up):</strong> the live MCPs and skills are ones I
+<em>directly observe</em> in this session; the public databases are
+well-known resources; and every install-first MCP repo / endpoint was
+<strong>fetched and confirmed to exist on 2026-06-04</strong> (licence
+noted). Nothing here is an unverified guess — the registry-listed
+servers that <em>were</em> only inferred are excluded (they live in
+<code>CATALOGUE.md</code>).</p>
+</blockquote>
+<h2 id="how-to-read-the-columns">How to read the columns</h2>
+<p><strong>Status:</strong> ● live (wired now) · ◉ verified (real, ready
+to wire) · ⊕ interchange (a connecting line stops here).</p>
+<p><strong>Invocation</strong> — how Claude actually reaches it:</p>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr>
+<th>Label</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Auto·MCP</code></td>
+<td>Wired MCP tool — Claude calls it directly; the tool schema
+auto-loads on first use. <strong>No action from you.</strong></td>
+</tr>
+<tr>
+<td><code>Auto·web</code></td>
+<td>Public API/registry — Claude reaches it through the in-browser tool
+or <code>curl</code>. <strong>No install.</strong></td>
+</tr>
+<tr>
+<td><code>Auto·Bash</code></td>
+<td>Claude runs it as local code / CLI in the shell.</td>
+</tr>
+<tr>
+<td><code>Skill</code></td>
+<td>Claude loads a skill (auto-triggers on the matching task, or on
+request).</td>
+</tr>
+<tr>
+<td><code>Install→MCP</code></td>
+<td>Add the server to your MCP config <strong>once</strong>; thereafter
+it behaves as <code>Auto·MCP</code>.</td>
+</tr>
+<tr>
+<td><code>Install→Bash</code></td>
+<td>Install the tool once (<code>pip</code>/<code>conda</code>), then
+<code>Auto·Bash</code>.</td>
+</tr>
+<tr>
+<td><code>Install→Skill</code></td>
+<td><code>/plugin install …</code>, then it loads like any skill.</td>
+</tr>
+<tr>
+<td><code>Install (channel)</code></td>
+<td>An install <em>source</em> (the marketplace), not a tool you
+call.</td>
+</tr>
+<tr>
+<td><code>Built-in</code></td>
+<td>Native Claude Code capability — no setup.</td>
+</tr>
+<tr>
+<td><code>Manual</code></td>
+<td>You run the final step yourself (e.g. paste a prompt into
+ChatGPT).</td>
+</tr>
+<tr>
+<td><code>Discovery</code></td>
+<td>A place to <strong>find/verify</strong> other servers (browse), not
+a tool you call.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Runs best on:</strong> 💻 any laptop (cloud / remote MCP /
+API / skill — the work happens off-box) · 🖥️ your workstation (local
+envs, auth tokens, your data, light–medium compute) · 🗄️ HPC (heavy
+pipelines, big data, GPU). <code>A → B</code> = starts on A, scales to
+B.</p>
+<p><strong>Cost:</strong> <code>Free·OSS</code> open-source software/MCP
+· <code>Free·public</code> public DB/API · <code>Free·skill</code> a
+Claude skill (no licence; it runs on your Claude plan) ·
+<code>Freemium</code> free tier + paid upgrades · <code>Paid/lic.</code>
+needs a subscription or institutional licence. Parentheticals flag where
+the answer shifts (e.g. image-gen skills bill per image; OncoKB is free
+for academics, licensed for industry).</p>
+<p><strong>Real?</strong> — provenance, the honest part:
+<code>Seen·session</code> I directly observe it in my tools/skills right
+now (cannot be fabricated) · <code>Known·DB</code> a well-established
+public database · <code>Known·SW</code> well-established open-source
+software (the <em>installed-on-your-box</em> claim is from a prior
+session) · <code>Web-verified ✓</code> I fetched the repo/endpoint on
+2026-06-04 and confirmed it exists, licence noted ·
+<code>Configured</code> set up per CLAUDE.md, not exercised this
+turn.</p>
+<h2 id="wire-these-first-highest-leverage-not-yet-wired">Wire these
+first (highest-leverage, not yet wired)</h2>
+<ol type="1">
+<li><strong>BioMCP</strong> — One server federating literature,
+variants, trials &amp; cancer genomics. <em>(MCP: genomoncology/biomcp —
+the single best biomedical addition.)</em></li>
+<li><strong>Open Targets MCP</strong> — Target–disease–drug
+associations, genetics, tractability. <em>(Official remote MCP:
+mcp.platform.opentargets.org/mcp.)</em></li>
+<li><strong>cBioPortal MCP</strong> — No-SQL natural-language queries
+over cBioPortal. <em>(Official MCP (under construction):
+cBioPortal/cbioportal-mcp.)</em></li>
+<li><strong>ChatSpatial</strong> — Spatial-transcriptomics agent — ~60
+methods (Xenium/Visium/MERFISH). <em>(MCP:
+cafferychen777/ChatSpatial.)</em></li>
+<li><strong>SCMCP</strong> — scRNA-seq analysis via scverse (scanpy).
+<em>(MCP: scmcphub/scmcp.)</em></li>
+<li><strong>ClinTrials.gov MCP</strong> — Trial-registry queries over
+MCP (CTG API v2 + NCI CTS). <em>(MCP:
+cyanheads/clinicaltrialsgov-mcp-server.)</em></li>
+<li><strong>ENA MCP</strong> — European Nucleotide Archive — reads,
+assemblies, sequence records. <em>(MCP:
+biocontext-ai/nucleotide_archive_mcp.)</em></li>
+<li><strong>Claude for Life Sciences</strong> — Anthropic’s official
+life-sci plugin marketplace — remote MCPs + skills. <em>(Install:
+/plugin marketplace add anthropics/life-sciences.)</em></li>
+</ol>
+<h2 id="literature-evidence">🔴 Literature &amp; Evidence</h2>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+</colgroup>
+<thead>
+<tr>
+<th>Station</th>
+<th>Functions · how to connect</th>
+<th>Cost</th>
+<th>Real?</th>
+<th>Invocation</th>
+<th>Runs best on</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>●⊕ <strong>PubMed</strong></td>
+<td><strong>35M+ biomedical citations; full-text, related-article &amp;
+citation lookup.</strong><br>↳ MCP connected now — search, fetch
+metadata &amp; full text directly.</td>
+<td>Free·public</td>
+<td>Seen·session</td>
+<td><code>Auto·MCP</code></td>
+<td>💻</td>
+</tr>
+<tr>
+<td>● <strong>Consensus</strong></td>
+<td><strong>Evidence synthesis with claim-level support/oppose
+scoring.</strong><br>↳ MCP connected now — ask a question, get cited
+consensus.</td>
+<td>Freemium</td>
+<td>Seen·session</td>
+<td><code>Auto·MCP</code></td>
+<td>💻</td>
+</tr>
+<tr>
+<td>● <strong>deep-research</strong></td>
+<td><strong>Fan-out web search → fetch → adversarially verify → cited
+report.</strong><br>↳ Skill: deep-research.</td>
+<td>Free·skill</td>
+<td>Seen·session</td>
+<td><code>Skill</code></td>
+<td>💻</td>
+</tr>
+<tr>
+<td>● <strong>literature-review</strong></td>
+<td><strong>Systematic reviews across PubMed/arXiv/bioRxiv/Semantic
+Scholar (PRISMA).</strong><br>↳ Skill:
+claude-scientific-writer:literature-review.</td>
+<td>Free·skill</td>
+<td>Seen·session</td>
+<td><code>Skill</code></td>
+<td>💻</td>
+</tr>
+<tr>
+<td>● <strong>research-lookup</strong></td>
+<td><strong>Fast current-research lookup (Parallel/Perplexity) for facts
+&amp; papers.</strong><br>↳ Skill:
+claude-scientific-writer:research-lookup.</td>
+<td>Free·skill (API backend may bill)</td>
+<td>Seen·session</td>
+<td><code>Skill</code></td>
+<td>💻</td>
+</tr>
+<tr>
+<td>◉ <strong>Europe PMC</strong></td>
+<td><strong>EU biomedical corpus incl. preprints, patents, grants, full
+text.</strong><br>↳ Public REST API via browser/HTTP; a Europe PMC MCP
+can be added.</td>
+<td>Free·public</td>
+<td>Known·DB</td>
+<td><code>Auto·web</code></td>
+<td>💻</td>
+</tr>
+<tr>
+<td>◉ <strong>bioRxiv</strong></td>
+<td><strong>Biology preprints — earliest signal before peer
+review.</strong><br>↳ bioRxiv API via browser/HTTP.</td>
+<td>Free·public</td>
+<td>Known·DB</td>
+<td><code>Auto·web</code></td>
+<td>💻</td>
+</tr>
+<tr>
+<td>◉ <strong>medRxiv</strong></td>
+<td><strong>Clinical/medical preprints — trials &amp; methods before
+journals.</strong><br>↳ medRxiv API via browser/HTTP.</td>
+<td>Free·public</td>
+<td>Known·DB</td>
+<td><code>Auto·web</code></td>
+<td>💻</td>
+</tr>
+<tr>
+<td>◉ <strong>Semantic Scholar</strong></td>
+<td><strong>200M+ papers, citation graph, TLDR summaries.</strong><br>↳
+Public Graph API; also federated inside BioMCP.</td>
+<td>Free·public</td>
+<td>Known·DB</td>
+<td><code>Auto·web</code></td>
+<td>💻</td>
+</tr>
+<tr>
+<td>◉ <strong>Wiley Scholar Gateway</strong></td>
+<td><strong>Wiley full-text scholarly gateway (marketplace remote
+MCP).</strong><br>↳ Install via /plugin marketplace add
+anthropics/life-sciences.</td>
+<td>Paid/lic. (Wiley institutional)</td>
+<td>Web-verified ✓ (in marketplace)</td>
+<td><code>Install→MCP</code></td>
+<td>💻</td>
+</tr>
+</tbody>
+</table>
+<h2 id="genomic-data-sequencing">🟢 Genomic Data &amp; Sequencing</h2>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+</colgroup>
+<thead>
+<tr>
+<th>Station</th>
+<th>Functions · how to connect</th>
+<th>Cost</th>
+<th>Real?</th>
+<th>Invocation</th>
+<th>Runs best on</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>● <strong>Synapse.org</strong></td>
+<td><strong>Sage Bionetworks repository — controlled-access cohorts,
+consortium data.</strong><br>↳ MCP connected now — search &amp; pull
+datasets (auth for controlled access).</td>
+<td>Free·public (access-gated)</td>
+<td>Seen·session</td>
+<td><code>Auto·MCP</code></td>
+<td>💻 query · 🗄️ bulk</td>
+</tr>
+<tr>
+<td>◉ <strong>GEO / SRA</strong></td>
+<td><strong>NCBI expression (GEO) &amp; raw reads (SRA) — public omics
+at scale.</strong><br>↳ NCBI E-utilities API; or an NCBI MCP (see
+below).</td>
+<td>Free·public</td>
+<td>Known·DB</td>
+<td><code>Auto·web</code></td>
+<td>💻 meta · 🗄️ raw reads</td>
+</tr>
+<tr>
+<td>◉ <strong>Ensembl</strong></td>
+<td><strong>Genome annotation, BioMart, VEP variant effect
+prediction.</strong><br>↳ Ensembl REST API; or an Ensembl MCP (see
+below).</td>
+<td>Free·public</td>
+<td>Known·DB</td>
+<td><code>Auto·web</code></td>
+<td>💻</td>
+</tr>
+<tr>
+<td>◉ <strong>UCSC Browser</strong></td>
+<td><strong>Genome browser, tracks, liftOver, table
+browser.</strong><br>↳ UCSC REST API; browser for exploration.</td>
+<td>Free·public</td>
+<td>Known·DB</td>
+<td><code>Auto·web</code></td>
+<td>💻</td>
+</tr>
+<tr>
+<td>◉ <strong>GDC / TCGA</strong></td>
+<td><strong>NCI Genomic Data Commons + TCGA — mutations, CNV,
+expression, /analysis/survival.</strong><br>↳ Public REST API
+(gdc.cancer.gov/developers); no GDC MCP yet.</td>
+<td>Free·public</td>
+<td>Known·DB</td>
+<td><code>Auto·web</code></td>
+<td>💻 · 🗄️ bulk files</td>
+</tr>
+<tr>
+<td>◉⊕ <strong>ClinVar / gnomAD</strong></td>
+<td><strong>Clinical variant significance + population allele
+frequencies.</strong><br>↳ NCBI / gnomAD APIs; also federated inside
+BioMCP.</td>
+<td>Free·public</td>
+<td>Known·DB</td>
+<td><code>Auto·web</code></td>
+<td>💻</td>
+</tr>
+<tr>
+<td>◉⊕ <strong>cBioPortal</strong></td>
+<td><strong>Cancer genomics portal — TCGA, mutations, CNA,
+clinical.</strong><br>↳ REST API (cbioportal.org/api); MCP below.</td>
+<td>Free·public</td>
+<td>Known·DB</td>
+<td><code>Auto·web</code></td>
+<td>💻</td>
+</tr>
+<tr>
+<td>◉⊕ <strong>DepMap / OncoKB</strong></td>
+<td><strong>Dependency/essentiality screens + precision-oncology
+annotation.</strong><br>↳ DepMap downloads; OncoKB API (token).</td>
+<td>Free·public (OncoKB: free academic / paid commercial)</td>
+<td>Known·DB</td>
+<td><code>Auto·web</code></td>
+<td>💻</td>
+</tr>
+<tr>
+<td>◉ <strong>CELLxGENE</strong></td>
+<td><strong>Single-cell/spatial atlases — directly relevant to your
+Xenium work.</strong><br>↳ CZ CELLxGENE Census API; Census MCP
+below.</td>
+<td>Free·public</td>
+<td>Known·DB</td>
+<td><code>Auto·Bash</code></td>
+<td>🖥️ → 🗄️</td>
+</tr>
+<tr>
+<td>◉⊕ <strong>cBioPortal MCP</strong></td>
+<td><strong>No-SQL natural-language queries over
+cBioPortal.</strong><br>↳ Official MCP (under construction):
+cBioPortal/cbioportal-mcp.</td>
+<td>Free·OSS</td>
+<td>Web-verified ✓ MIT</td>
+<td><code>Install→MCP</code></td>
+<td>💻</td>
+</tr>
+<tr>
+<td>◉⊕ <strong>Open Targets MCP</strong></td>
+<td><strong>Target–disease–drug associations, genetics,
+tractability.</strong><br>↳ Official remote MCP:
+mcp.platform.opentargets.org/mcp.</td>
+<td>Free·OSS</td>
+<td>Web-verified ✓ official, Apache-2.0</td>
+<td><code>Install→MCP</code></td>
+<td>💻 (remote)</td>
+</tr>
+<tr>
+<td>◉ <strong>ENA MCP</strong></td>
+<td><strong>European Nucleotide Archive — reads, assemblies, sequence
+records.</strong><br>↳ MCP: biocontext-ai/nucleotide_archive_mcp.</td>
+<td>Free·OSS</td>
+<td>Web-verified ✓ Apache-2.0</td>
+<td><code>Install→MCP</code></td>
+<td>💻 query · 🗄️ pulls</td>
+</tr>
+</tbody>
+</table>
+<h2 id="compute-pipelines">⚫ Compute &amp; Pipelines</h2>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+</colgroup>
+<thead>
+<tr>
+<th>Station</th>
+<th>Functions · how to connect</th>
+<th>Cost</th>
+<th>Real?</th>
+<th>Invocation</th>
+<th>Runs best on</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>● <strong>Python · scanpy/squidpy</strong></td>
+<td><strong>scanpy/squidpy/anndata for sc &amp; spatial;
+pandas/numpy/scipy — all verified installed.</strong><br>↳ Bash + Python
+3.12; Claude writes &amp; runs the analysis now.</td>
+<td>Free·OSS</td>
+<td>Known·SW</td>
+<td><code>Auto·Bash</code></td>
+<td>🖥️ → 🗄️</td>
+</tr>
+<tr>
+<td>◉ <strong>Jupyter</strong></td>
+<td><strong>Interactive notebooks — exploratory analysis &amp;
+figures.</strong><br>↳ <code>pip install jupyterlab</code>; Claude
+drives notebooks via Bash.</td>
+<td>Free·OSS</td>
+<td>Known·SW</td>
+<td><code>Install→Bash</code></td>
+<td>🖥️</td>
+</tr>
+<tr>
+<td>◉ <strong>R · Bioconductor</strong></td>
+<td><strong>Seurat, DESeq2, limma, edgeR, survminer — the bio-stats
+engine.</strong><br>↳ R 4.5.2 + base survival installed; add via
+BiocManager::install(…).</td>
+<td>Free·OSS</td>
+<td>Known·SW</td>
+<td><code>Auto·Bash</code></td>
+<td>🖥️ → 🗄️</td>
+</tr>
+<tr>
+<td>◉ <strong>Nextflow / nf-core</strong></td>
+<td><strong>Reproducible, containerised genomics pipelines at
+scale.</strong><br>↳ Install nf-core; Claude scaffolds &amp; launches
+workflows.</td>
+<td>Free·OSS</td>
+<td>Known·SW</td>
+<td><code>Install→Bash</code></td>
+<td>🗄️ HPC (🖥️ dev)</td>
+</tr>
+<tr>
+<td>◉ <strong>Galaxy</strong></td>
+<td><strong>GUI/API workflow platform for accessible
+bioinformatics.</strong><br>↳ Galaxy public/local instance; API via
+browser.</td>
+<td>Free·OSS</td>
+<td>Known·SW</td>
+<td><code>Auto·web</code></td>
+<td>💻 public · 🗄️ local</td>
+</tr>
+<tr>
+<td>◉ <strong>Snakemake</strong></td>
+<td><strong>Make-style reproducible workflow engine for
+omics.</strong><br>↳ pip/conda; Claude writes the Snakefile.</td>
+<td>Free·OSS</td>
+<td>Known·SW</td>
+<td><code>Install→Bash</code></td>
+<td>🗄️ HPC (🖥️ dev)</td>
+</tr>
+<tr>
+<td>◉ <strong>cfDNA stack</strong></td>
+<td><strong>Your liquid-biopsy tools: ichorCNA, MEDIPS/MeDEStrand,
+fragmentomics, ONT.</strong><br>↳ Local conda envs; Claude orchestrates
+RENOVATE/MIMESIS pipelines.</td>
+<td>Free·OSS</td>
+<td>Known·SW</td>
+<td><code>Auto·Bash</code></td>
+<td>🗄️ HPC</td>
+</tr>
+<tr>
+<td>◉ <strong>ChatSpatial</strong></td>
+<td><strong>Spatial-transcriptomics agent — ~60 methods
+(Xenium/Visium/MERFISH).</strong><br>↳ MCP:
+cafferychen777/ChatSpatial.</td>
+<td>Free·OSS</td>
+<td>Web-verified ✓ MIT</td>
+<td><code>Install→MCP</code></td>
+<td>🖥️ → 🗄️</td>
+</tr>
+<tr>
+<td>◉ <strong>SCMCP</strong></td>
+<td><strong>scRNA-seq analysis via scverse (scanpy).</strong><br>↳ MCP:
+scmcphub/scmcp.</td>
+<td>Free·OSS</td>
+<td>Web-verified ✓ BSD-3</td>
+<td><code>Install→MCP</code></td>
+<td>🖥️ → 🗄️</td>
+</tr>
+<tr>
+<td>◉ <strong>sc-RNA-QC skill</strong></td>
+<td><strong>Official single-cell-rna-qc skill
+(marketplace).</strong><br>↳ Install: /plugin install
+single-cell-rna-qc@life-sciences.</td>
+<td>Free·OSS</td>
+<td>Web-verified ✓ (in marketplace)</td>
+<td><code>Install→Skill</code></td>
+<td>🖥️</td>
+</tr>
+<tr>
+<td>◉ <strong>nf-core dev skill</strong></td>
+<td><strong>Official nextflow-development skill
+(marketplace).</strong><br>↳ Install via anthropics/life-sciences
+marketplace.</td>
+<td>Free·OSS</td>
+<td>Web-verified ✓ (in marketplace)</td>
+<td><code>Install→Skill</code></td>
+<td>🖥️ author · 🗄️ run</td>
+</tr>
+<tr>
+<td>◉ <strong>scvi-tools</strong></td>
+<td><strong>Probabilistic single-cell models skill
+(marketplace).</strong><br>↳ Install via anthropics/life-sciences
+marketplace.</td>
+<td>Free·OSS</td>
+<td>Web-verified ✓ (in marketplace)</td>
+<td><code>Install→Skill</code></td>
+<td>🗄️ GPU</td>
+</tr>
+</tbody>
+</table>
+<h2 id="statistics-trial-design">🔵 Statistics &amp; Trial Design</h2>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+</colgroup>
+<thead>
+<tr>
+<th>Station</th>
+<th>Functions · how to connect</th>
+<th>Cost</th>
+<th>Real?</th>
+<th>Invocation</th>
+<th>Runs best on</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>● <strong>statsmodels / scipy</strong></td>
+<td><strong>Regression, GLM, mixed models, hypothesis tests in
+Python.</strong><br>↳ Bash + Python; Claude writes the analysis.</td>
+<td>Free·OSS</td>
+<td>Known·SW</td>
+<td><code>Auto·Bash</code></td>
+<td>💻 · 🖥️</td>
+</tr>
+<tr>
+<td>● <strong>survival · lifelines</strong></td>
+<td><strong>Kaplan–Meier, Cox PH, competing risks — your endpoint
+engine.</strong><br>↳ lifelines (Py) / survival+survminer (R) via
+Bash.</td>
+<td>Free·OSS</td>
+<td>Known·SW</td>
+<td><code>Auto·Bash</code></td>
+<td>💻 · 🖥️</td>
+</tr>
+<tr>
+<td>● <strong>reporting standards</strong></td>
+<td><strong>CONSORT / STROBE / PRISMA checklists baked into writing
+&amp; review.</strong><br>↳ Skills: scientific-writing /
+peer-review.</td>
+<td>Free·skill</td>
+<td>Seen·session</td>
+<td><code>Skill</code></td>
+<td>💻</td>
+</tr>
+<tr>
+<td>● <strong>peer-review</strong></td>
+<td><strong>Systematic methodology, stats, design &amp; reproducibility
+review.</strong><br>↳ Skill: claude-scientific-writer:peer-review.</td>
+<td>Free·skill</td>
+<td>Seen·session</td>
+<td><code>Skill</code></td>
+<td>💻</td>
+</tr>
+<tr>
+<td>● <strong>critical-thinking</strong></td>
+<td><strong>Rigor, bias, confounding, GRADE / Cochrane RoB
+appraisal.</strong><br>↳ Skill:
+claude-scientific-writer:scientific-critical-thinking.</td>
+<td>Free·skill</td>
+<td>Seen·session</td>
+<td><code>Skill</code></td>
+<td>💻</td>
+</tr>
+<tr>
+<td>◉ <strong>Bayesian · Stan/PyMC</strong></td>
+<td><strong>Bayesian inference, hierarchical models, adaptive-trial
+priors.</strong><br>↳ Install PyMC/cmdstanpy; Claude builds the
+model.</td>
+<td>Free·OSS</td>
+<td>Known·SW</td>
+<td><code>Install→Bash</code></td>
+<td>🖥️ → 🗄️</td>
+</tr>
+<tr>
+<td>◉ <strong>Power &amp; sample size</strong></td>
+<td><strong>Power, MDE, sample-size &amp; simulation for trial
+design.</strong><br>↳ statsmodels.power / R pwr &amp; simr.</td>
+<td>Free·OSS</td>
+<td>Known·SW</td>
+<td><code>Auto·Bash</code></td>
+<td>💻</td>
+</tr>
+<tr>
+<td>◉⊕ <strong>ClinTrials.gov MCP</strong></td>
+<td><strong>Trial-registry queries over MCP (CTG API v2 + NCI
+CTS).</strong><br>↳ MCP: cyanheads/clinicaltrialsgov-mcp-server.</td>
+<td>Free·OSS</td>
+<td>Web-verified ✓ Apache-2.0</td>
+<td><code>Install→MCP</code></td>
+<td>💻</td>
+</tr>
+</tbody>
+</table>
+<h2 id="clinical-regulatory">🟣 Clinical &amp; Regulatory</h2>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+</colgroup>
+<thead>
+<tr>
+<th>Station</th>
+<th>Functions · how to connect</th>
+<th>Cost</th>
+<th>Real?</th>
+<th>Invocation</th>
+<th>Runs best on</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>● <strong>clinical-reports</strong></td>
+<td><strong>Case reports (CARE), CSR (ICH-E3), SOAP, discharge
+summaries.</strong><br>↳ Skill:
+claude-scientific-writer:clinical-reports.</td>
+<td>Free·skill</td>
+<td>Seen·session</td>
+<td><code>Skill</code></td>
+<td>💻</td>
+</tr>
+<tr>
+<td>●⊕ <strong>decision-support</strong></td>
+<td><strong>Biomarker-stratified cohorts, GRADE, treatment
+algorithms.</strong><br>↳ Skill:
+claude-scientific-writer:clinical-decision-support.</td>
+<td>Free·skill</td>
+<td>Seen·session</td>
+<td><code>Skill</code></td>
+<td>💻</td>
+</tr>
+<tr>
+<td>● <strong>treatment-plans</strong></td>
+<td><strong>Focused LaTeX/PDF treatment plans across
+specialties.</strong><br>↳ Skill:
+claude-scientific-writer:treatment-plans.</td>
+<td>Free·skill</td>
+<td>Seen·session</td>
+<td><code>Skill</code></td>
+<td>💻</td>
+</tr>
+<tr>
+<td>◉ <strong>ClinicalTrials.gov</strong></td>
+<td><strong>Global trial registry — design, comparators,
+recruitment.</strong><br>↳ CTG API v2 via browser/HTTP.</td>
+<td>Free·public</td>
+<td>Known·DB</td>
+<td><code>Auto·web</code></td>
+<td>💻</td>
+</tr>
+<tr>
+<td>◉ <strong>EU CTR / CTIS</strong></td>
+<td><strong>EU clinical trials register &amp; CTIS — the EU/IT
+regulatory side.</strong><br>↳ CTIS public portal via browser.</td>
+<td>Free·public</td>
+<td>Known·DB</td>
+<td><code>Auto·web</code></td>
+<td>💻</td>
+</tr>
+<tr>
+<td>◉ <strong>FDA / EMA</strong></td>
+<td><strong>Approvals, labels, guidance, safety — regulatory
+grounding.</strong><br>↳ openFDA API; EMA via browser.</td>
+<td>Free·public</td>
+<td>Known·DB</td>
+<td><code>Auto·web</code></td>
+<td>💻</td>
+</tr>
+<tr>
+<td>◉ <strong>WHO ICTRP</strong></td>
+<td><strong>Cross-registry trial search (incl. non-US/EU).</strong><br>↳
+ICTRP portal via browser.</td>
+<td>Free·public</td>
+<td>Known·DB</td>
+<td><code>Auto·web</code></td>
+<td>💻</td>
+</tr>
+</tbody>
+</table>
+<h2 id="visualization-figures">🟡 Visualization &amp; Figures</h2>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+</colgroup>
+<thead>
+<tr>
+<th>Station</th>
+<th>Functions · how to connect</th>
+<th>Cost</th>
+<th>Real?</th>
+<th>Invocation</th>
+<th>Runs best on</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>● <strong>BioRender</strong></td>
+<td><strong>Publication figures from a vast bio icon/template
+library.</strong><br>↳ MCP connected now — search icons &amp;
+templates.</td>
+<td>Freemium (pub export paid)</td>
+<td>Seen·session</td>
+<td><code>Auto·MCP</code></td>
+<td>💻</td>
+</tr>
+<tr>
+<td>● <strong>Mermaid</strong></td>
+<td><strong>Flowcharts, sequence &amp; ER diagrams from text; live
+render.</strong><br>↳ MCP connected now — validate &amp; render
+diagrams.</td>
+<td>Free·OSS</td>
+<td>Seen·session</td>
+<td><code>Auto·MCP</code></td>
+<td>💻</td>
+</tr>
+<tr>
+<td>● <strong>Figma</strong></td>
+<td><strong>Vector design for posters, schematics, slide
+polish.</strong><br>↳ MCP connected now (auth) — pull frames &amp;
+assets.</td>
+<td>Freemium</td>
+<td>Seen·session</td>
+<td><code>Auto·MCP</code></td>
+<td>💻</td>
+</tr>
+<tr>
+<td>● <strong>scientific-schematics</strong></td>
+<td><strong>Pathways, architectures, mechanism diagrams (Nano Banana
+Pro).</strong><br>↳ Skill:
+claude-scientific-writer:scientific-schematics.</td>
+<td>Free·skill (image API may bill)</td>
+<td>Seen·session</td>
+<td><code>Skill</code></td>
+<td>💻</td>
+</tr>
+<tr>
+<td>● <strong>infographics</strong></td>
+<td><strong>Data-driven infographics with colourblind-safe
+palettes.</strong><br>↳ Skill:
+claude-scientific-writer:infographics.</td>
+<td>Free·skill (image API may bill)</td>
+<td>Seen·session</td>
+<td><code>Skill</code></td>
+<td>💻</td>
+</tr>
+<tr>
+<td>● <strong>image-gen · Nano/FLUX</strong></td>
+<td><strong>General images, illustrations, photoreal assets
+(FLUX/Gemini).</strong><br>↳ Skill:
+claude-scientific-writer:generate-image.</td>
+<td>Free·skill (FLUX/Gemini bills)</td>
+<td>Seen·session</td>
+<td><code>Skill</code></td>
+<td>💻</td>
+</tr>
+<tr>
+<td>◉ <strong>gpt-image-2 (hero)</strong></td>
+<td><strong>SOTA hero/cover artwork with reliable in-image
+text.</strong><br>↳ Manual ChatGPT handoff (Path A) — not wired to
+API.</td>
+<td>Paid/lic. (OpenAI / ChatGPT)</td>
+<td>Known (OpenAI)</td>
+<td><code>Manual</code></td>
+<td>💻</td>
+</tr>
+</tbody>
+</table>
+<h2 id="writing-publishing">🟤 Writing &amp; Publishing</h2>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+</colgroup>
+<thead>
+<tr>
+<th>Station</th>
+<th>Functions · how to connect</th>
+<th>Cost</th>
+<th>Real?</th>
+<th>Invocation</th>
+<th>Runs best on</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>● <strong>scientific-writing</strong></td>
+<td><strong>IMRAD prose (never bullets), citations, reporting
+guidelines.</strong><br>↳ Skill:
+claude-scientific-writer:scientific-writing.</td>
+<td>Free·skill</td>
+<td>Seen·session</td>
+<td><code>Skill</code></td>
+<td>💻</td>
+</tr>
+<tr>
+<td>● <strong>citation-management</strong></td>
+<td><strong>Scholar/PubMed metadata, DOI→BibTeX, reference
+validation.</strong><br>↳ Skill:
+claude-scientific-writer:citation-management.</td>
+<td>Free·skill</td>
+<td>Seen·session</td>
+<td><code>Skill</code></td>
+<td>💻</td>
+</tr>
+<tr>
+<td>● <strong>venue-templates</strong></td>
+<td><strong>Nature/Science/PLOS/IEEE + NIH/NSF formatting &amp;
+rules.</strong><br>↳ Skill:
+claude-scientific-writer:venue-templates.</td>
+<td>Free·skill</td>
+<td>Seen·session</td>
+<td><code>Skill</code></td>
+<td>💻</td>
+</tr>
+<tr>
+<td>● <strong>Office docs</strong></td>
+<td><strong>Author &amp; edit docx / pptx / xlsx / pdf — tracked
+changes, slides, sheets.</strong><br>↳ Skills:
+claude-scientific-writer:docx/pptx/xlsx/pdf.</td>
+<td>Free·skill</td>
+<td>Seen·session</td>
+<td><code>Skill</code></td>
+<td>💻</td>
+</tr>
+<tr>
+<td>● <strong>markitdown</strong></td>
+<td><strong>Convert PDF/DOCX/PPTX/audio/HTML → Markdown for
+ingest.</strong><br>↳ Skill: claude-scientific-writer:markitdown.</td>
+<td>Free·skill</td>
+<td>Seen·session</td>
+<td><code>Skill</code></td>
+<td>💻</td>
+</tr>
+<tr>
+<td>● <strong>humanizer</strong></td>
+<td><strong>Strip AI-tells; enforce natural prose (your house
+style).</strong><br>↳ Skill: humanizer.</td>
+<td>Free·skill</td>
+<td>Seen·session</td>
+<td><code>Skill</code></td>
+<td>💻</td>
+</tr>
+<tr>
+<td>● <strong>preparing-slides</strong></td>
+<td><strong>Your Zoppoli house-style .pptx engine
+(DIMI/GOIRC/…).</strong><br>↳ Skill: preparing-slides — your venues,
+palettes, rules.</td>
+<td>Free·skill</td>
+<td>Seen·session</td>
+<td><code>Skill</code></td>
+<td>💻</td>
+</tr>
+<tr>
+<td>● <strong>research-grants</strong></td>
+<td><strong>NSF/NIH/DOE/DARPA + EU proposals, significance,
+budgets.</strong><br>↳ Skill:
+claude-scientific-writer:research-grants.</td>
+<td>Free·skill</td>
+<td>Seen·session</td>
+<td><code>Skill</code></td>
+<td>💻</td>
+</tr>
+<tr>
+<td>● <strong>paper-2-web</strong></td>
+<td><strong>Paper → website / video / poster for
+dissemination.</strong><br>↳ Skill:
+claude-scientific-writer:paper-2-web.</td>
+<td>Free·skill (video may bill)</td>
+<td>Seen·session</td>
+<td><code>Skill</code></td>
+<td>💻 (video heavier)</td>
+</tr>
+<tr>
+<td>● <strong>posters (LaTeX/PPTX)</strong></td>
+<td><strong>Conference posters via beamerposter/tikz or
+PPTX.</strong><br>↳ Skills: latex-posters / pptx-posters.</td>
+<td>Free·skill</td>
+<td>Seen·session</td>
+<td><code>Skill</code></td>
+<td>💻 (local LaTeX)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="orchestration-lab-ops">⚪ Orchestration &amp; Lab Ops</h2>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+</colgroup>
+<thead>
+<tr>
+<th>Station</th>
+<th>Functions · how to connect</th>
+<th>Cost</th>
+<th>Real?</th>
+<th>Invocation</th>
+<th>Runs best on</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>● <strong>Google Drive</strong></td>
+<td><strong>Cloud store — data, manuscripts, shared docs; read &amp;
+write.</strong><br>↳ MCP connected now — search, read, create
+files.</td>
+<td>Freemium</td>
+<td>Seen·session</td>
+<td><code>Auto·MCP</code></td>
+<td>💻</td>
+</tr>
+<tr>
+<td>● <strong>Gmail</strong></td>
+<td><strong>Search threads, draft, label — collaborator &amp; journal
+comms.</strong><br>↳ MCP connected now — search &amp; draft (you
+send).</td>
+<td>Freemium</td>
+<td>Seen·session</td>
+<td><code>Auto·MCP</code></td>
+<td>💻</td>
+</tr>
+<tr>
+<td>● <strong>Google Calendar</strong></td>
+<td><strong>Schedule meetings, deadlines, find slots.</strong><br>↳ MCP
+connected now — list, create, suggest times.</td>
+<td>Freemium</td>
+<td>Seen·session</td>
+<td><code>Auto·MCP</code></td>
+<td>💻</td>
+</tr>
+<tr>
+<td>● <strong>Slack</strong></td>
+<td><strong>Team/consortium channels — search &amp; post.</strong><br>↳
+MCP connected (auth) — search &amp; message.</td>
+<td>Freemium</td>
+<td>Seen·session</td>
+<td><code>Auto·MCP</code></td>
+<td>💻</td>
+</tr>
+<tr>
+<td>● <strong>Workflows / subagents</strong></td>
+<td><strong>Deterministic multi-agent fan-out: review, migrate,
+research.</strong><br>↳ Workflow tool + Agent subagents — orchestrate at
+scale.</td>
+<td>Free·built-in (uses tokens)</td>
+<td>Seen·session</td>
+<td><code>Built-in</code></td>
+<td>💻 (more tokens at scale)</td>
+</tr>
+<tr>
+<td>● <strong>schedule / cron</strong></td>
+<td><strong>Recurring remote agents — overnight pipelines, polling,
+digests.</strong><br>↳ Skill: schedule — cron-style routines &amp;
+one-offs.</td>
+<td>Free·skill</td>
+<td>Seen·session</td>
+<td><code>Skill</code></td>
+<td>💻 (cloud-run)</td>
+</tr>
+<tr>
+<td>● <strong>Codex · GPT-5.5</strong></td>
+<td><strong>Second engine — decorrelated review, long shell agents,
+red-team.</strong><br>↳ codex exec via Bash; Skill: codex-dispatch.</td>
+<td>Paid/lic. (ChatGPT/OpenAI)</td>
+<td>Configured (CLAUDE.md)</td>
+<td><code>Auto·Bash</code></td>
+<td>🖥️ (codex CLI)</td>
+</tr>
+<tr>
+<td>◉⊕ <strong>Claude for Life Sciences</strong></td>
+<td><strong>Anthropic’s official life-sci plugin marketplace — remote
+MCPs + skills.</strong><br>↳ Install: /plugin marketplace add
+anthropics/life-sciences.</td>
+<td>Free (some servers it ships are paid)</td>
+<td>Web-verified ✓ (412★)</td>
+<td><code>Install (channel)</code></td>
+<td>💻</td>
+</tr>
+<tr>
+<td>◉⊕ <strong>BioContextAI Registry</strong></td>
+<td><strong>Nature-Biotech-backed index of ~60 biomedical MCP
+servers.</strong><br>↳ Browse biocontext.ai/registry ·
+github.com/biocontext-ai/registry.</td>
+<td>Free·OSS</td>
+<td>Web-verified ✓ repo</td>
+<td><code>Discovery</code></td>
+<td>💻</td>
+</tr>
+<tr>
+<td>◉⊕ <strong>BioContextAI meta-MCP</strong></td>
+<td><strong>Meta layer: knowledgebase / skill-to-mcp / protocol /
+registry servers.</strong><br>↳ github.com/biocontext-ai — add the meta
+server to your config.</td>
+<td>Free·OSS</td>
+<td>Web-verified ✓ (biocontext-ai)</td>
+<td><code>Install→MCP</code></td>
+<td>💻</td>
+</tr>
+<tr>
+<td>◉⊕ <strong>NAR DB Collection</strong></td>
+<td><strong>2,173 curated molecular-biology databases (2026 issue) — the
+cross-check.</strong><br>↳ Reference index: academic.oup.com/nar.</td>
+<td>Free·public</td>
+<td>Known·DB</td>
+<td><code>Discovery</code></td>
+<td>💻</td>
+</tr>
+<tr>
+<td>◉⊕ <strong>BioMCP</strong></td>
+<td><strong>One server federating literature, variants, trials &amp;
+cancer genomics.</strong><br>↳ MCP: genomoncology/biomcp — the single
+best biomedical addition.</td>
+<td>Free·OSS</td>
+<td>Web-verified ✓ MIT</td>
+<td><code>Install→MCP</code></td>
+<td>💻 (wraps remote APIs)</td>
+</tr>
+</tbody>
+</table>
+<h2
+id="interchange-lines-the-multi-domain-servers-that-connect-the-lines">⊕
+Interchange lines — the multi-domain servers that connect the lines</h2>
+<p>Each is one MCP server that spans several lines; wiring it lights up
+every station it touches.</p>
+<h3 id="biomcp-literature-genomic-trials-federation">BioMCP — literature
+· genomic · trials federation</h3>
+<ul>
+<li><strong>Connect:</strong> MCP: genomoncology/biomcp — the single
+best biomedical addition.</li>
+<li><strong>Functions:</strong> One server federating literature,
+variants, trials &amp; cancer genomics.</li>
+<li><strong>Invocation:</strong> <code>Install→MCP</code> · <strong>Runs
+best on:</strong> 💻 (wraps remote APIs)</li>
+<li><strong>Stops it serves:</strong> BioMCP · DepMap / OncoKB ·
+cBioPortal · ClinVar / gnomAD · PubMed · ClinTrials.gov MCP</li>
+</ul>
+<h3 id="open-targets-target-disease-treatment">Open Targets — target ·
+disease · treatment</h3>
+<ul>
+<li><strong>Connect:</strong> Official remote MCP:
+mcp.platform.opentargets.org/mcp.</li>
+<li><strong>Functions:</strong> Target–disease–drug associations,
+genetics, tractability.</li>
+<li><strong>Invocation:</strong> <code>Install→MCP</code> · <strong>Runs
+best on:</strong> 💻 (remote)</li>
+<li><strong>Stops it serves:</strong> Open Targets MCP · cBioPortal MCP
+· decision-support</li>
+</ul>
+<h3 id="discovery-ring-life-sciences-marketplace-biocontextai">Discovery
+ring — Life-Sciences marketplace + BioContextAI</h3>
+<ul>
+<li><strong>Connect:</strong>
+<code>/plugin marketplace add anthropics/life-sciences</code>
+(marketplace) and browse <code>biocontext.ai/registry</code> (registry).
+The install/discovery backbone.</li>
+<li><strong>Invocation:</strong> <code>Install (channel)</code> +
+<code>Discovery</code> · <strong>Runs best on:</strong> 💻 any
+laptop</li>
+<li><strong>Stops it serves:</strong> Claude for Life Sciences ·
+BioContextAI Registry · BioContextAI meta-MCP · NAR DB Collection</li>
+</ul>
+<h2 id="the-hub-the-second-engine">The hub &amp; the second engine</h2>
+<ul>
+<li><strong>🟧 Claude Code (central interchange)</strong> — your
+workstation. Every line meets here: Claude routes the work, reasons,
+writes &amp; runs code, and dispatches the rest.
+<strong>Invocation:</strong> this is the station you sit in.
+<strong>Runs best on:</strong> 🖥️ workstation (it drives everything
+else, local + cloud).</li>
+<li><strong>🟩 Codex · GPT-5.5 (sister terminus)</strong> — the second
+engine for decorrelated review, long shell-agent runs and red-teaming.
+<strong>Connect:</strong>
+<code>codex exec --skip-git-repo-check "…"</code> via Bash, or the
+<code>codex-dispatch</code> skill. <strong>Invocation:</strong>
+<code>Auto·Bash</code> / <code>Skill</code>. <strong>Runs best
+on:</strong> 🖥️ workstation (where the codex CLI + ChatGPT auth
+live).</li>
+</ul>
+<h2 id="at-a-glance-where-the-work-happens">At a glance — where the work
+happens</h2>
+<ul>
+<li><strong>💻 Any laptop (most of the map):</strong> all literature,
+clinical &amp; regulatory lines, every writing/visualization skill, the
+trial-registry MCPs, and the orchestration connectors
+(Drive/Gmail/Calendar/Slack/workflows/schedule). If it’s a cloud
+connector, a remote MCP, a public API or a skill, the heavy lifting
+happens off your machine — you only need Claude Code + internet.</li>
+<li><strong>🖥️ Workstation:</strong> anything touching your local envs,
+credentials or data — Synapse controlled-access pulls, Jupyter, light
+single-cell (scanpy/Seurat) exploration, the Codex CLI. Also the natural
+home for the MCP servers that <em>execute</em> analysis locally
+(ChatSpatial, SCMCP) when datasets are modest.</li>
+<li><strong>🗄️ HPC:</strong> the genomics compute spine —
+Nextflow/nf-core &amp; Snakemake pipelines, the cfDNA/liquid-biopsy
+stack (RENOVATE / MIMESIS), large single-cell &amp; spatial atlases, GPU
+model training (scvi-tools), and bulk SRA/GDC/ENA data pulls. Develop on
+the workstation, run at scale on HPC.</li>
+</ul>
+<hr />
+<p><em>Generated by <code>make_guide.py</code> from
+<code>generate_map.py</code>. Edit the map data or the
+<code>INVOKE</code> / <code>RUNS_ON</code> dicts and re-run to
+refresh.</em></p>
+</body>
+</html>

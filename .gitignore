@@ -1,0 +1,14 @@
+# private — NOT part of the public connector map
+workshop/
+memory/
+
+# python / os cruft
+__pycache__/
+*.pyc
+.DS_Store
+
+# local backups, scratch & send-previews
+*.v1.bak.*
+*.bak.*
+exports/_scratch/
+exports/_preview/

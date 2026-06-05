@@ -1,0 +1,48 @@
+name: weekly-map-check
+
+# Weekly liveness check for the Claude Underground map. Opens an issue listing any
+# station whose repo/endpoint no longer resolves, for human review. It never edits
+# the map. Needs no secrets — the built-in GITHUB_TOKEN is enough.
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"        # every Monday 06:00 UTC
+  workflow_dispatch: {}         # and on-demand from the Actions tab
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  linkcheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run station liveness check
+        id: check
+        run: |
+          set +e
+          python3 tools/check_stations.py > report.md
+          echo "dead=$?" >> "$GITHUB_OUTPUT"
+          echo "---- report ----"; cat report.md
+
+      - name: Open a review issue if anything is flagged
+        if: steps.check.outputs.dead == '1'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const body = fs.readFileSync('report.md', 'utf8');
+            const today = new Date().toISOString().slice(0, 10);
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `Weekly map liveness — ${today}`,
+              labels: ['map-maintenance'],
+              body: body + '\n\n_Auto-filed by `weekly-map-check`. Propose-for-review: nothing was changed automatically._'
+            });

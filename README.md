@@ -97,5 +97,28 @@ trust tiers are in `CATALOGUE.md`.
 
 ---
 
+## Install & connect it (the plugin)
+
+The map is also an installable Claude Code plugin — `claude-tube-map` — that wires up
+the stations for you and shows a live board of what's connected.
+
+```
+/plugin marketplace add GabrieleZoppoli/claude-underground
+/plugin install claude-tube-map@claude-underground
+```
+
+Then:
+
+- `/tube-map` — open the board (● live · ◉ ready · ⚠ needs you).
+- `/tube-map-install all` — wire everything (heavy).
+- `/tube-map-install stat` — wire just one line.
+- `/tube-map-status` — what's connected right now.
+
+**Maintainers:** the plugin's data is generated — edit `wiring.json`, run
+`python3 build_plugin.py`, and `python3 tools/check_plugin.py` to validate. CI
+(`plugin-check`) rebuilds and fails on drift.
+
+---
+
 *Generated with Claude Code. Edit `generate_map.py` to add stations, re-colour lines,
 or re-route an interchange line — the catalogue and both outputs regenerate from one source.*

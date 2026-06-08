@@ -15,6 +15,8 @@
           "wire": "builtin",
           "authType": "none",
           "personal": false,
+          "source": null,
+          "plugin": null,
           "probe": "skill"
         }
       ]
@@ -34,6 +36,8 @@
           "wire": "marketplace",
           "authType": "none",
           "personal": false,
+          "source": "anthropics/life-sciences",
+          "plugin": "pubmed@life-sciences",
           "probe": "skill"
         },
         {
@@ -46,6 +50,8 @@
           "wire": "marketplace",
           "authType": "none",
           "personal": false,
+          "source": "anthropics/life-sciences",
+          "plugin": "consensus@life-sciences",
           "probe": "skill"
         },
         {
@@ -58,6 +64,8 @@
           "wire": "api",
           "authType": "none",
           "personal": false,
+          "source": null,
+          "plugin": null,
           "probe": "none"
         },
         {
@@ -70,6 +78,8 @@
           "wire": "api",
           "authType": "none",
           "personal": false,
+          "source": null,
+          "plugin": null,
           "probe": "none"
         },
         {
@@ -82,6 +92,8 @@
           "wire": "api",
           "authType": "none",
           "personal": false,
+          "source": null,
+          "plugin": null,
           "probe": "none"
         },
         {
@@ -94,6 +106,8 @@
           "wire": "api",
           "authType": "none",
           "personal": false,
+          "source": null,
+          "plugin": null,
           "probe": "none"
         },
         {
@@ -106,6 +120,8 @@
           "wire": "builtin",
           "authType": "none",
           "personal": false,
+          "source": null,
+          "plugin": null,
           "probe": "skill"
         },
         {
@@ -118,6 +134,8 @@
           "wire": "marketplace",
           "authType": "none",
           "personal": false,
+          "source": "K-Dense-AI/claude-scientific-writer",
+          "plugin": "claude-scientific-writer@claude-scientific-writer",
           "probe": "skill"
         },
         {
@@ -130,6 +148,8 @@
           "wire": "marketplace",
           "authType": "none",
           "personal": false,
+          "source": "K-Dense-AI/claude-scientific-writer",
+          "plugin": "claude-scientific-writer@claude-scientific-writer",
           "probe": "skill"
         },
         {
@@ -142,6 +162,8 @@
           "wire": "marketplace",
           "authType": "none",
           "personal": false,
+          "source": "anthropics/life-sciences",
+          "plugin": "wiley-scholar-gateway@life-sciences",
           "probe": "skill"
         }
       ]
@@ -161,6 +183,8 @@
           "wire": "marketplace",
           "authType": "oauth",
           "personal": false,
+          "source": "anthropics/life-sciences",
+          "plugin": "synapse@life-sciences",
           "probe": "skill"
         },
         {
@@ -173,6 +197,8 @@
           "wire": "api",
           "authType": "none",
           "personal": false,
+          "source": null,
+          "plugin": null,
           "probe": "none"
         },
         {
@@ -185,6 +211,8 @@
           "wire": "api",
           "authType": "none",
           "personal": false,
+          "source": null,
+          "plugin": null,
           "probe": "none"
         },
         {
@@ -197,6 +225,8 @@
           "wire": "api",
           "authType": "none",
           "personal": false,
+          "source": null,
+          "plugin": null,
           "probe": "none"
         },
         {
@@ -209,6 +239,8 @@
           "wire": "api",
           "authType": "none",
           "personal": false,
+          "source": null,
+          "plugin": null,
           "probe": "none"
         },
         {
@@ -221,6 +253,8 @@
           "wire": "api",
           "authType": "none",
           "personal": false,
+          "source": null,
+          "plugin": null,
           "probe": "none"
         },
         {
@@ -233,6 +267,8 @@
           "wire": "api",
           "authType": "none",
           "personal": false,
+          "source": null,
+          "plugin": null,
           "probe": "none"
         },
         {
@@ -245,6 +281,8 @@
           "wire": "api",
           "authType": "apikey",
           "personal": false,
+          "source": null,
+          "plugin": null,
           "probe": "none"
         },
         {
@@ -257,6 +295,8 @@
           "wire": "api",
           "authType": "none",
           "personal": false,
+          "source": null,
+          "plugin": null,
           "probe": "none"
         },
         {
@@ -269,6 +309,8 @@
           "wire": "runtime",
           "authType": "none",
           "personal": false,
+          "source": null,
+          "plugin": null,
           "probe": "mcp"
         },
         {
@@ -281,6 +323,8 @@
           "wire": "auto-mcp",
           "authType": "none",
           "personal": false,
+          "source": null,
+          "plugin": null,
           "probe": "mcp"
         },
         {
@@ -293,6 +337,8 @@
           "wire": "runtime",
           "authType": "none",
           "personal": false,
+          "source": null,
+          "plugin": null,
           "probe": "mcp"
         }
       ]
@@ -312,6 +358,8 @@
           "wire": "builtin",
           "authType": "none",
           "personal": false,
+          "source": null,
+          "plugin": null,
           "probe": "skill"
         },
         {
@@ -324,6 +372,8 @@
           "wire": "runtime",
           "authType": "none",
           "personal": false,
+          "source": null,
+          "plugin": null,
           "probe": "mcp"
         },
         {
@@ -336,6 +386,8 @@
           "wire": "runtime",
           "authType": "none",
           "personal": false,
+          "source": null,
+          "plugin": null,
           "probe": "mcp"
         },
         {
@@ -348,6 +400,8 @@
           "wire": "runtime",
           "authType": "none",
           "personal": false,
+          "source": null,
+          "plugin": null,
           "probe": "mcp"
         },
         {
@@ -360,6 +414,8 @@
           "wire": "api",
           "authType": "none",
           "personal": false,
+          "source": null,
+          "plugin": null,
           "probe": "none"
         },
         {
@@ -372,6 +428,8 @@
           "wire": "runtime",
           "authType": "none",
           "personal": false,
+          "source": null,
+          "plugin": null,
           "probe": "mcp"
         },
         {
@@ -384,6 +442,8 @@
           "wire": "runtime",
           "authType": "none",
           "personal": false,
+          "source": null,
+          "plugin": null,
           "probe": "mcp"
         },
         {
@@ -396,6 +456,8 @@
           "wire": "runtime",
           "authType": "none",
           "personal": false,
+          "source": null,
+          "plugin": null,
           "probe": "mcp"
         },
         {
@@ -408,6 +470,8 @@
           "wire": "runtime",
           "authType": "none",
           "personal": false,
+          "source": null,
+          "plugin": null,
           "probe": "mcp"
         },
         {
@@ -420,6 +484,8 @@
           "wire": "marketplace",
           "authType": "none",
           "personal": false,
+          "source": "anthropics/life-sciences",
+          "plugin": "single-cell-rna-qc@life-sciences",
           "probe": "skill"
         },
         {
@@ -432,6 +498,8 @@
           "wire": "marketplace",
           "authType": "none",
           "personal": false,
+          "source": "anthropics/life-sciences",
+          "plugin": "nextflow-development@life-sciences",
           "probe": "skill"
         },
         {
@@ -444,6 +512,8 @@
           "wire": "marketplace",
           "authType": "none",
           "personal": false,
+          "source": "anthropics/life-sciences",
+          "plugin": "scvi-tools@life-sciences",
           "probe": "skill"
         }
       ]
@@ -463,6 +533,8 @@
           "wire": "builtin",
           "authType": "none",
           "personal": false,
+          "source": null,
+          "plugin": null,
           "probe": "skill"
         },
         {
@@ -475,6 +547,8 @@
           "wire": "builtin",
           "authType": "none",
           "personal": false,
+          "source": null,
+          "plugin": null,
           "probe": "skill"
         },
         {
@@ -487,6 +561,8 @@
           "wire": "marketplace",
           "authType": "none",
           "personal": false,
+          "source": "K-Dense-AI/claude-scientific-writer",
+          "plugin": "claude-scientific-writer@claude-scientific-writer",
           "probe": "skill"
         },
         {
@@ -499,6 +575,8 @@
           "wire": "marketplace",
           "authType": "none",
           "personal": false,
+          "source": "K-Dense-AI/claude-scientific-writer",
+          "plugin": "claude-scientific-writer@claude-scientific-writer",
           "probe": "skill"
         },
         {
@@ -511,6 +589,8 @@
           "wire": "marketplace",
           "authType": "none",
           "personal": false,
+          "source": "K-Dense-AI/claude-scientific-writer",
+          "plugin": "claude-scientific-writer@claude-scientific-writer",
           "probe": "skill"
         },
         {
@@ -523,6 +603,8 @@
           "wire": "runtime",
           "authType": "none",
           "personal": false,
+          "source": null,
+          "plugin": null,
           "probe": "mcp"
         },
         {
@@ -535,6 +617,8 @@
           "wire": "builtin",
           "authType": "none",
           "personal": false,
+          "source": null,
+          "plugin": null,
           "probe": "skill"
         },
         {
@@ -547,6 +631,8 @@
           "wire": "runtime",
           "authType": "none",
           "personal": false,
+          "source": null,
+          "plugin": null,
           "probe": "mcp"
         }
       ]
@@ -566,6 +652,8 @@
           "wire": "marketplace",
           "authType": "none",
           "personal": false,
+          "source": "K-Dense-AI/claude-scientific-writer",
+          "plugin": "claude-scientific-writer@claude-scientific-writer",
           "probe": "skill"
         },
         {
@@ -578,6 +666,8 @@
           "wire": "marketplace",
           "authType": "none",
           "personal": false,
+          "source": "K-Dense-AI/claude-scientific-writer",
+          "plugin": "claude-scientific-writer@claude-scientific-writer",
           "probe": "skill"
         },
         {
@@ -590,6 +680,8 @@
           "wire": "marketplace",
           "authType": "none",
           "personal": false,
+          "source": "K-Dense-AI/claude-scientific-writer",
+          "plugin": "claude-scientific-writer@claude-scientific-writer",
           "probe": "skill"
         },
         {
@@ -602,6 +694,8 @@
           "wire": "api",
           "authType": "none",
           "personal": false,
+          "source": null,
+          "plugin": null,
           "probe": "none"
         },
         {
@@ -614,6 +708,8 @@
           "wire": "api",
           "authType": "none",
           "personal": false,
+          "source": null,
+          "plugin": null,
           "probe": "none"
         },
         {
@@ -626,6 +722,8 @@
           "wire": "api",
           "authType": "none",
           "personal": false,
+          "source": null,
+          "plugin": null,
           "probe": "none"
         },
         {
@@ -638,6 +736,8 @@
           "wire": "api",
           "authType": "none",
           "personal": false,
+          "source": null,
+          "plugin": null,
           "probe": "none"
         }
       ]
@@ -657,6 +757,8 @@
           "wire": "marketplace",
           "authType": "oauth",
           "personal": false,
+          "source": "anthropics/life-sciences",
+          "plugin": "biorender@life-sciences",
           "probe": "skill"
         },
         {
@@ -669,6 +771,8 @@
           "wire": "oauth",
           "authType": "none",
           "personal": false,
+          "source": null,
+          "plugin": null,
           "probe": "connector"
         },
         {
@@ -681,6 +785,8 @@
           "wire": "oauth",
           "authType": "none",
           "personal": false,
+          "source": null,
+          "plugin": null,
           "probe": "connector"
         },
         {
@@ -693,6 +799,8 @@
           "wire": "marketplace",
           "authType": "none",
           "personal": false,
+          "source": "K-Dense-AI/claude-scientific-writer",
+          "plugin": "claude-scientific-writer@claude-scientific-writer",
           "probe": "skill"
         },
         {
@@ -705,6 +813,8 @@
           "wire": "marketplace",
           "authType": "none",
           "personal": false,
+          "source": "K-Dense-AI/claude-scientific-writer",
+          "plugin": "claude-scientific-writer@claude-scientific-writer",
           "probe": "skill"
         },
         {
@@ -717,6 +827,8 @@
           "wire": "marketplace",
           "authType": "none",
           "personal": false,
+          "source": "K-Dense-AI/claude-scientific-writer",
+          "plugin": "claude-scientific-writer@claude-scientific-writer",
           "probe": "skill"
         },
         {
@@ -729,6 +841,8 @@
           "wire": "api",
           "authType": "none",
           "personal": false,
+          "source": null,
+          "plugin": null,
           "probe": "none"
         }
       ]
@@ -748,6 +862,8 @@
           "wire": "marketplace",
           "authType": "none",
           "personal": false,
+          "source": "K-Dense-AI/claude-scientific-writer",
+          "plugin": "claude-scientific-writer@claude-scientific-writer",
           "probe": "skill"
         },
         {
@@ -760,6 +876,8 @@
           "wire": "marketplace",
           "authType": "none",
           "personal": false,
+          "source": "K-Dense-AI/claude-scientific-writer",
+          "plugin": "claude-scientific-writer@claude-scientific-writer",
           "probe": "skill"
         },
         {
@@ -772,6 +890,8 @@
           "wire": "marketplace",
           "authType": "none",
           "personal": false,
+          "source": "K-Dense-AI/claude-scientific-writer",
+          "plugin": "claude-scientific-writer@claude-scientific-writer",
           "probe": "skill"
         },
         {
@@ -784,6 +904,8 @@
           "wire": "marketplace",
           "authType": "none",
           "personal": false,
+          "source": "K-Dense-AI/claude-scientific-writer",
+          "plugin": "claude-scientific-writer@claude-scientific-writer",
           "probe": "skill"
         },
         {
@@ -796,6 +918,8 @@
           "wire": "marketplace",
           "authType": "none",
           "personal": false,
+          "source": "K-Dense-AI/claude-scientific-writer",
+          "plugin": "claude-scientific-writer@claude-scientific-writer",
           "probe": "skill"
         },
         {
@@ -805,9 +929,11 @@
           "desc": "Strip AI-tells; enforce natural prose (your house style).",
           "how": "Skill: humanizer.",
           "url": "",
-          "wire": "marketplace",
+          "wire": "builtin",
           "authType": "none",
-          "personal": false,
+          "personal": true,
+          "source": null,
+          "plugin": null,
           "probe": "skill"
         },
         {
@@ -817,9 +943,11 @@
           "desc": "Your Zoppoli house-style .pptx engine (DIMI/GOIRC/…).",
           "how": "Skill: preparing-slides — your venues, palettes, rules.",
           "url": "",
-          "wire": "marketplace",
+          "wire": "builtin",
           "authType": "none",
           "personal": true,
+          "source": null,
+          "plugin": null,
           "probe": "skill"
         },
         {
@@ -832,6 +960,8 @@
           "wire": "marketplace",
           "authType": "none",
           "personal": false,
+          "source": "K-Dense-AI/claude-scientific-writer",
+          "plugin": "claude-scientific-writer@claude-scientific-writer",
           "probe": "skill"
         },
         {
@@ -844,6 +974,8 @@
           "wire": "marketplace",
           "authType": "none",
           "personal": false,
+          "source": "K-Dense-AI/claude-scientific-writer",
+          "plugin": "claude-scientific-writer@claude-scientific-writer",
           "probe": "skill"
         },
         {
@@ -856,6 +988,8 @@
           "wire": "marketplace",
           "authType": "none",
           "personal": false,
+          "source": "K-Dense-AI/claude-scientific-writer",
+          "plugin": "claude-scientific-writer@claude-scientific-writer",
           "probe": "skill"
         }
       ]
@@ -875,6 +1009,8 @@
           "wire": "oauth",
           "authType": "none",
           "personal": false,
+          "source": null,
+          "plugin": null,
           "probe": "connector"
         },
         {
@@ -887,6 +1023,8 @@
           "wire": "oauth",
           "authType": "none",
           "personal": false,
+          "source": null,
+          "plugin": null,
           "probe": "connector"
         },
         {
@@ -899,6 +1037,8 @@
           "wire": "oauth",
           "authType": "none",
           "personal": false,
+          "source": null,
+          "plugin": null,
           "probe": "connector"
         },
         {
@@ -911,6 +1051,8 @@
           "wire": "oauth",
           "authType": "none",
           "personal": false,
+          "source": null,
+          "plugin": null,
           "probe": "connector"
         },
         {
@@ -923,6 +1065,8 @@
           "wire": "builtin",
           "authType": "none",
           "personal": false,
+          "source": null,
+          "plugin": null,
           "probe": "skill"
         },
         {
@@ -935,6 +1079,8 @@
           "wire": "builtin",
           "authType": "none",
           "personal": false,
+          "source": null,
+          "plugin": null,
           "probe": "skill"
         },
         {
@@ -944,9 +1090,11 @@
           "desc": "Second engine — decorrelated review, long shell agents, red-team.",
           "how": "codex exec via Bash; Skill: codex-dispatch.",
           "url": "",
-          "wire": "builtin",
-          "authType": "none",
+          "wire": "marketplace",
+          "authType": "oauth",
           "personal": false,
+          "source": "openai/codex-plugin-cc",
+          "plugin": "codex@openai-codex",
           "probe": "skill"
         },
         {
@@ -959,6 +1107,8 @@
           "wire": "marketplace",
           "authType": "none",
           "personal": false,
+          "source": "anthropics/life-sciences",
+          "plugin": null,
           "probe": "skill"
         },
         {
@@ -971,6 +1121,8 @@
           "wire": "api",
           "authType": "none",
           "personal": false,
+          "source": null,
+          "plugin": null,
           "probe": "none"
         },
         {
@@ -983,6 +1135,8 @@
           "wire": "runtime",
           "authType": "none",
           "personal": false,
+          "source": null,
+          "plugin": null,
           "probe": "mcp"
         },
         {
@@ -995,6 +1149,8 @@
           "wire": "api",
           "authType": "none",
           "personal": false,
+          "source": null,
+          "plugin": null,
           "probe": "none"
         },
         {
@@ -1007,6 +1163,8 @@
           "wire": "runtime",
           "authType": "none",
           "personal": false,
+          "source": null,
+          "plugin": null,
           "probe": "mcp"
         }
       ]

@@ -46,7 +46,7 @@ command first → re-check → update the board.** Act by `wire`:
 | `auto-mcp` | Already declared in the bundled `.mcp.json`; just verify it's present. |
 | `oauth` | Trigger the provider's own login pop-up (you log into Google/Slack/Figma/Synapse directly — we never see or store the password). |
 | `apikey` | Ask the user to paste the token; the connector stores it, not us. |
-| `marketplace` | Show & run the `/plugin marketplace add …` / `/plugin install …` from the stop's `how`; the user approves. |
+| `marketplace` | Show & run `/plugin marketplace add {source}`, then (if `plugin` is set) `/plugin install {plugin}`, using the stop's `source`/`plugin` from the catalogue; the user approves. |
 | `runtime` | Show the local install line from `how` (uv/pip/conda/clone); detect the runtime first. |
 | `api` | Nothing to install — note the endpoint from `url`/`how` and use it on demand. |
 | `builtin` | Nothing to install — it's already a Claude skill/tool. |

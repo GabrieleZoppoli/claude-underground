@@ -49,3 +49,9 @@ def test_flags_catalogue_out_of_sync():
     cat = {"lines": [{"stations": [{"id": "a"}]}]}   # missing 'b' → drift
     probs = check_plugin.validate(STATIONS, wiring, cat, None)
     assert any("out of sync" in p for p in probs)
+
+
+def test_flags_marketplace_without_source():
+    wiring = {"a": {"wire": "marketplace"}, "b": {"wire": "api"}}
+    probs = check_plugin.validate(STATIONS, wiring, None, None)
+    assert any("marketplace" in p and "source" in p and "'a'" in p for p in probs)

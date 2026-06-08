@@ -31,6 +31,8 @@ def validate(stations, wiring, catalogue, mcp):
             problems.append(f"station '{sid}' has invalid wire '{wire}'")
         if wire == "auto-mcp" and not w.get("mcp"):
             problems.append(f"station '{sid}' is auto-mcp but has no 'mcp' block")
+        if wire == "marketplace" and not w.get("source"):
+            problems.append(f"station '{sid}' is marketplace but has no 'source'")
     auto = {s for s, w in wiring.items() if w.get("wire") == "auto-mcp"}
     servers = set((mcp or {}).get("mcpServers", {}))
     for s in sorted(servers - auto):

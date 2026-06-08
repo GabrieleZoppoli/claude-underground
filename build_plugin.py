@@ -40,6 +40,8 @@ def build_catalogue(stations, wiring):
             "wire": wire,
             "authType": w.get("authType", "none"),
             "personal": bool(w.get("personal", False)),
+            "source": w.get("source"),
+            "plugin": w.get("plugin"),
             "probe": PROBE_BY_WIRE.get(wire, "none"),
         }
         line = st.get("line", "ops")

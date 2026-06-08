@@ -1,0 +1,5 @@
+{
+  "claude": {"name": "Claude Code", "line": "hub", "linename": "Central interchange", "color": "#D97757", "tier": "live", "desc": "hub", "how": "", "url": ""},
+  "europepmc": {"name": "Europe PMC", "line": "lit", "linename": "Literature & Evidence", "color": "#E1251B", "tier": "verified", "desc": "EU corpus", "how": "Public REST API.", "url": "https://europepmc.org"},
+  "opentargets": {"name": "Open Targets MCP", "line": "gen", "linename": "Genomic Data & Sequencing", "color": "#00782A", "tier": "verified", "desc": "target-disease", "how": "Official remote MCP.", "url": "https://platform.opentargets.org"}
+}

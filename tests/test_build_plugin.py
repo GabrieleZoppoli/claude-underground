@@ -8,7 +8,8 @@ FIX = os.path.join(os.path.dirname(__file__), "fixtures")
 
 
 def _load(name):
-    return json.load(open(os.path.join(FIX, name)))
+    with open(os.path.join(FIX, name)) as f:
+        return json.load(f)
 
 
 def test_build_catalogue_groups_by_line_and_orders_hub_first():

@@ -13,8 +13,6 @@ import json, os, sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 
-WIRE_METHODS = {"auto-mcp", "oauth", "apikey", "marketplace", "runtime", "api", "builtin"}
-
 # How a station's status is detected at runtime, derived from its wire method.
 PROBE_BY_WIRE = {
     "auto-mcp": "mcp", "runtime": "mcp",
@@ -70,8 +68,10 @@ def build_mcp(stations, wiring):
 
 
 def main():
-    stations = json.load(open(os.path.join(HERE, "stations.json")))
-    wiring = json.load(open(os.path.join(HERE, "wiring.json")))
+    with open(os.path.join(HERE, "stations.json")) as f:
+        stations = json.load(f)
+    with open(os.path.join(HERE, "wiring.json")) as f:
+        wiring = json.load(f)
     missing = [s for s in stations if s not in wiring]
     if missing:
         sys.exit(f"wiring.json is missing {len(missing)} station(s): {', '.join(sorted(missing))}")

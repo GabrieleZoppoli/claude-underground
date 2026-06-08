@@ -5,7 +5,7 @@ description: Orchestration & Lab Ops — run lab comms, scheduling and the secon
 
 # ⚪ Orchestration & Lab Ops
 
-Run lab comms, scheduling and the second engine, on this line.
+Run lab comms, scheduling and the second engine.
 
 ## Ride it
 - See the live stops + their status on the board (`/tube-map`); they're grouped under this line in the catalogue.

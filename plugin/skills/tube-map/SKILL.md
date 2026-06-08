@@ -22,6 +22,17 @@ line, each with: `id`, `name`, `tier`, `desc`, `how`, `url`, `wire`, `authType`,
 
 Show the board only when asked (`/tube-map`, `/tube-map-status`). Never auto-dump it.
 
+## Journeys & lines (load on demand)
+
+- **Journeys** are end-to-end jobs. `${CLAUDE_PLUGIN_ROOT}/data/journeys.json` maps each
+  journey → its required `stops` + a `playbook` path. To run one: wire its stops with the
+  engine below, then read and follow `${CLAUDE_PLUGIN_ROOT}/skills/tube-map/<playbook>`.
+  Journeys: bibliography · figures · stats-plots · slides · peer-review · scientific-writing · paralegal.
+- **Lines** have a short playbook at `${CLAUDE_PLUGIN_ROOT}/skills/tube-map/lines/<line>.md`.
+  Read it when the user wants to "ride" a whole domain line.
+
+Load these files only when the relevant journey/line is actually used — never all at once.
+
 ## Detecting status (`probe`)
 
 - `probe: mcp` → is the server's MCP tool present this session? (fallback: `claude mcp list` via Bash)

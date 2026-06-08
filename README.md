@@ -113,6 +113,7 @@ Then:
 - `/tube-map-install all` — wire everything (heavy).
 - `/tube-map-install stat` — wire just one line.
 - `/tube-map-status` — what's connected right now.
+- Or just name a journey — *"format these refs for Nature"*, *"make a KM plot"*, *"review this grant"* — and the matching journey (bibliography · figures · stats-plots · slides · peer-review · scientific-writing · paralegal) wires what it needs and runs it.
 
 **Maintainers:** the plugin's data is generated — edit `wiring.json`, run
 `python3 build_plugin.py`, and `python3 tools/check_plugin.py` to validate. CI

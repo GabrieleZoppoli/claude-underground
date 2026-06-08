@@ -55,6 +55,8 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - 📇 Google Scholar MCP — JackKuo666-Google-Scholar-MCP-Server
 - ✅ Marketplace: PubMed (no-auth), Wiley Scholar Gateway, Consensus — anthropics/life-sciences
 - 🌐 Europe PMC API · Semantic Scholar API (both public; ⚠️ standalone MCPs not separately confirmed)
+- ✅ **PubMed+EuroPMC MCP (cyanheads)** — cyanheads/pubmed-mcp-server (107 ★, TypeScript, full text, MeSH, citations; public endpoint pubmed.caseyjhand.com/mcp)
+- 📇 **bioRxiv/medRxiv MCP (cyanheads)** — cyanheads/biorxiv-mcp-server (search preprints by DOI, date or keyword; resolves to journal record)
 
 ### 🟢 Line 2 — Genomic Data & Sequencing
 - ✅ BioMCP (variants: MyVariant/ClinVar/gnomAD/CIViC/OncoKB/GWAS) — genomoncology/biomcp
@@ -71,6 +73,10 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - 📇 Cellosaurus cell lines — biocontext-ai-unofficial-cellosaurus-mcp · 📇 BioStudies — EBIBioStudies-biostudies-mcp-server
 - 🌐 GDC/TCGA API (incl. /analysis/survival) — gdc.cancer.gov/developers (⚠️ no GDC MCP found)
 - 🌐 No-MCP-verified but public: UCSC, dbSNP/dbVar, ENCODE (use via API/browser)
+- ✅ **ENCODE Toolkit** — ammawla/encode-toolkit (35 ★, Python+Nextflow, 20 MCP tools across 14 ENCODE databases, Claude plugin available)
+- ✅ **Protein Structure MCP** — cyanheads/protein-mcp-server (RCSB PDB + PDBe + UniProt 3D structure search & comparison)
+- ✅ **Ensembl MCP (cyanheads)** — cyanheads/ensembl-mcp-server (gene lookup, sequences, VEP, orthologs, xrefs; June 2026, no API key needed)
+- 📇 **GrEBI** — EBISPOT/GrEBI (official EBI SPOT team; aggregates EBI + Monarch Initiative data into Neo4j knowledge graph via MCP)
 
 ### ⚫ Line 3 — Compute & Pipelines (incl. single-cell / spatial)
 - ✅ ChatSpatial (spatial, ~60 methods) — cafferychen777/ChatSpatial
@@ -81,6 +87,7 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - 📇 OmniPath networks (Saez lab) — saezlab-omnipath-next · 📇 BioCypher knowledge graphs — biocypher-biocypher-mcp
 - 📇 ToolUniverse (Harvard MIMS, 200+ tools aggregator) — mims-harvard-ToolUniverse · 📇 gget — longevity-genie-gget-mcp
 - ✅ Marketplace skills: single-cell-rna-qc, nextflow-development (nf-core), scvi-tools — anthropics/life-sciences
+- 📇 **STAMP** — KatherLab/STAMP (120 ★, weakly-supervised deep learning on whole-slide images, TCGA integration, MCP support via mcp/ module)
 - Local (already installed): Python+scanpy/squidpy/anndata ✓ · R 4.5 ✓ (add Seurat/DESeq2 via BiocManager)
 
 ### 🔵 Line 4 — Statistics & Trial Design
@@ -94,6 +101,9 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - 📇 Ontologies: OLS4 (EBI) — EBISPOT-ols4 · BioPortal (SNOMED/UMLS etc.) — ncbo-bioportal-mcp
 - 📇 Drugs/chem: ChEMBL — JackKuo666-ChEMBL-MCP-Server · PubChem — cyanheads-pubchem-mcp-server / JackKuo666-PubChem-MCP-Server · pharmacology — longevity-genie-pharmacology-mcp
 - 📇 Oncology decisioning — Nexgene-Research-nexonco-mcp
+- 📇 **Monarch Initiative MCP** — nickzren/monarch-mcp (disease–gene–phenotype, HPO, 33 databases, rare-disease focus)
+- 📇 **MyDisease MCP** — nickzren/mydisease-mcp (OMIM, Orphanet, DisGeNET, ClinVar, HPO via MyDisease.info)
+- 📇 **PatSnap MCP** — patsnap/mcp (200M+ patents + pharma R&D intelligence; life-sciences module available; requires API key)
 - 🌐 openFDA · EU CTIS/CTR · WHO ICTRP · EMA · HL7 FHIR · REDCap (public APIs; ⚠️ MCPs not confirmed)
 
 ### 🟡 Line 6 — Visualization & Figures

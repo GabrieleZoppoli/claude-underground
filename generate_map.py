@@ -76,6 +76,8 @@ STATIONS = {
   "pubmedmcp":    S("PubMed MCP","lit","registry","Standalone PubMed search/fetch over MCP.","MCP: andybrandt/mcp-simple-pubmed or grll/pubmedmcp — confirm repo, add to config."),
   "gscholar":     S("Google Scholar MCP","lit","registry","Scholar search over MCP (no official API; scrapes).","MCP: JackKuo666/Google-Scholar-MCP-Server — confirm repo."),
   "wiley":        S("Wiley Scholar Gateway","lit","verified","Wiley full-text scholarly gateway (marketplace remote MCP).","Install via /plugin marketplace add anthropics/life-sciences."),
+  "pubmedmcpcy":  S("PubMed+EuroPMC MCP","lit","verified","PubMed + Europe PMC full text, MeSH & citations — 107 ★, STDIO or streamable HTTP.","MCP: cyanheads/pubmed-mcp-server — remote endpoint pubmed.caseyjhand.com/mcp.","https://github.com/cyanheads/pubmed-mcp-server"),
+  "biorxivmcp":   S("bioRxiv/medRxiv MCP","lit","registry","Search & fetch preprints by DOI, date or keyword; resolves to journal record.","MCP: cyanheads/biorxiv-mcp-server — confirm repo, add to config.","https://github.com/cyanheads/biorxiv-mcp-server"),
 
   # ====================================================== Genomic 🟢
   "synapse":      S("Synapse.org","gen","live","Sage Bionetworks repository — controlled-access cohorts, consortium data.","MCP connected now — search & pull datasets (auth for controlled access).","https://www.synapse.org"),
@@ -105,6 +107,10 @@ STATIONS = {
   "cellosaurus":  S("Cellosaurus MCP","gen","registry","Cell-line knowledge resource.","MCP: biocontext-ai/unofficial-cellosaurus-mcp."),
   "biostudies":   S("BioStudies MCP","gen","registry","EBI BioStudies datasets & supplementary data.","MCP: EBIBioStudies/biostudies-mcp-server — confirm repo."),
   "gwas":         S("GWAS Catalog MCP","gen","registry","GWAS associations (also inside BioMCP).","MCP: koido/gwas-catalog-mcp — confirm repo."),
+  "encodetoolkit":S("ENCODE Toolkit","gen","verified","ENCODE functional genomics — search, download & analyse experiments across 14 databases.","MCP + Claude plugin: ammawla/encode-toolkit — install via marketplace or pip.","https://github.com/ammawla/encode-toolkit"),
+  "proteinmcp":   S("Protein Structure MCP","gen","verified","RCSB PDB + PDBe + UniProt 3D structure search, comparison & ligand tracking.","MCP: cyanheads/protein-mcp-server — STDIO or Cloudflare Workers.","https://github.com/cyanheads/protein-mcp-server"),
+  "ensemblmcpcy": S("Ensembl MCP (cyanheads)","gen","verified","Gene lookup, sequences, VEP variant consequences, orthologs & xrefs — no API key needed.","MCP: cyanheads/ensembl-mcp-server — STDIO or streamable HTTP.","https://github.com/cyanheads/ensembl-mcp-server"),
+  "grebi":        S("GrEBI","gen","registry","EMBL-EBI knowledge-graph MCP aggregating EBI + Monarch Initiative data via Neo4j.","MCP: EBISPOT/GrEBI — dev endpoint available; confirm before wiring.","https://github.com/EBISPOT/GrEBI"),
 
   # ====================================================== Compute ⚫
   "python":       S("Python · scanpy/squidpy","comp","live","scanpy/squidpy/anndata for sc & spatial; pandas/numpy/scipy — all verified installed.","Bash + Python 3.12; Claude writes & runs the analysis now."),
@@ -128,6 +134,7 @@ STATIONS = {
   "omnipath":     S("OmniPath MCP","comp","registry","Signaling/regulatory networks (Saez lab).","MCP: saezlab/omnipath-next."),
   "biocypher":    S("BioCypher MCP","comp","registry","Build & query biomedical knowledge graphs.","MCP: biocypher/biocypher-mcp."),
   "gget":         S("gget MCP","comp","registry","Swiss-army genomics queries (Ensembl/UniProt/BLAST/…).","MCP: longevity-genie/gget-mcp."),
+  "stamp":        S("STAMP (pathology)","comp","registry","Digital-pathology MCP: weakly-supervised deep learning on whole-slide images + TCGA.","MCP: KatherLab/STAMP — install the mcp/ module; confirm before wiring.","https://github.com/KatherLab/STAMP"),
 
   # ====================================================== Statistics 🔵
   "statsmodels":  S("statsmodels / scipy","stat","live","Regression, GLM, mixed models, hypothesis tests in Python.","Bash + Python; Claude writes the analysis."),
@@ -157,6 +164,9 @@ STATIONS = {
   "pubchem":      S("PubChem MCP","clin","registry","Chemical structures, properties & bioassays.","MCP: cyanheads/pubchem-mcp-server."),
   "pharmacology": S("Pharmacology MCP","clin","registry","Guide to PHARMACOLOGY — targets & ligands.","MCP: longevity-genie/pharmacology-mcp."),
   "nexonco":      S("NexOnco MCP","clin","registry","Oncology clinical decisioning.","MCP: Nexgene-Research/nexonco-mcp."),
+  "monarchmcp":   S("Monarch Initiative MCP","clin","registry","Disease–gene–phenotype (HPO) associations across 33 resources — rare-disease focus.","MCP: nickzren/monarch-mcp — confirm repo, add to config.","https://github.com/nickzren/monarch-mcp"),
+  "mydiseasemcp": S("MyDisease MCP","clin","registry","Disease–gene associations via MyDisease.info: OMIM, Orphanet, DisGeNET, ClinVar, HPO.","MCP: nickzren/mydisease-mcp — confirm repo, add to config.","https://github.com/nickzren/mydisease-mcp"),
+  "patsnap":      S("PatSnap MCP","clin","registry","200M+ patents + pharma R&D intelligence: drugs, targets, clinical trials.","MCP: patsnap/mcp — life-sciences module available; confirm API key requirement.","https://github.com/patsnap/mcp"),
 
   # ====================================================== Visualization 🟡
   "biorender":    S("BioRender","viz","live","Publication figures from a vast bio icon/template library.","MCP connected now — search icons & templates.","https://www.biorender.com"),

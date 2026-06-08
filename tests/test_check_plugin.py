@@ -42,3 +42,10 @@ def test_flags_mcp_json_with_non_auto_server():
     mcp = {"mcpServers": {"a": {"url": "x"}}}
     probs = check_plugin.validate(STATIONS, wiring, None, mcp)
     assert any(".mcp.json" in p and "'a'" in p for p in probs)
+
+
+def test_flags_catalogue_out_of_sync():
+    wiring = {"a": {"wire": "api"}, "b": {"wire": "api"}}
+    cat = {"lines": [{"stations": [{"id": "a"}]}]}   # missing 'b' → drift
+    probs = check_plugin.validate(STATIONS, wiring, cat, None)
+    assert any("out of sync" in p for p in probs)

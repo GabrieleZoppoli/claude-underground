@@ -43,6 +43,20 @@ def validate(stations, wiring, catalogue, mcp):
     return problems
 
 
+def validate_journeys(stations, journeys, present_files):
+    """journeys: dict; present_files: set of playbook paths that exist on disk."""
+    problems = []
+    sids = set(stations)
+    for jid, j in (journeys or {}).items():
+        for stop in j.get("stops", []):
+            if stop not in sids:
+                problems.append(f"journey '{jid}' references unknown stop '{stop}'")
+        pb = j.get("playbook")
+        if pb and pb not in present_files:
+            problems.append(f"journey '{jid}' playbook is missing: {pb}")
+    return problems
+
+
 def _load(path, default=None):
     if not os.path.exists(path):
         return default
@@ -56,6 +70,14 @@ def main():
     catalogue = _load(os.path.join(ROOT, "plugin", "data", "catalogue.json"))
     mcp = _load(os.path.join(ROOT, "plugin", ".mcp.json"))
     problems = validate(stations, wiring, catalogue, mcp)
+    journeys = _load(os.path.join(ROOT, "journeys.json"), {})
+    skill_root = os.path.join(ROOT, "plugin", "skills", "tube-map")
+    present = set()
+    for sub in ("journeys", "lines"):
+        d = os.path.join(skill_root, sub)
+        if os.path.isdir(d):
+            present |= {f"{sub}/{n}" for n in os.listdir(d)}
+    problems += validate_journeys(stations, journeys, present)
     if problems:
         print(f"plugin check: {len(problems)} problem(s)")
         for p in problems:

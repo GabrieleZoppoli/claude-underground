@@ -56,6 +56,11 @@ def build_catalogue(stations, wiring):
     return {"lines": ordered}
 
 
+def build_journeys(journeys):
+    """Pass journeys metadata through unchanged (kept as a hook for future enrichment)."""
+    return journeys
+
+
 def build_mcp(stations, wiring):
     """Emit ONLY the auto-mcp servers (remote, no-auth) for the bundled .mcp.json."""
     servers = {}
@@ -86,6 +91,13 @@ def main():
     with open(os.path.join(HERE, "plugin", ".mcp.json"), "w") as f:
         json.dump(mcp, f, indent=2, ensure_ascii=False)
         f.write("\n")
+    jpath = os.path.join(HERE, "journeys.json")
+    if os.path.exists(jpath):
+        with open(jpath) as f:
+            journeys = json.load(f)
+        with open(os.path.join(HERE, "plugin", "data", "journeys.json"), "w") as f:
+            json.dump(build_journeys(journeys), f, indent=2, ensure_ascii=False)
+            f.write("\n")
     n = sum(len(l["stations"]) for l in catalogue["lines"])
     print(f"built catalogue.json ({n} stations, {len(catalogue['lines'])} lines) "
           f"and .mcp.json ({len(mcp['mcpServers'])} auto-mcp server(s))")

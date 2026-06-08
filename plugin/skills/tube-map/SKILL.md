@@ -32,6 +32,10 @@ Show the board only when asked (`/tube-map`, `/tube-map-status`). Never auto-dum
 Render each stop as **● live** (detected), **◉ ready** (installable now), or
 **⚠ needs you** (blocked — needs a login, token, or local runtime you must provide).
 
+**Two refinements that keep the board honest:**
+- A stop whose `authType` is `oauth` or `apikey` is **⚠ needs you** — a login or token is required — *unless* you can confirm that credential is already in place. Never show such a stop **● live** on a skill/connector probe alone: the probe cannot see whether the login or key exists.
+- A `runtime` stop you can't detect is **◉ ready** (show its install line from `how`) — don't assume it's missing, since a local library may already be installed. Confirm with the user rather than guessing either way.
+
 ## Wiring engine (per stop)
 
 For each target stop: **detect → if live, confirm & skip → else act, showing the exact

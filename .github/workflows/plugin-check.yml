@@ -1,0 +1,33 @@
+name: plugin-check
+
+# Rebuilds the plugin artefacts from source, fails if they drifted, validates
+# structure, and runs the unit tests. Runs on every change to the relevant files.
+
+on:
+  push:
+    paths: ["stations.json", "wiring.json", "build_plugin.py", "tools/**", "plugin/**", "tests/**"]
+  pull_request: {}
+  workflow_dispatch: {}
+
+jobs:
+  build-and-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pytest
+      - name: Rebuild plugin artefacts
+        run: python3 build_plugin.py
+      - name: Fail if generated artefacts drifted from source
+        run: |
+          if ! git diff --quiet -- plugin/data/catalogue.json plugin/.mcp.json; then
+            echo "::error::catalogue.json / .mcp.json are stale — run 'python3 build_plugin.py' and commit."
+            git --no-pager diff -- plugin/data/catalogue.json plugin/.mcp.json
+            exit 1
+          fi
+      - name: Structural validation
+        run: python3 tools/check_plugin.py
+      - name: Unit tests
+        run: python3 -m pytest tests/ -q

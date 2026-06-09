@@ -30,8 +30,8 @@
     "playbook": "journeys/scientific-writing.md"
   },
   "paralegal": {
-    "description": "Paralegal-style review of a research document (contract/consent/privacy). Full EU/IT/US coverage arrives with the Legal line in M3; this handles intake + generic clause review for now.",
-    "stops": ["office", "markitdown"],
+    "description": "Paralegal-style review of a research document (EU/IT/US): classify, clause-by-clause review against jurisdiction checklists, risk flags, tracked-changes redline, cited grounding. Non-lawyer; verify with counsel.",
+    "stops": ["paralegalrev", "gdpr", "itlaw", "uslaw", "office", "markitdown"],
     "playbook": "journeys/paralegal.md"
   }
 }

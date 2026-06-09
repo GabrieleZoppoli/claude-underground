@@ -7,8 +7,8 @@
     "live": true,
     "tier": "live",
     "kind": "hub",
-    "x": 1300,
-    "y": 1090,
+    "x": 2016,
+    "y": 1706,
     "desc": "You \u2014 the grand-central interchange. Every line meets here: Claude routes the work, reasons, writes & runs code, and dispatches the rest.",
     "how": "This is the station you sit in. Talk to Claude Code on your workstation; it drives every other line on this map.",
     "url": ""
@@ -24,8 +24,8 @@
     "desc": "35M+ biomedical citations; full-text, related-article & citation lookup.",
     "how": "MCP connected now \u2014 search, fetch metadata & full text directly.",
     "url": "https://pubmed.ncbi.nlm.nih.gov",
-    "x": 993.4,
-    "y": 1090.0,
+    "x": 1541.5,
+    "y": 1706.0,
     "kind": "stop"
   },
   "consensus": {
@@ -39,8 +39,8 @@
     "desc": "Evidence synthesis with claim-level support/oppose scoring.",
     "how": "MCP connected now \u2014 ask a question, get cited consensus.",
     "url": "https://consensus.app",
-    "x": 871.6,
-    "y": 1090.0,
+    "x": 1353.0,
+    "y": 1706.0,
     "kind": "stop"
   },
   "europepmc": {
@@ -54,8 +54,8 @@
     "desc": "EU biomedical corpus incl. preprints, patents, grants, full text.",
     "how": "Public REST API via browser/HTTP; a Europe PMC MCP can be added.",
     "url": "https://europepmc.org",
-    "x": 749.8,
-    "y": 1090.0,
+    "x": 1164.5,
+    "y": 1706.0,
     "kind": "stop"
   },
   "biorxiv": {
@@ -69,8 +69,8 @@
     "desc": "Biology preprints \u2014 earliest signal before peer review.",
     "how": "bioRxiv API via browser/HTTP.",
     "url": "https://www.biorxiv.org",
-    "x": 628.0,
-    "y": 1090.0,
+    "x": 976.0,
+    "y": 1706.0,
     "kind": "stop"
   },
   "medrxiv": {
@@ -84,8 +84,8 @@
     "desc": "Clinical/medical preprints \u2014 trials & methods before journals.",
     "how": "medRxiv API via browser/HTTP.",
     "url": "https://www.medrxiv.org",
-    "x": 506.2,
-    "y": 1090.0,
+    "x": 787.5,
+    "y": 1706.0,
     "kind": "stop"
   },
   "semscholar": {
@@ -99,8 +99,8 @@
     "desc": "200M+ papers, citation graph, TLDR summaries.",
     "how": "Public Graph API; also federated inside BioMCP.",
     "url": "https://www.semanticscholar.org",
-    "x": 384.4,
-    "y": 1090.0,
+    "x": 599.0,
+    "y": 1706.0,
     "kind": "stop"
   },
   "deepresearch": {
@@ -114,8 +114,8 @@
     "desc": "Fan-out web search \u2192 fetch \u2192 adversarially verify \u2192 cited report.",
     "how": "Skill: deep-research.",
     "url": "",
-    "x": 993.4,
-    "y": 1211.8,
+    "x": 1541.5,
+    "y": 1894.5,
     "kind": "stop"
   },
   "litreview": {
@@ -129,8 +129,8 @@
     "desc": "Systematic reviews across PubMed/arXiv/bioRxiv/Semantic Scholar (PRISMA).",
     "how": "Skill: claude-scientific-writer:literature-review.",
     "url": "",
-    "x": 993.4,
-    "y": 1333.6,
+    "x": 1541.5,
+    "y": 2083.0,
     "kind": "stop"
   },
   "researchlookup": {
@@ -144,8 +144,8 @@
     "desc": "Fast current-research lookup (Parallel/Perplexity) for facts & papers.",
     "how": "Skill: claude-scientific-writer:research-lookup.",
     "url": "",
-    "x": 993.4,
-    "y": 1455.4,
+    "x": 1541.5,
+    "y": 2271.5,
     "kind": "stop"
   },
   "wiley": {
@@ -159,8 +159,8 @@
     "desc": "Wiley full-text scholarly gateway (marketplace remote MCP).",
     "how": "Install via /plugin marketplace add anthropics/life-sciences.",
     "url": "",
-    "x": 871.6,
-    "y": 968.2,
+    "x": 1353.0,
+    "y": 1517.5,
     "kind": "stop"
   },
   "synapse": {
@@ -174,8 +174,8 @@
     "desc": "Sage Bionetworks repository \u2014 controlled-access cohorts, consortium data.",
     "how": "MCP connected now \u2014 search & pull datasets (auth for controlled access).",
     "url": "https://www.synapse.org",
-    "x": 1080.4,
-    "y": 870.4,
+    "x": 1676.2,
+    "y": 1366.2,
     "kind": "stop"
   },
   "geosra": {
@@ -189,8 +189,8 @@
     "desc": "NCBI expression (GEO) & raw reads (SRA) \u2014 public omics at scale.",
     "how": "NCBI E-utilities API; or an NCBI MCP (see below).",
     "url": "https://www.ncbi.nlm.nih.gov/geo/",
-    "x": 979.6,
-    "y": 769.6,
+    "x": 1520.2,
+    "y": 1210.2,
     "kind": "stop"
   },
   "ensembldb": {
@@ -204,8 +204,8 @@
     "desc": "Genome annotation, BioMart, VEP variant effect prediction.",
     "how": "Ensembl REST API; or an Ensembl MCP (see below).",
     "url": "https://www.ensembl.org",
-    "x": 878.8,
-    "y": 668.8,
+    "x": 1364.2,
+    "y": 1054.2,
     "kind": "stop"
   },
   "ucsc": {
@@ -219,8 +219,8 @@
     "desc": "Genome browser, tracks, liftOver, table browser.",
     "how": "UCSC REST API; browser for exploration.",
     "url": "https://genome.ucsc.edu",
-    "x": 778.0,
-    "y": 568.0,
+    "x": 1208.2,
+    "y": 898.2,
     "kind": "stop"
   },
   "gdc": {
@@ -234,8 +234,8 @@
     "desc": "NCI Genomic Data Commons + TCGA \u2014 mutations, CNV, expression, /analysis/survival.",
     "how": "Public REST API (gdc.cancer.gov/developers); no GDC MCP yet.",
     "url": "https://gdc.cancer.gov",
-    "x": 677.2,
-    "y": 467.2,
+    "x": 1052.2,
+    "y": 742.2,
     "kind": "stop"
   },
   "clinvar": {
@@ -249,8 +249,8 @@
     "desc": "Clinical variant significance + population allele frequencies.",
     "how": "NCBI / gnomAD APIs; also federated inside BioMCP.",
     "url": "https://gnomad.broadinstitute.org",
-    "x": 857.8,
-    "y": 769.6,
+    "x": 1331.7,
+    "y": 1210.2,
     "kind": "stop"
   },
   "cbioportal": {
@@ -264,8 +264,8 @@
     "desc": "Cancer genomics portal \u2014 TCGA, mutations, CNA, clinical.",
     "how": "REST API (cbioportal.org/api); MCP below.",
     "url": "https://www.cbioportal.org",
-    "x": 736.0,
-    "y": 769.6,
+    "x": 1143.2,
+    "y": 1210.2,
     "kind": "stop"
   },
   "depmap": {
@@ -279,8 +279,8 @@
     "desc": "Dependency/essentiality screens + precision-oncology annotation.",
     "how": "DepMap downloads; OncoKB API (token).",
     "url": "https://depmap.org",
-    "x": 614.2,
-    "y": 769.6,
+    "x": 954.7,
+    "y": 1210.2,
     "kind": "stop"
   },
   "cellxgene": {
@@ -294,8 +294,8 @@
     "desc": "Single-cell/spatial atlases \u2014 directly relevant to your Xenium work.",
     "how": "CZ CELLxGENE Census API; Census MCP below.",
     "url": "https://cellxgene.cziscience.com",
-    "x": 878.8,
-    "y": 547.0,
+    "x": 1364.2,
+    "y": 865.7,
     "kind": "stop"
   },
   "cbioportalmcp": {
@@ -309,8 +309,8 @@
     "desc": "No-SQL natural-language queries over cBioPortal.",
     "how": "Official MCP (under construction): cBioPortal/cbioportal-mcp.",
     "url": "https://github.com/cBioPortal/cbioportal-mcp",
-    "x": 736.0,
-    "y": 647.8,
+    "x": 1143.2,
+    "y": 1021.7,
     "kind": "stop"
   },
   "opentargets": {
@@ -324,8 +324,8 @@
     "desc": "Target\u2013disease\u2013drug associations, genetics, tractability.",
     "how": "Official remote MCP: mcp.platform.opentargets.org/mcp.",
     "url": "https://platform.opentargets.org",
-    "x": 736.0,
-    "y": 526.0,
+    "x": 1143.2,
+    "y": 833.2,
     "kind": "stop"
   },
   "ena": {
@@ -339,8 +339,8 @@
     "desc": "European Nucleotide Archive \u2014 reads, assemblies, sequence records.",
     "how": "MCP: biocontext-ai/nucleotide_archive_mcp.",
     "url": "https://github.com/biocontext-ai/nucleotide_archive_mcp",
-    "x": 958.6,
-    "y": 870.4,
+    "x": 1487.7,
+    "y": 1366.2,
     "kind": "stop"
   },
   "python": {
@@ -354,8 +354,8 @@
     "desc": "scanpy/squidpy/anndata for sc & spatial; pandas/numpy/scipy \u2014 all verified installed.",
     "how": "Bash + Python 3.12; Claude writes & runs the analysis now.",
     "url": "",
-    "x": 1300.0,
-    "y": 783.4,
+    "x": 2016.0,
+    "y": 1231.5,
     "kind": "stop"
   },
   "jupyter": {
@@ -369,8 +369,8 @@
     "desc": "Interactive notebooks \u2014 exploratory analysis & figures.",
     "how": "`pip install jupyterlab`; Claude drives notebooks via Bash.",
     "url": "",
-    "x": 1178.2,
-    "y": 783.4,
+    "x": 1827.5,
+    "y": 1231.5,
     "kind": "stop"
   },
   "bioconductor": {
@@ -384,8 +384,8 @@
     "desc": "Seurat, DESeq2, limma, edgeR, survminer \u2014 the bio-stats engine.",
     "how": "R 4.5.2 + base survival installed; add via BiocManager::install(...).",
     "url": "",
-    "x": 1300.0,
-    "y": 661.6,
+    "x": 2016.0,
+    "y": 1043.0,
     "kind": "stop"
   },
   "nextflow": {
@@ -399,8 +399,8 @@
     "desc": "Reproducible, containerised genomics pipelines at scale.",
     "how": "Install nf-core; Claude scaffolds & launches workflows.",
     "url": "https://nf-co.re",
-    "x": 1300.0,
-    "y": 539.8,
+    "x": 2016.0,
+    "y": 854.5,
     "kind": "stop"
   },
   "galaxy": {
@@ -414,8 +414,8 @@
     "desc": "GUI/API workflow platform for accessible bioinformatics.",
     "how": "Galaxy public/local instance; API via browser.",
     "url": "https://usegalaxy.org",
-    "x": 1056.4,
-    "y": 783.4,
+    "x": 1639.0,
+    "y": 1231.5,
     "kind": "stop"
   },
   "snakemake": {
@@ -429,8 +429,8 @@
     "desc": "Make-style reproducible workflow engine for omics.",
     "how": "pip/conda; Claude writes the Snakefile.",
     "url": "https://snakemake.github.io",
-    "x": 1300.0,
-    "y": 418.0,
+    "x": 2016.0,
+    "y": 666.0,
     "kind": "stop"
   },
   "cfdna": {
@@ -444,8 +444,8 @@
     "desc": "Your liquid-biopsy tools: ichorCNA, MEDIPS/MeDEStrand, fragmentomics, ONT.",
     "how": "Local conda envs; Claude orchestrates RENOVATE/MIMESIS pipelines.",
     "url": "",
-    "x": 934.6,
-    "y": 783.4,
+    "x": 1450.5,
+    "y": 1231.5,
     "kind": "stop"
   },
   "chatspatial": {
@@ -459,8 +459,8 @@
     "desc": "Spatial-transcriptomics agent \u2014 ~60 methods (Xenium/Visium/MERFISH).",
     "how": "MCP: cafferychen777/ChatSpatial.",
     "url": "https://github.com/cafferychen777/ChatSpatial",
-    "x": 1543.6,
-    "y": 783.4,
+    "x": 2393.0,
+    "y": 1231.5,
     "kind": "stop"
   },
   "scmcp": {
@@ -474,8 +474,8 @@
     "desc": "scRNA-seq analysis via scverse (scanpy).",
     "how": "MCP: scmcphub/scmcp.",
     "url": "https://github.com/scmcphub/scmcp",
-    "x": 1421.8,
-    "y": 783.4,
+    "x": 2204.5,
+    "y": 1231.5,
     "kind": "stop"
   },
   "scqc": {
@@ -489,8 +489,8 @@
     "desc": "Official single-cell-rna-qc skill (marketplace).",
     "how": "Install: /plugin install single-cell-rna-qc@life-sciences.",
     "url": "",
-    "x": 1421.8,
-    "y": 661.6,
+    "x": 2204.5,
+    "y": 1043.0,
     "kind": "stop"
   },
   "nfcoreskill": {
@@ -504,8 +504,8 @@
     "desc": "Official nextflow-development skill (marketplace).",
     "how": "Install via anthropics/life-sciences marketplace.",
     "url": "",
-    "x": 1543.6,
-    "y": 661.6,
+    "x": 2393.0,
+    "y": 1043.0,
     "kind": "stop"
   },
   "scvitools": {
@@ -519,8 +519,8 @@
     "desc": "Probabilistic single-cell models skill (marketplace).",
     "how": "Install via anthropics/life-sciences marketplace.",
     "url": "",
-    "x": 1665.4,
-    "y": 661.6,
+    "x": 2581.5,
+    "y": 1043.0,
     "kind": "stop"
   },
   "statsmodels": {
@@ -534,8 +534,8 @@
     "desc": "Regression, GLM, mixed models, hypothesis tests in Python.",
     "how": "Bash + Python; Claude writes the analysis.",
     "url": "",
-    "x": 1519.6,
-    "y": 870.4,
+    "x": 2355.8,
+    "y": 1366.2,
     "kind": "stop"
   },
   "survival": {
@@ -549,8 +549,8 @@
     "desc": "Kaplan\u2013Meier, Cox PH, competing risks \u2014 your endpoint engine.",
     "how": "lifelines (Py) / survival+survminer (R) via Bash.",
     "url": "",
-    "x": 1620.4,
-    "y": 769.6,
+    "x": 2511.8,
+    "y": 1210.2,
     "kind": "stop"
   },
   "reporting": {
@@ -564,8 +564,8 @@
     "desc": "CONSORT / STROBE / PRISMA checklists baked into writing & review.",
     "how": "Skills: scientific-writing / peer-review.",
     "url": "",
-    "x": 1721.2,
-    "y": 668.8,
+    "x": 2667.8,
+    "y": 1054.2,
     "kind": "stop"
   },
   "peerreview": {
@@ -579,8 +579,8 @@
     "desc": "Systematic methodology, stats, design & reproducibility review.",
     "how": "Skill: claude-scientific-writer:peer-review.",
     "url": "",
-    "x": 1822.0,
-    "y": 568.0,
+    "x": 2823.8,
+    "y": 898.2,
     "kind": "stop"
   },
   "critthink": {
@@ -594,8 +594,8 @@
     "desc": "Rigor, bias, confounding, GRADE / Cochrane RoB appraisal.",
     "how": "Skill: claude-scientific-writer:scientific-critical-thinking.",
     "url": "",
-    "x": 1943.8,
-    "y": 568.0,
+    "x": 3012.3,
+    "y": 898.2,
     "kind": "stop"
   },
   "bayes": {
@@ -609,8 +609,8 @@
     "desc": "Bayesian inference, hierarchical models, adaptive-trial priors.",
     "how": "Install PyMC/cmdstanpy; Claude builds the model.",
     "url": "https://www.pymc.io",
-    "x": 1519.6,
-    "y": 626.8,
+    "x": 2355.8,
+    "y": 989.2,
     "kind": "stop"
   },
   "power": {
@@ -624,8 +624,8 @@
     "desc": "Power, MDE, sample-size & simulation for trial design.",
     "how": "statsmodels.power / R pwr & simr.",
     "url": "",
-    "x": 1519.6,
-    "y": 748.6,
+    "x": 2355.8,
+    "y": 1177.7,
     "kind": "stop"
   },
   "ctgmcp": {
@@ -639,8 +639,8 @@
     "desc": "Trial-registry queries over MCP (CTG API v2 + NCI CTS).",
     "how": "MCP: cyanheads/clinicaltrialsgov-mcp-server.",
     "url": "https://github.com/cyanheads/clinicaltrialsgov-mcp-server",
-    "x": 1742.2,
-    "y": 769.6,
+    "x": 2700.3,
+    "y": 1210.2,
     "kind": "stop"
   },
   "clinreports": {
@@ -654,8 +654,8 @@
     "desc": "Case reports (CARE), CSR (ICH-E3), SOAP, discharge summaries.",
     "how": "Skill: claude-scientific-writer:clinical-reports.",
     "url": "",
-    "x": 1606.6,
-    "y": 1090.0,
+    "x": 2490.5,
+    "y": 1706.0,
     "kind": "stop"
   },
   "decision": {
@@ -669,8 +669,8 @@
     "desc": "Biomarker-stratified cohorts, GRADE, treatment algorithms.",
     "how": "Skill: claude-scientific-writer:clinical-decision-support.",
     "url": "",
-    "x": 1728.4,
-    "y": 1090.0,
+    "x": 2679.0,
+    "y": 1706.0,
     "kind": "stop"
   },
   "treatment": {
@@ -684,8 +684,8 @@
     "desc": "Focused LaTeX/PDF treatment plans across specialties.",
     "how": "Skill: claude-scientific-writer:treatment-plans.",
     "url": "",
-    "x": 1850.2,
-    "y": 1090.0,
+    "x": 2867.5,
+    "y": 1706.0,
     "kind": "stop"
   },
   "cltrials": {
@@ -699,8 +699,8 @@
     "desc": "Global trial registry \u2014 design, comparators, recruitment.",
     "how": "CTG API v2 via browser/HTTP.",
     "url": "https://clinicaltrials.gov",
-    "x": 1972.0,
-    "y": 1090.0,
+    "x": 3056.0,
+    "y": 1706.0,
     "kind": "stop"
   },
   "euctr": {
@@ -714,8 +714,8 @@
     "desc": "EU clinical trials register & CTIS \u2014 the EU/IT regulatory side.",
     "how": "CTIS public portal via browser.",
     "url": "https://euclinicaltrials.eu",
-    "x": 1972.0,
-    "y": 1211.8,
+    "x": 3056.0,
+    "y": 1894.5,
     "kind": "stop"
   },
   "fdaema": {
@@ -729,8 +729,8 @@
     "desc": "Approvals, labels, guidance, safety \u2014 regulatory grounding.",
     "how": "openFDA API; EMA via browser.",
     "url": "https://open.fda.gov",
-    "x": 1972.0,
-    "y": 1333.6,
+    "x": 3056.0,
+    "y": 2083.0,
     "kind": "stop"
   },
   "whoictrp": {
@@ -744,8 +744,8 @@
     "desc": "Cross-registry trial search (incl. non-US/EU).",
     "how": "ICTRP portal via browser.",
     "url": "https://trialsearch.who.int",
-    "x": 1972.0,
-    "y": 1455.4,
+    "x": 3056.0,
+    "y": 2271.5,
     "kind": "stop"
   },
   "biorender": {
@@ -759,8 +759,8 @@
     "desc": "Publication figures from a vast bio icon/template library.",
     "how": "MCP connected now \u2014 search icons & templates.",
     "url": "https://www.biorender.com",
-    "x": 1519.6,
-    "y": 1309.6,
+    "x": 2355.8,
+    "y": 2045.8,
     "kind": "stop"
   },
   "mermaid": {
@@ -774,8 +774,8 @@
     "desc": "Flowcharts, sequence & ER diagrams from text; live render.",
     "how": "MCP connected now \u2014 validate & render diagrams.",
     "url": "https://mermaid.js.org",
-    "x": 1641.4,
-    "y": 1309.6,
+    "x": 2544.3,
+    "y": 2045.8,
     "kind": "stop"
   },
   "figma": {
@@ -789,8 +789,8 @@
     "desc": "Vector design for posters, schematics, slide polish.",
     "how": "MCP connected now (auth) \u2014 pull frames & assets.",
     "url": "https://www.figma.com",
-    "x": 1763.2,
-    "y": 1309.6,
+    "x": 2732.8,
+    "y": 2045.8,
     "kind": "stop"
   },
   "schematics": {
@@ -804,8 +804,8 @@
     "desc": "Pathways, architectures, mechanism diagrams (Nano Banana Pro).",
     "how": "Skill: claude-scientific-writer:scientific-schematics.",
     "url": "",
-    "x": 1620.4,
-    "y": 1410.4,
+    "x": 2511.8,
+    "y": 2201.8,
     "kind": "stop"
   },
   "infographics": {
@@ -819,8 +819,8 @@
     "desc": "Data-driven infographics with colourblind-safe palettes.",
     "how": "Skill: claude-scientific-writer:infographics.",
     "url": "",
-    "x": 1721.2,
-    "y": 1511.2,
+    "x": 2667.8,
+    "y": 2357.8,
     "kind": "stop"
   },
   "imagegen": {
@@ -834,8 +834,8 @@
     "desc": "General images, illustrations, photoreal assets (FLUX/Gemini).",
     "how": "Skill: claude-scientific-writer:generate-image.",
     "url": "",
-    "x": 1822.0,
-    "y": 1612.0,
+    "x": 2823.8,
+    "y": 2513.8,
     "kind": "stop"
   },
   "gptimage": {
@@ -849,8 +849,8 @@
     "desc": "SOTA hero/cover artwork with reliable in-image text.",
     "how": "Manual ChatGPT handoff (Path A) \u2014 not wired to API.",
     "url": "https://chatgpt.com",
-    "x": 1822.0,
-    "y": 1733.8,
+    "x": 2823.8,
+    "y": 2702.3,
     "kind": "stop"
   },
   "sciwriting": {
@@ -864,8 +864,8 @@
     "desc": "IMRAD prose (never bullets), citations, reporting guidelines.",
     "how": "Skill: claude-scientific-writer:scientific-writing.",
     "url": "",
-    "x": 1300.0,
-    "y": 1396.6,
+    "x": 2016.0,
+    "y": 2180.5,
     "kind": "stop"
   },
   "citation": {
@@ -879,8 +879,8 @@
     "desc": "Scholar/PubMed metadata, DOI\u2192BibTeX, reference validation.",
     "how": "Skill: claude-scientific-writer:citation-management.",
     "url": "",
-    "x": 1300.0,
-    "y": 1518.4,
+    "x": 2016.0,
+    "y": 2369.0,
     "kind": "stop"
   },
   "venue": {
@@ -894,8 +894,8 @@
     "desc": "Nature/Science/PLOS/IEEE + NIH/NSF formatting & rules.",
     "how": "Skill: claude-scientific-writer:venue-templates.",
     "url": "",
-    "x": 1300.0,
-    "y": 1640.2,
+    "x": 2016.0,
+    "y": 2557.5,
     "kind": "stop"
   },
   "office": {
@@ -909,8 +909,8 @@
     "desc": "Author & edit docx / pptx / xlsx / pdf \u2014 tracked changes, slides, sheets.",
     "how": "Skills: claude-scientific-writer:docx/pptx/xlsx/pdf.",
     "url": "",
-    "x": 1178.2,
-    "y": 1396.6,
+    "x": 1827.5,
+    "y": 2180.5,
     "kind": "stop"
   },
   "markitdown": {
@@ -924,8 +924,8 @@
     "desc": "Convert PDF/DOCX/PPTX/audio/HTML \u2192 Markdown for ingest.",
     "how": "Skill: claude-scientific-writer:markitdown.",
     "url": "",
-    "x": 1056.4,
-    "y": 1396.6,
+    "x": 1639.0,
+    "y": 2180.5,
     "kind": "stop"
   },
   "humanizer": {
@@ -939,8 +939,8 @@
     "desc": "Strip AI-tells; enforce natural prose (your house style).",
     "how": "Skill: humanizer.",
     "url": "",
-    "x": 1421.8,
-    "y": 1518.4,
+    "x": 1827.5,
+    "y": 2369.0,
     "kind": "stop"
   },
   "slides": {
@@ -954,8 +954,8 @@
     "desc": "Your Zoppoli house-style .pptx engine (DIMI/GOIRC/\u2026).",
     "how": "Skill: preparing-slides \u2014 your venues, palettes, rules.",
     "url": "",
-    "x": 1543.6,
-    "y": 1518.4,
+    "x": 1639.0,
+    "y": 2369.0,
     "kind": "stop"
   },
   "grants": {
@@ -969,8 +969,8 @@
     "desc": "NSF/NIH/DOE/DARPA + EU proposals, significance, budgets.",
     "how": "Skill: claude-scientific-writer:research-grants.",
     "url": "",
-    "x": 1300.0,
-    "y": 1762.0,
+    "x": 2016.0,
+    "y": 2746.0,
     "kind": "stop"
   },
   "paper2web": {
@@ -984,8 +984,8 @@
     "desc": "Paper \u2192 website / video / poster for dissemination.",
     "how": "Skill: claude-scientific-writer:paper-2-web.",
     "url": "",
-    "x": 1178.2,
-    "y": 1640.2,
+    "x": 1827.5,
+    "y": 2557.5,
     "kind": "stop"
   },
   "posters": {
@@ -999,8 +999,8 @@
     "desc": "Conference posters via beamerposter/tikz or PPTX.",
     "how": "Skills: latex-posters / pptx-posters.",
     "url": "",
-    "x": 1056.4,
-    "y": 1640.2,
+    "x": 1639.0,
+    "y": 2557.5,
     "kind": "stop"
   },
   "drive": {
@@ -1014,8 +1014,8 @@
     "desc": "Cloud store \u2014 data, manuscripts, shared docs; read & write.",
     "how": "MCP connected now \u2014 search, read, create files.",
     "url": "https://drive.google.com",
-    "x": 1080.4,
-    "y": 1309.6,
+    "x": 1676.2,
+    "y": 2045.8,
     "kind": "stop"
   },
   "gmail": {
@@ -1029,8 +1029,8 @@
     "desc": "Search threads, draft, label \u2014 collaborator & journal comms.",
     "how": "MCP connected now \u2014 search & draft (you send).",
     "url": "https://mail.google.com",
-    "x": 958.6,
-    "y": 1309.6,
+    "x": 1487.7,
+    "y": 2045.8,
     "kind": "stop"
   },
   "calendar": {
@@ -1044,8 +1044,8 @@
     "desc": "Schedule meetings, deadlines, find slots.",
     "how": "MCP connected now \u2014 list, create, suggest times.",
     "url": "https://calendar.google.com",
-    "x": 836.8,
-    "y": 1309.6,
+    "x": 1299.2,
+    "y": 2045.8,
     "kind": "stop"
   },
   "slack": {
@@ -1059,8 +1059,8 @@
     "desc": "Team/consortium channels \u2014 search & post.",
     "how": "MCP connected (auth) \u2014 search & message.",
     "url": "https://slack.com",
-    "x": 715.0,
-    "y": 1309.6,
+    "x": 1110.7,
+    "y": 2045.8,
     "kind": "stop"
   },
   "workflows": {
@@ -1074,8 +1074,8 @@
     "desc": "Deterministic multi-agent fan-out: review, migrate, research.",
     "how": "Workflow tool + Agent subagents \u2014 orchestrate at scale.",
     "url": "",
-    "x": 979.6,
-    "y": 1410.4,
+    "x": 1520.2,
+    "y": 2201.8,
     "kind": "stop"
   },
   "schedule": {
@@ -1089,8 +1089,8 @@
     "desc": "Recurring remote agents \u2014 overnight pipelines, polling, digests.",
     "how": "Skill: schedule \u2014 cron-style routines & one-offs.",
     "url": "",
-    "x": 593.2,
-    "y": 1309.6,
+    "x": 922.2,
+    "y": 2045.8,
     "kind": "stop"
   },
   "codex": {
@@ -1104,8 +1104,8 @@
     "desc": "Second engine \u2014 decorrelated review, long shell agents, red-team.",
     "how": "codex exec via Bash; Skill: codex-dispatch.",
     "url": "",
-    "x": 878.8,
-    "y": 1511.2,
+    "x": 1364.2,
+    "y": 2357.8,
     "kind": "terminus"
   },
   "marketplace": {
@@ -1119,8 +1119,8 @@
     "desc": "Anthropic's official life-sci plugin marketplace \u2014 remote MCPs + skills.",
     "how": "Install: /plugin marketplace add anthropics/life-sciences.",
     "url": "https://github.com/anthropics/life-sciences",
-    "x": 997.6,
-    "y": 1728.4,
+    "x": 1236.0,
+    "y": 2850.0,
     "kind": "stop"
   },
   "biocontextai": {
@@ -1134,8 +1134,8 @@
     "desc": "Nature-Biotech-backed index of ~60 biomedical MCP servers.",
     "how": "Browse biocontext.ai/registry \u00b7 github.com/biocontext-ai/registry.",
     "url": "https://biocontext.ai/registry",
-    "x": 1216.0,
-    "y": 1774.6,
+    "x": 1652.0,
+    "y": 2850.0,
     "kind": "stop"
   },
   "biocontextmeta": {
@@ -1149,8 +1149,8 @@
     "desc": "Meta layer: knowledgebase / skill-to-mcp / protocol / registry servers.",
     "how": "github.com/biocontext-ai \u2014 add the meta server to your config.",
     "url": "",
-    "x": 779.2,
-    "y": 1619.2,
+    "x": 794.0,
+    "y": 2577.0,
     "kind": "stop"
   },
   "nar": {
@@ -1164,8 +1164,8 @@
     "desc": "2,173 curated molecular-biology databases (2026 issue) \u2014 the cross-check.",
     "how": "Reference index: academic.oup.com/nar.",
     "url": "https://academic.oup.com/nar/article/54/D1/D1/8402365",
-    "x": 586.0,
-    "y": 1413.4,
+    "x": 664.0,
+    "y": 2044.0,
     "kind": "stop"
   },
   "biomcp": {
@@ -1179,8 +1179,83 @@
     "desc": "One server federating literature, variants, trials & cancer genomics.",
     "how": "MCP: genomoncology/biomcp \u2014 the single best biomedical addition.",
     "url": "https://github.com/genomoncology/biomcp",
-    "x": 1014.4,
-    "y": 964.0,
+    "x": 1574.0,
+    "y": 1511.0,
+    "kind": "stop"
+  },
+  "gdpr": {
+    "name": "GDPR & data protection",
+    "line": "legal",
+    "linename": "Legal & Paralegal",
+    "color": "#0E7C7B",
+    "live": true,
+    "tier": "live",
+    "interchange": false,
+    "desc": "EU GDPR (2016/679): DPAs, transfers, Art. 89 research exemptions.",
+    "how": "Reference module \u2014 cited to EUR-Lex; verify before relying.",
+    "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+    "x": 2270.8,
+    "y": 2289.7,
+    "kind": "stop"
+  },
+  "eugrants": {
+    "name": "EU grants & consortia",
+    "line": "legal",
+    "linename": "Legal & Paralegal",
+    "color": "#0E7C7B",
+    "live": true,
+    "tier": "live",
+    "interchange": false,
+    "desc": "Horizon Europe Model Grant Agreement + Consortium Agreement (DESCA), IP/access rights.",
+    "how": "Reference module \u2014 cited to EU Funding & Tenders / DESCA.",
+    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/common/agr-contr/general-mga_horizon-euratom_en.pdf",
+    "x": 2351.4,
+    "y": 2474.3,
+    "kind": "stop"
+  },
+  "itlaw": {
+    "name": "Italian research law",
+    "line": "legal",
+    "linename": "Legal & Paralegal",
+    "color": "#0E7C7B",
+    "live": true,
+    "tier": "live",
+    "interchange": false,
+    "desc": "Codice Privacy (196/2003) + Garante; procurement D.lgs 36/2023 (RUP); consenso informato & comitati etici.",
+    "how": "Reference module \u2014 cited to Normattiva / Gazzetta Ufficiale.",
+    "url": "https://www.normattiva.it",
+    "x": 2432.0,
+    "y": 2658.9,
+    "kind": "stop"
+  },
+  "uslaw": {
+    "name": "US research law",
+    "line": "legal",
+    "linename": "Legal & Paralegal",
+    "color": "#0E7C7B",
+    "live": true,
+    "tier": "live",
+    "interchange": false,
+    "desc": "HIPAA & BAAs; Common Rule (45 CFR 46) / IRB; IP (Bayh-Dole) & MTA/CDA/NDA.",
+    "how": "Reference module \u2014 cited to eCFR / U.S. Code; verify before relying.",
+    "url": "https://www.ecfr.gov/current/title-45",
+    "x": 2512.6,
+    "y": 2843.5,
+    "kind": "stop"
+  },
+  "paralegalrev": {
+    "name": "paralegal-review",
+    "line": "legal",
+    "linename": "Legal & Paralegal",
+    "color": "#0E7C7B",
+    "live": true,
+    "tier": "live",
+    "interchange": false,
+    "desc": "Clause-by-clause review + redline + checklist conformance (non-lawyer, cited).",
+    "how": "Skill: the tube-map paralegal journey.",
+    "url": "",
+    "x": 2190.2,
+    "y": 2105.1,
     "kind": "stop"
   }
 }

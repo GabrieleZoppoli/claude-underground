@@ -1,0 +1,37 @@
+{
+  "bibliography": {
+    "description": "Build a publication-ready, validated bibliography: find/confirm references, dedupe, DOI→BibTeX, format to a target style.",
+    "stops": ["pubmed", "consensus", "citation"],
+    "playbook": "journeys/bibliography.md"
+  },
+  "figures": {
+    "description": "Produce a publication-quality figure or schematic (pathways, mechanisms, data-driven infographics).",
+    "stops": ["schematics", "infographics", "biorender"],
+    "playbook": "journeys/figures.md"
+  },
+  "stats-plots": {
+    "description": "Run an appropriate statistical analysis in R/Python and plot it to publication standard, with reporting-standard checks.",
+    "stops": ["python", "statsmodels", "survival", "reporting"],
+    "playbook": "journeys/stats-plots.md"
+  },
+  "slides": {
+    "description": "Build a high-quality slide deck (house-style if available, else generic) with schematics.",
+    "stops": ["slides", "schematics"],
+    "playbook": "journeys/slides.md"
+  },
+  "peer-review": {
+    "description": "Peer-review a manuscript or grant: methodology, statistics, design, reproducibility, bias, reporting standards.",
+    "stops": ["peerreview", "critthink", "reporting"],
+    "playbook": "journeys/peer-review.md"
+  },
+  "scientific-writing": {
+    "description": "Write or revise scientific prose to publication standard (IMRAD, citations, venue rules) and strip AI-tells.",
+    "stops": ["sciwriting", "humanizer", "venue"],
+    "playbook": "journeys/scientific-writing.md"
+  },
+  "paralegal": {
+    "description": "Paralegal-style review of a research document (EU/IT/US): classify, clause-by-clause review against jurisdiction checklists, risk flags, tracked-changes redline, cited grounding. Non-lawyer; verify with counsel.",
+    "stops": ["paralegalrev", "gdpr", "itlaw", "uslaw", "office", "markitdown"],
+    "playbook": "journeys/paralegal.md"
+  }
+}

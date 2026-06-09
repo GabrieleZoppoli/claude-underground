@@ -1,0 +1,6 @@
+{
+  "name": "claude-tube-map",
+  "version": "0.1.0",
+  "description": "Discover, wire up, and ride the Claude Research Underground — install/connect the biomedical connectors, MCP servers and skills on the map, then take task journeys (bibliography, figures, stats, slides, peer-review, writing, paralegal).",
+  "author": {"name": "Gabriele Zoppoli", "url": "https://github.com/GabrieleZoppoli"}
+}

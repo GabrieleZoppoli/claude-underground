@@ -1,0 +1,12 @@
+{
+  "name": "claude-underground",
+  "description": "The Claude Research Underground — install/connect the biomedical connectors, MCP servers and skills on the metro map, then ride its task journeys.",
+  "owner": {"name": "Gabriele Zoppoli", "url": "https://github.com/GabrieleZoppoli"},
+  "plugins": [
+    {
+      "name": "claude-tube-map",
+      "source": "./plugin",
+      "description": "Install/connect the Claude Research Underground and ride its task journeys."
+    }
+  ]
+}

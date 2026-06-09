@@ -26,11 +26,11 @@ import math
 import json
 
 # ----------------------------------------------------------------------------- grid
-U  = 84                      # px per grid step
-OX = 1300                    # centre x (Claude hub)
-OY = 1090                    # centre y
-W  = 2600                    # canvas width
-H  = 2320                    # canvas height
+U  = 130                     # px per grid step (spread wide so the larger labels still get clear slots)
+OX = 2016                    # centre x (Claude hub)
+OY = 1706                    # centre y
+W  = 4032                    # canvas width
+H  = 3674                    # canvas height
 
 def px(gx, gy):
     return (OX + gx * U, OY + gy * U)
@@ -46,6 +46,7 @@ LINES = {
     "viz":   {"name": "Visualization & Figures",   "color": "#F1A800"},  # Circle yellow (darkened)
     "write": {"name": "Writing & Publishing",      "color": "#B26300"},  # Bakerloo brown
     "ops":   {"name": "Orchestration & Lab Ops",   "color": "#7A868C"},  # Jubilee grey
+    "legal": {"name": "Legal & Paralegal",         "color": "#0E7C7B"},  # deep teal
 }
 
 # Interchange lines = real aggregator MCP servers that span several domains.
@@ -197,6 +198,13 @@ STATIONS = {
   "tooluniverse": S("ToolUniverse","ops","registry","Harvard MIMS aggregator — 200+ biomedical tools in one MCP.","MCP: mims-harvard/ToolUniverse.","https://github.com/mims-harvard/ToolUniverse"),
   "nar":          S("NAR DB Collection","ops","verified","2,173 curated molecular-biology databases (2026 issue) — the cross-check.","Reference index: academic.oup.com/nar.","https://academic.oup.com/nar/article/54/D1/D1/8402365"),
   "biomcp":       S("BioMCP","ops","verified","One server federating literature, variants, trials & cancer genomics.","MCP: genomoncology/biomcp — the single best biomedical addition.","https://github.com/genomoncology/biomcp"),
+
+  # ====================================================== Legal ⚖️
+  "gdpr":        S("GDPR & data protection","legal","live","EU GDPR (2016/679): DPAs, transfers, Art. 89 research exemptions.","Reference module — cited to EUR-Lex; verify before relying.","https://eur-lex.europa.eu/eli/reg/2016/679/oj"),
+  "eugrants":    S("EU grants & consortia","legal","live","Horizon Europe Model Grant Agreement + Consortium Agreement (DESCA), IP/access rights.","Reference module — cited to EU Funding & Tenders / DESCA.","https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/common/agr-contr/general-mga_horizon-euratom_en.pdf"),
+  "itlaw":       S("Italian research law","legal","live","Codice Privacy (196/2003) + Garante; procurement D.lgs 36/2023 (RUP); consenso informato & comitati etici.","Reference module — cited to Normattiva / Gazzetta Ufficiale.","https://www.normattiva.it"),
+  "uslaw":       S("US research law","legal","live","HIPAA & BAAs; Common Rule (45 CFR 46) / IRB; IP (Bayh-Dole) & MTA/CDA/NDA.","Reference module — cited to eCFR / U.S. Code; verify before relying.","https://www.ecfr.gov/current/title-45"),
+  "paralegalrev":S("paralegal-review","legal","live","Clause-by-clause review + redline + checklist conformance (non-lawyer, cited).","Skill: the tube-map paralegal journey."),
 }
 
 # Hubs
@@ -208,6 +216,7 @@ TERMI = "codex"   # station id rendered as the sister terminus
 D = {
     "W": (-1.45, 0.0), "E": (1.45, 0.0), "N": (0.0, -1.45), "S": (0.0, 1.45),
     "NW": (-1.2, -1.2), "NE": (1.2, -1.2), "SE": (1.2, 1.2), "SW": (-1.2, 1.2),
+    "SSE": (0.62, 1.42),
 }
 GPOS = {}                       # station id -> (gx, gy)
 ROUTES = {k: [] for k in LINES} # line -> list of polyline segments
@@ -304,7 +313,7 @@ branch("viz", "imagegen", "S", ["gptimage"])
 # ----- Writing (South) ---------------------------------------------------------
 trunk("write", "S", ["sciwriting","citation","venue","grants"])
 branch("write", "sciwriting", "W", ["office","markitdown"])
-branch("write", "citation", "E", ["humanizer","slides"])
+branch("write", "citation", "W", ["humanizer","slides"])   # moved off the legal channel
 branch("write", "venue", "W", ["paper2web","posters"])
 branch("write", "grants", "E", ["zotero","overleaf"])
 
@@ -312,14 +321,17 @@ branch("write", "grants", "E", ["zotero","overleaf"])
 trunk("ops", "SW", ["drive","workflows","codex"], exit=2.0)
 branch("ops", "drive", "W", ["gmail","calendar","slack","schedule"])
 
+# ----- Legal (SSE — regulatory neighbour of Clinical) --------------------------
+trunk("legal", "SSE", ["paralegalrev","gdpr","eugrants","itlaw","uslaw"], exit=1.8)
+
 # ----- nodes that live only on interchange lines -------------------------------
 place("biomcp", -3.4, -1.5)             # Literature ↔ Genomic, mid-radius (clear of the hub)
 place("tooluniverse", -0.4, -2.4)       # north corridor, Compute ↔ Genomic
 # discovery / install backbone — placed ON the outer ring ellipse (lower-left arc)
-place("nar",            -8.5, 3.85)
-place("biocontextmeta", -6.2, 6.3)
-place("marketplace",    -3.6, 7.6)
-place("biocontextai",   -1.0, 8.15)
+place("nar",            -10.4, 2.6)     # on the left edge of the frame
+place("biocontextmeta",  -9.4, 6.7)     # lower-left corner curve
+place("marketplace",     -6.0, 8.8)     # along the bottom edge
+place("biocontextai",    -2.8, 8.8)
 
 # prune the catalogue down to what was actually drawn (super-confident tiers only)
 STATIONS = {sid: st for sid, st in STATIONS.items() if sid in GPOS}
@@ -333,6 +345,24 @@ def ellipse(rx, ry, n=72):
     for i in range(n+1):
         a = 2*math.pi*i/n
         pts.append((rx*math.cos(a), ry*math.sin(a)))
+    return pts
+
+def roundrect(hw, hh, r, seg=9):
+    """Closed rounded-rectangle perimeter (grid units), centred on the hub.
+    hw/hh = half-width/height; r = corner radius. Walks TR→BR→BL→TL clockwise,
+    the straight edges falling out of the gaps between consecutive corner arcs."""
+    arcs = [
+        ( hw-r, -(hh-r), -90,   0),   # top-right
+        ( hw-r,  hh-r,     0,  90),   # bottom-right
+        (-(hw-r), hh-r,   90, 180),   # bottom-left
+        (-(hw-r),-(hh-r),180, 270),   # top-left
+    ]
+    pts = []
+    for cx, cy, a0, a1 in arcs:
+        for i in range(seg+1):
+            a = math.radians(a0 + (a1-a0)*i/seg)
+            pts.append((cx + r*math.cos(a), cy + r*math.sin(a)))
+    pts.append(pts[0])
     return pts
 
 XROUTES = {
@@ -350,7 +380,7 @@ XROUTES = {
     ],
     # Discovery ring: the Circle line — Life-Sciences marketplace + BioContextAI
     # install/discovery backbone, an outer ellipse threading its four stations.
-    "discovery": [ellipse(9.6, 8.2)],
+    "discovery": [roundrect(10.4, 8.8, 1.8)],
 }
 
 # Interchange stations (where a connecting line meets a spoke) get a Beck marker.
@@ -394,6 +424,8 @@ LABEL_OVERRIDE = {
     # --- viz (SE trunk; biorender→ row, schematics↓ column)
     "biorender":"NE","schematics":"NE","infographics":"NE","imagegen":"NE",
     "mermaid":"N","figma":"N","napari":"E","pymol":"E","gptimage":"E",
+    # --- legal (SSE trunk between Writing and Visualization)
+    "paralegalrev":"E","gdpr":"W","eugrants":"E","itlaw":"W","uslaw":"E",
     # --- write (S trunk; alternating W/E rows, trunk labels opposite their branch)
     "sciwriting":"E","citation":"W","venue":"E","grants":"W",
     "office":"S","markitdown":"S","humanizer":"S","slides":"S","paper2web":"S","posters":"S",
@@ -413,6 +445,53 @@ def label_dir(sid):
 
 # ----------------------------------------------------------------------------- helpers
 COORD = {sid: px(gx, gy) for sid, (gx, gy) in GPOS.items()}
+
+# --- automatic label placement: nudge each label to the clearest nearby slot --------
+# Each label tries its preferred (hand-tuned) direction first, then alternatives, and
+# takes the slot with the least overlap against the drawn lines + already-placed labels.
+_LBASE = {'N':(0,-14,'middle'),'S':(0,19,'middle'),'E':(13,4,'start'),'W':(-13,4,'end'),
+          'NE':(11,-9,'start'),'NW':(-11,-9,'end'),'SE':(11,16,'start'),'SW':(-11,16,'end')}
+def _lbox(x, y, dx, dy, anchor, tw, fh=19):
+    ax, ay = x + dx, y + dy
+    x0 = ax - 3 if anchor == 'start' else (ax - tw + 3 if anchor == 'end' else ax - tw / 2)
+    return (x0, ay - fh, x0 + tw, ay + 3)
+def _ovl(a, b):
+    return not (a[2] <= b[0] or b[2] <= a[0] or a[3] <= b[1] or b[3] <= a[1])
+
+# sample every drawn line into a px point-cloud (for label↔line collision scoring)
+_LINEPTS = []
+for _segs in list(ROUTES.values()) + list(XROUTES.values()):
+    for _seg in _segs:
+        _p = [px(g[0], g[1]) for g in _seg]
+        for _i in range(len(_p) - 1):
+            (x1, y1), (x2, y2) = _p[_i], _p[_i + 1]
+            _n = max(1, int(math.hypot(x2 - x1, y2 - y1) / 14))
+            for _t in range(_n + 1):
+                _LINEPTS.append((x1 + (x2 - x1) * _t / _n, y1 + (y2 - y1) * _t / _n))
+
+LABEL_POS = {}
+_placed = []                       # boxes of labels already placed
+_order = sorted((s for s in COORD if s != TERMI),
+                key=lambda s: (STATIONS[s]["tier"] != "live", -len(STATIONS[s]["name"])))
+for _sid in _order:
+    _x, _y = COORD[_sid]
+    _tw = len(STATIONS[_sid]["name"]) * 10.0 + 6
+    _near = [p for p in _LINEPTS if abs(p[0] - _x) < 175 and abs(p[1] - _y) < 150]
+    _pref = label_dir(_sid)
+    _dirs = [_pref] + [d for d in ('E', 'W', 'S', 'N', 'SE', 'NE', 'SW', 'NW') if d != _pref]
+    _best, _bs = None, 1e18
+    for _ci, _d in enumerate(_dirs):
+        _bx, _by, _an = _LBASE[_d]
+        for _ki, _k in enumerate((1.0, 1.7, 2.5)):
+            _dx, _dy = _bx * _k, _by * _k
+            _b = _lbox(_x, _y, _dx, _dy, _an, _tw)
+            _ln = sum(1 for p in _near if _b[0] <= p[0] <= _b[2] and _b[1] <= p[1] <= _b[3])
+            _lo = sum(1 for pb in _placed if _ovl(_b, pb))
+            _sc = _ln * 1.0 + _lo * 55 + _ci * 2.4 + _ki * 5
+            if _sc < _bs:
+                _bs, _best = _sc, (_dx, _dy, _an, _b)
+    LABEL_POS[_sid] = (_best[0], _best[1], _best[2])
+    _placed.append(_best[3])
 
 def esc(s):
     return (s.replace("&","&amp;").replace("<","&lt;").replace(">","&gt;")
@@ -464,10 +543,11 @@ def render(focus=None):
     out.append(f'<rect x="0" y="0" width="{W}" height="{H}" fill="#fbfaf6"/>')
 
     # --- cfDNA river (the Thames easter-egg)
-    river = (f"M -20 {OY+830:.0f} C {OX-720} {OY+790:.0f}, {OX-520} {OY+900:.0f}, {OX-220} {OY+876:.0f} "
-             f"S {OX+360} {OY+800:.0f}, {OX+700} {OY+868:.0f} S {OX+1120} {OY+912:.0f}, {W+20} {OY+856:.0f}")
-    out.append(f'<path d="{river}" fill="none" stroke="#cfe3ef" stroke-width="34" stroke-linecap="round"/>')
-    out.append(f'<text x="150" y="{OY+822:.0f}" font-size="17" font-style="italic" fill="#5f86a0">the cfDNA river</text>')
+    RY = H - 360
+    river = (f"M -20 {RY:.0f} C {W*0.22:.0f} {RY-40:.0f}, {W*0.30:.0f} {RY+70:.0f}, {W*0.40:.0f} {RY+46:.0f} "
+             f"S {W*0.62:.0f} {RY-30:.0f}, {W*0.73:.0f} {RY+38:.0f} S {W*0.88:.0f} {RY+82:.0f}, {W+20} {RY+26:.0f}")
+    out.append(f'<path d="{river}" fill="none" stroke="#cfe3ef" stroke-width="40" stroke-linecap="round"/>')
+    out.append(f'<text x="195" y="{RY-10:.0f}" font-size="17" font-style="italic" fill="#5f86a0">the cfDNA river</text>')
 
     # --- radial lines
     LW = 10
@@ -539,7 +619,7 @@ def render(focus=None):
         if focus is not None and not stn_on(sid):
             continue
         st = STATIONS[sid]; x, y = COORD[sid]
-        dx, dy, anchor = label_off(label_dir(sid))
+        dx, dy, anchor = LABEL_POS.get(sid, label_off(label_dir(sid)))
         if st["tier"] == "live":
             color, weight, style = "#1c1c1c", "600", "normal"
         elif st["tier"] == "verified":
@@ -548,9 +628,9 @@ def render(focus=None):
             color, weight, style = "#6b6b6b", "400", "normal"
         else:
             color, weight, style = "#9a9183", "400", "italic"
-        out.append(f'<text x="{x+dx:.1f}" y="{y+dy:.1f}" font-size="12" text-anchor="{anchor}" '
+        out.append(f'<text x="{x+dx:.1f}" y="{y+dy:.1f}" font-size="18" text-anchor="{anchor}" '
                    f'fill="{color}" font-weight="{weight}" font-style="{style}" '
-                   f'paint-order="stroke" stroke="#fbfaf6" stroke-width="3" stroke-linejoin="round">{esc(st["name"])}</text>')
+                   f'paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">{esc(st["name"])}</text>')
 
     # --- Codex sister terminus
     cx, cy = COORD[TERMI]
@@ -588,7 +668,7 @@ def render(focus=None):
     # --- legend (bottom band)
     lx = 56; ly = H - 232
     out.append(f'<text x="{lx}" y="{ly}" font-size="16" font-weight="700" fill="#1c1c1c">LINES</text>')
-    order = ["lit","gen","comp","stat","clin","viz","write","ops"]
+    order = ["lit","gen","comp","stat","clin","viz","write","ops","legal"]
     col_x = [lx, lx+330, lx+660, lx+990]
     for i, lid in enumerate(order):
         cxp = col_x[i % 4]; cyp = ly + 26 + (i // 4) * 26
@@ -804,7 +884,7 @@ XSTOPS = {
 def build_html(svg_str, data):
     lines = {lid: {"name": LINES[lid]["name"], "color": LINES[lid]["color"]} for lid in LINES}
     xlines = {xid: {"name": XLINES[xid]["name"], "color": XLINES[xid]["color"]} for xid in XLINES}
-    order = ["lit","gen","comp","stat","clin","viz","write","ops"]
+    order = ["lit","gen","comp","stat","clin","viz","write","ops","legal"]
     return (CONSOLE_TEMPLATE
             .replace("__SVG__", svg_str)
             .replace("__DATA__", json.dumps(data))

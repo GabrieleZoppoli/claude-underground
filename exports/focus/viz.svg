@@ -1,253 +1,266 @@
-<svg id="map" xmlns="http://www.w3.org/2000/svg" viewBox="993 870 1136 1014" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
-<rect x="0" y="0" width="2600" height="2320" fill="#fbfaf6"/>
-<path d="M -20 1920 C 580 1880, 780 1990, 1080 1966 S 1660 1890, 2000 1958 S 2420 2002, 2620 1946" fill="none" stroke="#cfe3ef" stroke-width="34" stroke-linecap="round"/>
-<text x="150" y="1912" font-size="17" font-style="italic" fill="#5f86a0">the cfDNA river</text>
-<polyline points="1300.0,1090.0 1115.2,1090.0 993.4,1090.0 871.6,1090.0 749.8,1090.0 628.0,1090.0 506.2,1090.0 384.4,1090.0" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
-<polyline points="993.4,1090.0 993.4,1211.8 993.4,1333.6 993.4,1455.4" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
-<polyline points="871.6,1090.0 871.6,968.2" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
-<polyline points="1300.0,1090.0 1181.2,971.2 1080.4,870.4 979.6,769.6 878.8,668.8 778.0,568.0 677.2,467.2" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
-<polyline points="1080.4,870.4 958.6,870.4" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
-<polyline points="979.6,769.6 857.8,769.6 736.0,769.6 614.2,769.6" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
-<polyline points="736.0,769.6 736.0,647.8 736.0,526.0" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
-<polyline points="878.8,668.8 878.8,547.0" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
-<polyline points="1300.0,1090.0 1300.0,905.2 1300.0,783.4 1300.0,661.6 1300.0,539.8 1300.0,418.0" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
-<polyline points="1300.0,783.4 1421.8,783.4 1543.6,783.4" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
-<polyline points="1300.0,783.4 1178.2,783.4 1056.4,783.4 934.6,783.4" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
-<polyline points="1300.0,661.6 1421.8,661.6 1543.6,661.6 1665.4,661.6" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
-<polyline points="1300.0,1090.0 1418.8,971.2 1519.6,870.4 1620.4,769.6 1721.2,668.8 1822.0,568.0" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
-<polyline points="1519.6,870.4 1519.6,748.6 1519.6,626.8" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
-<polyline points="1620.4,769.6 1742.2,769.6" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
-<polyline points="1822.0,568.0 1943.8,568.0" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
-<polyline points="1300.0,1090.0 1484.8,1090.0 1606.6,1090.0 1728.4,1090.0 1850.2,1090.0 1972.0,1090.0" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
-<polyline points="1972.0,1090.0 1972.0,1211.8 1972.0,1333.6 1972.0,1455.4" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
-<polyline points="1300.0,1090.0 1418.8,1208.8 1519.6,1309.6 1620.4,1410.4 1721.2,1511.2 1822.0,1612.0" fill="none" stroke="#F1A800" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
-<polyline points="1519.6,1309.6 1641.4,1309.6 1763.2,1309.6" fill="none" stroke="#F1A800" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
-<polyline points="1822.0,1612.0 1822.0,1733.8" fill="none" stroke="#F1A800" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
-<polyline points="1300.0,1090.0 1300.0,1274.8 1300.0,1396.6 1300.0,1518.4 1300.0,1640.2 1300.0,1762.0" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
-<polyline points="1300.0,1396.6 1178.2,1396.6 1056.4,1396.6" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
-<polyline points="1300.0,1518.4 1421.8,1518.4 1543.6,1518.4" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
-<polyline points="1300.0,1640.2 1178.2,1640.2 1056.4,1640.2" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
-<polyline points="1300.0,1090.0 1181.2,1208.8 1080.4,1309.6 979.6,1410.4 878.8,1511.2" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
-<polyline points="1080.4,1309.6 958.6,1309.6 836.8,1309.6 715.0,1309.6 593.2,1309.6" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
-<polyline points="614.2,769.6 736.0,769.6 857.8,769.6 1014.4,964.0 993.4,1090.0" fill="none" stroke="#dcd9d0" stroke-width="8.0" stroke-linecap="round" stroke-linejoin="round" opacity="0.16"/>
-<polyline points="614.2,769.6 736.0,769.6 857.8,769.6 1014.4,964.0 993.4,1090.0" fill="none" stroke="#fbfaf6" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round" opacity="0.16"/>
-<polyline points="1014.4,964.0 1148.8,863.2 1434.4,863.2 1742.2,769.6" fill="none" stroke="#dcd9d0" stroke-width="8.0" stroke-linecap="round" stroke-linejoin="round" opacity="0.16"/>
-<polyline points="1014.4,964.0 1148.8,863.2 1434.4,863.2 1742.2,769.6" fill="none" stroke="#fbfaf6" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round" opacity="0.16"/>
-<polyline points="736.0,526.0 736.0,647.8 947.2,804.4 1216.0,754.0 1501.6,754.0 1720.0,871.6 1720.0,1056.4 1728.4,1090.0" fill="none" stroke="#dcd9d0" stroke-width="8.0" stroke-linecap="round" stroke-linejoin="round" opacity="0.16"/>
-<polyline points="736.0,526.0 736.0,647.8 947.2,804.4 1216.0,754.0 1501.6,754.0 1720.0,871.6 1720.0,1056.4 1728.4,1090.0" fill="none" stroke="#fbfaf6" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round" opacity="0.16"/>
-<polyline points="2106.4,1090.0 2103.3,1150.0 2094.1,1209.6 2078.9,1268.3 2057.8,1325.6 2030.8,1381.1 1998.4,1434.4 1960.6,1485.1 1917.7,1532.8 1870.2,1577.1 1818.3,1617.7 1762.5,1654.2 1703.2,1686.5 1640.8,1714.3 1575.8,1737.3 1508.7,1755.3 1440.0,1768.3 1370.3,1776.2 1300.0,1778.8 1229.7,1776.2 1160.0,1768.3 1091.3,1755.3 1024.2,1737.3 959.2,1714.3 896.8,1686.5 837.5,1654.2 781.7,1617.7 729.8,1577.1 682.3,1532.8 639.4,1485.1 601.6,1434.4 569.2,1381.1 542.2,1325.6 521.1,1268.3 505.9,1209.6 496.7,1150.0 493.6,1090.0 496.7,1030.0 505.9,970.4 521.1,911.7 542.2,854.4 569.2,798.9 601.6,745.6 639.4,694.9 682.3,647.2 729.8,602.9 781.7,562.3 837.5,525.8 896.8,493.5 959.2,465.7 1024.2,442.7 1091.3,424.7 1160.0,411.7 1229.7,403.8 1300.0,401.2 1370.3,403.8 1440.0,411.7 1508.7,424.7 1575.8,442.7 1640.8,465.7 1703.2,493.5 1762.5,525.8 1818.3,562.3 1870.2,602.9 1917.7,647.2 1960.6,694.9 1998.4,745.6 2030.8,798.9 2057.8,854.4 2078.9,911.7 2094.1,970.4 2103.3,1030.0 2106.4,1090.0" fill="none" stroke="#dcd9d0" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.16" stroke-dasharray="13 10"/>
-<polyline points="2106.4,1090.0 2103.3,1150.0 2094.1,1209.6 2078.9,1268.3 2057.8,1325.6 2030.8,1381.1 1998.4,1434.4 1960.6,1485.1 1917.7,1532.8 1870.2,1577.1 1818.3,1617.7 1762.5,1654.2 1703.2,1686.5 1640.8,1714.3 1575.8,1737.3 1508.7,1755.3 1440.0,1768.3 1370.3,1776.2 1300.0,1778.8 1229.7,1776.2 1160.0,1768.3 1091.3,1755.3 1024.2,1737.3 959.2,1714.3 896.8,1686.5 837.5,1654.2 781.7,1617.7 729.8,1577.1 682.3,1532.8 639.4,1485.1 601.6,1434.4 569.2,1381.1 542.2,1325.6 521.1,1268.3 505.9,1209.6 496.7,1150.0 493.6,1090.0 496.7,1030.0 505.9,970.4 521.1,911.7 542.2,854.4 569.2,798.9 601.6,745.6 639.4,694.9 682.3,647.2 729.8,602.9 781.7,562.3 837.5,525.8 896.8,493.5 959.2,465.7 1024.2,442.7 1091.3,424.7 1160.0,411.7 1229.7,403.8 1300.0,401.2 1370.3,403.8 1440.0,411.7 1508.7,424.7 1575.8,442.7 1640.8,465.7 1703.2,493.5 1762.5,525.8 1818.3,562.3 1870.2,602.9 1917.7,647.2 1960.6,694.9 1998.4,745.6 2030.8,798.9 2057.8,854.4 2078.9,911.7 2094.1,970.4 2103.3,1030.0 2106.4,1090.0" fill="none" stroke="#fbfaf6" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" opacity="0.16" stroke-dasharray="13 10"/>
-<circle class="stn" data-sid="pubmed" cx="993.4" cy="1090.0" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="pubmed" cx="993.4" cy="1090.0" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="consensus" cx="871.6" cy="1090.0" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="consensus" cx="871.6" cy="1090.0" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="europepmc" cx="749.8" cy="1090.0" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="europepmc" cx="749.8" cy="1090.0" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="biorxiv" cx="628.0" cy="1090.0" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="biorxiv" cx="628.0" cy="1090.0" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="medrxiv" cx="506.2" cy="1090.0" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="medrxiv" cx="506.2" cy="1090.0" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="semscholar" cx="384.4" cy="1090.0" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="semscholar" cx="384.4" cy="1090.0" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="deepresearch" cx="993.4" cy="1211.8" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="deepresearch" cx="993.4" cy="1211.8" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="litreview" cx="993.4" cy="1333.6" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="litreview" cx="993.4" cy="1333.6" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="researchlookup" cx="993.4" cy="1455.4" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="researchlookup" cx="993.4" cy="1455.4" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="wiley" cx="871.6" cy="968.2" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="wiley" cx="871.6" cy="968.2" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="synapse" cx="1080.4" cy="870.4" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="synapse" cx="1080.4" cy="870.4" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="geosra" cx="979.6" cy="769.6" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="geosra" cx="979.6" cy="769.6" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="ensembldb" cx="878.8" cy="668.8" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="ensembldb" cx="878.8" cy="668.8" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="ucsc" cx="778.0" cy="568.0" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="ucsc" cx="778.0" cy="568.0" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="gdc" cx="677.2" cy="467.2" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="gdc" cx="677.2" cy="467.2" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="ena" cx="958.6" cy="870.4" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="ena" cx="958.6" cy="870.4" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="clinvar" cx="857.8" cy="769.6" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="clinvar" cx="857.8" cy="769.6" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="cbioportal" cx="736.0" cy="769.6" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="cbioportal" cx="736.0" cy="769.6" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="depmap" cx="614.2" cy="769.6" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="depmap" cx="614.2" cy="769.6" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="cbioportalmcp" cx="736.0" cy="647.8" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="cbioportalmcp" cx="736.0" cy="647.8" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="opentargets" cx="736.0" cy="526.0" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="opentargets" cx="736.0" cy="526.0" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="cellxgene" cx="878.8" cy="547.0" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="cellxgene" cx="878.8" cy="547.0" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="python" cx="1300.0" cy="783.4" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="python" cx="1300.0" cy="783.4" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="bioconductor" cx="1300.0" cy="661.6" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="bioconductor" cx="1300.0" cy="661.6" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="nextflow" cx="1300.0" cy="539.8" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="nextflow" cx="1300.0" cy="539.8" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="snakemake" cx="1300.0" cy="418.0" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="snakemake" cx="1300.0" cy="418.0" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="scmcp" cx="1421.8" cy="783.4" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="scmcp" cx="1421.8" cy="783.4" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="chatspatial" cx="1543.6" cy="783.4" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="chatspatial" cx="1543.6" cy="783.4" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="jupyter" cx="1178.2" cy="783.4" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="jupyter" cx="1178.2" cy="783.4" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="galaxy" cx="1056.4" cy="783.4" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="galaxy" cx="1056.4" cy="783.4" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="cfdna" cx="934.6" cy="783.4" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="cfdna" cx="934.6" cy="783.4" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="scqc" cx="1421.8" cy="661.6" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="scqc" cx="1421.8" cy="661.6" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="nfcoreskill" cx="1543.6" cy="661.6" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="nfcoreskill" cx="1543.6" cy="661.6" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="scvitools" cx="1665.4" cy="661.6" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="scvitools" cx="1665.4" cy="661.6" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="statsmodels" cx="1519.6" cy="870.4" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="statsmodels" cx="1519.6" cy="870.4" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="survival" cx="1620.4" cy="769.6" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="survival" cx="1620.4" cy="769.6" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="reporting" cx="1721.2" cy="668.8" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="reporting" cx="1721.2" cy="668.8" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="peerreview" cx="1822.0" cy="568.0" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="peerreview" cx="1822.0" cy="568.0" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="power" cx="1519.6" cy="748.6" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="power" cx="1519.6" cy="748.6" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="bayes" cx="1519.6" cy="626.8" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="bayes" cx="1519.6" cy="626.8" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="ctgmcp" cx="1742.2" cy="769.6" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="ctgmcp" cx="1742.2" cy="769.6" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="critthink" cx="1943.8" cy="568.0" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="critthink" cx="1943.8" cy="568.0" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="clinreports" cx="1606.6" cy="1090.0" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="clinreports" cx="1606.6" cy="1090.0" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="decision" cx="1728.4" cy="1090.0" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="decision" cx="1728.4" cy="1090.0" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="treatment" cx="1850.2" cy="1090.0" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="treatment" cx="1850.2" cy="1090.0" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="cltrials" cx="1972.0" cy="1090.0" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="cltrials" cx="1972.0" cy="1090.0" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="euctr" cx="1972.0" cy="1211.8" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="euctr" cx="1972.0" cy="1211.8" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="fdaema" cx="1972.0" cy="1333.6" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="fdaema" cx="1972.0" cy="1333.6" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="whoictrp" cx="1972.0" cy="1455.4" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="whoictrp" cx="1972.0" cy="1455.4" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="biorender" cx="1519.6" cy="1309.6" r="6.4" fill="#F1A800" stroke="#ffffff" stroke-width="2.0"/>
-<circle class="hit" data-sid="biorender" cx="1519.6" cy="1309.6" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="schematics" cx="1620.4" cy="1410.4" r="6.4" fill="#F1A800" stroke="#ffffff" stroke-width="2.0"/>
-<circle class="hit" data-sid="schematics" cx="1620.4" cy="1410.4" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="infographics" cx="1721.2" cy="1511.2" r="6.4" fill="#F1A800" stroke="#ffffff" stroke-width="2.0"/>
-<circle class="hit" data-sid="infographics" cx="1721.2" cy="1511.2" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="imagegen" cx="1822.0" cy="1612.0" r="6.4" fill="#F1A800" stroke="#ffffff" stroke-width="2.0"/>
-<circle class="hit" data-sid="imagegen" cx="1822.0" cy="1612.0" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="mermaid" cx="1641.4" cy="1309.6" r="6.4" fill="#F1A800" stroke="#ffffff" stroke-width="2.0"/>
-<circle class="hit" data-sid="mermaid" cx="1641.4" cy="1309.6" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="figma" cx="1763.2" cy="1309.6" r="6.4" fill="#F1A800" stroke="#ffffff" stroke-width="2.0"/>
-<circle class="hit" data-sid="figma" cx="1763.2" cy="1309.6" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="gptimage" cx="1822.0" cy="1733.8" r="6.2" fill="#ffffff" stroke="#F1A800" stroke-width="3.2"/>
-<circle class="hit" data-sid="gptimage" cx="1822.0" cy="1733.8" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="sciwriting" cx="1300.0" cy="1396.6" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="sciwriting" cx="1300.0" cy="1396.6" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="citation" cx="1300.0" cy="1518.4" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="citation" cx="1300.0" cy="1518.4" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="venue" cx="1300.0" cy="1640.2" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="venue" cx="1300.0" cy="1640.2" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="grants" cx="1300.0" cy="1762.0" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="grants" cx="1300.0" cy="1762.0" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="office" cx="1178.2" cy="1396.6" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="office" cx="1178.2" cy="1396.6" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="markitdown" cx="1056.4" cy="1396.6" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="markitdown" cx="1056.4" cy="1396.6" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="humanizer" cx="1421.8" cy="1518.4" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="humanizer" cx="1421.8" cy="1518.4" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="slides" cx="1543.6" cy="1518.4" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="slides" cx="1543.6" cy="1518.4" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="paper2web" cx="1178.2" cy="1640.2" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="paper2web" cx="1178.2" cy="1640.2" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="posters" cx="1056.4" cy="1640.2" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="posters" cx="1056.4" cy="1640.2" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="drive" cx="1080.4" cy="1309.6" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="drive" cx="1080.4" cy="1309.6" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="workflows" cx="979.6" cy="1410.4" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="workflows" cx="979.6" cy="1410.4" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="gmail" cx="958.6" cy="1309.6" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="gmail" cx="958.6" cy="1309.6" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="calendar" cx="836.8" cy="1309.6" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="calendar" cx="836.8" cy="1309.6" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="slack" cx="715.0" cy="1309.6" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="slack" cx="715.0" cy="1309.6" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="schedule" cx="593.2" cy="1309.6" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="schedule" cx="593.2" cy="1309.6" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="biomcp" cx="1014.4" cy="964.0" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="biomcp" cx="1014.4" cy="964.0" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="nar" cx="586.0" cy="1413.4" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="nar" cx="586.0" cy="1413.4" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="biocontextmeta" cx="779.2" cy="1619.2" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="biocontextmeta" cx="779.2" cy="1619.2" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="marketplace" cx="997.6" cy="1728.4" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="marketplace" cx="997.6" cy="1728.4" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="biocontextai" cx="1216.0" cy="1774.6" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
-<circle class="hit" data-sid="biocontextai" cx="1216.0" cy="1774.6" r="15" fill="#000" opacity="0"/>
-<text x="1530.6" y="1300.6" font-size="12" text-anchor="start" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="3" stroke-linejoin="round">BioRender</text>
-<text x="1631.4" y="1401.4" font-size="12" text-anchor="start" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="3" stroke-linejoin="round">scientific-schematics</text>
-<text x="1732.2" y="1502.2" font-size="12" text-anchor="start" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="3" stroke-linejoin="round">infographics</text>
-<text x="1833.0" y="1603.0" font-size="12" text-anchor="start" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="3" stroke-linejoin="round">image-gen · Nano/FLUX</text>
-<text x="1641.4" y="1295.6" font-size="12" text-anchor="middle" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="3" stroke-linejoin="round">Mermaid</text>
-<text x="1763.2" y="1295.6" font-size="12" text-anchor="middle" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="3" stroke-linejoin="round">Figma</text>
-<text x="1835.0" y="1737.8" font-size="12" text-anchor="start" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="3" stroke-linejoin="round">gpt-image-2 (hero)</text>
+<svg id="map" xmlns="http://www.w3.org/2000/svg" viewBox="1670 1486 1499 1366" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="4032" height="3674" fill="#fbfaf6"/>
+<path d="M -20 3314 C 887 3274, 1210 3384, 1613 3360 S 2500 3284, 2943 3352 S 3548 3396, 4052 3340" fill="none" stroke="#cfe3ef" stroke-width="40" stroke-linecap="round"/>
+<text x="195" y="3304" font-size="17" font-style="italic" fill="#5f86a0">the cfDNA river</text>
+<polyline points="2016.0,1706.0 1730.0,1706.0 1541.5,1706.0 1353.0,1706.0 1164.5,1706.0 976.0,1706.0 787.5,1706.0 599.0,1706.0" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
+<polyline points="1541.5,1706.0 1541.5,1894.5 1541.5,2083.0 1541.5,2271.5" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
+<polyline points="1353.0,1706.0 1353.0,1517.5" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
+<polyline points="2016.0,1706.0 1832.2,1522.2 1676.2,1366.2 1520.2,1210.2 1364.2,1054.2 1208.2,898.2 1052.2,742.2" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
+<polyline points="1676.2,1366.2 1487.7,1366.2" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
+<polyline points="1520.2,1210.2 1331.7,1210.2 1143.2,1210.2 954.7,1210.2" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
+<polyline points="1143.2,1210.2 1143.2,1021.7 1143.2,833.2" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
+<polyline points="1364.2,1054.2 1364.2,865.7" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
+<polyline points="2016.0,1706.0 2016.0,1420.0 2016.0,1231.5 2016.0,1043.0 2016.0,854.5 2016.0,666.0" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
+<polyline points="2016.0,1231.5 2204.5,1231.5 2393.0,1231.5" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
+<polyline points="2016.0,1231.5 1827.5,1231.5 1639.0,1231.5 1450.5,1231.5" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
+<polyline points="2016.0,1043.0 2204.5,1043.0 2393.0,1043.0 2581.5,1043.0" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
+<polyline points="2016.0,1706.0 2199.8,1522.2 2355.8,1366.2 2511.8,1210.2 2667.8,1054.2 2823.8,898.2" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
+<polyline points="2355.8,1366.2 2355.8,1177.7 2355.8,989.2" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
+<polyline points="2511.8,1210.2 2700.3,1210.2" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
+<polyline points="2823.8,898.2 3012.3,898.2" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
+<polyline points="2016.0,1706.0 2302.0,1706.0 2490.5,1706.0 2679.0,1706.0 2867.5,1706.0 3056.0,1706.0" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
+<polyline points="3056.0,1706.0 3056.0,1894.5 3056.0,2083.0 3056.0,2271.5" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
+<polyline points="2016.0,1706.0 2199.8,1889.8 2355.8,2045.8 2511.8,2201.8 2667.8,2357.8 2823.8,2513.8" fill="none" stroke="#F1A800" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<polyline points="2355.8,2045.8 2544.3,2045.8 2732.8,2045.8" fill="none" stroke="#F1A800" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<polyline points="2823.8,2513.8 2823.8,2702.3" fill="none" stroke="#F1A800" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<polyline points="2016.0,1706.0 2016.0,1992.0 2016.0,2180.5 2016.0,2369.0 2016.0,2557.5 2016.0,2746.0" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
+<polyline points="2016.0,2180.5 1827.5,2180.5 1639.0,2180.5" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
+<polyline points="2016.0,2369.0 1827.5,2369.0 1639.0,2369.0" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
+<polyline points="2016.0,2557.5 1827.5,2557.5 1639.0,2557.5" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
+<polyline points="2016.0,1706.0 1832.2,1889.8 1676.2,2045.8 1520.2,2201.8 1364.2,2357.8" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
+<polyline points="1676.2,2045.8 1487.7,2045.8 1299.2,2045.8 1110.7,2045.8 922.2,2045.8" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
+<polyline points="2016.0,1706.0 2109.6,1920.5 2190.2,2105.1 2270.8,2289.7 2351.4,2474.3 2432.0,2658.9 2512.6,2843.5" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
+<polyline points="954.7,1210.2 1143.2,1210.2 1331.7,1210.2 1574.0,1511.0 1541.5,1706.0" fill="none" stroke="#dcd9d0" stroke-width="8.0" stroke-linecap="round" stroke-linejoin="round" opacity="0.16"/>
+<polyline points="954.7,1210.2 1143.2,1210.2 1331.7,1210.2 1574.0,1511.0 1541.5,1706.0" fill="none" stroke="#fbfaf6" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round" opacity="0.16"/>
+<polyline points="1574.0,1511.0 1782.0,1355.0 2224.0,1355.0 2700.3,1210.2" fill="none" stroke="#dcd9d0" stroke-width="8.0" stroke-linecap="round" stroke-linejoin="round" opacity="0.16"/>
+<polyline points="1574.0,1511.0 1782.0,1355.0 2224.0,1355.0 2700.3,1210.2" fill="none" stroke="#fbfaf6" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round" opacity="0.16"/>
+<polyline points="1143.2,833.2 1143.2,1021.7 1470.0,1264.0 1886.0,1186.0 2328.0,1186.0 2666.0,1368.0 2666.0,1654.0 2679.0,1706.0" fill="none" stroke="#dcd9d0" stroke-width="8.0" stroke-linecap="round" stroke-linejoin="round" opacity="0.16"/>
+<polyline points="1143.2,833.2 1143.2,1021.7 1470.0,1264.0 1886.0,1186.0 2328.0,1186.0 2666.0,1368.0 2666.0,1654.0 2679.0,1706.0" fill="none" stroke="#fbfaf6" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round" opacity="0.16"/>
+<polyline points="3134.0,562.0 3174.6,565.6 3214.0,576.1 3251.0,593.4 3284.4,616.7 3313.3,645.6 3336.6,679.0 3353.9,716.0 3364.4,755.4 3368.0,796.0 3368.0,2616.0 3364.4,2656.6 3353.9,2696.0 3336.6,2733.0 3313.3,2766.4 3284.4,2795.3 3251.0,2818.6 3214.0,2835.9 3174.6,2846.4 3134.0,2850.0 898.0,2850.0 857.4,2846.4 818.0,2835.9 781.0,2818.6 747.6,2795.3 718.7,2766.4 695.4,2733.0 678.1,2696.0 667.6,2656.6 664.0,2616.0 664.0,796.0 667.6,755.4 678.1,716.0 695.4,679.0 718.7,645.6 747.6,616.7 781.0,593.4 818.0,576.1 857.4,565.6 898.0,562.0 3134.0,562.0" fill="none" stroke="#dcd9d0" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.16" stroke-dasharray="13 10"/>
+<polyline points="3134.0,562.0 3174.6,565.6 3214.0,576.1 3251.0,593.4 3284.4,616.7 3313.3,645.6 3336.6,679.0 3353.9,716.0 3364.4,755.4 3368.0,796.0 3368.0,2616.0 3364.4,2656.6 3353.9,2696.0 3336.6,2733.0 3313.3,2766.4 3284.4,2795.3 3251.0,2818.6 3214.0,2835.9 3174.6,2846.4 3134.0,2850.0 898.0,2850.0 857.4,2846.4 818.0,2835.9 781.0,2818.6 747.6,2795.3 718.7,2766.4 695.4,2733.0 678.1,2696.0 667.6,2656.6 664.0,2616.0 664.0,796.0 667.6,755.4 678.1,716.0 695.4,679.0 718.7,645.6 747.6,616.7 781.0,593.4 818.0,576.1 857.4,565.6 898.0,562.0 3134.0,562.0" fill="none" stroke="#fbfaf6" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" opacity="0.16" stroke-dasharray="13 10"/>
+<circle class="stn" data-sid="pubmed" cx="1541.5" cy="1706.0" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="pubmed" cx="1541.5" cy="1706.0" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="consensus" cx="1353.0" cy="1706.0" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="consensus" cx="1353.0" cy="1706.0" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="europepmc" cx="1164.5" cy="1706.0" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="europepmc" cx="1164.5" cy="1706.0" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="biorxiv" cx="976.0" cy="1706.0" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="biorxiv" cx="976.0" cy="1706.0" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="medrxiv" cx="787.5" cy="1706.0" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="medrxiv" cx="787.5" cy="1706.0" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="semscholar" cx="599.0" cy="1706.0" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="semscholar" cx="599.0" cy="1706.0" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="deepresearch" cx="1541.5" cy="1894.5" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="deepresearch" cx="1541.5" cy="1894.5" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="litreview" cx="1541.5" cy="2083.0" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="litreview" cx="1541.5" cy="2083.0" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="researchlookup" cx="1541.5" cy="2271.5" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="researchlookup" cx="1541.5" cy="2271.5" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="wiley" cx="1353.0" cy="1517.5" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="wiley" cx="1353.0" cy="1517.5" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="synapse" cx="1676.2" cy="1366.2" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="synapse" cx="1676.2" cy="1366.2" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="geosra" cx="1520.2" cy="1210.2" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="geosra" cx="1520.2" cy="1210.2" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="ensembldb" cx="1364.2" cy="1054.2" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="ensembldb" cx="1364.2" cy="1054.2" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="ucsc" cx="1208.2" cy="898.2" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="ucsc" cx="1208.2" cy="898.2" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="gdc" cx="1052.2" cy="742.2" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="gdc" cx="1052.2" cy="742.2" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="ena" cx="1487.7" cy="1366.2" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="ena" cx="1487.7" cy="1366.2" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="clinvar" cx="1331.7" cy="1210.2" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="clinvar" cx="1331.7" cy="1210.2" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="cbioportal" cx="1143.2" cy="1210.2" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="cbioportal" cx="1143.2" cy="1210.2" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="depmap" cx="954.7" cy="1210.2" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="depmap" cx="954.7" cy="1210.2" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="cbioportalmcp" cx="1143.2" cy="1021.7" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="cbioportalmcp" cx="1143.2" cy="1021.7" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="opentargets" cx="1143.2" cy="833.2" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="opentargets" cx="1143.2" cy="833.2" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="cellxgene" cx="1364.2" cy="865.7" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="cellxgene" cx="1364.2" cy="865.7" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="python" cx="2016.0" cy="1231.5" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="python" cx="2016.0" cy="1231.5" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="bioconductor" cx="2016.0" cy="1043.0" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="bioconductor" cx="2016.0" cy="1043.0" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="nextflow" cx="2016.0" cy="854.5" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="nextflow" cx="2016.0" cy="854.5" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="snakemake" cx="2016.0" cy="666.0" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="snakemake" cx="2016.0" cy="666.0" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="scmcp" cx="2204.5" cy="1231.5" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="scmcp" cx="2204.5" cy="1231.5" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="chatspatial" cx="2393.0" cy="1231.5" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="chatspatial" cx="2393.0" cy="1231.5" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="jupyter" cx="1827.5" cy="1231.5" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="jupyter" cx="1827.5" cy="1231.5" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="galaxy" cx="1639.0" cy="1231.5" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="galaxy" cx="1639.0" cy="1231.5" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="cfdna" cx="1450.5" cy="1231.5" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="cfdna" cx="1450.5" cy="1231.5" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="scqc" cx="2204.5" cy="1043.0" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="scqc" cx="2204.5" cy="1043.0" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="nfcoreskill" cx="2393.0" cy="1043.0" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="nfcoreskill" cx="2393.0" cy="1043.0" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="scvitools" cx="2581.5" cy="1043.0" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="scvitools" cx="2581.5" cy="1043.0" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="statsmodels" cx="2355.8" cy="1366.2" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="statsmodels" cx="2355.8" cy="1366.2" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="survival" cx="2511.8" cy="1210.2" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="survival" cx="2511.8" cy="1210.2" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="reporting" cx="2667.8" cy="1054.2" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="reporting" cx="2667.8" cy="1054.2" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="peerreview" cx="2823.8" cy="898.2" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="peerreview" cx="2823.8" cy="898.2" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="power" cx="2355.8" cy="1177.7" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="power" cx="2355.8" cy="1177.7" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="bayes" cx="2355.8" cy="989.2" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="bayes" cx="2355.8" cy="989.2" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="ctgmcp" cx="2700.3" cy="1210.2" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="ctgmcp" cx="2700.3" cy="1210.2" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="critthink" cx="3012.3" cy="898.2" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="critthink" cx="3012.3" cy="898.2" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="clinreports" cx="2490.5" cy="1706.0" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="clinreports" cx="2490.5" cy="1706.0" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="decision" cx="2679.0" cy="1706.0" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="decision" cx="2679.0" cy="1706.0" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="treatment" cx="2867.5" cy="1706.0" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="treatment" cx="2867.5" cy="1706.0" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="cltrials" cx="3056.0" cy="1706.0" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="cltrials" cx="3056.0" cy="1706.0" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="euctr" cx="3056.0" cy="1894.5" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="euctr" cx="3056.0" cy="1894.5" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="fdaema" cx="3056.0" cy="2083.0" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="fdaema" cx="3056.0" cy="2083.0" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="whoictrp" cx="3056.0" cy="2271.5" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="whoictrp" cx="3056.0" cy="2271.5" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="biorender" cx="2355.8" cy="2045.8" r="6.4" fill="#F1A800" stroke="#ffffff" stroke-width="2.0"/>
+<circle class="hit" data-sid="biorender" cx="2355.8" cy="2045.8" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="schematics" cx="2511.8" cy="2201.8" r="6.4" fill="#F1A800" stroke="#ffffff" stroke-width="2.0"/>
+<circle class="hit" data-sid="schematics" cx="2511.8" cy="2201.8" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="infographics" cx="2667.8" cy="2357.8" r="6.4" fill="#F1A800" stroke="#ffffff" stroke-width="2.0"/>
+<circle class="hit" data-sid="infographics" cx="2667.8" cy="2357.8" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="imagegen" cx="2823.8" cy="2513.8" r="6.4" fill="#F1A800" stroke="#ffffff" stroke-width="2.0"/>
+<circle class="hit" data-sid="imagegen" cx="2823.8" cy="2513.8" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="mermaid" cx="2544.3" cy="2045.8" r="6.4" fill="#F1A800" stroke="#ffffff" stroke-width="2.0"/>
+<circle class="hit" data-sid="mermaid" cx="2544.3" cy="2045.8" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="figma" cx="2732.8" cy="2045.8" r="6.4" fill="#F1A800" stroke="#ffffff" stroke-width="2.0"/>
+<circle class="hit" data-sid="figma" cx="2732.8" cy="2045.8" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="gptimage" cx="2823.8" cy="2702.3" r="6.2" fill="#ffffff" stroke="#F1A800" stroke-width="3.2"/>
+<circle class="hit" data-sid="gptimage" cx="2823.8" cy="2702.3" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="sciwriting" cx="2016.0" cy="2180.5" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="sciwriting" cx="2016.0" cy="2180.5" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="citation" cx="2016.0" cy="2369.0" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="citation" cx="2016.0" cy="2369.0" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="venue" cx="2016.0" cy="2557.5" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="venue" cx="2016.0" cy="2557.5" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="grants" cx="2016.0" cy="2746.0" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="grants" cx="2016.0" cy="2746.0" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="office" cx="1827.5" cy="2180.5" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="office" cx="1827.5" cy="2180.5" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="markitdown" cx="1639.0" cy="2180.5" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="markitdown" cx="1639.0" cy="2180.5" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="humanizer" cx="1827.5" cy="2369.0" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="humanizer" cx="1827.5" cy="2369.0" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="slides" cx="1639.0" cy="2369.0" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="slides" cx="1639.0" cy="2369.0" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="paper2web" cx="1827.5" cy="2557.5" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="paper2web" cx="1827.5" cy="2557.5" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="posters" cx="1639.0" cy="2557.5" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="posters" cx="1639.0" cy="2557.5" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="drive" cx="1676.2" cy="2045.8" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="drive" cx="1676.2" cy="2045.8" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="workflows" cx="1520.2" cy="2201.8" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="workflows" cx="1520.2" cy="2201.8" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="gmail" cx="1487.7" cy="2045.8" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="gmail" cx="1487.7" cy="2045.8" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="calendar" cx="1299.2" cy="2045.8" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="calendar" cx="1299.2" cy="2045.8" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="slack" cx="1110.7" cy="2045.8" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="slack" cx="1110.7" cy="2045.8" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="schedule" cx="922.2" cy="2045.8" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="schedule" cx="922.2" cy="2045.8" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="paralegalrev" cx="2190.2" cy="2105.1" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="paralegalrev" cx="2190.2" cy="2105.1" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="gdpr" cx="2270.8" cy="2289.7" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="gdpr" cx="2270.8" cy="2289.7" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="eugrants" cx="2351.4" cy="2474.3" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="eugrants" cx="2351.4" cy="2474.3" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="itlaw" cx="2432.0" cy="2658.9" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="itlaw" cx="2432.0" cy="2658.9" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="uslaw" cx="2512.6" cy="2843.5" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="uslaw" cx="2512.6" cy="2843.5" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="biomcp" cx="1574.0" cy="1511.0" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="biomcp" cx="1574.0" cy="1511.0" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="nar" cx="664.0" cy="2044.0" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="nar" cx="664.0" cy="2044.0" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="biocontextmeta" cx="794.0" cy="2577.0" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="biocontextmeta" cx="794.0" cy="2577.0" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="marketplace" cx="1236.0" cy="2850.0" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="marketplace" cx="1236.0" cy="2850.0" r="15" fill="#000" opacity="0"/>
+<circle class="stn" data-sid="biocontextai" cx="1652.0" cy="2850.0" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="hit" data-sid="biocontextai" cx="1652.0" cy="2850.0" r="15" fill="#000" opacity="0"/>
+<text x="2366.8" y="2036.8" font-size="18" text-anchor="start" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">BioRender</text>
+<text x="2522.8" y="2192.8" font-size="18" text-anchor="start" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">scientific-schematics</text>
+<text x="2678.8" y="2348.8" font-size="18" text-anchor="start" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">infographics</text>
+<text x="2834.8" y="2504.8" font-size="18" text-anchor="start" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">image-gen · Nano/FLUX</text>
+<text x="2544.3" y="2031.8" font-size="18" text-anchor="middle" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">Mermaid</text>
+<text x="2732.8" y="2031.8" font-size="18" text-anchor="middle" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">Figma</text>
+<text x="2836.8" y="2706.3" font-size="18" text-anchor="start" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">gpt-image-2 (hero)</text>
 <g opacity="0.3">
-<circle cx="878.8" cy="1511.2" r="20" fill="#ffffff" stroke="#10a37f" stroke-width="6"/>
-<circle cx="878.8" cy="1511.2" r="7" fill="#10a37f"/>
-<circle class="hit" data-sid="codex" cx="878.8" cy="1511.2" r="22" fill="#000" opacity="0"/>
-<text x="852.8" y="1517.2" font-size="16" text-anchor="end" font-weight="700" fill="#0c7a5e">Codex · GPT-5.5</text>
-<text x="852.8" y="1535.2" font-size="12" text-anchor="end" fill="#0c7a5e">second engine</text>
+<circle cx="1364.2" cy="2357.8" r="20" fill="#ffffff" stroke="#10a37f" stroke-width="6"/>
+<circle cx="1364.2" cy="2357.8" r="7" fill="#10a37f"/>
+<circle class="hit" data-sid="codex" cx="1364.2" cy="2357.8" r="22" fill="#000" opacity="0"/>
+<text x="1338.2" y="2363.8" font-size="16" text-anchor="end" font-weight="700" fill="#0c7a5e">Codex · GPT-5.5</text>
+<text x="1338.2" y="2381.8" font-size="12" text-anchor="end" fill="#0c7a5e">second engine</text>
 </g>
-<circle cx="1300" cy="1090" r="42" fill="#ffffff" stroke="#1c1c1c" stroke-width="3"/>
-<circle cx="1300" cy="1090" r="34" fill="#ffffff" stroke="#D97757" stroke-width="9"/>
-<circle cx="1300" cy="1090" r="11" fill="#D97757"/>
-<circle class="hit" data-sid="claude" cx="1300" cy="1090" r="44" fill="#000" opacity="0"/>
-<text x="1300" y="1032" font-size="22" text-anchor="middle" font-weight="800" fill="#1c1c1c" paint-order="stroke" stroke="#fbfaf6" stroke-width="4.5" stroke-linejoin="round">CLAUDE CODE</text>
-<text x="1300" y="1154" font-size="13" text-anchor="middle" fill="#6b6b6b">your workstation · central interchange</text>
+<circle cx="2016" cy="1706" r="42" fill="#ffffff" stroke="#1c1c1c" stroke-width="3"/>
+<circle cx="2016" cy="1706" r="34" fill="#ffffff" stroke="#D97757" stroke-width="9"/>
+<circle cx="2016" cy="1706" r="11" fill="#D97757"/>
+<circle class="hit" data-sid="claude" cx="2016" cy="1706" r="44" fill="#000" opacity="0"/>
+<text x="2016" y="1648" font-size="22" text-anchor="middle" font-weight="800" fill="#1c1c1c" paint-order="stroke" stroke="#fbfaf6" stroke-width="4.5" stroke-linejoin="round">CLAUDE CODE</text>
+<text x="2016" y="1770" font-size="13" text-anchor="middle" fill="#6b6b6b">your workstation · central interchange</text>
 <text x="56" y="78" font-size="38" font-weight="800" fill="#1c1c1c">Claude Research Underground</text>
 <text x="58" y="108" font-size="16" fill="#6b6b6b">the connectors, MCP servers &amp; skills worth wiring — genomics · medicine · comp-bio · stats · trial design — Claude at the centre</text>
 <text x="58" y="132" font-size="13.5" fill="#8a8170">curated to the live + verified set · solid interchange lines = multi-domain MCP servers · outer dashed ring = the discovery / install backbone</text>
-<rect x="1023" y="896" rx="18" ry="18" width="319" height="36" fill="#F1A800"/>
-<text x="1042" y="920" font-size="18" font-weight="800" fill="#ffffff">▶  Visualization &amp; Figures</text>
-<text x="56" y="2088" font-size="16" font-weight="700" fill="#1c1c1c">LINES</text>
-<rect x="56" y="2103" width="26" height="9" rx="4.5" fill="#dcd9d0"/>
-<text x="90" y="2112" font-size="13.5" fill="#b9b5ab">Literature &amp; Evidence</text>
-<rect x="386" y="2103" width="26" height="9" rx="4.5" fill="#dcd9d0"/>
-<text x="420" y="2112" font-size="13.5" fill="#b9b5ab">Genomic Data &amp; Sequencing</text>
-<rect x="716" y="2103" width="26" height="9" rx="4.5" fill="#dcd9d0"/>
-<text x="750" y="2112" font-size="13.5" fill="#b9b5ab">Compute &amp; Pipelines</text>
-<rect x="1046" y="2103" width="26" height="9" rx="4.5" fill="#dcd9d0"/>
-<text x="1080" y="2112" font-size="13.5" fill="#b9b5ab">Statistics &amp; Trial Design</text>
-<rect x="56" y="2129" width="26" height="9" rx="4.5" fill="#dcd9d0"/>
-<text x="90" y="2138" font-size="13.5" fill="#b9b5ab">Clinical &amp; Regulatory</text>
-<rect x="386" y="2129" width="26" height="9" rx="4.5" fill="#F1A800"/>
-<text x="420" y="2138" font-size="13.5" fill="#1c1c1c">Visualization &amp; Figures</text>
-<rect x="716" y="2129" width="26" height="9" rx="4.5" fill="#dcd9d0"/>
-<text x="750" y="2138" font-size="13.5" fill="#b9b5ab">Writing &amp; Publishing</text>
-<rect x="1046" y="2129" width="26" height="9" rx="4.5" fill="#dcd9d0"/>
-<text x="1080" y="2138" font-size="13.5" fill="#b9b5ab">Orchestration &amp; Lab Ops</text>
-<text x="56" y="2180" font-size="16" font-weight="700" fill="#1c1c1c">INTERCHANGE LINES (multi-domain MCP servers)</text>
-<line x1="56" y1="2200" x2="82" y2="2200" stroke="#6A3D9A" stroke-width="6" />
-<line x1="56" y1="2200" x2="82" y2="2200" stroke="#fbfaf6" stroke-width="2" />
-<text x="90" y="2204" font-size="12.5" fill="#1c1c1c">BioMCP — literature · genomic · trials federation</text>
-<line x1="386" y1="2200" x2="412" y2="2200" stroke="#E7298A" stroke-width="6" />
-<line x1="386" y1="2200" x2="412" y2="2200" stroke="#fbfaf6" stroke-width="2" />
-<text x="420" y="2204" font-size="12.5" fill="#1c1c1c">Open Targets — target · disease · treatment</text>
-<line x1="716" y1="2200" x2="742" y2="2200" stroke="#8A6D3B" stroke-width="6" stroke-dasharray="6 4"/>
-<line x1="716" y1="2200" x2="742" y2="2200" stroke="#fbfaf6" stroke-width="2" stroke-dasharray="6 4"/>
-<text x="750" y="2204" font-size="12.5" fill="#1c1c1c">Discovery ring — Life-Sciences marketplace + BioContextAI</text>
-<text x="1426" y="2088" font-size="16" font-weight="700" fill="#1c1c1c">KEY — status &amp; trust</text>
-<circle cx="1435" cy="2108" r="6.4" fill="#1c1c1c" stroke="#fff" stroke-width="2"/>
-<text x="1452" y="2112" font-size="12.5" fill="#1c1c1c">live now — wired in your session</text>
-<circle cx="1435" cy="2131" r="6.2" fill="#fff" stroke="#1c1c1c" stroke-width="3.2"/>
-<text x="1452" y="2135" font-size="12.5" fill="#1c1c1c">verified — real &amp; ready to wire</text>
-<circle cx="1435" cy="2154" r="8.6" fill="#fff" stroke="#1c1c1c" stroke-width="3.2"/>
-<text x="1452" y="2158" font-size="12.5" fill="#1c1c1c">interchange — a connecting line stops here</text>
+<rect x="1700" y="1512" rx="18" ry="18" width="319" height="36" fill="#F1A800"/>
+<text x="1719" y="1536" font-size="18" font-weight="800" fill="#ffffff">▶  Visualization &amp; Figures</text>
+<text x="56" y="3442" font-size="16" font-weight="700" fill="#1c1c1c">LINES</text>
+<rect x="56" y="3457" width="26" height="9" rx="4.5" fill="#dcd9d0"/>
+<text x="90" y="3466" font-size="13.5" fill="#b9b5ab">Literature &amp; Evidence</text>
+<rect x="386" y="3457" width="26" height="9" rx="4.5" fill="#dcd9d0"/>
+<text x="420" y="3466" font-size="13.5" fill="#b9b5ab">Genomic Data &amp; Sequencing</text>
+<rect x="716" y="3457" width="26" height="9" rx="4.5" fill="#dcd9d0"/>
+<text x="750" y="3466" font-size="13.5" fill="#b9b5ab">Compute &amp; Pipelines</text>
+<rect x="1046" y="3457" width="26" height="9" rx="4.5" fill="#dcd9d0"/>
+<text x="1080" y="3466" font-size="13.5" fill="#b9b5ab">Statistics &amp; Trial Design</text>
+<rect x="56" y="3483" width="26" height="9" rx="4.5" fill="#dcd9d0"/>
+<text x="90" y="3492" font-size="13.5" fill="#b9b5ab">Clinical &amp; Regulatory</text>
+<rect x="386" y="3483" width="26" height="9" rx="4.5" fill="#F1A800"/>
+<text x="420" y="3492" font-size="13.5" fill="#1c1c1c">Visualization &amp; Figures</text>
+<rect x="716" y="3483" width="26" height="9" rx="4.5" fill="#dcd9d0"/>
+<text x="750" y="3492" font-size="13.5" fill="#b9b5ab">Writing &amp; Publishing</text>
+<rect x="1046" y="3483" width="26" height="9" rx="4.5" fill="#dcd9d0"/>
+<text x="1080" y="3492" font-size="13.5" fill="#b9b5ab">Orchestration &amp; Lab Ops</text>
+<rect x="56" y="3509" width="26" height="9" rx="4.5" fill="#dcd9d0"/>
+<text x="90" y="3518" font-size="13.5" fill="#b9b5ab">Legal &amp; Paralegal</text>
+<text x="56" y="3534" font-size="16" font-weight="700" fill="#1c1c1c">INTERCHANGE LINES (multi-domain MCP servers)</text>
+<line x1="56" y1="3554" x2="82" y2="3554" stroke="#6A3D9A" stroke-width="6" />
+<line x1="56" y1="3554" x2="82" y2="3554" stroke="#fbfaf6" stroke-width="2" />
+<text x="90" y="3558" font-size="12.5" fill="#1c1c1c">BioMCP — literature · genomic · trials federation</text>
+<line x1="386" y1="3554" x2="412" y2="3554" stroke="#E7298A" stroke-width="6" />
+<line x1="386" y1="3554" x2="412" y2="3554" stroke="#fbfaf6" stroke-width="2" />
+<text x="420" y="3558" font-size="12.5" fill="#1c1c1c">Open Targets — target · disease · treatment</text>
+<line x1="716" y1="3554" x2="742" y2="3554" stroke="#8A6D3B" stroke-width="6" stroke-dasharray="6 4"/>
+<line x1="716" y1="3554" x2="742" y2="3554" stroke="#fbfaf6" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="750" y="3558" font-size="12.5" fill="#1c1c1c">Discovery ring — Life-Sciences marketplace + BioContextAI</text>
+<text x="1426" y="3442" font-size="16" font-weight="700" fill="#1c1c1c">KEY — status &amp; trust</text>
+<circle cx="1435" cy="3462" r="6.4" fill="#1c1c1c" stroke="#fff" stroke-width="2"/>
+<text x="1452" y="3466" font-size="12.5" fill="#1c1c1c">live now — wired in your session</text>
+<circle cx="1435" cy="3485" r="6.2" fill="#fff" stroke="#1c1c1c" stroke-width="3.2"/>
+<text x="1452" y="3489" font-size="12.5" fill="#1c1c1c">verified — real &amp; ready to wire</text>
+<circle cx="1435" cy="3508" r="8.6" fill="#fff" stroke="#1c1c1c" stroke-width="3.2"/>
+<text x="1452" y="3512" font-size="12.5" fill="#1c1c1c">interchange — a connecting line stops here</text>
 </svg>

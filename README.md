@@ -54,7 +54,7 @@ rsvg-convert -f pdf  -o exports/research_underground_poster.pdf master.svg
 
 ---
 
-## The eight radial lines
+## The nine radial lines
 
 🔴 **Literature & Evidence** — PubMed ✓ · Consensus ✓ · deep-research ✓ · literature-review ✓ · research-lookup ✓ · Europe PMC · bioRxiv · medRxiv · Semantic Scholar · Wiley Gateway
 🟢 **Genomic Data & Sequencing** — Synapse ✓ · GEO/SRA · Ensembl · UCSC · GDC/TCGA · ClinVar/gnomAD · cBioPortal · DepMap/OncoKB · CELLxGENE · **cBioPortal MCP** · **Open Targets MCP** · **ENA MCP**
@@ -64,6 +64,7 @@ rsvg-convert -f pdf  -o exports/research_underground_poster.pdf master.svg
 🟡 **Visualization & Figures** — BioRender ✓ · Mermaid ✓ · Figma ✓ · scientific-schematics ✓ · infographics ✓ · image-gen (Nano/FLUX) ✓ · gpt-image-2 (hero)
 🟤 **Writing & Publishing** — scientific-writing ✓ · citation-management ✓ · venue-templates ✓ · Office docs ✓ · humanizer ✓ · preparing-slides ✓ · research-grants ✓ · markitdown ✓ · paper-2-web ✓ · posters ✓
 ⚪ **Orchestration & Lab Ops** — Google Drive ✓ · Gmail ✓ · Google Calendar ✓ · Slack ✓ · workflows/subagents ✓ · schedule/cron ✓ · **Codex / GPT-5.5** ✓ · **BioMCP** · Claude for Life Sciences · BioContextAI (registry + meta) · NAR DB Collection
+⚖️ **Legal & Paralegal** — paralegal-review ✓ · GDPR & data protection ✓ · EU grants & consortia ✓ · Italian research law ✓ · US research law ✓ — *paralegal-style, cited EU/IT/US reference checklists; not legal advice*
 
 *(Registry-listed servers — Ensembl/UniProt/STRING/Reactome/ChEMBL/OMOP/napari/PyMOL/ToolUniverse/… — are catalogued in `CATALOGUE.md` but not drawn until their repo is confirmed.)*
 
@@ -94,6 +95,30 @@ servers (**ChatSpatial**, **SCMCP**) that map straight onto your Xenium work. Th
 and the **BioContextAI registry** are the two discovery anchors — start there to
 verify any 📇 registry-listed server before wiring it. Full provenance, repo names and
 trust tiers are in `CATALOGUE.md`.
+
+---
+
+## Install & connect it (the plugin)
+
+The map is also an installable Claude Code plugin — `claude-tube-map` — that wires up
+the stations for you and shows a live board of what's connected.
+
+```
+/plugin marketplace add GabrieleZoppoli/claude-underground
+/plugin install claude-tube-map@claude-underground
+```
+
+Then:
+
+- `/tube-map` — open the board (● live · ◉ ready · ⚠ needs you).
+- `/tube-map-install all` — wire everything (heavy).
+- `/tube-map-install stat` — wire just one line.
+- `/tube-map-status` — what's connected right now.
+- Or just name a journey — *"format these refs for Nature"*, *"make a KM plot"*, *"review this grant"* — and the matching journey (bibliography · figures · stats-plots · slides · peer-review · scientific-writing · paralegal) wires what it needs and runs it.
+
+**Maintainers:** the plugin's data is generated — edit `wiring.json`, run
+`python3 build_plugin.py`, and `python3 tools/check_plugin.py` to validate. CI
+(`plugin-check`) rebuilds and fails on drift.
 
 ---
 

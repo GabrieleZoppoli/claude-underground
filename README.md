@@ -54,7 +54,7 @@ rsvg-convert -f pdf  -o exports/research_underground_poster.pdf master.svg
 
 ---
 
-## The eight radial lines
+## The nine radial lines
 
 🔴 **Literature & Evidence** — PubMed ✓ · Consensus ✓ · deep-research ✓ · literature-review ✓ · research-lookup ✓ · Europe PMC · bioRxiv · medRxiv · Semantic Scholar · Wiley Gateway
 🟢 **Genomic Data & Sequencing** — Synapse ✓ · GEO/SRA · Ensembl · UCSC · GDC/TCGA · ClinVar/gnomAD · cBioPortal · DepMap/OncoKB · CELLxGENE · **cBioPortal MCP** · **Open Targets MCP** · **ENA MCP**
@@ -64,6 +64,7 @@ rsvg-convert -f pdf  -o exports/research_underground_poster.pdf master.svg
 🟡 **Visualization & Figures** — BioRender ✓ · Mermaid ✓ · Figma ✓ · scientific-schematics ✓ · infographics ✓ · image-gen (Nano/FLUX) ✓ · gpt-image-2 (hero)
 🟤 **Writing & Publishing** — scientific-writing ✓ · citation-management ✓ · venue-templates ✓ · Office docs ✓ · humanizer ✓ · preparing-slides ✓ · research-grants ✓ · markitdown ✓ · paper-2-web ✓ · posters ✓
 ⚪ **Orchestration & Lab Ops** — Google Drive ✓ · Gmail ✓ · Google Calendar ✓ · Slack ✓ · workflows/subagents ✓ · schedule/cron ✓ · **Codex / GPT-5.5** ✓ · **BioMCP** · Claude for Life Sciences · BioContextAI (registry + meta) · NAR DB Collection
+⚖️ **Legal & Paralegal** — paralegal-review ✓ · GDPR & data protection ✓ · EU grants & consortia ✓ · Italian research law ✓ · US research law ✓ — *paralegal-style, cited EU/IT/US reference checklists; not legal advice*
 
 *(Registry-listed servers — Ensembl/UniProt/STRING/Reactome/ChEMBL/OMOP/napari/PyMOL/ToolUniverse/… — are catalogued in `CATALOGUE.md` but not drawn until their repo is confirmed.)*
 

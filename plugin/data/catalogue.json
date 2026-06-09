@@ -1168,6 +1168,83 @@
           "probe": "mcp"
         }
       ]
+    },
+    {
+      "key": "legal",
+      "name": "Legal & Paralegal",
+      "color": "#0E7C7B",
+      "stations": [
+        {
+          "id": "gdpr",
+          "name": "GDPR & data protection",
+          "tier": "live",
+          "desc": "EU GDPR (2016/679): DPAs, transfers, Art. 89 research exemptions.",
+          "how": "Reference module — cited to EUR-Lex; verify before relying.",
+          "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+          "wire": "builtin",
+          "authType": "none",
+          "personal": false,
+          "source": null,
+          "plugin": null,
+          "probe": "skill"
+        },
+        {
+          "id": "eugrants",
+          "name": "EU grants & consortia",
+          "tier": "live",
+          "desc": "Horizon Europe Model Grant Agreement + Consortium Agreement (DESCA), IP/access rights.",
+          "how": "Reference module — cited to EU Funding & Tenders / DESCA.",
+          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/common/agr-contr/general-mga_horizon-euratom_en.pdf",
+          "wire": "builtin",
+          "authType": "none",
+          "personal": false,
+          "source": null,
+          "plugin": null,
+          "probe": "skill"
+        },
+        {
+          "id": "itlaw",
+          "name": "Italian research law",
+          "tier": "live",
+          "desc": "Codice Privacy (196/2003) + Garante; procurement D.lgs 36/2023 (RUP); consenso informato & comitati etici.",
+          "how": "Reference module — cited to Normattiva / Gazzetta Ufficiale.",
+          "url": "https://www.normattiva.it",
+          "wire": "builtin",
+          "authType": "none",
+          "personal": false,
+          "source": null,
+          "plugin": null,
+          "probe": "skill"
+        },
+        {
+          "id": "uslaw",
+          "name": "US research law",
+          "tier": "live",
+          "desc": "HIPAA & BAAs; Common Rule (45 CFR 46) / IRB; IP (Bayh-Dole) & MTA/CDA/NDA.",
+          "how": "Reference module — cited to eCFR / U.S. Code; verify before relying.",
+          "url": "https://www.ecfr.gov/current/title-45",
+          "wire": "builtin",
+          "authType": "none",
+          "personal": false,
+          "source": null,
+          "plugin": null,
+          "probe": "skill"
+        },
+        {
+          "id": "paralegalrev",
+          "name": "paralegal-review",
+          "tier": "live",
+          "desc": "Clause-by-clause review + redline + checklist conformance (non-lawyer, cited).",
+          "how": "Skill: the tube-map paralegal journey.",
+          "url": "",
+          "wire": "builtin",
+          "authType": "none",
+          "personal": false,
+          "source": null,
+          "plugin": null,
+          "probe": "skill"
+        }
+      ]
     }
   ]
 }

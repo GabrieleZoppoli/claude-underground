@@ -77,5 +77,10 @@
   "biocontextai": {"wire": "api"},
   "biocontextmeta": {"wire": "runtime"},
   "nar": {"wire": "api"},
-  "biomcp": {"wire": "runtime"}
+  "biomcp": {"wire": "runtime"},
+  "gdpr": {"wire": "builtin"},
+  "eugrants": {"wire": "builtin"},
+  "itlaw": {"wire": "builtin"},
+  "uslaw": {"wire": "builtin"},
+  "paralegalrev": {"wire": "builtin"}
 }

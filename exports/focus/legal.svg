@@ -1,4 +1,4 @@
-<svg id="map" xmlns="http://www.w3.org/2000/svg" viewBox="1054 1486 1547 1410" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<svg id="map" xmlns="http://www.w3.org/2000/svg" viewBox="1437 1486 1654 1508" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
 <rect x="0" y="0" width="4032" height="3674" fill="#fbfaf6"/>
 <path d="M -20 3314 C 887 3274, 1210 3384, 1613 3360 S 2500 3284, 2943 3352 S 3548 3396, 4052 3340" fill="none" stroke="#cfe3ef" stroke-width="40" stroke-linecap="round"/>
 <text x="195" y="3304" font-size="17" font-style="italic" fill="#5f86a0">the cfDNA river</text>
@@ -23,13 +23,13 @@
 <polyline points="2016.0,1706.0 2199.8,1889.8 2355.8,2045.8 2511.8,2201.8 2667.8,2357.8 2823.8,2513.8" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
 <polyline points="2355.8,2045.8 2544.3,2045.8 2732.8,2045.8" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
 <polyline points="2823.8,2513.8 2823.8,2702.3" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
-<polyline points="2016.0,1706.0 2016.0,1992.0 2016.0,2180.5 2016.0,2369.0 2016.0,2557.5 2016.0,2746.0" fill="none" stroke="#B26300" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
-<polyline points="2016.0,2180.5 1827.5,2180.5 1639.0,2180.5" fill="none" stroke="#B26300" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
-<polyline points="2016.0,2369.0 1827.5,2369.0 1639.0,2369.0" fill="none" stroke="#B26300" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
-<polyline points="2016.0,2557.5 1827.5,2557.5 1639.0,2557.5" fill="none" stroke="#B26300" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<polyline points="2016.0,1706.0 2016.0,1992.0 2016.0,2180.5 2016.0,2369.0 2016.0,2557.5 2016.0,2746.0" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
+<polyline points="2016.0,2180.5 1827.5,2180.5 1639.0,2180.5" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
+<polyline points="2016.0,2369.0 1827.5,2369.0 1639.0,2369.0" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
+<polyline points="2016.0,2557.5 1827.5,2557.5 1639.0,2557.5" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
 <polyline points="2016.0,1706.0 1832.2,1889.8 1676.2,2045.8 1520.2,2201.8 1364.2,2357.8" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
 <polyline points="1676.2,2045.8 1487.7,2045.8 1299.2,2045.8 1110.7,2045.8 922.2,2045.8" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
-<polyline points="2016.0,1706.0 2109.6,1920.5 2190.2,2105.1 2270.8,2289.7 2351.4,2474.3 2432.0,2658.9 2512.6,2843.5" fill="none" stroke="#dcd9d0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
+<polyline points="2016.0,1706.0 2109.6,1920.5 2190.2,2105.1 2270.8,2289.7 2351.4,2474.3 2432.0,2658.9 2512.6,2843.5" fill="none" stroke="#0E7C7B" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
 <polyline points="954.7,1210.2 1143.2,1210.2 1331.7,1210.2 1574.0,1511.0 1541.5,1706.0" fill="none" stroke="#dcd9d0" stroke-width="8.0" stroke-linecap="round" stroke-linejoin="round" opacity="0.16"/>
 <polyline points="954.7,1210.2 1143.2,1210.2 1331.7,1210.2 1574.0,1511.0 1541.5,1706.0" fill="none" stroke="#fbfaf6" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round" opacity="0.16"/>
 <polyline points="1574.0,1511.0 1782.0,1355.0 2224.0,1355.0 2700.3,1210.2" fill="none" stroke="#dcd9d0" stroke-width="8.0" stroke-linecap="round" stroke-linejoin="round" opacity="0.16"/>
@@ -150,25 +150,25 @@
 <circle class="hit" data-sid="figma" cx="2732.8" cy="2045.8" r="15" fill="#000" opacity="0"/>
 <circle class="stn" data-sid="gptimage" cx="2823.8" cy="2702.3" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
 <circle class="hit" data-sid="gptimage" cx="2823.8" cy="2702.3" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="sciwriting" cx="2016.0" cy="2180.5" r="6.4" fill="#B26300" stroke="#ffffff" stroke-width="2.0"/>
+<circle class="stn" data-sid="sciwriting" cx="2016.0" cy="2180.5" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
 <circle class="hit" data-sid="sciwriting" cx="2016.0" cy="2180.5" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="citation" cx="2016.0" cy="2369.0" r="6.4" fill="#B26300" stroke="#ffffff" stroke-width="2.0"/>
+<circle class="stn" data-sid="citation" cx="2016.0" cy="2369.0" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
 <circle class="hit" data-sid="citation" cx="2016.0" cy="2369.0" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="venue" cx="2016.0" cy="2557.5" r="6.4" fill="#B26300" stroke="#ffffff" stroke-width="2.0"/>
+<circle class="stn" data-sid="venue" cx="2016.0" cy="2557.5" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
 <circle class="hit" data-sid="venue" cx="2016.0" cy="2557.5" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="grants" cx="2016.0" cy="2746.0" r="6.4" fill="#B26300" stroke="#ffffff" stroke-width="2.0"/>
+<circle class="stn" data-sid="grants" cx="2016.0" cy="2746.0" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
 <circle class="hit" data-sid="grants" cx="2016.0" cy="2746.0" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="office" cx="1827.5" cy="2180.5" r="6.4" fill="#B26300" stroke="#ffffff" stroke-width="2.0"/>
+<circle class="stn" data-sid="office" cx="1827.5" cy="2180.5" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
 <circle class="hit" data-sid="office" cx="1827.5" cy="2180.5" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="markitdown" cx="1639.0" cy="2180.5" r="6.4" fill="#B26300" stroke="#ffffff" stroke-width="2.0"/>
+<circle class="stn" data-sid="markitdown" cx="1639.0" cy="2180.5" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
 <circle class="hit" data-sid="markitdown" cx="1639.0" cy="2180.5" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="humanizer" cx="1827.5" cy="2369.0" r="6.4" fill="#B26300" stroke="#ffffff" stroke-width="2.0"/>
+<circle class="stn" data-sid="humanizer" cx="1827.5" cy="2369.0" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
 <circle class="hit" data-sid="humanizer" cx="1827.5" cy="2369.0" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="slides" cx="1639.0" cy="2369.0" r="6.4" fill="#B26300" stroke="#ffffff" stroke-width="2.0"/>
+<circle class="stn" data-sid="slides" cx="1639.0" cy="2369.0" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
 <circle class="hit" data-sid="slides" cx="1639.0" cy="2369.0" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="paper2web" cx="1827.5" cy="2557.5" r="6.4" fill="#B26300" stroke="#ffffff" stroke-width="2.0"/>
+<circle class="stn" data-sid="paper2web" cx="1827.5" cy="2557.5" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
 <circle class="hit" data-sid="paper2web" cx="1827.5" cy="2557.5" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="posters" cx="1639.0" cy="2557.5" r="6.4" fill="#B26300" stroke="#ffffff" stroke-width="2.0"/>
+<circle class="stn" data-sid="posters" cx="1639.0" cy="2557.5" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
 <circle class="hit" data-sid="posters" cx="1639.0" cy="2557.5" r="15" fill="#000" opacity="0"/>
 <circle class="stn" data-sid="drive" cx="1676.2" cy="2045.8" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
 <circle class="hit" data-sid="drive" cx="1676.2" cy="2045.8" r="15" fill="#000" opacity="0"/>
@@ -182,15 +182,15 @@
 <circle class="hit" data-sid="slack" cx="1110.7" cy="2045.8" r="15" fill="#000" opacity="0"/>
 <circle class="stn" data-sid="schedule" cx="922.2" cy="2045.8" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
 <circle class="hit" data-sid="schedule" cx="922.2" cy="2045.8" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="paralegalrev" cx="2190.2" cy="2105.1" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="stn" data-sid="paralegalrev" cx="2190.2" cy="2105.1" r="6.4" fill="#0E7C7B" stroke="#ffffff" stroke-width="2.0"/>
 <circle class="hit" data-sid="paralegalrev" cx="2190.2" cy="2105.1" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="gdpr" cx="2270.8" cy="2289.7" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="stn" data-sid="gdpr" cx="2270.8" cy="2289.7" r="6.4" fill="#0E7C7B" stroke="#ffffff" stroke-width="2.0"/>
 <circle class="hit" data-sid="gdpr" cx="2270.8" cy="2289.7" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="eugrants" cx="2351.4" cy="2474.3" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="stn" data-sid="eugrants" cx="2351.4" cy="2474.3" r="6.4" fill="#0E7C7B" stroke="#ffffff" stroke-width="2.0"/>
 <circle class="hit" data-sid="eugrants" cx="2351.4" cy="2474.3" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="itlaw" cx="2432.0" cy="2658.9" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="stn" data-sid="itlaw" cx="2432.0" cy="2658.9" r="6.4" fill="#0E7C7B" stroke="#ffffff" stroke-width="2.0"/>
 <circle class="hit" data-sid="itlaw" cx="2432.0" cy="2658.9" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="uslaw" cx="2512.6" cy="2843.5" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
+<circle class="stn" data-sid="uslaw" cx="2512.6" cy="2843.5" r="6.4" fill="#0E7C7B" stroke="#ffffff" stroke-width="2.0"/>
 <circle class="hit" data-sid="uslaw" cx="2512.6" cy="2843.5" r="15" fill="#000" opacity="0"/>
 <circle class="stn" data-sid="biomcp" cx="1574.0" cy="1511.0" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
 <circle class="hit" data-sid="biomcp" cx="1574.0" cy="1511.0" r="15" fill="#000" opacity="0"/>
@@ -202,16 +202,11 @@
 <circle class="hit" data-sid="marketplace" cx="1236.0" cy="2850.0" r="15" fill="#000" opacity="0"/>
 <circle class="stn" data-sid="biocontextai" cx="1652.0" cy="2850.0" r="5.0" fill="#ffffff" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
 <circle class="hit" data-sid="biocontextai" cx="1652.0" cy="2850.0" r="15" fill="#000" opacity="0"/>
-<text x="2029.0" y="2184.5" font-size="18" text-anchor="start" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">scientific-writing</text>
-<text x="2029.0" y="2373.0" font-size="18" text-anchor="start" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">citation-management</text>
-<text x="2029.0" y="2561.5" font-size="18" text-anchor="start" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">venue-templates</text>
-<text x="2003.0" y="2750.0" font-size="18" text-anchor="end" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">research-grants</text>
-<text x="1827.5" y="2212.8" font-size="18" text-anchor="middle" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">Office docs</text>
-<text x="1639.0" y="2166.5" font-size="18" text-anchor="middle" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">markitdown</text>
-<text x="1827.5" y="2401.3" font-size="18" text-anchor="middle" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">humanizer</text>
-<text x="1626.0" y="2373.0" font-size="18" text-anchor="end" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">preparing-slides</text>
-<text x="1827.5" y="2589.8" font-size="18" text-anchor="middle" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">paper-2-web</text>
-<text x="1626.0" y="2561.5" font-size="18" text-anchor="end" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">posters (LaTeX/PPTX)</text>
+<text x="2203.2" y="2109.1" font-size="18" text-anchor="start" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">paralegal-review</text>
+<text x="2257.8" y="2293.7" font-size="18" text-anchor="end" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">GDPR &amp; data protection</text>
+<text x="2364.4" y="2478.3" font-size="18" text-anchor="start" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">EU grants &amp; consortia</text>
+<text x="2419.0" y="2662.9" font-size="18" text-anchor="end" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">Italian research law</text>
+<text x="2512.6" y="2829.5" font-size="18" text-anchor="middle" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">US research law</text>
 <g opacity="0.3">
 <circle cx="1364.2" cy="2357.8" r="20" fill="#ffffff" stroke="#10a37f" stroke-width="6"/>
 <circle cx="1364.2" cy="2357.8" r="7" fill="#10a37f"/>
@@ -228,8 +223,8 @@
 <text x="56" y="78" font-size="38" font-weight="800" fill="#1c1c1c">Claude Research Underground</text>
 <text x="58" y="108" font-size="16" fill="#6b6b6b">the connectors, MCP servers &amp; skills worth wiring — genomics · medicine · comp-bio · stats · trial design — Claude at the centre</text>
 <text x="58" y="132" font-size="13.5" fill="#8a8170">curated to the live + verified set · solid interchange lines = multi-domain MCP servers · outer dashed ring = the discovery / install backbone</text>
-<rect x="1084" y="1512" rx="18" ry="18" width="282" height="36" fill="#B26300"/>
-<text x="1103" y="1536" font-size="18" font-weight="800" fill="#ffffff">▶  Writing &amp; Publishing</text>
+<rect x="1467" y="1512" rx="18" ry="18" width="244" height="36" fill="#0E7C7B"/>
+<text x="1486" y="1536" font-size="18" font-weight="800" fill="#ffffff">▶  Legal &amp; Paralegal</text>
 <text x="56" y="3442" font-size="16" font-weight="700" fill="#1c1c1c">LINES</text>
 <rect x="56" y="3457" width="26" height="9" rx="4.5" fill="#dcd9d0"/>
 <text x="90" y="3466" font-size="13.5" fill="#b9b5ab">Literature &amp; Evidence</text>
@@ -243,12 +238,12 @@
 <text x="90" y="3492" font-size="13.5" fill="#b9b5ab">Clinical &amp; Regulatory</text>
 <rect x="386" y="3483" width="26" height="9" rx="4.5" fill="#dcd9d0"/>
 <text x="420" y="3492" font-size="13.5" fill="#b9b5ab">Visualization &amp; Figures</text>
-<rect x="716" y="3483" width="26" height="9" rx="4.5" fill="#B26300"/>
-<text x="750" y="3492" font-size="13.5" fill="#1c1c1c">Writing &amp; Publishing</text>
+<rect x="716" y="3483" width="26" height="9" rx="4.5" fill="#dcd9d0"/>
+<text x="750" y="3492" font-size="13.5" fill="#b9b5ab">Writing &amp; Publishing</text>
 <rect x="1046" y="3483" width="26" height="9" rx="4.5" fill="#dcd9d0"/>
 <text x="1080" y="3492" font-size="13.5" fill="#b9b5ab">Orchestration &amp; Lab Ops</text>
-<rect x="56" y="3509" width="26" height="9" rx="4.5" fill="#dcd9d0"/>
-<text x="90" y="3518" font-size="13.5" fill="#b9b5ab">Legal &amp; Paralegal</text>
+<rect x="56" y="3509" width="26" height="9" rx="4.5" fill="#0E7C7B"/>
+<text x="90" y="3518" font-size="13.5" fill="#1c1c1c">Legal &amp; Paralegal</text>
 <text x="56" y="3534" font-size="16" font-weight="700" fill="#1c1c1c">INTERCHANGE LINES (multi-domain MCP servers)</text>
 <line x1="56" y1="3554" x2="82" y2="3554" stroke="#6A3D9A" stroke-width="6" />
 <line x1="56" y1="3554" x2="82" y2="3554" stroke="#fbfaf6" stroke-width="2" />

@@ -5,21 +5,29 @@ description: Open the Claude Tube Map — a plain-language welcome with the jobs
 Use the `tube-map` skill. This is the **front door for a newcomer** — do NOT dump the
 84-stop board here. Greet the user in plain language and lead with *jobs*, not infrastructure.
 
-Render roughly this (adapt the examples to what's actually live; lead with **free** capabilities):
+Render roughly this (adapt to what's actually live). Split the jobs into **ready now** (builtin —
+nothing to install) and **one free install away** — and never claim "zero setup" for a job whose
+tools aren't bundled:
 
-> **🚇 Claude Tube Map** — I'm connected to a kit of research tools and can do whole jobs
-> for you. You don't need to learn any of it. Tell me what you want, in plain words.
-> Things I can do **right now, with free tools and zero setup**:
+> **🚇 Claude Tube Map** — I'm a kit of research tools wired into one place. You don't need to
+> learn any of it; just tell me the job in plain words.
 >
-> ⚖️  Review a contract / consent form / NDA / privacy agreement (EU·IT·US — flag risks + redline; *not legal advice*)
+> **Ready this second — nothing to install:**
+> ⚖️  Review a contract / consent form / NDA (EU·IT·US — flag risks & explain the clauses; *not legal advice*)
+> 📊  Run a statistical test · plot survival curves · analyse your data
+> 🧩  Sketch a flowchart or pathway diagram
+>
+> **One free install away** — I set it up the first time you ask (a single `/plugin install`, no cost):
 > 📚  Find papers on a topic → a clean, verified bibliography
-> 📊  Plot survival curves · run a statistical test · analyse omics data
 > 🧪  Plan a grant · write & polish a paper
-> 🖼️  Make a publication figure or diagram
+> 🖼️  Make a publication-quality figure
 >
 > Just say it — e.g. *"review this agreement"* then paste it, or *"find papers on cfDNA in colorectal cancer."*
 > For the full toolkit say **"show me everything"** (or `/tube-map-status`).
-> To connect extra tools you pay for (Codex, BioRender, Consensus Pro…) say **"set me up."**
+> To connect tools you pay for (Codex, BioRender, Consensus Pro…) say **"set me up."**
 
-Rules: prefer **free / low-cost, honest** tools first and say so; mark anything paid or
-institutional plainly; never assert a legal conclusion without a citation. Read-only — wire nothing here.
+Rules: prefer **free / low-cost, honest** tools first and say so. **Be honest about setup** — the
+"ready now" jobs use builtin stops; the others need one **free** `/plugin install`, which you run
+transparently (showing the command) the first time the user picks that job. Never present a free-but-
+needs-install job as "zero setup". Mark anything paid or institutional plainly; never assert a legal
+conclusion without a citation. Read-only — wire nothing until the user picks a job.

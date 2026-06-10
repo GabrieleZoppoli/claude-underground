@@ -1,6 +1,6 @@
 {
   "name": "claude-tube-map",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Discover, wire up (free, honest tools first), and ride the Claude Research Underground — connect the biomedical MCP servers, public APIs and skills on the map, then take a task journey (bibliography, figures, stats/omics, grant, slides, peer-review, writing, ⚖️ EU/IT/US paralegal). Asks at install which paid/institutional tools you have.",
   "author": {"name": "Gabriele Zoppoli", "url": "https://github.com/GabrieleZoppoli"}
 }

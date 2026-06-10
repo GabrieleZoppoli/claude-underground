@@ -5,6 +5,22 @@ can boot your research — **genomics · medicine · computational biology · st
 trial design** — with **Claude Code as the grand-central interchange** on your
 workstation, and **Codex / GPT-5.5** as the sister terminus ("second engine").
 
+---
+
+## 🚀 Quickstart — install the plugin
+
+The map is also an installable Claude Code plugin, **`claude-tube-map`**. In Claude Code:
+
+```
+/plugin marketplace add GabrieleZoppoli/claude-underground
+/plugin install claude-tube-map@claude-underground
+```
+
+Restart Claude Code, then run **`/tube-map`** — a plain-language welcome that asks what job
+you want done. Nothing else to learn; the rest of this page is the map itself and how it's built.
+
+---
+
 **v2** draws **78 stations — the super-confident set** (every connector wired in the
 session + every ✅-verified MCP repo / official endpoint / well-known public API) and
 adds **interchange lines** — the aggregator servers that genuinely span several
@@ -110,7 +126,7 @@ the stations for you (**free, honest tools first**) and can run whole jobs end-t
 
 Then:
 
-- `/tube-map` — a plain-language welcome: the jobs you can do right now, not a wall of tools.
+- `/tube-map` — a plain-language welcome that sorts jobs into *ready now* (builtin) and *one free install away*, never a wall of tools.
 - `/tube-map-install all` — wire everything: **free stops first**, then it asks which paid/institutional subscriptions you actually have (Codex, BioRender, Consensus Pro…) before wiring those.
 - `/tube-map-install stat` — wire just one line.
 - `/tube-map-status` — the full board (● live · ◉ ready · ⚠ needs you), free-first and cost-marked.

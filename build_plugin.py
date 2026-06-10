@@ -21,7 +21,10 @@ PROBE_BY_WIRE = {
     "api": "none",
 }
 
-LINE_ORDER = ["hub", "lit", "gen", "comp", "stat", "clin", "viz", "write", "ops"]
+# Free-first: lower rank surfaces first within each line. Default (untagged) = free.
+COST_RANK = {"free": 0, "freemium": 1, "paid": 2, "institutional": 2}
+
+LINE_ORDER = ["hub", "lit", "gen", "comp", "stat", "clin", "viz", "write", "ops", "legal"]
 
 
 def build_catalogue(stations, wiring):
@@ -40,6 +43,7 @@ def build_catalogue(stations, wiring):
             "wire": wire,
             "authType": w.get("authType", "none"),
             "personal": bool(w.get("personal", False)),
+            "cost": w.get("cost", "free"),
             "source": w.get("source"),
             "plugin": w.get("plugin"),
             "probe": PROBE_BY_WIRE.get(wire, "none"),
@@ -51,6 +55,8 @@ def build_catalogue(stations, wiring):
             "color": st.get("color", "#7A868C"),
             "stations": [],
         })["stations"].append(entry)
+    for ln in lines.values():                       # free-first within each line (stable)
+        ln["stations"].sort(key=lambda s: COST_RANK.get(s.get("cost", "free"), 1))
     ordered = [lines[k] for k in LINE_ORDER if k in lines]
     ordered += [v for k, v in lines.items() if k not in LINE_ORDER]
     return {"lines": ordered}

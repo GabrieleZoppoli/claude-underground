@@ -15,6 +15,7 @@ import json, os, sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 WIRE_METHODS = {"auto-mcp", "oauth", "apikey", "marketplace", "runtime", "api", "builtin"}
+COST_LEVELS = {"free", "freemium", "paid", "institutional"}   # absent = free (the default)
 
 
 def validate(stations, wiring, catalogue, mcp):
@@ -33,6 +34,8 @@ def validate(stations, wiring, catalogue, mcp):
             problems.append(f"station '{sid}' is auto-mcp but has no 'mcp' block")
         if wire == "marketplace" and not w.get("source"):
             problems.append(f"station '{sid}' is marketplace but has no 'source'")
+        if w.get("cost") is not None and w["cost"] not in COST_LEVELS:
+            problems.append(f"station '{sid}' has invalid cost '{w['cost']}'")
     auto = {s for s, w in wiring.items() if w.get("wire") == "auto-mcp"}
     servers = set((mcp or {}).get("mcpServers", {}))
     for s in sorted(servers - auto):

@@ -1,6 +1,6 @@
 ---
 name: tube-map
-description: Use to discover, install, or connect the Claude Research Underground — the biomedical connectors, MCP servers and skills on the map — or to ride a task journey (bibliography, figures, stats+plots, slides, peer-review, scientific writing, paralegal revision). Triggers on "set me up / what's available / what's connected / tube map / install the map / wire up X line" and on the named journeys. Do NOT use for tasks an already-installed skill owns directly.
+description: Use to discover, install, or connect the Claude Research Underground — the biomedical connectors, MCP servers and skills on the map (free/low-cost tools first) — or to ride a task journey (bibliography, figures, stats+plots, omics analysis, slides, peer-review, scientific writing, grant planning, paralegal revision). Triggers on "set me up / what's available / what's connected / tube map / install the map / wire up X line" and on the named journeys. Do NOT use for tasks an already-installed skill owns directly.
 ---
 
 # Claude Tube Map
@@ -12,7 +12,13 @@ capability. Once a stop is wired you use it directly — this skill gets out of 
 
 Read `${CLAUDE_PLUGIN_ROOT}/data/catalogue.json`. It lists every station grouped by
 line, each with: `id`, `name`, `tier`, `desc`, `how`, `url`, `wire`, `authType`,
-`personal`, `probe`. This file is generated from the map — never hand-edit it.
+`personal`, `cost`, `probe`. Stations are already ordered **free-first** within each line.
+This file is generated from the map — never hand-edit it.
+
+**Free-first (hard preference):** prefer `cost: free` tools, then `freemium`, and only reach
+for `paid`/`institutional` when no free stop on the same line does the job. When you do
+surface a paid tool, say it's paid and name the free alternative. Cost markers for the board:
+🆓 free · ◐ freemium · 💲 paid · 🏛 institutional.
 
 ## Two ways in
 
@@ -20,14 +26,19 @@ line, each with: `id`, `name`, `tier`, `desc`, `how`, `url`, `wire`, `authType`,
 2. **One line or one journey** — `/tube-map-install <line>` (e.g. `stat`), or just say
    what you want ("format these refs for Nature") and route to the matching journey.
 
-Show the board only when asked (`/tube-map`, `/tube-map-status`). Never auto-dump it.
+**Front door:** `/tube-map` greets a newcomer with plain-language *jobs* (free-first), not the
+84-stop board. The full board is opt-in: `/tube-map-status` (or "show me everything"). Never auto-dump it.
+
+**Subscription wizard:** when installing, wire free stops first; before any
+`freemium`/`paid`/`institutional` stop, ask once which the user actually has (Codex, BioRender,
+Consensus Pro, Synapse, Wiley…) and wire only those — see `/tube-map-install`.
 
 ## Journeys & lines (load on demand)
 
 - **Journeys** are end-to-end jobs. `${CLAUDE_PLUGIN_ROOT}/data/journeys.json` maps each
   journey → its required `stops` + a `playbook` path. To run one: wire its stops with the
   engine below, then read and follow `${CLAUDE_PLUGIN_ROOT}/skills/tube-map/<playbook>`.
-  Journeys: bibliography · figures · stats-plots · slides · peer-review · scientific-writing · paralegal.
+  Journeys: bibliography · figures · stats-plots · omics · slides · peer-review · scientific-writing · grant · paralegal.
 - **Lines** have a short playbook at `${CLAUDE_PLUGIN_ROOT}/skills/tube-map/lines/<line>.md`.
   Read it when the user wants to "ride" a whole domain line.
 

@@ -1,15 +1,26 @@
 ---
-description: Install/connect the map — everything, one line, or one journey's required stops — using the tube-map wiring engine.
-argument-hint: "[all | <line: lit|gen|comp|stat|clin|viz|write|ops> | <journey>]"
+description: Install/connect the map — free tools first, then ask which paid/institutional subscriptions you have before wiring those.
+argument-hint: "[all | <line: lit|gen|comp|stat|clin|viz|write|ops|legal> | <journey>]"
 ---
 
 Use the `tube-map` skill. Resolve the target from `$ARGUMENTS`:
 
 - `all` → every station in `${CLAUDE_PLUGIN_ROOT}/data/catalogue.json` (warn it's heavy).
-- a line key (e.g. `stat`) → that line's stations; also read `${CLAUDE_PLUGIN_ROOT}/skills/tube-map/lines/<key>.md` for line guidance.
-- a journey name → read `${CLAUDE_PLUGIN_ROOT}/data/journeys.json`, wire that journey's `stops`, then read & follow its `playbook` (under `${CLAUDE_PLUGIN_ROOT}/skills/tube-map/`) to run the job end-to-end.
+- a line key (e.g. `stat`) → that line's stations; also read `${CLAUDE_PLUGIN_ROOT}/skills/tube-map/lines/<key>.md`.
+- a journey name → read `${CLAUDE_PLUGIN_ROOT}/data/journeys.json`, wire that journey's `stops`, then read & follow its `playbook`.
 
-Run the wiring engine from the skill for each target stop: **detect → if live, skip →
-else act showing the command first → re-check → update the board.** Honour the honesty
-rules: never silently skip; leave anything you can't finish as ⚠ needs-you with the exact
-next step. Finish by printing the updated board for the targeted stops only.
+**Free-first install order (use each stop's `cost` field):**
+1. **Free stops** (`cost: free`, the default) — wire these first, no questions asked.
+2. **The subscription wizard** — BEFORE touching any `freemium` / `paid` / `institutional`
+   stop in the target set, list them and ask the user **once**: *"These need a paid or
+   institutional account — which do you actually have? (e.g. Codex, BioRender, Consensus
+   Pro, Synapse, Wiley)."* Wire only the ones they confirm. For the rest, leave them
+   **⚠ needs-you** and point to the **free alternative on the same line** where one exists
+   (mermaid for Figma; deep-research / PubMed for Consensus Pro; Open Targets + public APIs
+   for paid data; image-gen/FLUX for gpt-image-2). **Never push a paid tool when a free
+   stop on the map does the job.**
+
+Then run the wiring engine per stop: **detect → if live, skip → else act showing the
+command first → re-check → update the board.** Honesty rules: never silently skip; show
+every command first; leave anything unfinished as ⚠ needs-you with the exact next step.
+Finish by printing the updated board for the targeted stops only.

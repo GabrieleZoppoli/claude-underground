@@ -64,5 +64,26 @@
       "markitdown"
     ],
     "playbook": "journeys/paralegal.md"
+  },
+  "grant": {
+    "description": "Plan and draft a competitive research grant (NIH/NSF/ERC/Horizon Europe): landscape, significance, specific aims, approach, impact, budget — with venue rules and reference checks.",
+    "stops": [
+      "grants",
+      "deepresearch",
+      "citation",
+      "venue"
+    ],
+    "playbook": "journeys/grant.md"
+  },
+  "omics": {
+    "description": "Analyse omics data (bulk / single-cell / spatial) with confidence: QC, the appropriate method, sanity checks, and publication-standard plots — free-first tooling.",
+    "stops": [
+      "python",
+      "scqc",
+      "scmcp",
+      "survival",
+      "reporting"
+    ],
+    "playbook": "journeys/omics.md"
   }
 }

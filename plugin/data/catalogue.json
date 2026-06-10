@@ -15,6 +15,7 @@
           "wire": "builtin",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": null,
           "plugin": null,
           "probe": "skill"
@@ -36,22 +37,9 @@
           "wire": "marketplace",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": "anthropics/life-sciences",
           "plugin": "pubmed@life-sciences",
-          "probe": "skill"
-        },
-        {
-          "id": "consensus",
-          "name": "Consensus",
-          "tier": "live",
-          "desc": "Evidence synthesis with claim-level support/oppose scoring.",
-          "how": "MCP connected now — ask a question, get cited consensus.",
-          "url": "https://consensus.app",
-          "wire": "marketplace",
-          "authType": "none",
-          "personal": false,
-          "source": "anthropics/life-sciences",
-          "plugin": "consensus@life-sciences",
           "probe": "skill"
         },
         {
@@ -64,6 +52,7 @@
           "wire": "api",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": null,
           "plugin": null,
           "probe": "none"
@@ -78,6 +67,7 @@
           "wire": "api",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": null,
           "plugin": null,
           "probe": "none"
@@ -92,6 +82,7 @@
           "wire": "api",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": null,
           "plugin": null,
           "probe": "none"
@@ -106,6 +97,7 @@
           "wire": "api",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": null,
           "plugin": null,
           "probe": "none"
@@ -120,6 +112,7 @@
           "wire": "builtin",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": null,
           "plugin": null,
           "probe": "skill"
@@ -134,8 +127,24 @@
           "wire": "marketplace",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": "K-Dense-AI/claude-scientific-writer",
           "plugin": "claude-scientific-writer@claude-scientific-writer",
+          "probe": "skill"
+        },
+        {
+          "id": "consensus",
+          "name": "Consensus",
+          "tier": "live",
+          "desc": "Evidence synthesis with claim-level support/oppose scoring.",
+          "how": "MCP connected now — ask a question, get cited consensus.",
+          "url": "https://consensus.app",
+          "wire": "marketplace",
+          "authType": "none",
+          "personal": false,
+          "cost": "freemium",
+          "source": "anthropics/life-sciences",
+          "plugin": "consensus@life-sciences",
           "probe": "skill"
         },
         {
@@ -148,6 +157,7 @@
           "wire": "marketplace",
           "authType": "none",
           "personal": false,
+          "cost": "freemium",
           "source": "K-Dense-AI/claude-scientific-writer",
           "plugin": "claude-scientific-writer@claude-scientific-writer",
           "probe": "skill"
@@ -162,6 +172,7 @@
           "wire": "marketplace",
           "authType": "none",
           "personal": false,
+          "cost": "institutional",
           "source": "anthropics/life-sciences",
           "plugin": "wiley-scholar-gateway@life-sciences",
           "probe": "skill"
@@ -174,20 +185,6 @@
       "color": "#00782A",
       "stations": [
         {
-          "id": "synapse",
-          "name": "Synapse.org",
-          "tier": "live",
-          "desc": "Sage Bionetworks repository — controlled-access cohorts, consortium data.",
-          "how": "MCP connected now — search & pull datasets (auth for controlled access).",
-          "url": "https://www.synapse.org",
-          "wire": "marketplace",
-          "authType": "oauth",
-          "personal": false,
-          "source": "anthropics/life-sciences",
-          "plugin": "synapse@life-sciences",
-          "probe": "skill"
-        },
-        {
           "id": "geosra",
           "name": "GEO / SRA",
           "tier": "verified",
@@ -197,6 +194,7 @@
           "wire": "api",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": null,
           "plugin": null,
           "probe": "none"
@@ -211,6 +209,7 @@
           "wire": "api",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": null,
           "plugin": null,
           "probe": "none"
@@ -225,6 +224,7 @@
           "wire": "api",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": null,
           "plugin": null,
           "probe": "none"
@@ -239,6 +239,7 @@
           "wire": "api",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": null,
           "plugin": null,
           "probe": "none"
@@ -253,6 +254,7 @@
           "wire": "api",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": null,
           "plugin": null,
           "probe": "none"
@@ -267,20 +269,7 @@
           "wire": "api",
           "authType": "none",
           "personal": false,
-          "source": null,
-          "plugin": null,
-          "probe": "none"
-        },
-        {
-          "id": "depmap",
-          "name": "DepMap / OncoKB",
-          "tier": "verified",
-          "desc": "Dependency/essentiality screens + precision-oncology annotation.",
-          "how": "DepMap downloads; OncoKB API (token).",
-          "url": "https://depmap.org",
-          "wire": "api",
-          "authType": "apikey",
-          "personal": false,
+          "cost": "free",
           "source": null,
           "plugin": null,
           "probe": "none"
@@ -295,6 +284,7 @@
           "wire": "api",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": null,
           "plugin": null,
           "probe": "none"
@@ -309,6 +299,7 @@
           "wire": "runtime",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": null,
           "plugin": null,
           "probe": "mcp"
@@ -323,6 +314,7 @@
           "wire": "auto-mcp",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": null,
           "plugin": null,
           "probe": "mcp"
@@ -337,9 +329,40 @@
           "wire": "runtime",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": null,
           "plugin": null,
           "probe": "mcp"
+        },
+        {
+          "id": "synapse",
+          "name": "Synapse.org",
+          "tier": "live",
+          "desc": "Sage Bionetworks repository — controlled-access cohorts, consortium data.",
+          "how": "MCP connected now — search & pull datasets (auth for controlled access).",
+          "url": "https://www.synapse.org",
+          "wire": "marketplace",
+          "authType": "oauth",
+          "personal": false,
+          "cost": "freemium",
+          "source": "anthropics/life-sciences",
+          "plugin": "synapse@life-sciences",
+          "probe": "skill"
+        },
+        {
+          "id": "depmap",
+          "name": "DepMap / OncoKB",
+          "tier": "verified",
+          "desc": "Dependency/essentiality screens + precision-oncology annotation.",
+          "how": "DepMap downloads; OncoKB API (token).",
+          "url": "https://depmap.org",
+          "wire": "api",
+          "authType": "apikey",
+          "personal": false,
+          "cost": "freemium",
+          "source": null,
+          "plugin": null,
+          "probe": "none"
         }
       ]
     },
@@ -358,6 +381,7 @@
           "wire": "builtin",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": null,
           "plugin": null,
           "probe": "skill"
@@ -372,6 +396,7 @@
           "wire": "runtime",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": null,
           "plugin": null,
           "probe": "mcp"
@@ -386,6 +411,7 @@
           "wire": "runtime",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": null,
           "plugin": null,
           "probe": "mcp"
@@ -400,6 +426,7 @@
           "wire": "runtime",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": null,
           "plugin": null,
           "probe": "mcp"
@@ -414,6 +441,7 @@
           "wire": "api",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": null,
           "plugin": null,
           "probe": "none"
@@ -428,6 +456,7 @@
           "wire": "runtime",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": null,
           "plugin": null,
           "probe": "mcp"
@@ -442,6 +471,7 @@
           "wire": "runtime",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": null,
           "plugin": null,
           "probe": "mcp"
@@ -456,6 +486,7 @@
           "wire": "runtime",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": null,
           "plugin": null,
           "probe": "mcp"
@@ -470,6 +501,7 @@
           "wire": "runtime",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": null,
           "plugin": null,
           "probe": "mcp"
@@ -484,6 +516,7 @@
           "wire": "marketplace",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": "anthropics/life-sciences",
           "plugin": "single-cell-rna-qc@life-sciences",
           "probe": "skill"
@@ -498,6 +531,7 @@
           "wire": "marketplace",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": "anthropics/life-sciences",
           "plugin": "nextflow-development@life-sciences",
           "probe": "skill"
@@ -512,6 +546,7 @@
           "wire": "marketplace",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": "anthropics/life-sciences",
           "plugin": "scvi-tools@life-sciences",
           "probe": "skill"
@@ -533,6 +568,7 @@
           "wire": "builtin",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": null,
           "plugin": null,
           "probe": "skill"
@@ -547,6 +583,7 @@
           "wire": "builtin",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": null,
           "plugin": null,
           "probe": "skill"
@@ -561,6 +598,7 @@
           "wire": "marketplace",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": "K-Dense-AI/claude-scientific-writer",
           "plugin": "claude-scientific-writer@claude-scientific-writer",
           "probe": "skill"
@@ -575,6 +613,7 @@
           "wire": "marketplace",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": "K-Dense-AI/claude-scientific-writer",
           "plugin": "claude-scientific-writer@claude-scientific-writer",
           "probe": "skill"
@@ -589,6 +628,7 @@
           "wire": "marketplace",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": "K-Dense-AI/claude-scientific-writer",
           "plugin": "claude-scientific-writer@claude-scientific-writer",
           "probe": "skill"
@@ -603,6 +643,7 @@
           "wire": "runtime",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": null,
           "plugin": null,
           "probe": "mcp"
@@ -617,6 +658,7 @@
           "wire": "builtin",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": null,
           "plugin": null,
           "probe": "skill"
@@ -631,6 +673,7 @@
           "wire": "runtime",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": null,
           "plugin": null,
           "probe": "mcp"
@@ -652,6 +695,7 @@
           "wire": "marketplace",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": "K-Dense-AI/claude-scientific-writer",
           "plugin": "claude-scientific-writer@claude-scientific-writer",
           "probe": "skill"
@@ -666,6 +710,7 @@
           "wire": "marketplace",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": "K-Dense-AI/claude-scientific-writer",
           "plugin": "claude-scientific-writer@claude-scientific-writer",
           "probe": "skill"
@@ -680,6 +725,7 @@
           "wire": "marketplace",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": "K-Dense-AI/claude-scientific-writer",
           "plugin": "claude-scientific-writer@claude-scientific-writer",
           "probe": "skill"
@@ -694,6 +740,7 @@
           "wire": "api",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": null,
           "plugin": null,
           "probe": "none"
@@ -708,6 +755,7 @@
           "wire": "api",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": null,
           "plugin": null,
           "probe": "none"
@@ -722,6 +770,7 @@
           "wire": "api",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": null,
           "plugin": null,
           "probe": "none"
@@ -736,6 +785,7 @@
           "wire": "api",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": null,
           "plugin": null,
           "probe": "none"
@@ -748,20 +798,6 @@
       "color": "#F1A800",
       "stations": [
         {
-          "id": "biorender",
-          "name": "BioRender",
-          "tier": "live",
-          "desc": "Publication figures from a vast bio icon/template library.",
-          "how": "MCP connected now — search icons & templates.",
-          "url": "https://www.biorender.com",
-          "wire": "marketplace",
-          "authType": "oauth",
-          "personal": false,
-          "source": "anthropics/life-sciences",
-          "plugin": "biorender@life-sciences",
-          "probe": "skill"
-        },
-        {
           "id": "mermaid",
           "name": "Mermaid",
           "tier": "live",
@@ -771,9 +807,25 @@
           "wire": "oauth",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": null,
           "plugin": null,
           "probe": "connector"
+        },
+        {
+          "id": "biorender",
+          "name": "BioRender",
+          "tier": "live",
+          "desc": "Publication figures from a vast bio icon/template library.",
+          "how": "MCP connected now — search icons & templates.",
+          "url": "https://www.biorender.com",
+          "wire": "marketplace",
+          "authType": "oauth",
+          "personal": false,
+          "cost": "freemium",
+          "source": "anthropics/life-sciences",
+          "plugin": "biorender@life-sciences",
+          "probe": "skill"
         },
         {
           "id": "figma",
@@ -785,6 +837,7 @@
           "wire": "oauth",
           "authType": "none",
           "personal": false,
+          "cost": "freemium",
           "source": null,
           "plugin": null,
           "probe": "connector"
@@ -799,6 +852,7 @@
           "wire": "marketplace",
           "authType": "none",
           "personal": false,
+          "cost": "freemium",
           "source": "K-Dense-AI/claude-scientific-writer",
           "plugin": "claude-scientific-writer@claude-scientific-writer",
           "probe": "skill"
@@ -813,6 +867,7 @@
           "wire": "marketplace",
           "authType": "none",
           "personal": false,
+          "cost": "freemium",
           "source": "K-Dense-AI/claude-scientific-writer",
           "plugin": "claude-scientific-writer@claude-scientific-writer",
           "probe": "skill"
@@ -827,6 +882,7 @@
           "wire": "marketplace",
           "authType": "none",
           "personal": false,
+          "cost": "freemium",
           "source": "K-Dense-AI/claude-scientific-writer",
           "plugin": "claude-scientific-writer@claude-scientific-writer",
           "probe": "skill"
@@ -841,6 +897,7 @@
           "wire": "api",
           "authType": "none",
           "personal": false,
+          "cost": "paid",
           "source": null,
           "plugin": null,
           "probe": "none"
@@ -862,6 +919,7 @@
           "wire": "marketplace",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": "K-Dense-AI/claude-scientific-writer",
           "plugin": "claude-scientific-writer@claude-scientific-writer",
           "probe": "skill"
@@ -876,6 +934,7 @@
           "wire": "marketplace",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": "K-Dense-AI/claude-scientific-writer",
           "plugin": "claude-scientific-writer@claude-scientific-writer",
           "probe": "skill"
@@ -890,6 +949,7 @@
           "wire": "marketplace",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": "K-Dense-AI/claude-scientific-writer",
           "plugin": "claude-scientific-writer@claude-scientific-writer",
           "probe": "skill"
@@ -904,6 +964,7 @@
           "wire": "marketplace",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": "K-Dense-AI/claude-scientific-writer",
           "plugin": "claude-scientific-writer@claude-scientific-writer",
           "probe": "skill"
@@ -918,6 +979,7 @@
           "wire": "marketplace",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": "K-Dense-AI/claude-scientific-writer",
           "plugin": "claude-scientific-writer@claude-scientific-writer",
           "probe": "skill"
@@ -932,6 +994,7 @@
           "wire": "builtin",
           "authType": "none",
           "personal": true,
+          "cost": "free",
           "source": null,
           "plugin": null,
           "probe": "skill"
@@ -946,6 +1009,7 @@
           "wire": "builtin",
           "authType": "none",
           "personal": true,
+          "cost": "free",
           "source": null,
           "plugin": null,
           "probe": "skill"
@@ -960,6 +1024,7 @@
           "wire": "marketplace",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": "K-Dense-AI/claude-scientific-writer",
           "plugin": "claude-scientific-writer@claude-scientific-writer",
           "probe": "skill"
@@ -974,6 +1039,7 @@
           "wire": "marketplace",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": "K-Dense-AI/claude-scientific-writer",
           "plugin": "claude-scientific-writer@claude-scientific-writer",
           "probe": "skill"
@@ -988,6 +1054,7 @@
           "wire": "marketplace",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": "K-Dense-AI/claude-scientific-writer",
           "plugin": "claude-scientific-writer@claude-scientific-writer",
           "probe": "skill"
@@ -1009,6 +1076,7 @@
           "wire": "oauth",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": null,
           "plugin": null,
           "probe": "connector"
@@ -1023,6 +1091,7 @@
           "wire": "oauth",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": null,
           "plugin": null,
           "probe": "connector"
@@ -1037,6 +1106,7 @@
           "wire": "oauth",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": null,
           "plugin": null,
           "probe": "connector"
@@ -1051,6 +1121,7 @@
           "wire": "oauth",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": null,
           "plugin": null,
           "probe": "connector"
@@ -1065,6 +1136,7 @@
           "wire": "builtin",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": null,
           "plugin": null,
           "probe": "skill"
@@ -1079,22 +1151,9 @@
           "wire": "builtin",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": null,
           "plugin": null,
-          "probe": "skill"
-        },
-        {
-          "id": "codex",
-          "name": "Codex · GPT-5.5",
-          "tier": "live",
-          "desc": "Second engine — decorrelated review, long shell agents, red-team.",
-          "how": "codex exec via Bash; Skill: codex-dispatch.",
-          "url": "",
-          "wire": "marketplace",
-          "authType": "oauth",
-          "personal": false,
-          "source": "openai/codex-plugin-cc",
-          "plugin": "codex@openai-codex",
           "probe": "skill"
         },
         {
@@ -1107,6 +1166,7 @@
           "wire": "marketplace",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": "anthropics/life-sciences",
           "plugin": null,
           "probe": "skill"
@@ -1121,6 +1181,7 @@
           "wire": "api",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": null,
           "plugin": null,
           "probe": "none"
@@ -1135,6 +1196,7 @@
           "wire": "runtime",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": null,
           "plugin": null,
           "probe": "mcp"
@@ -1149,6 +1211,7 @@
           "wire": "api",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": null,
           "plugin": null,
           "probe": "none"
@@ -1163,9 +1226,25 @@
           "wire": "runtime",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": null,
           "plugin": null,
           "probe": "mcp"
+        },
+        {
+          "id": "codex",
+          "name": "Codex · GPT-5.5",
+          "tier": "live",
+          "desc": "Second engine — decorrelated review, long shell agents, red-team.",
+          "how": "codex exec via Bash; Skill: codex-dispatch.",
+          "url": "",
+          "wire": "marketplace",
+          "authType": "oauth",
+          "personal": false,
+          "cost": "paid",
+          "source": "openai/codex-plugin-cc",
+          "plugin": "codex@openai-codex",
+          "probe": "skill"
         }
       ]
     },
@@ -1184,6 +1263,7 @@
           "wire": "builtin",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": null,
           "plugin": null,
           "probe": "skill"
@@ -1198,6 +1278,7 @@
           "wire": "builtin",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": null,
           "plugin": null,
           "probe": "skill"
@@ -1212,6 +1293,7 @@
           "wire": "builtin",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": null,
           "plugin": null,
           "probe": "skill"
@@ -1226,6 +1308,7 @@
           "wire": "builtin",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": null,
           "plugin": null,
           "probe": "skill"
@@ -1240,6 +1323,7 @@
           "wire": "builtin",
           "authType": "none",
           "personal": false,
+          "cost": "free",
           "source": null,
           "plugin": null,
           "probe": "skill"

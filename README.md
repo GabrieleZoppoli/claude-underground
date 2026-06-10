@@ -101,7 +101,7 @@ trust tiers are in `CATALOGUE.md`.
 ## Install & connect it (the plugin)
 
 The map is also an installable Claude Code plugin — `claude-tube-map` — that wires up
-the stations for you and shows a live board of what's connected.
+the stations for you (**free, honest tools first**) and can run whole jobs end-to-end.
 
 ```
 /plugin marketplace add GabrieleZoppoli/claude-underground
@@ -110,11 +110,11 @@ the stations for you and shows a live board of what's connected.
 
 Then:
 
-- `/tube-map` — open the board (● live · ◉ ready · ⚠ needs you).
-- `/tube-map-install all` — wire everything (heavy).
+- `/tube-map` — a plain-language welcome: the jobs you can do right now, not a wall of tools.
+- `/tube-map-install all` — wire everything: **free stops first**, then it asks which paid/institutional subscriptions you actually have (Codex, BioRender, Consensus Pro…) before wiring those.
 - `/tube-map-install stat` — wire just one line.
-- `/tube-map-status` — what's connected right now.
-- Or just name a journey — *"format these refs for Nature"*, *"make a KM plot"*, *"review this grant"* — and the matching journey (bibliography · figures · stats-plots · slides · peer-review · scientific-writing · paralegal) wires what it needs and runs it.
+- `/tube-map-status` — the full board (● live · ◉ ready · ⚠ needs you), free-first and cost-marked.
+- Or just name a journey — *"review this agreement"*, *"build me a bibliography"*, *"plan a grant"*, *"analyse this single-cell data"* — and the matching journey (bibliography · figures · stats-plots · omics · slides · peer-review · scientific-writing · grant · ⚖️ paralegal) wires what it needs and runs it.
 
 **Maintainers:** the plugin's data is generated — edit `wiring.json`, run
 `python3 build_plugin.py`, and `python3 tools/check_plugin.py` to validate. CI

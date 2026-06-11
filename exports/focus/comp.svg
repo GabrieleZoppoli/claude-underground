@@ -202,18 +202,18 @@
 <circle class="hit" data-sid="marketplace" cx="1236.0" cy="2850.0" r="15" fill="#000" opacity="0"/>
 <circle class="stn" data-sid="biocontextai" cx="1652.0" cy="2850.0" r="5.0" fill="#fbfaf6" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
 <circle class="hit" data-sid="biocontextai" cx="1652.0" cy="2850.0" r="15" fill="#000" opacity="0"/>
-<text x="2016.0" y="1217.5" font-size="18" text-anchor="middle" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">Python · scanpy/squidpy</text>
-<text x="2016.0" y="1029.0" font-size="18" text-anchor="middle" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">R · Bioconductor</text>
-<text x="2016.0" y="840.5" font-size="18" text-anchor="middle" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">Nextflow / nf-core</text>
-<text x="2016.0" y="652.0" font-size="18" text-anchor="middle" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">Snakemake</text>
-<text x="2217.5" y="1235.5" font-size="18" text-anchor="start" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">SCMCP</text>
-<text x="2406.0" y="1235.5" font-size="18" text-anchor="start" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">ChatSpatial</text>
-<text x="1814.5" y="1235.5" font-size="18" text-anchor="end" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">Jupyter</text>
-<text x="1626.0" y="1235.5" font-size="18" text-anchor="end" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">Galaxy</text>
-<text x="1437.5" y="1235.5" font-size="18" text-anchor="end" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">cfDNA stack</text>
-<text x="2204.5" y="1029.0" font-size="18" text-anchor="middle" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">sc-RNA-QC skill</text>
-<text x="2393.0" y="1029.0" font-size="18" text-anchor="middle" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">nf-core dev skill</text>
-<text x="2581.5" y="1029.0" font-size="18" text-anchor="middle" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">scvi-tools</text>
+<text x="2016.0" y="1217.5" font-size="20" text-anchor="middle" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="6.0" stroke-linejoin="round">Python · scanpy/squidpy</text>
+<text x="2016.0" y="1029.0" font-size="20" text-anchor="middle" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="6.0" stroke-linejoin="round">R · Bioconductor</text>
+<text x="2016.0" y="840.5" font-size="20" text-anchor="middle" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="6.0" stroke-linejoin="round">Nextflow / nf-core</text>
+<text x="2016.0" y="652.0" font-size="20" text-anchor="middle" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="6.0" stroke-linejoin="round">Snakemake</text>
+<text x="2217.5" y="1235.5" font-size="20" text-anchor="start" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="6.0" stroke-linejoin="round">SCMCP</text>
+<text x="2406.0" y="1235.5" font-size="20" text-anchor="start" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="6.0" stroke-linejoin="round">ChatSpatial</text>
+<text x="1814.5" y="1235.5" font-size="20" text-anchor="end" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="6.0" stroke-linejoin="round">Jupyter</text>
+<text x="1626.0" y="1235.5" font-size="20" text-anchor="end" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="6.0" stroke-linejoin="round">Galaxy</text>
+<text x="1437.5" y="1235.5" font-size="20" text-anchor="end" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="6.0" stroke-linejoin="round">cfDNA stack</text>
+<text x="2204.5" y="1029.0" font-size="20" text-anchor="middle" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="6.0" stroke-linejoin="round">sc-RNA-QC skill</text>
+<text x="2393.0" y="1029.0" font-size="20" text-anchor="middle" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="6.0" stroke-linejoin="round">nf-core dev skill</text>
+<text x="2581.5" y="1029.0" font-size="20" text-anchor="middle" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="6.0" stroke-linejoin="round">scvi-tools</text>
 <g opacity="0.3">
 <circle cx="1364.2" cy="2357.8" r="20" fill="#ffffff" stroke="#10a37f" stroke-width="6"/>
 <circle cx="1364.2" cy="2357.8" r="7" fill="#10a37f"/>

@@ -475,7 +475,7 @@ _order = sorted((s for s in COORD if s != TERMI),
                 key=lambda s: (STATIONS[s]["tier"] != "live", -len(STATIONS[s]["name"])))
 for _sid in _order:
     _x, _y = COORD[_sid]
-    _tw = len(STATIONS[_sid]["name"]) * 10.0 + 6
+    _tw = len(STATIONS[_sid]["name"]) * 11.0 + 6     # label box width tracks the (slightly larger) font
     _near = [p for p in _LINEPTS if abs(p[0] - _x) < 175 and abs(p[1] - _y) < 150]
     _pref = label_dir(_sid)
     _dirs = [_pref] + [d for d in ('E', 'W', 'S', 'N', 'SE', 'NE', 'SW', 'NW') if d != _pref]
@@ -654,9 +654,9 @@ def render(focus=None, dark=False):
             color, weight, style = INK3, "400", "normal"
         else:
             color, weight, style = INK4, "400", "italic"
-        out.append(f'<text x="{x+dx:.1f}" y="{y+dy:.1f}" font-size="18" text-anchor="{anchor}" '
+        out.append(f'<text x="{x+dx:.1f}" y="{y+dy:.1f}" font-size="20" text-anchor="{anchor}" '
                    f'fill="{color}" font-weight="{weight}" font-style="{style}" '
-                   f'paint-order="stroke" stroke="{BG}" stroke-width="5.5" stroke-linejoin="round">{esc(st["name"])}</text>')
+                   f'paint-order="stroke" stroke="{BG}" stroke-width="6.0" stroke-linejoin="round">{esc(st["name"])}</text>')
 
     # --- Codex sister terminus
     cx, cy = COORD[TERMI]

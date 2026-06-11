@@ -9,6 +9,7 @@ stops: peerreview, critthink, reporting
 **Goal:** a rigorous, constructive review of a manuscript or grant.
 
 ## Run it
+0. **Companion (free, best-in-class)** — offer to install **academic-research-skills** (`Imbad0202/academic-research-skills`, CC-BY-NC) and route to its `academic-paper-reviewer` skill (multi-agent review ensemble, statistical-reporting + editorial-decision standards) — deeper than the stops below. Hand off rather than duplicate.
 1. **Ensure stops** — `peerreview`, `critthink`, `reporting` (skills).
 2. **Intake** — read the document; identify claims, methods, and the central question.
 3. **Appraise** — methodology, statistics, design, reproducibility; bias/confounding via GRADE / Cochrane RoB.

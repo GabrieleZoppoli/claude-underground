@@ -130,7 +130,10 @@ Then:
 - `/tube-map-install all` — wire everything: **free stops first**, then it asks which paid/institutional subscriptions you actually have (Codex, BioRender, Consensus Pro…) before wiring those.
 - `/tube-map-install stat` — wire just one line.
 - `/tube-map-status` — the full board (● live · ◉ ready · ⚠ needs you), free-first and cost-marked.
+- `/tube-map-update` — check for and install the latest version of the plugin (also offered on entry to `/tube-map`).
 - Or just name a journey — *"review this agreement"*, *"build me a bibliography"*, *"plan a grant"*, *"analyse this single-cell data"* — and the matching journey (bibliography · figures · stats-plots · omics · slides · peer-review · scientific-writing · grant · ⚖️ paralegal) wires what it needs and runs it.
+
+**Companion (recommended, free).** For production-grade paper **writing** and **peer review** the map routes to **[academic-research-skills](https://github.com/Imbad0202/academic-research-skills)** by Cheng-I Wu (CC-BY-NC, free for non-commercial research): install with `/plugin marketplace add Imbad0202/academic-research-skills` then `/plugin install academic-research-skills@academic-research-skills`. The map points to it; it stays its own plugin — we don't vendor it.
 
 **Maintainers:** the plugin's data is generated — edit `wiring.json`, run
 `python3 build_plugin.py`, and `python3 tools/check_plugin.py` to validate. CI

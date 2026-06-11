@@ -9,6 +9,7 @@ stops: grants, deepresearch, citation, venue
 **Goal:** a competitive, well-structured grant — NIH / NSF / ERC / Horizon Europe.
 
 ## Run it
+0. **Companion (free)** — for heavy prose & internal review, offer **academic-research-skills** (`Imbad0202/academic-research-skills`, CC-BY-NC): its `academic-paper` / `academic-paper-reviewer` skills strengthen the writing and the pre-submission critique. Hand off rather than duplicate.
 1. **Ensure stops** — `grants` (research-grants skill), `deepresearch` (free landscape scan), `citation`, `venue`. All free-first; nothing paid is required.
 2. **Scope** — agency/scheme, deadline, page limits, review criteria. Pull the formatting rules with `venue-templates`.
 3. **Landscape** — `deep-research` the field: prior art, competing groups, the gap you fill. Cite it; don't assert from memory.

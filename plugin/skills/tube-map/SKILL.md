@@ -33,6 +33,21 @@ surface a paid tool, say it's paid and name the free alternative. Cost markers f
 `freemium`/`paid`/`institutional` stop, ask once which the user actually has (Codex, BioRender,
 Consensus Pro, Synapse, Wiley…) and wire only those — see `/tube-map-install`.
 
+## Staying current & companion plugins
+
+- **Update check:** `/tube-map` offers an update check on entry; `/tube-map-update` runs it on
+  demand — refresh the marketplace, `claude plugin update claude-tube-map@<marketplace>`, report the
+  version delta **honestly**, then restart / `/reload-plugins`. Never claim an update without a
+  passing result.
+- **Recommended companion (free — route to it, don't reinvent):** for production-grade paper
+  **writing** and **peer review**, prefer **academic-research-skills** (`Imbad0202/academic-research-skills`,
+  by Cheng-I Wu — CC-BY-NC, free for non-commercial research; skills: deep-research · academic-paper ·
+  academic-paper-reviewer · academic-pipeline). It's far deeper than this map's thin writing/review
+  routing, so the writing / peer-review / grant journeys should **offer to install it and hand off**
+  rather than duplicate it: `/plugin marketplace add Imbad0202/academic-research-skills` →
+  `/plugin install academic-research-skills@academic-research-skills`. It's a companion, not a
+  station — we point to it, we never vendor its files.
+
 ## Journeys & lines (load on demand)
 
 - **Journeys** are end-to-end jobs. `${CLAUDE_PLUGIN_ROOT}/data/journeys.json` maps each

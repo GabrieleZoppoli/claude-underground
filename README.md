@@ -141,5 +141,11 @@ Then:
 
 ---
 
+## License
+
+Dual-licensed. The **map, poster, plugin content (skills · commands · journeys · data) and docs** are **CC BY 4.0** — share/adapt for any purpose, even commercially, with credit (*"Claude Tube Map / The Zoppoli Research Underground — Gabriele Zoppoli, github.com/GabrieleZoppoli/claude-underground, CC BY 4.0"*). The **build & tooling code** (`generate_map.py`, `build_plugin.py`, `make_guide.py`, `tools/`, `tests/`) is also available under **MIT** (see `LICENSE-MIT`). Full text in `LICENSE`.
+
+---
+
 *Generated with Claude Code. Edit `generate_map.py` to add stations, re-colour lines,
 or re-route an interchange line — the catalogue and both outputs regenerate from one source.*

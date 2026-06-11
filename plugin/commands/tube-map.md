@@ -5,10 +5,17 @@ description: Open the Claude Tube Map — a plain-language welcome with the jobs
 Use the `tube-map` skill. This is the **front door for a newcomer** — do NOT dump the
 84-stop board here. Greet the user in plain language and lead with *jobs*, not infrastructure.
 
+**First, offer an update check (one short line, non-blocking).** Ask once whether to check for a
+newer plugin version; if they say yes — now or later — run `/tube-map-update` (refresh the
+marketplace, `claude plugin update`, report the version change honestly). Whatever they answer,
+show the welcome right below — never block onboarding on it.
+
 Render roughly this (adapt to what's actually live). Split the jobs into **ready now** (builtin —
 nothing to install) and **one free install away** — and never claim "zero setup" for a job whose
 tools aren't bundled:
 
+> 🔄 *Before we start: want me to check for a newer version of the plugin? Say "yes" and I'll pull it — otherwise let's go.*
+>
 > **🚇 Claude Tube Map** — I'm a kit of research tools wired into one place. You don't need to
 > learn any of it; just tell me the job in plain words.
 >

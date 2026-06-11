@@ -202,14 +202,14 @@
 <circle class="hit" data-sid="marketplace" cx="1236.0" cy="2850.0" r="15" fill="#000" opacity="0"/>
 <circle class="stn" data-sid="biocontextai" cx="1652.0" cy="2850.0" r="5.0" fill="#fbfaf6" stroke="#dcd9d0" stroke-width="2.0" opacity="0.45"/>
 <circle class="hit" data-sid="biocontextai" cx="1652.0" cy="2850.0" r="15" fill="#000" opacity="0"/>
-<text x="2368.8" y="1370.2" font-size="18" text-anchor="start" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">statsmodels / scipy</text>
-<text x="2500.8" y="1201.2" font-size="18" text-anchor="end" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">survival · lifelines</text>
-<text x="2680.8" y="1058.2" font-size="18" text-anchor="start" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">reporting standards</text>
-<text x="2812.8" y="889.2" font-size="18" text-anchor="end" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">peer-review</text>
-<text x="2355.8" y="1163.7" font-size="18" text-anchor="middle" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">Power &amp; sample size</text>
-<text x="2368.8" y="993.2" font-size="18" text-anchor="start" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">Bayesian · Stan/PyMC</text>
-<text x="2700.3" y="1196.2" font-size="18" text-anchor="middle" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">ClinTrials.gov MCP</text>
-<text x="3012.3" y="884.2" font-size="18" text-anchor="middle" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">critical-thinking</text>
+<text x="2368.8" y="1370.2" font-size="20" text-anchor="start" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="6.0" stroke-linejoin="round">statsmodels / scipy</text>
+<text x="2500.8" y="1201.2" font-size="20" text-anchor="end" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="6.0" stroke-linejoin="round">survival · lifelines</text>
+<text x="2680.8" y="1058.2" font-size="20" text-anchor="start" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="6.0" stroke-linejoin="round">reporting standards</text>
+<text x="2812.8" y="889.2" font-size="20" text-anchor="end" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="6.0" stroke-linejoin="round">peer-review</text>
+<text x="2355.8" y="1163.7" font-size="20" text-anchor="middle" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="6.0" stroke-linejoin="round">Power &amp; sample size</text>
+<text x="2368.8" y="993.2" font-size="20" text-anchor="start" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="6.0" stroke-linejoin="round">Bayesian · Stan/PyMC</text>
+<text x="2700.3" y="1196.2" font-size="20" text-anchor="middle" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="6.0" stroke-linejoin="round">ClinTrials.gov MCP</text>
+<text x="3012.3" y="884.2" font-size="20" text-anchor="middle" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="6.0" stroke-linejoin="round">critical-thinking</text>
 <g opacity="0.3">
 <circle cx="1364.2" cy="2357.8" r="20" fill="#ffffff" stroke="#10a37f" stroke-width="6"/>
 <circle cx="1364.2" cy="2357.8" r="7" fill="#10a37f"/>

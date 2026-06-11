@@ -1,7 +1,26 @@
-MIT License — applies to the build & tooling code in this repository only
-(generate_map.py, build_plugin.py, make_guide.py, tools/, tests/). The metro
-map, poster, plugin content (skills/commands/journeys/data) and documentation
-are licensed under CC BY 4.0 — see LICENSE.
+# NOTICE — The Zoppoli Research Underground / Claude Tube Map
+
+Copyright (c) 2026 Gabriele Zoppoli.
+
+## Content & creative work — CC BY 4.0
+
+The metro map and poster (`master.svg`, `exports/*.png`, `exports/*.pdf`),
+`index.html`, and the plugin's skills, commands, journeys, reference modules,
+data and documentation are licensed under the **Creative Commons Attribution
+4.0 International License (CC BY 4.0)**. The full legal text is in `LICENSE`.
+
+Suggested attribution:
+
+> "Claude Tube Map / The Zoppoli Research Underground — Gabriele Zoppoli,
+> github.com/GabrieleZoppoli/claude-underground, licensed under CC BY 4.0."
+
+## Build & tooling code — also available under MIT
+
+The build/tooling code (`generate_map.py`, `build_plugin.py`, `make_guide.py`,
+`tools/`, `tests/`) is additionally offered under the **MIT License**:
+
+```
+MIT License
 
 Copyright (c) 2026 Gabriele Zoppoli
 
@@ -22,3 +41,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+```

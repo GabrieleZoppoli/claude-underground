@@ -26,8 +26,10 @@ surface a paid tool, say it's paid and name the free alternative. Cost markers f
 2. **One line or one journey** — `/tube-map-install <line>` (e.g. `stat`), or just say
    what you want ("format these refs for Nature") and route to the matching journey.
 
-**Front door:** `/tube-map` greets a newcomer with plain-language *jobs* (free-first), not the
-84-stop board. The full board is opt-in: `/tube-map-status` (or "show me everything"). Never auto-dump it.
+**Front door:** `/tube-map` greets a newcomer with plain-language *jobs* (free-first) and an
+**interactive picker** (the `AskUserQuestion` tool — a selectable menu of the top jobs; free-text is
+always allowed so they can just type instead), not the 84-stop board. The full board is opt-in:
+`/tube-map-status` (or "show me everything"). Never auto-dump it.
 
 **Subscription wizard:** when installing, wire free stops first; before any
 `freemium`/`paid`/`institutional` stop, ask once which the user actually has (Codex, BioRender,

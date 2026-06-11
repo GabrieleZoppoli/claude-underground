@@ -503,9 +503,28 @@ def poly_pts(seg_or_pts, has_ids=True):
     return " ".join(f"{px(gx,gy)[0]:.1f},{px(gx,gy)[1]:.1f}" for (gx,gy) in seg_or_pts)
 
 # ----------------------------------------------------------------------------- render
-def render(focus=None):
+def render(focus=None, dark=False):
     # focus: a LINES id or XLINES id -> spotlight that line, grey everything else.
-    FG_DIM = "#dcd9d0"                       # greyed stroke for non-focal elements
+    # ---- theme: light = original look; dark = premium hero poster (poster only; data/colours untouched) ----
+    if dark:
+        BG, BGC = "#0c1322", "#17263f"
+        INK, INK2, INK3, INK4 = "#eef1f6", "#c3cad8", "#8b93a4", "#6b7488"
+        FG_DIM = "#39414f"
+        DOT, ICR = "#e9edf4", "#0c1322"
+        RIVER, RIVERTX = "#2a5a7a", "#8fbdda"
+        CODEXC = "#34cda3"
+        DC = {"lit":"#FF5247","gen":"#37C265","comp":"#CBD5E1","stat":"#36B3EA",
+              "clin":"#F46BB4","viz":"#FFC641","write":"#EC9540","ops":"#AAB7C0","legal":"#27C3B9"}
+        DCX = {"biomcp":"#A988E6","otx":"#FF66B0","discovery":"#C2A368"}
+    else:
+        BG, BGC = "#fbfaf6", "#fbfaf6"
+        INK, INK2, INK3, INK4 = "#1c1c1c", "#2c2c2c", "#6b6b6b", "#9a9183"
+        FG_DIM = "#dcd9d0"
+        DOT, ICR = "#ffffff", "#1c1c1c"
+        RIVER, RIVERTX = "#cfe3ef", "#5f86a0"
+        CODEXC = "#0c7a5e"
+        DC = {lid: LINES[lid]["color"] for lid in LINES}
+        DCX = {xid: XLINES[xid]["color"] for xid in XLINES}
     is_lfocus = focus in LINES
     is_xfocus = focus in XLINES
     _xstops = set(XSTOPS.get(focus, [])) if is_xfocus else set()
@@ -540,20 +559,25 @@ def render(focus=None):
     out.append(f'<svg id="map" xmlns="http://www.w3.org/2000/svg" '
                f'viewBox="{VBX:.0f} {VBY:.0f} {VBW:.0f} {VBH:.0f}" '
                f'font-family="Helvetica Neue, Helvetica, Arial, sans-serif">')
-    out.append(f'<rect x="0" y="0" width="{W}" height="{H}" fill="#fbfaf6"/>')
+    if dark:
+        out.append(f'<defs><radialGradient id="bgv" cx="50%" cy="43%" r="80%">'
+                   f'<stop offset="0%" stop-color="{BGC}"/><stop offset="100%" stop-color="{BG}"/></radialGradient></defs>')
+        out.append(f'<rect x="0" y="0" width="{W}" height="{H}" fill="url(#bgv)"/>')
+    else:
+        out.append(f'<rect x="0" y="0" width="{W}" height="{H}" fill="{BG}"/>')
 
     # --- cfDNA river (the Thames easter-egg)
     RY = H - 360
     river = (f"M -20 {RY:.0f} C {W*0.22:.0f} {RY-40:.0f}, {W*0.30:.0f} {RY+70:.0f}, {W*0.40:.0f} {RY+46:.0f} "
              f"S {W*0.62:.0f} {RY-30:.0f}, {W*0.73:.0f} {RY+38:.0f} S {W*0.88:.0f} {RY+82:.0f}, {W+20} {RY+26:.0f}")
-    out.append(f'<path d="{river}" fill="none" stroke="#cfe3ef" stroke-width="40" stroke-linecap="round"/>')
-    out.append(f'<text x="195" y="{RY-10:.0f}" font-size="17" font-style="italic" fill="#5f86a0">the cfDNA river</text>')
+    out.append(f'<path d="{river}" fill="none" stroke="{RIVER}" stroke-width="40" stroke-linecap="round" opacity="{0.5 if dark else 1.0}"/>')
+    out.append(f'<text x="195" y="{RY-10:.0f}" font-size="17" font-style="italic" fill="{RIVERTX}">the cfDNA river</text>')
 
     # --- radial lines
     LW = 10
     for line, segs in ROUTES.items():
         on = line_on(line)
-        c  = LINES[line]["color"] if on else FG_DIM
+        c  = DC[line] if on else FG_DIM
         lw = (LW + 3) if (on and focus is not None) else LW
         op = 1.0 if on else 0.28
         for seg in segs:
@@ -564,7 +588,7 @@ def render(focus=None):
     # The discovery ring is the lightest — background "install backbone".
     for xid, segs in XROUTES.items():
         on = xline_on(xid)
-        c = (XLINES[xid]["color"] if on else FG_DIM); dash = XLINES[xid]["dash"]
+        c = (DCX[xid] if on else FG_DIM); dash = XLINES[xid]["dash"]
         ring_line = (xid == "discovery")
         casing_w, core_w, op = (6.5, 2.3, 0.5) if ring_line else (8.0, 3.0, 0.9)
         if focus is not None and not on: op = 0.16
@@ -574,33 +598,35 @@ def render(focus=None):
             p = poly_pts(pts, has_ids=False)
             out.append(f'<polyline points="{p}" fill="none" stroke="{c}" stroke-width="{casing_w}" '
                        f'stroke-linecap="round" stroke-linejoin="round" opacity="{op}"{da}/>')
-            out.append(f'<polyline points="{p}" fill="none" stroke="#fbfaf6" stroke-width="{core_w}" '
+            out.append(f'<polyline points="{p}" fill="none" stroke="{BG}" stroke-width="{core_w}" '
                        f'stroke-linecap="round" stroke-linejoin="round" opacity="{op}"{da}/>')
 
     # --- stations by trust tier
     def draw_station(sid):
-        st = STATIONS[sid]; x, y = COORD[sid]; c = LINES[st["line"]]["color"]
+        st = STATIONS[sid]; x, y = COORD[sid]; c = DC[st["line"]]
         tier = st["tier"]
         if focus is not None and not stn_on(sid):
             out.append(f'<circle class="stn" data-sid="{sid}" cx="{x:.1f}" cy="{y:.1f}" r="5.0" '
-                       f'fill="#ffffff" stroke="{FG_DIM}" stroke-width="2.0" opacity="0.45"/>')
+                       f'fill="{BG}" stroke="{FG_DIM}" stroke-width="2.0" opacity="0.45"/>')
             out.append(f'<circle class="hit" data-sid="{sid}" cx="{x:.1f}" cy="{y:.1f}" r="15" fill="#000" opacity="0"/>')
             return
         if sid in INTERCHANGE:
             out.append(f'<circle class="stn" data-sid="{sid}" cx="{x:.1f}" cy="{y:.1f}" r="9.2" '
-                       f'fill="#ffffff" stroke="#1c1c1c" stroke-width="3.2"/>')
+                       f'fill="{DOT}" stroke="{ICR}" stroke-width="3.2"/>')
+            if dark:
+                out.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="4.0" fill="{BG}"/>')
         elif tier == "live":
             out.append(f'<circle class="stn" data-sid="{sid}" cx="{x:.1f}" cy="{y:.1f}" r="6.4" '
-                       f'fill="{c}" stroke="#ffffff" stroke-width="2.0"/>')
+                       f'fill="{c}" stroke="{DOT}" stroke-width="2.0"/>')
         elif tier == "verified":
             out.append(f'<circle class="stn" data-sid="{sid}" cx="{x:.1f}" cy="{y:.1f}" r="6.2" '
-                       f'fill="#ffffff" stroke="{c}" stroke-width="3.2"/>')
+                       f'fill="{DOT}" stroke="{c}" stroke-width="3.2"/>')
         elif tier == "registry":
             out.append(f'<circle class="stn" data-sid="{sid}" cx="{x:.1f}" cy="{y:.1f}" r="5.7" '
-                       f'fill="#ffffff" stroke="{c}" stroke-width="2.2" stroke-dasharray="2.2 1.9"/>')
+                       f'fill="{DOT}" stroke="{c}" stroke-width="2.2" stroke-dasharray="2.2 1.9"/>')
         else:  # unconfirmed
             out.append(f'<circle class="stn" data-sid="{sid}" cx="{x:.1f}" cy="{y:.1f}" r="5.4" '
-                       f'fill="#ffffff" stroke="{c}" stroke-width="1.8" stroke-dasharray="2.0 2.2" opacity="0.6"/>')
+                       f'fill="{DOT}" stroke="{c}" stroke-width="1.8" stroke-dasharray="2.0 2.2" opacity="0.6"/>')
         out.append(f'<circle class="hit" data-sid="{sid}" cx="{x:.1f}" cy="{y:.1f}" r="15" fill="#000" opacity="0"/>')
 
     for sid in COORD:
@@ -621,40 +647,44 @@ def render(focus=None):
         st = STATIONS[sid]; x, y = COORD[sid]
         dx, dy, anchor = LABEL_POS.get(sid, label_off(label_dir(sid)))
         if st["tier"] == "live":
-            color, weight, style = "#1c1c1c", "600", "normal"
+            color, weight, style = INK, "600", "normal"
         elif st["tier"] == "verified":
-            color, weight, style = "#2c2c2c", "500", "normal"
+            color, weight, style = INK2, "500", "normal"
         elif st["tier"] == "registry":
-            color, weight, style = "#6b6b6b", "400", "normal"
+            color, weight, style = INK3, "400", "normal"
         else:
-            color, weight, style = "#9a9183", "400", "italic"
+            color, weight, style = INK4, "400", "italic"
         out.append(f'<text x="{x+dx:.1f}" y="{y+dy:.1f}" font-size="18" text-anchor="{anchor}" '
                    f'fill="{color}" font-weight="{weight}" font-style="{style}" '
-                   f'paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">{esc(st["name"])}</text>')
+                   f'paint-order="stroke" stroke="{BG}" stroke-width="5.5" stroke-linejoin="round">{esc(st["name"])}</text>')
 
     # --- Codex sister terminus
     cx, cy = COORD[TERMI]
     _cop = 0.30 if (focus is not None and focus != "ops") else 1.0
     out.append(f'<g opacity="{_cop}">')
-    out.append(f'<circle cx="{cx:.1f}" cy="{cy:.1f}" r="20" fill="#ffffff" stroke="#10a37f" stroke-width="6"/>')
+    out.append(f'<circle cx="{cx:.1f}" cy="{cy:.1f}" r="20" fill="{DOT}" stroke="#10a37f" stroke-width="6"/>')
     out.append(f'<circle cx="{cx:.1f}" cy="{cy:.1f}" r="7" fill="#10a37f"/>')
     out.append(f'<circle class="hit" data-sid="codex" cx="{cx:.1f}" cy="{cy:.1f}" r="22" fill="#000" opacity="0"/>')
-    out.append(f'<text x="{cx-26:.1f}" y="{cy+6:.1f}" font-size="16" text-anchor="end" font-weight="700" fill="#0c7a5e">Codex · GPT-5.5</text>')
-    out.append(f'<text x="{cx-26:.1f}" y="{cy+24:.1f}" font-size="12" text-anchor="end" fill="#0c7a5e">second engine</text>')
+    out.append(f'<text x="{cx-26:.1f}" y="{cy+6:.1f}" font-size="16" text-anchor="end" font-weight="700" fill="{CODEXC}">Codex · GPT-5.5</text>')
+    out.append(f'<text x="{cx-26:.1f}" y="{cy+24:.1f}" font-size="12" text-anchor="end" fill="{CODEXC}">second engine</text>')
     out.append('</g>')
 
     # --- Claude central hub (on top)
-    out.append(f'<circle cx="{OX}" cy="{OY}" r="42" fill="#ffffff" stroke="#1c1c1c" stroke-width="3"/>')
-    out.append(f'<circle cx="{OX}" cy="{OY}" r="34" fill="#ffffff" stroke="#D97757" stroke-width="9"/>')
+    if dark:
+        out.append(f'<circle cx="{OX}" cy="{OY}" r="56" fill="none" stroke="#D97757" stroke-width="2" opacity="0.28"/>')
+    out.append(f'<circle cx="{OX}" cy="{OY}" r="42" fill="{BG}" stroke="{INK}" stroke-width="3"/>')
+    out.append(f'<circle cx="{OX}" cy="{OY}" r="34" fill="{BG}" stroke="#D97757" stroke-width="9"/>')
     out.append(f'<circle cx="{OX}" cy="{OY}" r="11" fill="#D97757"/>')
     out.append(f'<circle class="hit" data-sid="claude" cx="{OX}" cy="{OY}" r="44" fill="#000" opacity="0"/>')
-    out.append(f'<text x="{OX}" y="{OY-58}" font-size="22" text-anchor="middle" font-weight="800" fill="#1c1c1c" paint-order="stroke" stroke="#fbfaf6" stroke-width="4.5" stroke-linejoin="round">CLAUDE CODE</text>')
-    out.append(f'<text x="{OX}" y="{OY+64}" font-size="13" text-anchor="middle" fill="#6b6b6b">your workstation · central interchange</text>')
+    out.append(f'<text x="{OX}" y="{OY-58}" font-size="22" text-anchor="middle" font-weight="800" fill="{INK}" paint-order="stroke" stroke="{BG}" stroke-width="4.5" stroke-linejoin="round">CLAUDE CODE</text>')
+    out.append(f'<text x="{OX}" y="{OY+64}" font-size="13" text-anchor="middle" fill="{INK3}">your workstation · central interchange</text>')
 
-    # --- title block (top-left)
-    out.append(f'<text x="56" y="78" font-size="38" font-weight="800" fill="#1c1c1c">Claude Research Underground</text>')
-    out.append(f'<text x="58" y="108" font-size="16" fill="#6b6b6b">the connectors, MCP servers &amp; skills worth wiring — genomics · medicine · comp-bio · stats · trial design — Claude at the centre</text>')
-    out.append(f'<text x="58" y="132" font-size="13.5" fill="#8a8170">curated to the live + verified set · solid interchange lines = multi-domain MCP servers · outer dashed ring = the discovery / install backbone</text>')
+    # --- title block (top-left) — roundel + wordmark
+    out.append(f'<circle cx="74" cy="64" r="16" fill="#D97757" stroke="{INK}" stroke-width="2.5"/>')
+    out.append(f'<circle cx="74" cy="64" r="5.5" fill="{BG}"/>')
+    out.append(f'<text x="102" y="78" font-size="42" font-weight="800" fill="{INK}">Claude Research Underground</text>')
+    out.append(f'<text x="104" y="108" font-size="16" fill="{INK3}">the connectors, MCP servers &amp; skills worth wiring — genomics · medicine · comp-bio · stats · trial design — Claude at the centre</text>')
+    out.append(f'<text x="104" y="132" font-size="13.5" fill="{INK3}">curated to the live + verified set · solid interchange lines = multi-domain MCP servers · outer dashed ring = the discovery / install backbone</text>')
 
     # --- focus banner (only on per-line focus renders; positioned inside the cropped frame)
     if focus is not None:
@@ -667,30 +697,33 @@ def render(focus=None):
 
     # --- legend (bottom band)
     lx = 56; ly = H - 232
-    out.append(f'<text x="{lx}" y="{ly}" font-size="16" font-weight="700" fill="#1c1c1c">LINES</text>')
+    if dark:
+        out.append(f'<rect x="{lx-28}" y="{ly-30}" width="1742" height="174" rx="18" '
+                   f'fill="#101a30" stroke="#26344f" stroke-width="1.5" opacity="0.92"/>')
+    out.append(f'<text x="{lx}" y="{ly}" font-size="16" font-weight="700" fill="{INK}">LINES</text>')
     order = ["lit","gen","comp","stat","clin","viz","write","ops","legal"]
     col_x = [lx, lx+330, lx+660, lx+990]
     for i, lid in enumerate(order):
         cxp = col_x[i % 4]; cyp = ly + 26 + (i // 4) * 26
         _on = line_on(lid)
-        _sw = LINES[lid]["color"] if _on else FG_DIM
-        _tx = "#1c1c1c" if _on else "#b9b5ab"
+        _sw = DC[lid] if _on else FG_DIM
+        _tx = INK if _on else INK3
         out.append(f'<rect x="{cxp}" y="{cyp-11}" width="26" height="9" rx="4.5" fill="{_sw}"/>')
         out.append(f'<text x="{cxp+34}" y="{cyp-2}" font-size="13.5" fill="{_tx}">{esc(LINES[lid]["name"])}</text>')
 
     # interchange-line legend
     iy = ly + 92
-    out.append(f'<text x="{lx}" y="{iy}" font-size="16" font-weight="700" fill="#1c1c1c">INTERCHANGE LINES (multi-domain MCP servers)</text>')
+    out.append(f'<text x="{lx}" y="{iy}" font-size="16" font-weight="700" fill="{INK}">INTERCHANGE LINES (multi-domain MCP servers)</text>')
     for i, xid in enumerate(["biomcp","otx","discovery"]):
         cxp = col_x[i % 4]; cyp = iy + 26
         da = 'stroke-dasharray="6 4"' if XLINES[xid]["dash"] else ''
-        out.append(f'<line x1="{cxp}" y1="{cyp-6}" x2="{cxp+26}" y2="{cyp-6}" stroke="{XLINES[xid]["color"]}" stroke-width="6" {da}/>')
-        out.append(f'<line x1="{cxp}" y1="{cyp-6}" x2="{cxp+26}" y2="{cyp-6}" stroke="#fbfaf6" stroke-width="2" {da}/>')
-        out.append(f'<text x="{cxp+34}" y="{cyp-2}" font-size="12.5" fill="#1c1c1c">{esc(XLINES[xid]["name"])}</text>')
+        out.append(f'<line x1="{cxp}" y1="{cyp-6}" x2="{cxp+26}" y2="{cyp-6}" stroke="{DCX[xid]}" stroke-width="6" {da}/>')
+        out.append(f'<line x1="{cxp}" y1="{cyp-6}" x2="{cxp+26}" y2="{cyp-6}" stroke="{BG}" stroke-width="2" {da}/>')
+        out.append(f'<text x="{cxp+34}" y="{cyp-2}" font-size="12.5" fill="{INK}">{esc(XLINES[xid]["name"])}</text>')
 
     # KEY (trust tiers) — right side of legend band
     kx = lx + 1370; ky = ly
-    out.append(f'<text x="{kx}" y="{ky}" font-size="16" font-weight="700" fill="#1c1c1c">KEY — status &amp; trust</text>')
+    out.append(f'<text x="{kx}" y="{ky}" font-size="16" font-weight="700" fill="{INK}">KEY — status &amp; trust</text>')
     rows = [
         ("live",       "#1c1c1c", "live now — wired in your session"),
         ("verified",   "#1c1c1c", "verified — real &amp; ready to wire"),
@@ -699,16 +732,16 @@ def render(focus=None):
     for i,(tier,_,lab) in enumerate(rows):
         ry = ky + 24 + i*23; mx = kx + 9
         if tier == "live":
-            out.append(f'<circle cx="{mx}" cy="{ry-4}" r="6.4" fill="#1c1c1c" stroke="#fff" stroke-width="2"/>')
+            out.append(f'<circle cx="{mx}" cy="{ry-4}" r="6.4" fill="{INK}" stroke="{BG}" stroke-width="2"/>')
         elif tier == "verified":
-            out.append(f'<circle cx="{mx}" cy="{ry-4}" r="6.2" fill="#fff" stroke="#1c1c1c" stroke-width="3.2"/>')
+            out.append(f'<circle cx="{mx}" cy="{ry-4}" r="6.2" fill="{BG}" stroke="{INK}" stroke-width="3.2"/>')
         elif tier == "registry":
-            out.append(f'<circle cx="{mx}" cy="{ry-4}" r="5.7" fill="#fff" stroke="#1c1c1c" stroke-width="2.2" stroke-dasharray="2.2 1.9"/>')
+            out.append(f'<circle cx="{mx}" cy="{ry-4}" r="5.7" fill="{BG}" stroke="{INK}" stroke-width="2.2" stroke-dasharray="2.2 1.9"/>')
         elif tier == "unconfirmed":
-            out.append(f'<circle cx="{mx}" cy="{ry-4}" r="5.4" fill="#fff" stroke="#8a8f93" stroke-width="1.8" stroke-dasharray="2 2.2"/>')
+            out.append(f'<circle cx="{mx}" cy="{ry-4}" r="5.4" fill="{BG}" stroke="{INK3}" stroke-width="1.8" stroke-dasharray="2 2.2"/>')
         else:
-            out.append(f'<circle cx="{mx}" cy="{ry-4}" r="8.6" fill="#fff" stroke="#1c1c1c" stroke-width="3.2"/>')
-        out.append(f'<text x="{kx+26}" y="{ry}" font-size="12.5" fill="#1c1c1c">{lab}</text>')
+            out.append(f'<circle cx="{mx}" cy="{ry-4}" r="8.6" fill="{BG}" stroke="{INK}" stroke-width="3.2"/>')
+        out.append(f'<text x="{kx+26}" y="{ry}" font-size="12.5" fill="{INK}">{lab}</text>')
 
     out.append('</svg>')
     return "\n".join(out)
@@ -736,51 +769,52 @@ CONSOLE_TEMPLATE = r"""<!DOCTYPE html><html lang="en"><head><meta charset="utf-8
 <title>Claude Research Underground</title>
 <style>
 *{box-sizing:border-box}
-body{margin:0;font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Helvetica,Arial,sans-serif;color:#1c1c1c;background:#fbfaf6}
-header{display:flex;align-items:center;gap:16px;padding:10px 18px;border-bottom:1px solid #e7e3d8;background:#fff;position:sticky;top:0;z-index:5}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Helvetica,Arial,sans-serif;color:#e8ecf3;background:#0c1322}
+header{display:flex;align-items:center;gap:16px;padding:10px 18px;border-bottom:1px solid #1e2940;background:#0f1830;position:sticky;top:0;z-index:5}
 .brand{font-weight:800;font-size:18px;line-height:1.15;white-space:nowrap}
-.brand small{display:block;font-weight:400;color:#8a8170;font-size:11.5px}
-.brand .dot{display:inline-block;width:14px;height:14px;border-radius:50%;background:#D97757;border:2px solid #1c1c1c;vertical-align:middle;margin-right:6px}
-#search{flex:1;max-width:440px;padding:9px 12px;border:1px solid #ddd6c7;border-radius:9px;font-size:14px;outline:none}
+.brand small{display:block;font-weight:400;color:#8b93a4;font-size:11.5px}
+.brand .dot{display:inline-block;width:14px;height:14px;border-radius:50%;background:#D97757;border:2px solid #e8ecf3;vertical-align:middle;margin-right:6px}
+#search{flex:1;max-width:440px;padding:9px 12px;border:1px solid #2a3550;border-radius:9px;font-size:14px;outline:none;background:#0c1322;color:#e8ecf3}
 #search:focus{border-color:#D97757}
-button{padding:8px 12px;border:1px solid #ddd6c7;background:#fff;border-radius:9px;cursor:pointer;font-size:13px}
-button:hover{background:#f4f1e8}
+#search::placeholder{color:#6d7689}
+button{padding:8px 12px;border:1px solid #2a3550;background:#142036;color:#e8ecf3;border-radius:9px;cursor:pointer;font-size:13px}
+button:hover{background:#1c2a47}
 main{display:flex;height:calc(100vh - 59px)}
-#mapwrap{flex:1;position:relative;overflow:hidden;background:#fbfaf6;cursor:grab}
+#mapwrap{flex:1;position:relative;overflow:hidden;background:#0c1322;cursor:grab}
 #mapwrap:active{cursor:grabbing}
 #map{width:100%;height:100%;display:block;touch-action:none}
 .hit{cursor:pointer}
 .stn{transition:stroke-width .08s}
-.stn.hl{stroke-width:7 !important;filter:drop-shadow(0 0 3px rgba(0,0,0,.4))}
+.stn.hl{stroke-width:7 !important;filter:drop-shadow(0 0 4px rgba(255,255,255,.55))}
 .stn.dim{opacity:.12}
-#panel{width:372px;flex:none;border-left:1px solid #e7e3d8;background:#fff;overflow-y:auto;padding:18px 20px}
-.tip{position:absolute;display:none;max-width:300px;background:rgba(20,20,20,.94);color:#fff;padding:9px 11px;border-radius:9px;font-size:12.5px;pointer-events:none;z-index:9;line-height:1.45}
+#panel{width:372px;flex:none;border-left:1px solid #1e2940;background:#0f1830;overflow-y:auto;padding:18px 20px}
+.tip{position:absolute;display:none;max-width:300px;background:rgba(8,12,22,.96);color:#eef1f6;border:1px solid #2a3550;padding:9px 11px;border-radius:9px;font-size:12.5px;pointer-events:none;z-index:9;line-height:1.45}
 .chip{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px;vertical-align:middle}
-.hint{color:#8a8170;font-size:13px;line-height:1.5}
+.hint{color:#9aa2b2;font-size:13px;line-height:1.5}
 .lines-list{margin-top:14px}
 .lines-list .ln{display:flex;align-items:center;gap:9px;padding:6px 6px;border-radius:7px;cursor:pointer;font-size:13.5px}
-.lines-list .ln:hover{background:#f4f1e8}
-.lines-list .hdr{font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:#9a9183;margin:12px 0 2px}
+.lines-list .ln:hover{background:#1a2440}
+.lines-list .hdr{font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:#7e879a;margin:12px 0 2px}
 .sw{width:24px;height:8px;border-radius:5px;flex:none}
-.sw.x{height:6px;border:1px solid #fff;outline:1px solid rgba(0,0,0,.15)}
+.sw.x{height:6px;border:1px solid #0c1322;outline:1px solid rgba(255,255,255,.18)}
 h2{margin:.1em 0 .3em}
 .d-bar{height:6px;border-radius:4px;margin-bottom:12px}
-.badge{display:inline-block;font-size:11px;padding:2px 9px;border-radius:20px;border:1px solid #e3ddcf;margin:0 6px 8px 0;color:#6b6356}
-.badge.live{background:#e9f7ef;border-color:#bfe6cf;color:#137a43}
-.badge.verified{background:#eaf3fb;border-color:#c4ddf2;color:#1763a6}
-.badge.registry{background:#f4f3ef;color:#8a8170}
-.badge.unconfirmed{background:#faf3ef;border-color:#eccfc0;color:#a8703f}
-.badge.xchg{background:#f3eefb;border-color:#d8c9ee;color:#6A3D9A}
+.badge{display:inline-block;font-size:11px;padding:2px 9px;border-radius:20px;border:1px solid #2a3550;margin:0 6px 8px 0;color:#aab2c0}
+.badge.live{background:#10241a;border-color:#1f6f43;color:#56d695}
+.badge.verified{background:#0f2236;border-color:#1763a6;color:#5cb8ee}
+.badge.registry{background:#1a2336;color:#8b93a4}
+.badge.unconfirmed{background:#241a14;border-color:#7a4a2a;color:#e0a06a}
+.badge.xchg{background:#1c1630;border-color:#5a3da0;color:#b79af0}
 .desc{font-size:14px;line-height:1.5;margin:6px 0}
-.how{background:#f7f5ee;border:1px solid #ece7d8;border-radius:9px;padding:11px 12px;font-size:13px;line-height:1.5;margin-top:12px}
-.how b{display:block;text-transform:uppercase;letter-spacing:.04em;font-size:10.5px;color:#9a9183;margin-bottom:4px}
-a.open{display:inline-block;margin-top:14px;padding:9px 13px;background:#1c1c1c;color:#fff;border-radius:9px;text-decoration:none;font-size:13px}
-a.open:hover{background:#D97757}
-.res{padding:8px 6px;border-bottom:1px solid #f0ece1;cursor:pointer;font-size:13.5px;display:flex;align-items:center;gap:8px}
-.res:hover{background:#f4f1e8}
-.back{font-size:13px;color:#8a8170;cursor:pointer;margin-bottom:10px;display:inline-block}
+.how{background:#101a30;border:1px solid #243049;border-radius:9px;padding:11px 12px;font-size:13px;line-height:1.5;margin-top:12px}
+.how b{display:block;text-transform:uppercase;letter-spacing:.04em;font-size:10.5px;color:#8b93a4;margin-bottom:4px}
+a.open{display:inline-block;margin-top:14px;padding:9px 13px;background:#D97757;color:#0c1322;font-weight:700;border-radius:9px;text-decoration:none;font-size:13px}
+a.open:hover{background:#e9906f}
+.res{padding:8px 6px;border-bottom:1px solid #1a2336;cursor:pointer;font-size:13.5px;display:flex;align-items:center;gap:8px}
+.res:hover{background:#1a2440}
+.back{font-size:13px;color:#9aa2b2;cursor:pointer;margin-bottom:10px;display:inline-block}
 .back:hover{color:#D97757}
-.muted{color:#9a9183;font-size:12px}
+.muted{color:#7e879a;font-size:12px}
 </style></head><body>
 <header>
   <div class="brand"><span class="dot"></span>Claude Research Underground
@@ -794,6 +828,8 @@ a.open:hover{background:#D97757}
 </main>
 <script>
 const DATA=__DATA__, LINES=__LINES__, XLINES=__XLINES__, ORDER=__ORDER__;
+const BRIGHTEN={'#E1251B':'#FF5247','#00782A':'#37C265','#1C1C1C':'#CBD5E1','#0098D4':'#36B3EA','#9B0056':'#F46BB4','#F1A800':'#FFC641','#B26300':'#EC9540','#7A868C':'#AAB7C0','#0E7C7B':'#27C3B9','#6A3D9A':'#A988E6','#E7298A':'#FF66B0','#8A6D3B':'#C2A368'};
+const lc=c=>BRIGHTEN[c]||c;   // brighten too-dark line colours for swatches on the dark chrome (data/plugin untouched)
 const svg=document.getElementById('map'), wrap=document.getElementById('mapwrap'),
       tip=document.getElementById('tip'), panel=document.getElementById('panel'),
       pdef=document.getElementById('pdefault'), pdet=document.getElementById('pdetail'),
@@ -816,7 +852,7 @@ function stnEl(sid){return svg.querySelector('.stn[data-sid="'+sid+'"]');}
 let hovered=null;
 svg.addEventListener('mousemove',e=>{const t=e.target;
   if(t.classList&&t.classList.contains('hit')){const sid=t.getAttribute('data-sid'),d=DATA[sid];
-    tip.innerHTML='<span class="chip" style="background:'+d.color+'"></span><b>'+d.name+'</b> &middot; <span style="opacity:.8">'+d.linename+'</span><br>'+d.desc;
+    tip.innerHTML='<span class="chip" style="background:'+lc(d.color)+'"></span><b>'+d.name+'</b> &middot; <span style="opacity:.8">'+d.linename+'</span><br>'+d.desc;
     tip.style.display='block';const r=wrap.getBoundingClientRect();
     let lx=e.clientX-r.left+16, ly=e.clientY-r.top+16;
     if(lx>r.width-310)lx=e.clientX-r.left-310; tip.style.left=lx+'px';tip.style.top=ly+'px';
@@ -835,9 +871,9 @@ function openDetail(sid){const d=DATA[sid];if(!d)return;
   const xchg=d.interchange?'<span class="badge xchg">&#8853; interchange</span>':'';
   const link=d.url?'<a class="open" href="'+d.url+'" target="_blank" rel="noopener">Open '+d.name+' &#8599;</a>':'';
   pdet.innerHTML='<span class="back" onclick="showDefault()">&#8592; all lines</span>'+
-    '<div class="d-bar" style="background:'+d.color+'"></div>'+
+    '<div class="d-bar" style="background:'+lc(d.color)+'"></div>'+
     '<h2>'+d.name+'</h2>'+
-    '<span class="badge" style="border-color:'+d.color+';color:'+d.color+'">'+d.linename+'</span>'+badge(d)+xchg+
+    '<span class="badge" style="border-color:'+lc(d.color)+';color:'+lc(d.color)+'">'+d.linename+'</span>'+badge(d)+xchg+
     '<p class="desc">'+d.desc+'</p>'+
     '<div class="how"><b>How to wire it</b>'+d.how+'</div>'+link;
   pdef.hidden=true;pdet.hidden=false; flyTo(d.x,d.y);
@@ -851,16 +887,16 @@ search.addEventListener('input',()=>{const q=search.value.trim().toLowerCase();
   document.querySelectorAll('.stn').forEach(s=>{const sid=s.getAttribute('data-sid');s.classList.toggle('hl',hs.has(sid));s.classList.toggle('dim',!hs.has(sid));});
   pdef.hidden=false;pdet.hidden=true;
   pdef.innerHTML='<div class="hint">'+hits.length+' match'+(hits.length===1?'':'es')+' for &ldquo;'+q+'&rdquo;</div>'+
-    hits.map(sid=>{const d=DATA[sid];return '<div class="res" onclick="openDetail(\''+sid+'\')"><span class="chip" style="background:'+d.color+'"></span><b>'+d.name+'</b> <span class="muted">'+d.linename+'</span></div>';}).join('');
+    hits.map(sid=>{const d=DATA[sid];return '<div class="res" onclick="openDetail(\''+sid+'\')"><span class="chip" style="background:'+lc(d.color)+'"></span><b>'+d.name+'</b> <span class="muted">'+d.linename+'</span></div>';}).join('');
 });
 function showDefault0(){
   let h='<div class="hint">A metro map of every connector, MCP server &amp; Claude skill that boots your research &mdash; with Claude Code as the central interchange. The four <b>interchange lines</b> are real aggregator MCP servers that span several domains. <b>Scroll</b> to zoom, <b>drag</b> to pan, <b>hover</b> for what a station does, <b>click</b> for how to wire it.</div>';
   h+='<div class="lines-list">';
   h+='<div class="ln" onclick="openDetail(\'claude\')"><span class="sw" style="background:#D97757"></span><b>Claude Code</b> &mdash; central</div>';
   h+='<div class="hdr">Lines</div>';
-  h+=ORDER.map(l=>'<div class="ln" onclick="hiLine(\''+l+'\')"><span class="sw" style="background:'+LINES[l].color+'"></span>'+LINES[l].name+'</div>').join('');
+  h+=ORDER.map(l=>'<div class="ln" onclick="hiLine(\''+l+'\')"><span class="sw" style="background:'+lc(LINES[l].color)+'"></span>'+LINES[l].name+'</div>').join('');
   h+='<div class="hdr">Interchange lines &mdash; multi-domain MCP servers</div>';
-  h+=Object.keys(XLINES).map(x=>'<div class="ln" onclick="hiX(\''+x+'\')"><span class="sw x" style="background:'+XLINES[x].color+'"></span>'+XLINES[x].name+'</div>').join('');
+  h+=Object.keys(XLINES).map(x=>'<div class="ln" onclick="hiX(\''+x+'\')"><span class="sw x" style="background:'+lc(XLINES[x].color)+'"></span>'+XLINES[x].name+'</div>').join('');
   h+='<div class="ln" onclick="openDetail(\'codex\')"><span class="sw" style="background:#10a37f"></span><b>Codex &middot; GPT-5.5</b> &mdash; second engine</div>';
   h+='</div>';
   pdef.innerHTML=h;
@@ -899,7 +935,7 @@ if __name__ == "__main__":
     missing = [sid for sid in STATIONS if sid not in COORD]
     if missing:
         raise SystemExit(f"stations without coords (not drawn): {missing}")
-    svg = render()
+    svg = render(dark=True)            # dark hero poster — used for master.svg, exports AND the HTML console
     with open("master.svg", "w") as f:
         f.write(svg)
     # per-line focus variants (grey the rest, spotlight one) — slide-deck assets

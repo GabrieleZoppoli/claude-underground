@@ -1,339 +1,357 @@
 <svg id="map" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4032 3674" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
-<rect x="0" y="0" width="4032" height="3674" fill="#fbfaf6"/>
-<path d="M -20 3314 C 887 3274, 1210 3384, 1613 3360 S 2500 3284, 2943 3352 S 3548 3396, 4052 3340" fill="none" stroke="#cfe3ef" stroke-width="40" stroke-linecap="round"/>
-<text x="195" y="3304" font-size="17" font-style="italic" fill="#5f86a0">the cfDNA river</text>
-<polyline points="2016.0,1706.0 1730.0,1706.0 1541.5,1706.0 1353.0,1706.0 1164.5,1706.0 976.0,1706.0 787.5,1706.0 599.0,1706.0" fill="none" stroke="#E1251B" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
-<polyline points="1541.5,1706.0 1541.5,1894.5 1541.5,2083.0 1541.5,2271.5" fill="none" stroke="#E1251B" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
-<polyline points="1353.0,1706.0 1353.0,1517.5" fill="none" stroke="#E1251B" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
-<polyline points="2016.0,1706.0 1832.2,1522.2 1676.2,1366.2 1520.2,1210.2 1364.2,1054.2 1208.2,898.2 1052.2,742.2" fill="none" stroke="#00782A" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
-<polyline points="1676.2,1366.2 1487.7,1366.2" fill="none" stroke="#00782A" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
-<polyline points="1520.2,1210.2 1331.7,1210.2 1143.2,1210.2 954.7,1210.2" fill="none" stroke="#00782A" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
-<polyline points="1143.2,1210.2 1143.2,1021.7 1143.2,833.2" fill="none" stroke="#00782A" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
-<polyline points="1364.2,1054.2 1364.2,865.7" fill="none" stroke="#00782A" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
-<polyline points="2016.0,1706.0 2016.0,1420.0 2016.0,1231.5 2016.0,1043.0 2016.0,854.5 2016.0,666.0" fill="none" stroke="#1C1C1C" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
-<polyline points="2016.0,1231.5 2204.5,1231.5 2393.0,1231.5" fill="none" stroke="#1C1C1C" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
-<polyline points="2016.0,1231.5 1827.5,1231.5 1639.0,1231.5 1450.5,1231.5" fill="none" stroke="#1C1C1C" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
-<polyline points="2016.0,1043.0 2204.5,1043.0 2393.0,1043.0 2581.5,1043.0" fill="none" stroke="#1C1C1C" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
-<polyline points="2016.0,1706.0 2199.8,1522.2 2355.8,1366.2 2511.8,1210.2 2667.8,1054.2 2823.8,898.2" fill="none" stroke="#0098D4" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
-<polyline points="2355.8,1366.2 2355.8,1177.7 2355.8,989.2" fill="none" stroke="#0098D4" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
-<polyline points="2511.8,1210.2 2700.3,1210.2" fill="none" stroke="#0098D4" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
-<polyline points="2823.8,898.2 3012.3,898.2" fill="none" stroke="#0098D4" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
-<polyline points="2016.0,1706.0 2302.0,1706.0 2490.5,1706.0 2679.0,1706.0 2867.5,1706.0 3056.0,1706.0" fill="none" stroke="#9B0056" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
-<polyline points="3056.0,1706.0 3056.0,1894.5 3056.0,2083.0 3056.0,2271.5" fill="none" stroke="#9B0056" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
-<polyline points="2016.0,1706.0 2199.8,1889.8 2355.8,2045.8 2511.8,2201.8 2667.8,2357.8 2823.8,2513.8" fill="none" stroke="#F1A800" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
-<polyline points="2355.8,2045.8 2544.3,2045.8 2732.8,2045.8" fill="none" stroke="#F1A800" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
-<polyline points="2823.8,2513.8 2823.8,2702.3" fill="none" stroke="#F1A800" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
-<polyline points="2016.0,1706.0 2016.0,1992.0 2016.0,2180.5 2016.0,2369.0 2016.0,2557.5 2016.0,2746.0" fill="none" stroke="#B26300" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
-<polyline points="2016.0,2180.5 1827.5,2180.5 1639.0,2180.5" fill="none" stroke="#B26300" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
-<polyline points="2016.0,2369.0 1827.5,2369.0 1639.0,2369.0" fill="none" stroke="#B26300" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
-<polyline points="2016.0,2557.5 1827.5,2557.5 1639.0,2557.5" fill="none" stroke="#B26300" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
-<polyline points="2016.0,1706.0 1832.2,1889.8 1676.2,2045.8 1520.2,2201.8 1364.2,2357.8" fill="none" stroke="#7A868C" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
-<polyline points="1676.2,2045.8 1487.7,2045.8 1299.2,2045.8 1110.7,2045.8 922.2,2045.8" fill="none" stroke="#7A868C" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
-<polyline points="2016.0,1706.0 2109.6,1920.5 2190.2,2105.1 2270.8,2289.7 2351.4,2474.3 2432.0,2658.9 2512.6,2843.5" fill="none" stroke="#0E7C7B" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
-<polyline points="954.7,1210.2 1143.2,1210.2 1331.7,1210.2 1574.0,1511.0 1541.5,1706.0" fill="none" stroke="#6A3D9A" stroke-width="8.0" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
-<polyline points="954.7,1210.2 1143.2,1210.2 1331.7,1210.2 1574.0,1511.0 1541.5,1706.0" fill="none" stroke="#fbfaf6" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
-<polyline points="1574.0,1511.0 1782.0,1355.0 2224.0,1355.0 2700.3,1210.2" fill="none" stroke="#6A3D9A" stroke-width="8.0" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
-<polyline points="1574.0,1511.0 1782.0,1355.0 2224.0,1355.0 2700.3,1210.2" fill="none" stroke="#fbfaf6" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
-<polyline points="1143.2,833.2 1143.2,1021.7 1470.0,1264.0 1886.0,1186.0 2328.0,1186.0 2666.0,1368.0 2666.0,1654.0 2679.0,1706.0" fill="none" stroke="#E7298A" stroke-width="8.0" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
-<polyline points="1143.2,833.2 1143.2,1021.7 1470.0,1264.0 1886.0,1186.0 2328.0,1186.0 2666.0,1368.0 2666.0,1654.0 2679.0,1706.0" fill="none" stroke="#fbfaf6" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
-<polyline points="3134.0,562.0 3174.6,565.6 3214.0,576.1 3251.0,593.4 3284.4,616.7 3313.3,645.6 3336.6,679.0 3353.9,716.0 3364.4,755.4 3368.0,796.0 3368.0,2616.0 3364.4,2656.6 3353.9,2696.0 3336.6,2733.0 3313.3,2766.4 3284.4,2795.3 3251.0,2818.6 3214.0,2835.9 3174.6,2846.4 3134.0,2850.0 898.0,2850.0 857.4,2846.4 818.0,2835.9 781.0,2818.6 747.6,2795.3 718.7,2766.4 695.4,2733.0 678.1,2696.0 667.6,2656.6 664.0,2616.0 664.0,796.0 667.6,755.4 678.1,716.0 695.4,679.0 718.7,645.6 747.6,616.7 781.0,593.4 818.0,576.1 857.4,565.6 898.0,562.0 3134.0,562.0" fill="none" stroke="#8A6D3B" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.5" stroke-dasharray="13 10"/>
-<polyline points="3134.0,562.0 3174.6,565.6 3214.0,576.1 3251.0,593.4 3284.4,616.7 3313.3,645.6 3336.6,679.0 3353.9,716.0 3364.4,755.4 3368.0,796.0 3368.0,2616.0 3364.4,2656.6 3353.9,2696.0 3336.6,2733.0 3313.3,2766.4 3284.4,2795.3 3251.0,2818.6 3214.0,2835.9 3174.6,2846.4 3134.0,2850.0 898.0,2850.0 857.4,2846.4 818.0,2835.9 781.0,2818.6 747.6,2795.3 718.7,2766.4 695.4,2733.0 678.1,2696.0 667.6,2656.6 664.0,2616.0 664.0,796.0 667.6,755.4 678.1,716.0 695.4,679.0 718.7,645.6 747.6,616.7 781.0,593.4 818.0,576.1 857.4,565.6 898.0,562.0 3134.0,562.0" fill="none" stroke="#fbfaf6" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" opacity="0.5" stroke-dasharray="13 10"/>
-<circle class="stn" data-sid="pubmed" cx="1541.5" cy="1706.0" r="9.2" fill="#ffffff" stroke="#1c1c1c" stroke-width="3.2"/>
+<defs><radialGradient id="bgv" cx="50%" cy="43%" r="80%"><stop offset="0%" stop-color="#17263f"/><stop offset="100%" stop-color="#0c1322"/></radialGradient></defs>
+<rect x="0" y="0" width="4032" height="3674" fill="url(#bgv)"/>
+<path d="M -20 3314 C 887 3274, 1210 3384, 1613 3360 S 2500 3284, 2943 3352 S 3548 3396, 4052 3340" fill="none" stroke="#2a5a7a" stroke-width="40" stroke-linecap="round" opacity="0.5"/>
+<text x="195" y="3304" font-size="17" font-style="italic" fill="#8fbdda">the cfDNA river</text>
+<polyline points="2016.0,1706.0 1730.0,1706.0 1541.5,1706.0 1353.0,1706.0 1164.5,1706.0 976.0,1706.0 787.5,1706.0 599.0,1706.0" fill="none" stroke="#FF5247" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<polyline points="1541.5,1706.0 1541.5,1894.5 1541.5,2083.0 1541.5,2271.5" fill="none" stroke="#FF5247" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<polyline points="1353.0,1706.0 1353.0,1517.5" fill="none" stroke="#FF5247" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<polyline points="2016.0,1706.0 1832.2,1522.2 1676.2,1366.2 1520.2,1210.2 1364.2,1054.2 1208.2,898.2 1052.2,742.2" fill="none" stroke="#37C265" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<polyline points="1676.2,1366.2 1487.7,1366.2" fill="none" stroke="#37C265" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<polyline points="1520.2,1210.2 1331.7,1210.2 1143.2,1210.2 954.7,1210.2" fill="none" stroke="#37C265" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<polyline points="1143.2,1210.2 1143.2,1021.7 1143.2,833.2" fill="none" stroke="#37C265" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<polyline points="1364.2,1054.2 1364.2,865.7" fill="none" stroke="#37C265" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<polyline points="2016.0,1706.0 2016.0,1420.0 2016.0,1231.5 2016.0,1043.0 2016.0,854.5 2016.0,666.0" fill="none" stroke="#CBD5E1" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<polyline points="2016.0,1231.5 2204.5,1231.5 2393.0,1231.5" fill="none" stroke="#CBD5E1" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<polyline points="2016.0,1231.5 1827.5,1231.5 1639.0,1231.5 1450.5,1231.5" fill="none" stroke="#CBD5E1" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<polyline points="2016.0,1043.0 2204.5,1043.0 2393.0,1043.0 2581.5,1043.0" fill="none" stroke="#CBD5E1" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<polyline points="2016.0,1706.0 2199.8,1522.2 2355.8,1366.2 2511.8,1210.2 2667.8,1054.2 2823.8,898.2" fill="none" stroke="#36B3EA" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<polyline points="2355.8,1366.2 2355.8,1177.7 2355.8,989.2" fill="none" stroke="#36B3EA" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<polyline points="2511.8,1210.2 2700.3,1210.2" fill="none" stroke="#36B3EA" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<polyline points="2823.8,898.2 3012.3,898.2" fill="none" stroke="#36B3EA" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<polyline points="2016.0,1706.0 2302.0,1706.0 2490.5,1706.0 2679.0,1706.0 2867.5,1706.0 3056.0,1706.0" fill="none" stroke="#F46BB4" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<polyline points="3056.0,1706.0 3056.0,1894.5 3056.0,2083.0 3056.0,2271.5" fill="none" stroke="#F46BB4" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<polyline points="2016.0,1706.0 2199.8,1889.8 2355.8,2045.8 2511.8,2201.8 2667.8,2357.8 2823.8,2513.8" fill="none" stroke="#FFC641" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<polyline points="2355.8,2045.8 2544.3,2045.8 2732.8,2045.8" fill="none" stroke="#FFC641" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<polyline points="2823.8,2513.8 2823.8,2702.3" fill="none" stroke="#FFC641" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<polyline points="2016.0,1706.0 2016.0,1992.0 2016.0,2180.5 2016.0,2369.0 2016.0,2557.5 2016.0,2746.0" fill="none" stroke="#EC9540" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<polyline points="2016.0,2180.5 1827.5,2180.5 1639.0,2180.5" fill="none" stroke="#EC9540" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<polyline points="2016.0,2369.0 1827.5,2369.0 1639.0,2369.0" fill="none" stroke="#EC9540" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<polyline points="2016.0,2557.5 1827.5,2557.5 1639.0,2557.5" fill="none" stroke="#EC9540" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<polyline points="2016.0,1706.0 1832.2,1889.8 1676.2,2045.8 1520.2,2201.8 1364.2,2357.8" fill="none" stroke="#AAB7C0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<polyline points="1676.2,2045.8 1487.7,2045.8 1299.2,2045.8 1110.7,2045.8 922.2,2045.8" fill="none" stroke="#AAB7C0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<polyline points="2016.0,1706.0 2109.6,1920.5 2190.2,2105.1 2270.8,2289.7 2351.4,2474.3 2432.0,2658.9 2512.6,2843.5" fill="none" stroke="#27C3B9" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"/>
+<polyline points="954.7,1210.2 1143.2,1210.2 1331.7,1210.2 1574.0,1511.0 1541.5,1706.0" fill="none" stroke="#A988E6" stroke-width="8.0" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+<polyline points="954.7,1210.2 1143.2,1210.2 1331.7,1210.2 1574.0,1511.0 1541.5,1706.0" fill="none" stroke="#0c1322" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+<polyline points="1574.0,1511.0 1782.0,1355.0 2224.0,1355.0 2700.3,1210.2" fill="none" stroke="#A988E6" stroke-width="8.0" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+<polyline points="1574.0,1511.0 1782.0,1355.0 2224.0,1355.0 2700.3,1210.2" fill="none" stroke="#0c1322" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+<polyline points="1143.2,833.2 1143.2,1021.7 1470.0,1264.0 1886.0,1186.0 2328.0,1186.0 2666.0,1368.0 2666.0,1654.0 2679.0,1706.0" fill="none" stroke="#FF66B0" stroke-width="8.0" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+<polyline points="1143.2,833.2 1143.2,1021.7 1470.0,1264.0 1886.0,1186.0 2328.0,1186.0 2666.0,1368.0 2666.0,1654.0 2679.0,1706.0" fill="none" stroke="#0c1322" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+<polyline points="3134.0,562.0 3174.6,565.6 3214.0,576.1 3251.0,593.4 3284.4,616.7 3313.3,645.6 3336.6,679.0 3353.9,716.0 3364.4,755.4 3368.0,796.0 3368.0,2616.0 3364.4,2656.6 3353.9,2696.0 3336.6,2733.0 3313.3,2766.4 3284.4,2795.3 3251.0,2818.6 3214.0,2835.9 3174.6,2846.4 3134.0,2850.0 898.0,2850.0 857.4,2846.4 818.0,2835.9 781.0,2818.6 747.6,2795.3 718.7,2766.4 695.4,2733.0 678.1,2696.0 667.6,2656.6 664.0,2616.0 664.0,796.0 667.6,755.4 678.1,716.0 695.4,679.0 718.7,645.6 747.6,616.7 781.0,593.4 818.0,576.1 857.4,565.6 898.0,562.0 3134.0,562.0" fill="none" stroke="#C2A368" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.5" stroke-dasharray="13 10"/>
+<polyline points="3134.0,562.0 3174.6,565.6 3214.0,576.1 3251.0,593.4 3284.4,616.7 3313.3,645.6 3336.6,679.0 3353.9,716.0 3364.4,755.4 3368.0,796.0 3368.0,2616.0 3364.4,2656.6 3353.9,2696.0 3336.6,2733.0 3313.3,2766.4 3284.4,2795.3 3251.0,2818.6 3214.0,2835.9 3174.6,2846.4 3134.0,2850.0 898.0,2850.0 857.4,2846.4 818.0,2835.9 781.0,2818.6 747.6,2795.3 718.7,2766.4 695.4,2733.0 678.1,2696.0 667.6,2656.6 664.0,2616.0 664.0,796.0 667.6,755.4 678.1,716.0 695.4,679.0 718.7,645.6 747.6,616.7 781.0,593.4 818.0,576.1 857.4,565.6 898.0,562.0 3134.0,562.0" fill="none" stroke="#0c1322" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" opacity="0.5" stroke-dasharray="13 10"/>
+<circle class="stn" data-sid="pubmed" cx="1541.5" cy="1706.0" r="9.2" fill="#e9edf4" stroke="#0c1322" stroke-width="3.2"/>
+<circle cx="1541.5" cy="1706.0" r="4.0" fill="#0c1322"/>
 <circle class="hit" data-sid="pubmed" cx="1541.5" cy="1706.0" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="consensus" cx="1353.0" cy="1706.0" r="6.4" fill="#E1251B" stroke="#ffffff" stroke-width="2.0"/>
+<circle class="stn" data-sid="consensus" cx="1353.0" cy="1706.0" r="6.4" fill="#FF5247" stroke="#e9edf4" stroke-width="2.0"/>
 <circle class="hit" data-sid="consensus" cx="1353.0" cy="1706.0" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="europepmc" cx="1164.5" cy="1706.0" r="6.2" fill="#ffffff" stroke="#E1251B" stroke-width="3.2"/>
+<circle class="stn" data-sid="europepmc" cx="1164.5" cy="1706.0" r="6.2" fill="#e9edf4" stroke="#FF5247" stroke-width="3.2"/>
 <circle class="hit" data-sid="europepmc" cx="1164.5" cy="1706.0" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="biorxiv" cx="976.0" cy="1706.0" r="6.2" fill="#ffffff" stroke="#E1251B" stroke-width="3.2"/>
+<circle class="stn" data-sid="biorxiv" cx="976.0" cy="1706.0" r="6.2" fill="#e9edf4" stroke="#FF5247" stroke-width="3.2"/>
 <circle class="hit" data-sid="biorxiv" cx="976.0" cy="1706.0" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="medrxiv" cx="787.5" cy="1706.0" r="6.2" fill="#ffffff" stroke="#E1251B" stroke-width="3.2"/>
+<circle class="stn" data-sid="medrxiv" cx="787.5" cy="1706.0" r="6.2" fill="#e9edf4" stroke="#FF5247" stroke-width="3.2"/>
 <circle class="hit" data-sid="medrxiv" cx="787.5" cy="1706.0" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="semscholar" cx="599.0" cy="1706.0" r="6.2" fill="#ffffff" stroke="#E1251B" stroke-width="3.2"/>
+<circle class="stn" data-sid="semscholar" cx="599.0" cy="1706.0" r="6.2" fill="#e9edf4" stroke="#FF5247" stroke-width="3.2"/>
 <circle class="hit" data-sid="semscholar" cx="599.0" cy="1706.0" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="deepresearch" cx="1541.5" cy="1894.5" r="6.4" fill="#E1251B" stroke="#ffffff" stroke-width="2.0"/>
+<circle class="stn" data-sid="deepresearch" cx="1541.5" cy="1894.5" r="6.4" fill="#FF5247" stroke="#e9edf4" stroke-width="2.0"/>
 <circle class="hit" data-sid="deepresearch" cx="1541.5" cy="1894.5" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="litreview" cx="1541.5" cy="2083.0" r="6.4" fill="#E1251B" stroke="#ffffff" stroke-width="2.0"/>
+<circle class="stn" data-sid="litreview" cx="1541.5" cy="2083.0" r="6.4" fill="#FF5247" stroke="#e9edf4" stroke-width="2.0"/>
 <circle class="hit" data-sid="litreview" cx="1541.5" cy="2083.0" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="researchlookup" cx="1541.5" cy="2271.5" r="6.4" fill="#E1251B" stroke="#ffffff" stroke-width="2.0"/>
+<circle class="stn" data-sid="researchlookup" cx="1541.5" cy="2271.5" r="6.4" fill="#FF5247" stroke="#e9edf4" stroke-width="2.0"/>
 <circle class="hit" data-sid="researchlookup" cx="1541.5" cy="2271.5" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="wiley" cx="1353.0" cy="1517.5" r="6.2" fill="#ffffff" stroke="#E1251B" stroke-width="3.2"/>
+<circle class="stn" data-sid="wiley" cx="1353.0" cy="1517.5" r="6.2" fill="#e9edf4" stroke="#FF5247" stroke-width="3.2"/>
 <circle class="hit" data-sid="wiley" cx="1353.0" cy="1517.5" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="synapse" cx="1676.2" cy="1366.2" r="6.4" fill="#00782A" stroke="#ffffff" stroke-width="2.0"/>
+<circle class="stn" data-sid="synapse" cx="1676.2" cy="1366.2" r="6.4" fill="#37C265" stroke="#e9edf4" stroke-width="2.0"/>
 <circle class="hit" data-sid="synapse" cx="1676.2" cy="1366.2" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="geosra" cx="1520.2" cy="1210.2" r="6.2" fill="#ffffff" stroke="#00782A" stroke-width="3.2"/>
+<circle class="stn" data-sid="geosra" cx="1520.2" cy="1210.2" r="6.2" fill="#e9edf4" stroke="#37C265" stroke-width="3.2"/>
 <circle class="hit" data-sid="geosra" cx="1520.2" cy="1210.2" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="ensembldb" cx="1364.2" cy="1054.2" r="6.2" fill="#ffffff" stroke="#00782A" stroke-width="3.2"/>
+<circle class="stn" data-sid="ensembldb" cx="1364.2" cy="1054.2" r="6.2" fill="#e9edf4" stroke="#37C265" stroke-width="3.2"/>
 <circle class="hit" data-sid="ensembldb" cx="1364.2" cy="1054.2" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="ucsc" cx="1208.2" cy="898.2" r="6.2" fill="#ffffff" stroke="#00782A" stroke-width="3.2"/>
+<circle class="stn" data-sid="ucsc" cx="1208.2" cy="898.2" r="6.2" fill="#e9edf4" stroke="#37C265" stroke-width="3.2"/>
 <circle class="hit" data-sid="ucsc" cx="1208.2" cy="898.2" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="gdc" cx="1052.2" cy="742.2" r="6.2" fill="#ffffff" stroke="#00782A" stroke-width="3.2"/>
+<circle class="stn" data-sid="gdc" cx="1052.2" cy="742.2" r="6.2" fill="#e9edf4" stroke="#37C265" stroke-width="3.2"/>
 <circle class="hit" data-sid="gdc" cx="1052.2" cy="742.2" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="ena" cx="1487.7" cy="1366.2" r="6.2" fill="#ffffff" stroke="#00782A" stroke-width="3.2"/>
+<circle class="stn" data-sid="ena" cx="1487.7" cy="1366.2" r="6.2" fill="#e9edf4" stroke="#37C265" stroke-width="3.2"/>
 <circle class="hit" data-sid="ena" cx="1487.7" cy="1366.2" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="clinvar" cx="1331.7" cy="1210.2" r="9.2" fill="#ffffff" stroke="#1c1c1c" stroke-width="3.2"/>
+<circle class="stn" data-sid="clinvar" cx="1331.7" cy="1210.2" r="9.2" fill="#e9edf4" stroke="#0c1322" stroke-width="3.2"/>
+<circle cx="1331.7" cy="1210.2" r="4.0" fill="#0c1322"/>
 <circle class="hit" data-sid="clinvar" cx="1331.7" cy="1210.2" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="cbioportal" cx="1143.2" cy="1210.2" r="9.2" fill="#ffffff" stroke="#1c1c1c" stroke-width="3.2"/>
+<circle class="stn" data-sid="cbioportal" cx="1143.2" cy="1210.2" r="9.2" fill="#e9edf4" stroke="#0c1322" stroke-width="3.2"/>
+<circle cx="1143.2" cy="1210.2" r="4.0" fill="#0c1322"/>
 <circle class="hit" data-sid="cbioportal" cx="1143.2" cy="1210.2" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="depmap" cx="954.7" cy="1210.2" r="9.2" fill="#ffffff" stroke="#1c1c1c" stroke-width="3.2"/>
+<circle class="stn" data-sid="depmap" cx="954.7" cy="1210.2" r="9.2" fill="#e9edf4" stroke="#0c1322" stroke-width="3.2"/>
+<circle cx="954.7" cy="1210.2" r="4.0" fill="#0c1322"/>
 <circle class="hit" data-sid="depmap" cx="954.7" cy="1210.2" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="cbioportalmcp" cx="1143.2" cy="1021.7" r="9.2" fill="#ffffff" stroke="#1c1c1c" stroke-width="3.2"/>
+<circle class="stn" data-sid="cbioportalmcp" cx="1143.2" cy="1021.7" r="9.2" fill="#e9edf4" stroke="#0c1322" stroke-width="3.2"/>
+<circle cx="1143.2" cy="1021.7" r="4.0" fill="#0c1322"/>
 <circle class="hit" data-sid="cbioportalmcp" cx="1143.2" cy="1021.7" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="opentargets" cx="1143.2" cy="833.2" r="9.2" fill="#ffffff" stroke="#1c1c1c" stroke-width="3.2"/>
+<circle class="stn" data-sid="opentargets" cx="1143.2" cy="833.2" r="9.2" fill="#e9edf4" stroke="#0c1322" stroke-width="3.2"/>
+<circle cx="1143.2" cy="833.2" r="4.0" fill="#0c1322"/>
 <circle class="hit" data-sid="opentargets" cx="1143.2" cy="833.2" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="cellxgene" cx="1364.2" cy="865.7" r="6.2" fill="#ffffff" stroke="#00782A" stroke-width="3.2"/>
+<circle class="stn" data-sid="cellxgene" cx="1364.2" cy="865.7" r="6.2" fill="#e9edf4" stroke="#37C265" stroke-width="3.2"/>
 <circle class="hit" data-sid="cellxgene" cx="1364.2" cy="865.7" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="python" cx="2016.0" cy="1231.5" r="6.4" fill="#1C1C1C" stroke="#ffffff" stroke-width="2.0"/>
+<circle class="stn" data-sid="python" cx="2016.0" cy="1231.5" r="6.4" fill="#CBD5E1" stroke="#e9edf4" stroke-width="2.0"/>
 <circle class="hit" data-sid="python" cx="2016.0" cy="1231.5" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="bioconductor" cx="2016.0" cy="1043.0" r="6.2" fill="#ffffff" stroke="#1C1C1C" stroke-width="3.2"/>
+<circle class="stn" data-sid="bioconductor" cx="2016.0" cy="1043.0" r="6.2" fill="#e9edf4" stroke="#CBD5E1" stroke-width="3.2"/>
 <circle class="hit" data-sid="bioconductor" cx="2016.0" cy="1043.0" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="nextflow" cx="2016.0" cy="854.5" r="6.2" fill="#ffffff" stroke="#1C1C1C" stroke-width="3.2"/>
+<circle class="stn" data-sid="nextflow" cx="2016.0" cy="854.5" r="6.2" fill="#e9edf4" stroke="#CBD5E1" stroke-width="3.2"/>
 <circle class="hit" data-sid="nextflow" cx="2016.0" cy="854.5" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="snakemake" cx="2016.0" cy="666.0" r="6.2" fill="#ffffff" stroke="#1C1C1C" stroke-width="3.2"/>
+<circle class="stn" data-sid="snakemake" cx="2016.0" cy="666.0" r="6.2" fill="#e9edf4" stroke="#CBD5E1" stroke-width="3.2"/>
 <circle class="hit" data-sid="snakemake" cx="2016.0" cy="666.0" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="scmcp" cx="2204.5" cy="1231.5" r="6.2" fill="#ffffff" stroke="#1C1C1C" stroke-width="3.2"/>
+<circle class="stn" data-sid="scmcp" cx="2204.5" cy="1231.5" r="6.2" fill="#e9edf4" stroke="#CBD5E1" stroke-width="3.2"/>
 <circle class="hit" data-sid="scmcp" cx="2204.5" cy="1231.5" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="chatspatial" cx="2393.0" cy="1231.5" r="6.2" fill="#ffffff" stroke="#1C1C1C" stroke-width="3.2"/>
+<circle class="stn" data-sid="chatspatial" cx="2393.0" cy="1231.5" r="6.2" fill="#e9edf4" stroke="#CBD5E1" stroke-width="3.2"/>
 <circle class="hit" data-sid="chatspatial" cx="2393.0" cy="1231.5" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="jupyter" cx="1827.5" cy="1231.5" r="6.2" fill="#ffffff" stroke="#1C1C1C" stroke-width="3.2"/>
+<circle class="stn" data-sid="jupyter" cx="1827.5" cy="1231.5" r="6.2" fill="#e9edf4" stroke="#CBD5E1" stroke-width="3.2"/>
 <circle class="hit" data-sid="jupyter" cx="1827.5" cy="1231.5" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="galaxy" cx="1639.0" cy="1231.5" r="6.2" fill="#ffffff" stroke="#1C1C1C" stroke-width="3.2"/>
+<circle class="stn" data-sid="galaxy" cx="1639.0" cy="1231.5" r="6.2" fill="#e9edf4" stroke="#CBD5E1" stroke-width="3.2"/>
 <circle class="hit" data-sid="galaxy" cx="1639.0" cy="1231.5" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="cfdna" cx="1450.5" cy="1231.5" r="6.2" fill="#ffffff" stroke="#1C1C1C" stroke-width="3.2"/>
+<circle class="stn" data-sid="cfdna" cx="1450.5" cy="1231.5" r="6.2" fill="#e9edf4" stroke="#CBD5E1" stroke-width="3.2"/>
 <circle class="hit" data-sid="cfdna" cx="1450.5" cy="1231.5" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="scqc" cx="2204.5" cy="1043.0" r="6.2" fill="#ffffff" stroke="#1C1C1C" stroke-width="3.2"/>
+<circle class="stn" data-sid="scqc" cx="2204.5" cy="1043.0" r="6.2" fill="#e9edf4" stroke="#CBD5E1" stroke-width="3.2"/>
 <circle class="hit" data-sid="scqc" cx="2204.5" cy="1043.0" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="nfcoreskill" cx="2393.0" cy="1043.0" r="6.2" fill="#ffffff" stroke="#1C1C1C" stroke-width="3.2"/>
+<circle class="stn" data-sid="nfcoreskill" cx="2393.0" cy="1043.0" r="6.2" fill="#e9edf4" stroke="#CBD5E1" stroke-width="3.2"/>
 <circle class="hit" data-sid="nfcoreskill" cx="2393.0" cy="1043.0" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="scvitools" cx="2581.5" cy="1043.0" r="6.2" fill="#ffffff" stroke="#1C1C1C" stroke-width="3.2"/>
+<circle class="stn" data-sid="scvitools" cx="2581.5" cy="1043.0" r="6.2" fill="#e9edf4" stroke="#CBD5E1" stroke-width="3.2"/>
 <circle class="hit" data-sid="scvitools" cx="2581.5" cy="1043.0" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="statsmodels" cx="2355.8" cy="1366.2" r="6.4" fill="#0098D4" stroke="#ffffff" stroke-width="2.0"/>
+<circle class="stn" data-sid="statsmodels" cx="2355.8" cy="1366.2" r="6.4" fill="#36B3EA" stroke="#e9edf4" stroke-width="2.0"/>
 <circle class="hit" data-sid="statsmodels" cx="2355.8" cy="1366.2" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="survival" cx="2511.8" cy="1210.2" r="6.4" fill="#0098D4" stroke="#ffffff" stroke-width="2.0"/>
+<circle class="stn" data-sid="survival" cx="2511.8" cy="1210.2" r="6.4" fill="#36B3EA" stroke="#e9edf4" stroke-width="2.0"/>
 <circle class="hit" data-sid="survival" cx="2511.8" cy="1210.2" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="reporting" cx="2667.8" cy="1054.2" r="6.4" fill="#0098D4" stroke="#ffffff" stroke-width="2.0"/>
+<circle class="stn" data-sid="reporting" cx="2667.8" cy="1054.2" r="6.4" fill="#36B3EA" stroke="#e9edf4" stroke-width="2.0"/>
 <circle class="hit" data-sid="reporting" cx="2667.8" cy="1054.2" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="peerreview" cx="2823.8" cy="898.2" r="6.4" fill="#0098D4" stroke="#ffffff" stroke-width="2.0"/>
+<circle class="stn" data-sid="peerreview" cx="2823.8" cy="898.2" r="6.4" fill="#36B3EA" stroke="#e9edf4" stroke-width="2.0"/>
 <circle class="hit" data-sid="peerreview" cx="2823.8" cy="898.2" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="power" cx="2355.8" cy="1177.7" r="6.2" fill="#ffffff" stroke="#0098D4" stroke-width="3.2"/>
+<circle class="stn" data-sid="power" cx="2355.8" cy="1177.7" r="6.2" fill="#e9edf4" stroke="#36B3EA" stroke-width="3.2"/>
 <circle class="hit" data-sid="power" cx="2355.8" cy="1177.7" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="bayes" cx="2355.8" cy="989.2" r="6.2" fill="#ffffff" stroke="#0098D4" stroke-width="3.2"/>
+<circle class="stn" data-sid="bayes" cx="2355.8" cy="989.2" r="6.2" fill="#e9edf4" stroke="#36B3EA" stroke-width="3.2"/>
 <circle class="hit" data-sid="bayes" cx="2355.8" cy="989.2" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="ctgmcp" cx="2700.3" cy="1210.2" r="9.2" fill="#ffffff" stroke="#1c1c1c" stroke-width="3.2"/>
+<circle class="stn" data-sid="ctgmcp" cx="2700.3" cy="1210.2" r="9.2" fill="#e9edf4" stroke="#0c1322" stroke-width="3.2"/>
+<circle cx="2700.3" cy="1210.2" r="4.0" fill="#0c1322"/>
 <circle class="hit" data-sid="ctgmcp" cx="2700.3" cy="1210.2" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="critthink" cx="3012.3" cy="898.2" r="6.4" fill="#0098D4" stroke="#ffffff" stroke-width="2.0"/>
+<circle class="stn" data-sid="critthink" cx="3012.3" cy="898.2" r="6.4" fill="#36B3EA" stroke="#e9edf4" stroke-width="2.0"/>
 <circle class="hit" data-sid="critthink" cx="3012.3" cy="898.2" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="clinreports" cx="2490.5" cy="1706.0" r="6.4" fill="#9B0056" stroke="#ffffff" stroke-width="2.0"/>
+<circle class="stn" data-sid="clinreports" cx="2490.5" cy="1706.0" r="6.4" fill="#F46BB4" stroke="#e9edf4" stroke-width="2.0"/>
 <circle class="hit" data-sid="clinreports" cx="2490.5" cy="1706.0" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="decision" cx="2679.0" cy="1706.0" r="9.2" fill="#ffffff" stroke="#1c1c1c" stroke-width="3.2"/>
+<circle class="stn" data-sid="decision" cx="2679.0" cy="1706.0" r="9.2" fill="#e9edf4" stroke="#0c1322" stroke-width="3.2"/>
+<circle cx="2679.0" cy="1706.0" r="4.0" fill="#0c1322"/>
 <circle class="hit" data-sid="decision" cx="2679.0" cy="1706.0" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="treatment" cx="2867.5" cy="1706.0" r="6.4" fill="#9B0056" stroke="#ffffff" stroke-width="2.0"/>
+<circle class="stn" data-sid="treatment" cx="2867.5" cy="1706.0" r="6.4" fill="#F46BB4" stroke="#e9edf4" stroke-width="2.0"/>
 <circle class="hit" data-sid="treatment" cx="2867.5" cy="1706.0" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="cltrials" cx="3056.0" cy="1706.0" r="6.2" fill="#ffffff" stroke="#9B0056" stroke-width="3.2"/>
+<circle class="stn" data-sid="cltrials" cx="3056.0" cy="1706.0" r="6.2" fill="#e9edf4" stroke="#F46BB4" stroke-width="3.2"/>
 <circle class="hit" data-sid="cltrials" cx="3056.0" cy="1706.0" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="euctr" cx="3056.0" cy="1894.5" r="6.2" fill="#ffffff" stroke="#9B0056" stroke-width="3.2"/>
+<circle class="stn" data-sid="euctr" cx="3056.0" cy="1894.5" r="6.2" fill="#e9edf4" stroke="#F46BB4" stroke-width="3.2"/>
 <circle class="hit" data-sid="euctr" cx="3056.0" cy="1894.5" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="fdaema" cx="3056.0" cy="2083.0" r="6.2" fill="#ffffff" stroke="#9B0056" stroke-width="3.2"/>
+<circle class="stn" data-sid="fdaema" cx="3056.0" cy="2083.0" r="6.2" fill="#e9edf4" stroke="#F46BB4" stroke-width="3.2"/>
 <circle class="hit" data-sid="fdaema" cx="3056.0" cy="2083.0" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="whoictrp" cx="3056.0" cy="2271.5" r="6.2" fill="#ffffff" stroke="#9B0056" stroke-width="3.2"/>
+<circle class="stn" data-sid="whoictrp" cx="3056.0" cy="2271.5" r="6.2" fill="#e9edf4" stroke="#F46BB4" stroke-width="3.2"/>
 <circle class="hit" data-sid="whoictrp" cx="3056.0" cy="2271.5" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="biorender" cx="2355.8" cy="2045.8" r="6.4" fill="#F1A800" stroke="#ffffff" stroke-width="2.0"/>
+<circle class="stn" data-sid="biorender" cx="2355.8" cy="2045.8" r="6.4" fill="#FFC641" stroke="#e9edf4" stroke-width="2.0"/>
 <circle class="hit" data-sid="biorender" cx="2355.8" cy="2045.8" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="schematics" cx="2511.8" cy="2201.8" r="6.4" fill="#F1A800" stroke="#ffffff" stroke-width="2.0"/>
+<circle class="stn" data-sid="schematics" cx="2511.8" cy="2201.8" r="6.4" fill="#FFC641" stroke="#e9edf4" stroke-width="2.0"/>
 <circle class="hit" data-sid="schematics" cx="2511.8" cy="2201.8" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="infographics" cx="2667.8" cy="2357.8" r="6.4" fill="#F1A800" stroke="#ffffff" stroke-width="2.0"/>
+<circle class="stn" data-sid="infographics" cx="2667.8" cy="2357.8" r="6.4" fill="#FFC641" stroke="#e9edf4" stroke-width="2.0"/>
 <circle class="hit" data-sid="infographics" cx="2667.8" cy="2357.8" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="imagegen" cx="2823.8" cy="2513.8" r="6.4" fill="#F1A800" stroke="#ffffff" stroke-width="2.0"/>
+<circle class="stn" data-sid="imagegen" cx="2823.8" cy="2513.8" r="6.4" fill="#FFC641" stroke="#e9edf4" stroke-width="2.0"/>
 <circle class="hit" data-sid="imagegen" cx="2823.8" cy="2513.8" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="mermaid" cx="2544.3" cy="2045.8" r="6.4" fill="#F1A800" stroke="#ffffff" stroke-width="2.0"/>
+<circle class="stn" data-sid="mermaid" cx="2544.3" cy="2045.8" r="6.4" fill="#FFC641" stroke="#e9edf4" stroke-width="2.0"/>
 <circle class="hit" data-sid="mermaid" cx="2544.3" cy="2045.8" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="figma" cx="2732.8" cy="2045.8" r="6.4" fill="#F1A800" stroke="#ffffff" stroke-width="2.0"/>
+<circle class="stn" data-sid="figma" cx="2732.8" cy="2045.8" r="6.4" fill="#FFC641" stroke="#e9edf4" stroke-width="2.0"/>
 <circle class="hit" data-sid="figma" cx="2732.8" cy="2045.8" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="gptimage" cx="2823.8" cy="2702.3" r="6.2" fill="#ffffff" stroke="#F1A800" stroke-width="3.2"/>
+<circle class="stn" data-sid="gptimage" cx="2823.8" cy="2702.3" r="6.2" fill="#e9edf4" stroke="#FFC641" stroke-width="3.2"/>
 <circle class="hit" data-sid="gptimage" cx="2823.8" cy="2702.3" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="sciwriting" cx="2016.0" cy="2180.5" r="6.4" fill="#B26300" stroke="#ffffff" stroke-width="2.0"/>
+<circle class="stn" data-sid="sciwriting" cx="2016.0" cy="2180.5" r="6.4" fill="#EC9540" stroke="#e9edf4" stroke-width="2.0"/>
 <circle class="hit" data-sid="sciwriting" cx="2016.0" cy="2180.5" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="citation" cx="2016.0" cy="2369.0" r="6.4" fill="#B26300" stroke="#ffffff" stroke-width="2.0"/>
+<circle class="stn" data-sid="citation" cx="2016.0" cy="2369.0" r="6.4" fill="#EC9540" stroke="#e9edf4" stroke-width="2.0"/>
 <circle class="hit" data-sid="citation" cx="2016.0" cy="2369.0" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="venue" cx="2016.0" cy="2557.5" r="6.4" fill="#B26300" stroke="#ffffff" stroke-width="2.0"/>
+<circle class="stn" data-sid="venue" cx="2016.0" cy="2557.5" r="6.4" fill="#EC9540" stroke="#e9edf4" stroke-width="2.0"/>
 <circle class="hit" data-sid="venue" cx="2016.0" cy="2557.5" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="grants" cx="2016.0" cy="2746.0" r="6.4" fill="#B26300" stroke="#ffffff" stroke-width="2.0"/>
+<circle class="stn" data-sid="grants" cx="2016.0" cy="2746.0" r="6.4" fill="#EC9540" stroke="#e9edf4" stroke-width="2.0"/>
 <circle class="hit" data-sid="grants" cx="2016.0" cy="2746.0" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="office" cx="1827.5" cy="2180.5" r="6.4" fill="#B26300" stroke="#ffffff" stroke-width="2.0"/>
+<circle class="stn" data-sid="office" cx="1827.5" cy="2180.5" r="6.4" fill="#EC9540" stroke="#e9edf4" stroke-width="2.0"/>
 <circle class="hit" data-sid="office" cx="1827.5" cy="2180.5" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="markitdown" cx="1639.0" cy="2180.5" r="6.4" fill="#B26300" stroke="#ffffff" stroke-width="2.0"/>
+<circle class="stn" data-sid="markitdown" cx="1639.0" cy="2180.5" r="6.4" fill="#EC9540" stroke="#e9edf4" stroke-width="2.0"/>
 <circle class="hit" data-sid="markitdown" cx="1639.0" cy="2180.5" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="humanizer" cx="1827.5" cy="2369.0" r="6.4" fill="#B26300" stroke="#ffffff" stroke-width="2.0"/>
+<circle class="stn" data-sid="humanizer" cx="1827.5" cy="2369.0" r="6.4" fill="#EC9540" stroke="#e9edf4" stroke-width="2.0"/>
 <circle class="hit" data-sid="humanizer" cx="1827.5" cy="2369.0" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="slides" cx="1639.0" cy="2369.0" r="6.4" fill="#B26300" stroke="#ffffff" stroke-width="2.0"/>
+<circle class="stn" data-sid="slides" cx="1639.0" cy="2369.0" r="6.4" fill="#EC9540" stroke="#e9edf4" stroke-width="2.0"/>
 <circle class="hit" data-sid="slides" cx="1639.0" cy="2369.0" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="paper2web" cx="1827.5" cy="2557.5" r="6.4" fill="#B26300" stroke="#ffffff" stroke-width="2.0"/>
+<circle class="stn" data-sid="paper2web" cx="1827.5" cy="2557.5" r="6.4" fill="#EC9540" stroke="#e9edf4" stroke-width="2.0"/>
 <circle class="hit" data-sid="paper2web" cx="1827.5" cy="2557.5" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="posters" cx="1639.0" cy="2557.5" r="6.4" fill="#B26300" stroke="#ffffff" stroke-width="2.0"/>
+<circle class="stn" data-sid="posters" cx="1639.0" cy="2557.5" r="6.4" fill="#EC9540" stroke="#e9edf4" stroke-width="2.0"/>
 <circle class="hit" data-sid="posters" cx="1639.0" cy="2557.5" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="drive" cx="1676.2" cy="2045.8" r="6.4" fill="#7A868C" stroke="#ffffff" stroke-width="2.0"/>
+<circle class="stn" data-sid="drive" cx="1676.2" cy="2045.8" r="6.4" fill="#AAB7C0" stroke="#e9edf4" stroke-width="2.0"/>
 <circle class="hit" data-sid="drive" cx="1676.2" cy="2045.8" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="workflows" cx="1520.2" cy="2201.8" r="6.4" fill="#7A868C" stroke="#ffffff" stroke-width="2.0"/>
+<circle class="stn" data-sid="workflows" cx="1520.2" cy="2201.8" r="6.4" fill="#AAB7C0" stroke="#e9edf4" stroke-width="2.0"/>
 <circle class="hit" data-sid="workflows" cx="1520.2" cy="2201.8" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="gmail" cx="1487.7" cy="2045.8" r="6.4" fill="#7A868C" stroke="#ffffff" stroke-width="2.0"/>
+<circle class="stn" data-sid="gmail" cx="1487.7" cy="2045.8" r="6.4" fill="#AAB7C0" stroke="#e9edf4" stroke-width="2.0"/>
 <circle class="hit" data-sid="gmail" cx="1487.7" cy="2045.8" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="calendar" cx="1299.2" cy="2045.8" r="6.4" fill="#7A868C" stroke="#ffffff" stroke-width="2.0"/>
+<circle class="stn" data-sid="calendar" cx="1299.2" cy="2045.8" r="6.4" fill="#AAB7C0" stroke="#e9edf4" stroke-width="2.0"/>
 <circle class="hit" data-sid="calendar" cx="1299.2" cy="2045.8" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="slack" cx="1110.7" cy="2045.8" r="6.4" fill="#7A868C" stroke="#ffffff" stroke-width="2.0"/>
+<circle class="stn" data-sid="slack" cx="1110.7" cy="2045.8" r="6.4" fill="#AAB7C0" stroke="#e9edf4" stroke-width="2.0"/>
 <circle class="hit" data-sid="slack" cx="1110.7" cy="2045.8" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="schedule" cx="922.2" cy="2045.8" r="6.4" fill="#7A868C" stroke="#ffffff" stroke-width="2.0"/>
+<circle class="stn" data-sid="schedule" cx="922.2" cy="2045.8" r="6.4" fill="#AAB7C0" stroke="#e9edf4" stroke-width="2.0"/>
 <circle class="hit" data-sid="schedule" cx="922.2" cy="2045.8" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="paralegalrev" cx="2190.2" cy="2105.1" r="6.4" fill="#0E7C7B" stroke="#ffffff" stroke-width="2.0"/>
+<circle class="stn" data-sid="paralegalrev" cx="2190.2" cy="2105.1" r="6.4" fill="#27C3B9" stroke="#e9edf4" stroke-width="2.0"/>
 <circle class="hit" data-sid="paralegalrev" cx="2190.2" cy="2105.1" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="gdpr" cx="2270.8" cy="2289.7" r="6.4" fill="#0E7C7B" stroke="#ffffff" stroke-width="2.0"/>
+<circle class="stn" data-sid="gdpr" cx="2270.8" cy="2289.7" r="6.4" fill="#27C3B9" stroke="#e9edf4" stroke-width="2.0"/>
 <circle class="hit" data-sid="gdpr" cx="2270.8" cy="2289.7" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="eugrants" cx="2351.4" cy="2474.3" r="6.4" fill="#0E7C7B" stroke="#ffffff" stroke-width="2.0"/>
+<circle class="stn" data-sid="eugrants" cx="2351.4" cy="2474.3" r="6.4" fill="#27C3B9" stroke="#e9edf4" stroke-width="2.0"/>
 <circle class="hit" data-sid="eugrants" cx="2351.4" cy="2474.3" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="itlaw" cx="2432.0" cy="2658.9" r="6.4" fill="#0E7C7B" stroke="#ffffff" stroke-width="2.0"/>
+<circle class="stn" data-sid="itlaw" cx="2432.0" cy="2658.9" r="6.4" fill="#27C3B9" stroke="#e9edf4" stroke-width="2.0"/>
 <circle class="hit" data-sid="itlaw" cx="2432.0" cy="2658.9" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="uslaw" cx="2512.6" cy="2843.5" r="6.4" fill="#0E7C7B" stroke="#ffffff" stroke-width="2.0"/>
+<circle class="stn" data-sid="uslaw" cx="2512.6" cy="2843.5" r="6.4" fill="#27C3B9" stroke="#e9edf4" stroke-width="2.0"/>
 <circle class="hit" data-sid="uslaw" cx="2512.6" cy="2843.5" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="biomcp" cx="1574.0" cy="1511.0" r="9.2" fill="#ffffff" stroke="#1c1c1c" stroke-width="3.2"/>
+<circle class="stn" data-sid="biomcp" cx="1574.0" cy="1511.0" r="9.2" fill="#e9edf4" stroke="#0c1322" stroke-width="3.2"/>
+<circle cx="1574.0" cy="1511.0" r="4.0" fill="#0c1322"/>
 <circle class="hit" data-sid="biomcp" cx="1574.0" cy="1511.0" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="nar" cx="664.0" cy="2044.0" r="9.2" fill="#ffffff" stroke="#1c1c1c" stroke-width="3.2"/>
+<circle class="stn" data-sid="nar" cx="664.0" cy="2044.0" r="9.2" fill="#e9edf4" stroke="#0c1322" stroke-width="3.2"/>
+<circle cx="664.0" cy="2044.0" r="4.0" fill="#0c1322"/>
 <circle class="hit" data-sid="nar" cx="664.0" cy="2044.0" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="biocontextmeta" cx="794.0" cy="2577.0" r="9.2" fill="#ffffff" stroke="#1c1c1c" stroke-width="3.2"/>
+<circle class="stn" data-sid="biocontextmeta" cx="794.0" cy="2577.0" r="9.2" fill="#e9edf4" stroke="#0c1322" stroke-width="3.2"/>
+<circle cx="794.0" cy="2577.0" r="4.0" fill="#0c1322"/>
 <circle class="hit" data-sid="biocontextmeta" cx="794.0" cy="2577.0" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="marketplace" cx="1236.0" cy="2850.0" r="9.2" fill="#ffffff" stroke="#1c1c1c" stroke-width="3.2"/>
+<circle class="stn" data-sid="marketplace" cx="1236.0" cy="2850.0" r="9.2" fill="#e9edf4" stroke="#0c1322" stroke-width="3.2"/>
+<circle cx="1236.0" cy="2850.0" r="4.0" fill="#0c1322"/>
 <circle class="hit" data-sid="marketplace" cx="1236.0" cy="2850.0" r="15" fill="#000" opacity="0"/>
-<circle class="stn" data-sid="biocontextai" cx="1652.0" cy="2850.0" r="9.2" fill="#ffffff" stroke="#1c1c1c" stroke-width="3.2"/>
+<circle class="stn" data-sid="biocontextai" cx="1652.0" cy="2850.0" r="9.2" fill="#e9edf4" stroke="#0c1322" stroke-width="3.2"/>
+<circle cx="1652.0" cy="2850.0" r="4.0" fill="#0c1322"/>
 <circle class="hit" data-sid="biocontextai" cx="1652.0" cy="2850.0" r="15" fill="#000" opacity="0"/>
-<text x="1541.5" y="1692.0" font-size="18" text-anchor="middle" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">PubMed</text>
-<text x="1353.0" y="1738.3" font-size="18" text-anchor="middle" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">Consensus</text>
-<text x="1164.5" y="1738.3" font-size="18" text-anchor="middle" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">Europe PMC</text>
-<text x="976.0" y="1692.0" font-size="18" text-anchor="middle" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">bioRxiv</text>
-<text x="787.5" y="1692.0" font-size="18" text-anchor="middle" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">medRxiv</text>
-<text x="599.0" y="1692.0" font-size="18" text-anchor="middle" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">Semantic Scholar</text>
-<text x="1528.5" y="1898.5" font-size="18" text-anchor="end" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">deep-research</text>
-<text x="1528.5" y="2087.0" font-size="18" text-anchor="end" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">literature-review</text>
-<text x="1528.5" y="2275.5" font-size="18" text-anchor="end" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">research-lookup</text>
-<text x="1353.0" y="1503.5" font-size="18" text-anchor="middle" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">Wiley Scholar Gateway</text>
-<text x="1676.2" y="1352.2" font-size="18" text-anchor="middle" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">Synapse.org</text>
-<text x="1520.2" y="1196.2" font-size="18" text-anchor="middle" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">GEO / SRA</text>
-<text x="1375.2" y="1045.2" font-size="18" text-anchor="start" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">Ensembl</text>
-<text x="1219.2" y="889.2" font-size="18" text-anchor="start" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">UCSC Browser</text>
-<text x="1063.2" y="733.2" font-size="18" text-anchor="start" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">GDC / TCGA</text>
-<text x="1487.7" y="1352.2" font-size="18" text-anchor="middle" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">ENA MCP</text>
-<text x="1331.7" y="1196.2" font-size="18" text-anchor="middle" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">ClinVar / gnomAD</text>
-<text x="1143.2" y="1242.5" font-size="18" text-anchor="middle" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">cBioPortal</text>
-<text x="941.7" y="1214.2" font-size="18" text-anchor="end" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">DepMap / OncoKB</text>
-<text x="1130.2" y="1025.7" font-size="18" text-anchor="end" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">cBioPortal MCP</text>
-<text x="1130.2" y="837.2" font-size="18" text-anchor="end" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">Open Targets MCP</text>
-<text x="1364.2" y="851.7" font-size="18" text-anchor="middle" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">CELLxGENE</text>
-<text x="2016.0" y="1217.5" font-size="18" text-anchor="middle" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">Python · scanpy/squidpy</text>
-<text x="2016.0" y="1029.0" font-size="18" text-anchor="middle" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">R · Bioconductor</text>
-<text x="2016.0" y="840.5" font-size="18" text-anchor="middle" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">Nextflow / nf-core</text>
-<text x="2016.0" y="652.0" font-size="18" text-anchor="middle" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">Snakemake</text>
-<text x="2217.5" y="1235.5" font-size="18" text-anchor="start" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">SCMCP</text>
-<text x="2406.0" y="1235.5" font-size="18" text-anchor="start" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">ChatSpatial</text>
-<text x="1814.5" y="1235.5" font-size="18" text-anchor="end" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">Jupyter</text>
-<text x="1626.0" y="1235.5" font-size="18" text-anchor="end" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">Galaxy</text>
-<text x="1437.5" y="1235.5" font-size="18" text-anchor="end" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">cfDNA stack</text>
-<text x="2204.5" y="1029.0" font-size="18" text-anchor="middle" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">sc-RNA-QC skill</text>
-<text x="2393.0" y="1029.0" font-size="18" text-anchor="middle" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">nf-core dev skill</text>
-<text x="2581.5" y="1029.0" font-size="18" text-anchor="middle" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">scvi-tools</text>
-<text x="2368.8" y="1370.2" font-size="18" text-anchor="start" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">statsmodels / scipy</text>
-<text x="2500.8" y="1201.2" font-size="18" text-anchor="end" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">survival · lifelines</text>
-<text x="2680.8" y="1058.2" font-size="18" text-anchor="start" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">reporting standards</text>
-<text x="2812.8" y="889.2" font-size="18" text-anchor="end" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">peer-review</text>
-<text x="2355.8" y="1163.7" font-size="18" text-anchor="middle" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">Power &amp; sample size</text>
-<text x="2368.8" y="993.2" font-size="18" text-anchor="start" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">Bayesian · Stan/PyMC</text>
-<text x="2700.3" y="1196.2" font-size="18" text-anchor="middle" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">ClinTrials.gov MCP</text>
-<text x="3012.3" y="884.2" font-size="18" text-anchor="middle" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">critical-thinking</text>
-<text x="2490.5" y="1692.0" font-size="18" text-anchor="middle" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">clinical-reports</text>
-<text x="2679.0" y="1692.0" font-size="18" text-anchor="middle" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">decision-support</text>
-<text x="2867.5" y="1738.3" font-size="18" text-anchor="middle" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">treatment-plans</text>
-<text x="3056.0" y="1692.0" font-size="18" text-anchor="middle" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">ClinicalTrials.gov</text>
-<text x="3069.0" y="1898.5" font-size="18" text-anchor="start" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">EU CTR / CTIS</text>
-<text x="3069.0" y="2087.0" font-size="18" text-anchor="start" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">FDA / EMA</text>
-<text x="3069.0" y="2275.5" font-size="18" text-anchor="start" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">WHO ICTRP</text>
-<text x="2366.8" y="2036.8" font-size="18" text-anchor="start" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">BioRender</text>
-<text x="2522.8" y="2192.8" font-size="18" text-anchor="start" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">scientific-schematics</text>
-<text x="2678.8" y="2348.8" font-size="18" text-anchor="start" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">infographics</text>
-<text x="2834.8" y="2504.8" font-size="18" text-anchor="start" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">image-gen · Nano/FLUX</text>
-<text x="2544.3" y="2031.8" font-size="18" text-anchor="middle" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">Mermaid</text>
-<text x="2732.8" y="2031.8" font-size="18" text-anchor="middle" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">Figma</text>
-<text x="2836.8" y="2706.3" font-size="18" text-anchor="start" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">gpt-image-2 (hero)</text>
-<text x="2029.0" y="2184.5" font-size="18" text-anchor="start" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">scientific-writing</text>
-<text x="2029.0" y="2373.0" font-size="18" text-anchor="start" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">citation-management</text>
-<text x="2029.0" y="2561.5" font-size="18" text-anchor="start" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">venue-templates</text>
-<text x="2003.0" y="2750.0" font-size="18" text-anchor="end" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">research-grants</text>
-<text x="1827.5" y="2212.8" font-size="18" text-anchor="middle" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">Office docs</text>
-<text x="1639.0" y="2166.5" font-size="18" text-anchor="middle" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">markitdown</text>
-<text x="1827.5" y="2401.3" font-size="18" text-anchor="middle" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">humanizer</text>
-<text x="1626.0" y="2373.0" font-size="18" text-anchor="end" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">preparing-slides</text>
-<text x="1827.5" y="2589.8" font-size="18" text-anchor="middle" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">paper-2-web</text>
-<text x="1626.0" y="2561.5" font-size="18" text-anchor="end" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">posters (LaTeX/PPTX)</text>
-<text x="1689.2" y="2049.8" font-size="18" text-anchor="start" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">Google Drive</text>
-<text x="1531.2" y="2217.8" font-size="18" text-anchor="start" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">Workflows / subagents</text>
-<text x="1487.7" y="2064.8" font-size="18" text-anchor="middle" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">Gmail</text>
-<text x="1299.2" y="2031.8" font-size="18" text-anchor="middle" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">Google Calendar</text>
-<text x="1110.7" y="2064.8" font-size="18" text-anchor="middle" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">Slack</text>
-<text x="909.2" y="2049.8" font-size="18" text-anchor="end" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">schedule / cron</text>
-<text x="2203.2" y="2109.1" font-size="18" text-anchor="start" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">paralegal-review</text>
-<text x="2257.8" y="2293.7" font-size="18" text-anchor="end" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">GDPR &amp; data protection</text>
-<text x="2364.4" y="2478.3" font-size="18" text-anchor="start" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">EU grants &amp; consortia</text>
-<text x="2419.0" y="2662.9" font-size="18" text-anchor="end" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">Italian research law</text>
-<text x="2512.6" y="2829.5" font-size="18" text-anchor="middle" fill="#1c1c1c" font-weight="600" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">US research law</text>
-<text x="1574.0" y="1497.0" font-size="18" text-anchor="middle" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">BioMCP</text>
-<text x="651.0" y="2048.0" font-size="18" text-anchor="end" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">NAR DB Collection</text>
-<text x="781.0" y="2581.0" font-size="18" text-anchor="end" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">BioContextAI meta-MCP</text>
-<text x="1217.3" y="2877.2" font-size="18" text-anchor="end" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">Claude for Life Sciences</text>
-<text x="1652.0" y="2882.3" font-size="18" text-anchor="middle" fill="#2c2c2c" font-weight="500" font-style="normal" paint-order="stroke" stroke="#fbfaf6" stroke-width="5.5" stroke-linejoin="round">BioContextAI Registry</text>
+<text x="1541.5" y="1692.0" font-size="18" text-anchor="middle" fill="#eef1f6" font-weight="600" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">PubMed</text>
+<text x="1353.0" y="1738.3" font-size="18" text-anchor="middle" fill="#eef1f6" font-weight="600" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">Consensus</text>
+<text x="1164.5" y="1738.3" font-size="18" text-anchor="middle" fill="#c3cad8" font-weight="500" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">Europe PMC</text>
+<text x="976.0" y="1692.0" font-size="18" text-anchor="middle" fill="#c3cad8" font-weight="500" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">bioRxiv</text>
+<text x="787.5" y="1692.0" font-size="18" text-anchor="middle" fill="#c3cad8" font-weight="500" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">medRxiv</text>
+<text x="599.0" y="1692.0" font-size="18" text-anchor="middle" fill="#c3cad8" font-weight="500" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">Semantic Scholar</text>
+<text x="1528.5" y="1898.5" font-size="18" text-anchor="end" fill="#eef1f6" font-weight="600" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">deep-research</text>
+<text x="1528.5" y="2087.0" font-size="18" text-anchor="end" fill="#eef1f6" font-weight="600" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">literature-review</text>
+<text x="1528.5" y="2275.5" font-size="18" text-anchor="end" fill="#eef1f6" font-weight="600" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">research-lookup</text>
+<text x="1353.0" y="1503.5" font-size="18" text-anchor="middle" fill="#c3cad8" font-weight="500" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">Wiley Scholar Gateway</text>
+<text x="1676.2" y="1352.2" font-size="18" text-anchor="middle" fill="#eef1f6" font-weight="600" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">Synapse.org</text>
+<text x="1520.2" y="1196.2" font-size="18" text-anchor="middle" fill="#c3cad8" font-weight="500" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">GEO / SRA</text>
+<text x="1375.2" y="1045.2" font-size="18" text-anchor="start" fill="#c3cad8" font-weight="500" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">Ensembl</text>
+<text x="1219.2" y="889.2" font-size="18" text-anchor="start" fill="#c3cad8" font-weight="500" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">UCSC Browser</text>
+<text x="1063.2" y="733.2" font-size="18" text-anchor="start" fill="#c3cad8" font-weight="500" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">GDC / TCGA</text>
+<text x="1487.7" y="1352.2" font-size="18" text-anchor="middle" fill="#c3cad8" font-weight="500" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">ENA MCP</text>
+<text x="1331.7" y="1196.2" font-size="18" text-anchor="middle" fill="#c3cad8" font-weight="500" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">ClinVar / gnomAD</text>
+<text x="1143.2" y="1242.5" font-size="18" text-anchor="middle" fill="#c3cad8" font-weight="500" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">cBioPortal</text>
+<text x="941.7" y="1214.2" font-size="18" text-anchor="end" fill="#c3cad8" font-weight="500" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">DepMap / OncoKB</text>
+<text x="1130.2" y="1025.7" font-size="18" text-anchor="end" fill="#c3cad8" font-weight="500" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">cBioPortal MCP</text>
+<text x="1130.2" y="837.2" font-size="18" text-anchor="end" fill="#c3cad8" font-weight="500" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">Open Targets MCP</text>
+<text x="1364.2" y="851.7" font-size="18" text-anchor="middle" fill="#c3cad8" font-weight="500" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">CELLxGENE</text>
+<text x="2016.0" y="1217.5" font-size="18" text-anchor="middle" fill="#eef1f6" font-weight="600" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">Python · scanpy/squidpy</text>
+<text x="2016.0" y="1029.0" font-size="18" text-anchor="middle" fill="#c3cad8" font-weight="500" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">R · Bioconductor</text>
+<text x="2016.0" y="840.5" font-size="18" text-anchor="middle" fill="#c3cad8" font-weight="500" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">Nextflow / nf-core</text>
+<text x="2016.0" y="652.0" font-size="18" text-anchor="middle" fill="#c3cad8" font-weight="500" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">Snakemake</text>
+<text x="2217.5" y="1235.5" font-size="18" text-anchor="start" fill="#c3cad8" font-weight="500" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">SCMCP</text>
+<text x="2406.0" y="1235.5" font-size="18" text-anchor="start" fill="#c3cad8" font-weight="500" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">ChatSpatial</text>
+<text x="1814.5" y="1235.5" font-size="18" text-anchor="end" fill="#c3cad8" font-weight="500" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">Jupyter</text>
+<text x="1626.0" y="1235.5" font-size="18" text-anchor="end" fill="#c3cad8" font-weight="500" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">Galaxy</text>
+<text x="1437.5" y="1235.5" font-size="18" text-anchor="end" fill="#c3cad8" font-weight="500" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">cfDNA stack</text>
+<text x="2204.5" y="1029.0" font-size="18" text-anchor="middle" fill="#c3cad8" font-weight="500" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">sc-RNA-QC skill</text>
+<text x="2393.0" y="1029.0" font-size="18" text-anchor="middle" fill="#c3cad8" font-weight="500" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">nf-core dev skill</text>
+<text x="2581.5" y="1029.0" font-size="18" text-anchor="middle" fill="#c3cad8" font-weight="500" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">scvi-tools</text>
+<text x="2368.8" y="1370.2" font-size="18" text-anchor="start" fill="#eef1f6" font-weight="600" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">statsmodels / scipy</text>
+<text x="2500.8" y="1201.2" font-size="18" text-anchor="end" fill="#eef1f6" font-weight="600" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">survival · lifelines</text>
+<text x="2680.8" y="1058.2" font-size="18" text-anchor="start" fill="#eef1f6" font-weight="600" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">reporting standards</text>
+<text x="2812.8" y="889.2" font-size="18" text-anchor="end" fill="#eef1f6" font-weight="600" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">peer-review</text>
+<text x="2355.8" y="1163.7" font-size="18" text-anchor="middle" fill="#c3cad8" font-weight="500" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">Power &amp; sample size</text>
+<text x="2368.8" y="993.2" font-size="18" text-anchor="start" fill="#c3cad8" font-weight="500" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">Bayesian · Stan/PyMC</text>
+<text x="2700.3" y="1196.2" font-size="18" text-anchor="middle" fill="#c3cad8" font-weight="500" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">ClinTrials.gov MCP</text>
+<text x="3012.3" y="884.2" font-size="18" text-anchor="middle" fill="#eef1f6" font-weight="600" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">critical-thinking</text>
+<text x="2490.5" y="1692.0" font-size="18" text-anchor="middle" fill="#eef1f6" font-weight="600" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">clinical-reports</text>
+<text x="2679.0" y="1692.0" font-size="18" text-anchor="middle" fill="#eef1f6" font-weight="600" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">decision-support</text>
+<text x="2867.5" y="1738.3" font-size="18" text-anchor="middle" fill="#eef1f6" font-weight="600" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">treatment-plans</text>
+<text x="3056.0" y="1692.0" font-size="18" text-anchor="middle" fill="#c3cad8" font-weight="500" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">ClinicalTrials.gov</text>
+<text x="3069.0" y="1898.5" font-size="18" text-anchor="start" fill="#c3cad8" font-weight="500" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">EU CTR / CTIS</text>
+<text x="3069.0" y="2087.0" font-size="18" text-anchor="start" fill="#c3cad8" font-weight="500" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">FDA / EMA</text>
+<text x="3069.0" y="2275.5" font-size="18" text-anchor="start" fill="#c3cad8" font-weight="500" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">WHO ICTRP</text>
+<text x="2366.8" y="2036.8" font-size="18" text-anchor="start" fill="#eef1f6" font-weight="600" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">BioRender</text>
+<text x="2522.8" y="2192.8" font-size="18" text-anchor="start" fill="#eef1f6" font-weight="600" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">scientific-schematics</text>
+<text x="2678.8" y="2348.8" font-size="18" text-anchor="start" fill="#eef1f6" font-weight="600" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">infographics</text>
+<text x="2834.8" y="2504.8" font-size="18" text-anchor="start" fill="#eef1f6" font-weight="600" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">image-gen · Nano/FLUX</text>
+<text x="2544.3" y="2031.8" font-size="18" text-anchor="middle" fill="#eef1f6" font-weight="600" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">Mermaid</text>
+<text x="2732.8" y="2031.8" font-size="18" text-anchor="middle" fill="#eef1f6" font-weight="600" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">Figma</text>
+<text x="2836.8" y="2706.3" font-size="18" text-anchor="start" fill="#c3cad8" font-weight="500" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">gpt-image-2 (hero)</text>
+<text x="2029.0" y="2184.5" font-size="18" text-anchor="start" fill="#eef1f6" font-weight="600" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">scientific-writing</text>
+<text x="2029.0" y="2373.0" font-size="18" text-anchor="start" fill="#eef1f6" font-weight="600" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">citation-management</text>
+<text x="2029.0" y="2561.5" font-size="18" text-anchor="start" fill="#eef1f6" font-weight="600" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">venue-templates</text>
+<text x="2003.0" y="2750.0" font-size="18" text-anchor="end" fill="#eef1f6" font-weight="600" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">research-grants</text>
+<text x="1827.5" y="2212.8" font-size="18" text-anchor="middle" fill="#eef1f6" font-weight="600" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">Office docs</text>
+<text x="1639.0" y="2166.5" font-size="18" text-anchor="middle" fill="#eef1f6" font-weight="600" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">markitdown</text>
+<text x="1827.5" y="2401.3" font-size="18" text-anchor="middle" fill="#eef1f6" font-weight="600" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">humanizer</text>
+<text x="1626.0" y="2373.0" font-size="18" text-anchor="end" fill="#eef1f6" font-weight="600" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">preparing-slides</text>
+<text x="1827.5" y="2589.8" font-size="18" text-anchor="middle" fill="#eef1f6" font-weight="600" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">paper-2-web</text>
+<text x="1626.0" y="2561.5" font-size="18" text-anchor="end" fill="#eef1f6" font-weight="600" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">posters (LaTeX/PPTX)</text>
+<text x="1689.2" y="2049.8" font-size="18" text-anchor="start" fill="#eef1f6" font-weight="600" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">Google Drive</text>
+<text x="1531.2" y="2217.8" font-size="18" text-anchor="start" fill="#eef1f6" font-weight="600" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">Workflows / subagents</text>
+<text x="1487.7" y="2064.8" font-size="18" text-anchor="middle" fill="#eef1f6" font-weight="600" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">Gmail</text>
+<text x="1299.2" y="2031.8" font-size="18" text-anchor="middle" fill="#eef1f6" font-weight="600" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">Google Calendar</text>
+<text x="1110.7" y="2064.8" font-size="18" text-anchor="middle" fill="#eef1f6" font-weight="600" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">Slack</text>
+<text x="909.2" y="2049.8" font-size="18" text-anchor="end" fill="#eef1f6" font-weight="600" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">schedule / cron</text>
+<text x="2203.2" y="2109.1" font-size="18" text-anchor="start" fill="#eef1f6" font-weight="600" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">paralegal-review</text>
+<text x="2257.8" y="2293.7" font-size="18" text-anchor="end" fill="#eef1f6" font-weight="600" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">GDPR &amp; data protection</text>
+<text x="2364.4" y="2478.3" font-size="18" text-anchor="start" fill="#eef1f6" font-weight="600" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">EU grants &amp; consortia</text>
+<text x="2419.0" y="2662.9" font-size="18" text-anchor="end" fill="#eef1f6" font-weight="600" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">Italian research law</text>
+<text x="2512.6" y="2829.5" font-size="18" text-anchor="middle" fill="#eef1f6" font-weight="600" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">US research law</text>
+<text x="1574.0" y="1497.0" font-size="18" text-anchor="middle" fill="#c3cad8" font-weight="500" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">BioMCP</text>
+<text x="651.0" y="2048.0" font-size="18" text-anchor="end" fill="#c3cad8" font-weight="500" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">NAR DB Collection</text>
+<text x="781.0" y="2581.0" font-size="18" text-anchor="end" fill="#c3cad8" font-weight="500" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">BioContextAI meta-MCP</text>
+<text x="1217.3" y="2877.2" font-size="18" text-anchor="end" fill="#c3cad8" font-weight="500" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">Claude for Life Sciences</text>
+<text x="1652.0" y="2882.3" font-size="18" text-anchor="middle" fill="#c3cad8" font-weight="500" font-style="normal" paint-order="stroke" stroke="#0c1322" stroke-width="5.5" stroke-linejoin="round">BioContextAI Registry</text>
 <g opacity="1.0">
-<circle cx="1364.2" cy="2357.8" r="20" fill="#ffffff" stroke="#10a37f" stroke-width="6"/>
+<circle cx="1364.2" cy="2357.8" r="20" fill="#e9edf4" stroke="#10a37f" stroke-width="6"/>
 <circle cx="1364.2" cy="2357.8" r="7" fill="#10a37f"/>
 <circle class="hit" data-sid="codex" cx="1364.2" cy="2357.8" r="22" fill="#000" opacity="0"/>
-<text x="1338.2" y="2363.8" font-size="16" text-anchor="end" font-weight="700" fill="#0c7a5e">Codex · GPT-5.5</text>
-<text x="1338.2" y="2381.8" font-size="12" text-anchor="end" fill="#0c7a5e">second engine</text>
+<text x="1338.2" y="2363.8" font-size="16" text-anchor="end" font-weight="700" fill="#34cda3">Codex · GPT-5.5</text>
+<text x="1338.2" y="2381.8" font-size="12" text-anchor="end" fill="#34cda3">second engine</text>
 </g>
-<circle cx="2016" cy="1706" r="42" fill="#ffffff" stroke="#1c1c1c" stroke-width="3"/>
-<circle cx="2016" cy="1706" r="34" fill="#ffffff" stroke="#D97757" stroke-width="9"/>
+<circle cx="2016" cy="1706" r="56" fill="none" stroke="#D97757" stroke-width="2" opacity="0.28"/>
+<circle cx="2016" cy="1706" r="42" fill="#0c1322" stroke="#eef1f6" stroke-width="3"/>
+<circle cx="2016" cy="1706" r="34" fill="#0c1322" stroke="#D97757" stroke-width="9"/>
 <circle cx="2016" cy="1706" r="11" fill="#D97757"/>
 <circle class="hit" data-sid="claude" cx="2016" cy="1706" r="44" fill="#000" opacity="0"/>
-<text x="2016" y="1648" font-size="22" text-anchor="middle" font-weight="800" fill="#1c1c1c" paint-order="stroke" stroke="#fbfaf6" stroke-width="4.5" stroke-linejoin="round">CLAUDE CODE</text>
-<text x="2016" y="1770" font-size="13" text-anchor="middle" fill="#6b6b6b">your workstation · central interchange</text>
-<text x="56" y="78" font-size="38" font-weight="800" fill="#1c1c1c">Claude Research Underground</text>
-<text x="58" y="108" font-size="16" fill="#6b6b6b">the connectors, MCP servers &amp; skills worth wiring — genomics · medicine · comp-bio · stats · trial design — Claude at the centre</text>
-<text x="58" y="132" font-size="13.5" fill="#8a8170">curated to the live + verified set · solid interchange lines = multi-domain MCP servers · outer dashed ring = the discovery / install backbone</text>
-<text x="56" y="3442" font-size="16" font-weight="700" fill="#1c1c1c">LINES</text>
-<rect x="56" y="3457" width="26" height="9" rx="4.5" fill="#E1251B"/>
-<text x="90" y="3466" font-size="13.5" fill="#1c1c1c">Literature &amp; Evidence</text>
-<rect x="386" y="3457" width="26" height="9" rx="4.5" fill="#00782A"/>
-<text x="420" y="3466" font-size="13.5" fill="#1c1c1c">Genomic Data &amp; Sequencing</text>
-<rect x="716" y="3457" width="26" height="9" rx="4.5" fill="#1C1C1C"/>
-<text x="750" y="3466" font-size="13.5" fill="#1c1c1c">Compute &amp; Pipelines</text>
-<rect x="1046" y="3457" width="26" height="9" rx="4.5" fill="#0098D4"/>
-<text x="1080" y="3466" font-size="13.5" fill="#1c1c1c">Statistics &amp; Trial Design</text>
-<rect x="56" y="3483" width="26" height="9" rx="4.5" fill="#9B0056"/>
-<text x="90" y="3492" font-size="13.5" fill="#1c1c1c">Clinical &amp; Regulatory</text>
-<rect x="386" y="3483" width="26" height="9" rx="4.5" fill="#F1A800"/>
-<text x="420" y="3492" font-size="13.5" fill="#1c1c1c">Visualization &amp; Figures</text>
-<rect x="716" y="3483" width="26" height="9" rx="4.5" fill="#B26300"/>
-<text x="750" y="3492" font-size="13.5" fill="#1c1c1c">Writing &amp; Publishing</text>
-<rect x="1046" y="3483" width="26" height="9" rx="4.5" fill="#7A868C"/>
-<text x="1080" y="3492" font-size="13.5" fill="#1c1c1c">Orchestration &amp; Lab Ops</text>
-<rect x="56" y="3509" width="26" height="9" rx="4.5" fill="#0E7C7B"/>
-<text x="90" y="3518" font-size="13.5" fill="#1c1c1c">Legal &amp; Paralegal</text>
-<text x="56" y="3534" font-size="16" font-weight="700" fill="#1c1c1c">INTERCHANGE LINES (multi-domain MCP servers)</text>
-<line x1="56" y1="3554" x2="82" y2="3554" stroke="#6A3D9A" stroke-width="6" />
-<line x1="56" y1="3554" x2="82" y2="3554" stroke="#fbfaf6" stroke-width="2" />
-<text x="90" y="3558" font-size="12.5" fill="#1c1c1c">BioMCP — literature · genomic · trials federation</text>
-<line x1="386" y1="3554" x2="412" y2="3554" stroke="#E7298A" stroke-width="6" />
-<line x1="386" y1="3554" x2="412" y2="3554" stroke="#fbfaf6" stroke-width="2" />
-<text x="420" y="3558" font-size="12.5" fill="#1c1c1c">Open Targets — target · disease · treatment</text>
-<line x1="716" y1="3554" x2="742" y2="3554" stroke="#8A6D3B" stroke-width="6" stroke-dasharray="6 4"/>
-<line x1="716" y1="3554" x2="742" y2="3554" stroke="#fbfaf6" stroke-width="2" stroke-dasharray="6 4"/>
-<text x="750" y="3558" font-size="12.5" fill="#1c1c1c">Discovery ring — Life-Sciences marketplace + BioContextAI</text>
-<text x="1426" y="3442" font-size="16" font-weight="700" fill="#1c1c1c">KEY — status &amp; trust</text>
-<circle cx="1435" cy="3462" r="6.4" fill="#1c1c1c" stroke="#fff" stroke-width="2"/>
-<text x="1452" y="3466" font-size="12.5" fill="#1c1c1c">live now — wired in your session</text>
-<circle cx="1435" cy="3485" r="6.2" fill="#fff" stroke="#1c1c1c" stroke-width="3.2"/>
-<text x="1452" y="3489" font-size="12.5" fill="#1c1c1c">verified — real &amp; ready to wire</text>
-<circle cx="1435" cy="3508" r="8.6" fill="#fff" stroke="#1c1c1c" stroke-width="3.2"/>
-<text x="1452" y="3512" font-size="12.5" fill="#1c1c1c">interchange — a connecting line stops here</text>
+<text x="2016" y="1648" font-size="22" text-anchor="middle" font-weight="800" fill="#eef1f6" paint-order="stroke" stroke="#0c1322" stroke-width="4.5" stroke-linejoin="round">CLAUDE CODE</text>
+<text x="2016" y="1770" font-size="13" text-anchor="middle" fill="#8b93a4">your workstation · central interchange</text>
+<circle cx="74" cy="64" r="16" fill="#D97757" stroke="#eef1f6" stroke-width="2.5"/>
+<circle cx="74" cy="64" r="5.5" fill="#0c1322"/>
+<text x="102" y="78" font-size="42" font-weight="800" fill="#eef1f6">Claude Research Underground</text>
+<text x="104" y="108" font-size="16" fill="#8b93a4">the connectors, MCP servers &amp; skills worth wiring — genomics · medicine · comp-bio · stats · trial design — Claude at the centre</text>
+<text x="104" y="132" font-size="13.5" fill="#8b93a4">curated to the live + verified set · solid interchange lines = multi-domain MCP servers · outer dashed ring = the discovery / install backbone</text>
+<rect x="28" y="3412" width="1742" height="174" rx="18" fill="#101a30" stroke="#26344f" stroke-width="1.5" opacity="0.92"/>
+<text x="56" y="3442" font-size="16" font-weight="700" fill="#eef1f6">LINES</text>
+<rect x="56" y="3457" width="26" height="9" rx="4.5" fill="#FF5247"/>
+<text x="90" y="3466" font-size="13.5" fill="#eef1f6">Literature &amp; Evidence</text>
+<rect x="386" y="3457" width="26" height="9" rx="4.5" fill="#37C265"/>
+<text x="420" y="3466" font-size="13.5" fill="#eef1f6">Genomic Data &amp; Sequencing</text>
+<rect x="716" y="3457" width="26" height="9" rx="4.5" fill="#CBD5E1"/>
+<text x="750" y="3466" font-size="13.5" fill="#eef1f6">Compute &amp; Pipelines</text>
+<rect x="1046" y="3457" width="26" height="9" rx="4.5" fill="#36B3EA"/>
+<text x="1080" y="3466" font-size="13.5" fill="#eef1f6">Statistics &amp; Trial Design</text>
+<rect x="56" y="3483" width="26" height="9" rx="4.5" fill="#F46BB4"/>
+<text x="90" y="3492" font-size="13.5" fill="#eef1f6">Clinical &amp; Regulatory</text>
+<rect x="386" y="3483" width="26" height="9" rx="4.5" fill="#FFC641"/>
+<text x="420" y="3492" font-size="13.5" fill="#eef1f6">Visualization &amp; Figures</text>
+<rect x="716" y="3483" width="26" height="9" rx="4.5" fill="#EC9540"/>
+<text x="750" y="3492" font-size="13.5" fill="#eef1f6">Writing &amp; Publishing</text>
+<rect x="1046" y="3483" width="26" height="9" rx="4.5" fill="#AAB7C0"/>
+<text x="1080" y="3492" font-size="13.5" fill="#eef1f6">Orchestration &amp; Lab Ops</text>
+<rect x="56" y="3509" width="26" height="9" rx="4.5" fill="#27C3B9"/>
+<text x="90" y="3518" font-size="13.5" fill="#eef1f6">Legal &amp; Paralegal</text>
+<text x="56" y="3534" font-size="16" font-weight="700" fill="#eef1f6">INTERCHANGE LINES (multi-domain MCP servers)</text>
+<line x1="56" y1="3554" x2="82" y2="3554" stroke="#A988E6" stroke-width="6" />
+<line x1="56" y1="3554" x2="82" y2="3554" stroke="#0c1322" stroke-width="2" />
+<text x="90" y="3558" font-size="12.5" fill="#eef1f6">BioMCP — literature · genomic · trials federation</text>
+<line x1="386" y1="3554" x2="412" y2="3554" stroke="#FF66B0" stroke-width="6" />
+<line x1="386" y1="3554" x2="412" y2="3554" stroke="#0c1322" stroke-width="2" />
+<text x="420" y="3558" font-size="12.5" fill="#eef1f6">Open Targets — target · disease · treatment</text>
+<line x1="716" y1="3554" x2="742" y2="3554" stroke="#C2A368" stroke-width="6" stroke-dasharray="6 4"/>
+<line x1="716" y1="3554" x2="742" y2="3554" stroke="#0c1322" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="750" y="3558" font-size="12.5" fill="#eef1f6">Discovery ring — Life-Sciences marketplace + BioContextAI</text>
+<text x="1426" y="3442" font-size="16" font-weight="700" fill="#eef1f6">KEY — status &amp; trust</text>
+<circle cx="1435" cy="3462" r="6.4" fill="#eef1f6" stroke="#0c1322" stroke-width="2"/>
+<text x="1452" y="3466" font-size="12.5" fill="#eef1f6">live now — wired in your session</text>
+<circle cx="1435" cy="3485" r="6.2" fill="#0c1322" stroke="#eef1f6" stroke-width="3.2"/>
+<text x="1452" y="3489" font-size="12.5" fill="#eef1f6">verified — real &amp; ready to wire</text>
+<circle cx="1435" cy="3508" r="8.6" fill="#0c1322" stroke="#eef1f6" stroke-width="3.2"/>
+<text x="1452" y="3512" font-size="12.5" fill="#eef1f6">interchange — a connecting line stops here</text>
 </svg>

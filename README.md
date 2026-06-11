@@ -143,7 +143,7 @@ Then:
 
 ## License
 
-Dual-licensed. The **map, poster, plugin content (skills · commands · journeys · data) and docs** are **CC BY 4.0** — share/adapt for any purpose, even commercially, with credit (*"Claude Tube Map / The Zoppoli Research Underground — Gabriele Zoppoli, github.com/GabrieleZoppoli/claude-underground, CC BY 4.0"*). The **build & tooling code** (`generate_map.py`, `build_plugin.py`, `make_guide.py`, `tools/`, `tests/`) is also available under **MIT** (see `LICENSE-MIT`). Full text in `LICENSE`.
+Dual-licensed. The **map, poster, plugin content (skills · commands · journeys · data) and docs** are **CC BY 4.0** — share/adapt for any purpose, even commercially, with credit (*"Claude Tube Map / The Zoppoli Research Underground — Gabriele Zoppoli, github.com/GabrieleZoppoli/claude-underground, CC BY 4.0"*). The **build & tooling code** (`generate_map.py`, `build_plugin.py`, `make_guide.py`, `tools/`, `tests/`) is also available under **MIT** (see `NOTICE.md`). Full CC BY 4.0 text in `LICENSE`.
 
 ---
 

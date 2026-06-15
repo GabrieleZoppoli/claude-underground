@@ -106,6 +106,12 @@ STATIONS = {
   "cellosaurus":  S("Cellosaurus MCP","gen","registry","Cell-line knowledge resource.","MCP: biocontext-ai/unofficial-cellosaurus-mcp."),
   "biostudies":   S("BioStudies MCP","gen","registry","EBI BioStudies datasets & supplementary data.","MCP: EBIBioStudies/biostudies-mcp-server — confirm repo."),
   "gwas":         S("GWAS Catalog MCP","gen","registry","GWAS associations (also inside BioMCP).","MCP: koido/gwas-catalog-mcp — confirm repo."),
+  "spoke":        S("SPOKEAgent","gen","registry","SPOKE biomedical knowledge graph MCP — drugs, genes, diseases, proteins & phenotypes integrated.","MCP: BaranziniLab/SPOKEAgent — confirm repo, add to config.","https://github.com/BaranziniLab/SPOKEAgent"),
+  "alphafoldmcp": S("AlphaFold MCP","gen","registry","AlphaFold DB + 8 biomedical sources via MCP, backed by a local SQLite knowledge graph.","MCP: smaniches/alphafold-sovereign-mcp — confirm repo, add to config.","https://github.com/smaniches/alphafold-sovereign-mcp"),
+  "opengenes":    S("OpenGenes MCP","gen","registry","OpenGenes — aging & longevity genes, interventions and hallmarks across species.","MCP: longevity-genie/opengenes-mcp — pip install opengenes-mcp.","https://github.com/longevity-genie/opengenes-mcp"),
+  "flybase":      S("FlyBase MCP","gen","registry","FlyBase — Drosophila melanogaster genetics & molecular biology database over MCP.","MCP: sviatkh/flybase-mcp-server — uvx flybase-mcp-server@latest.","https://github.com/sviatkh/flybase-mcp-server"),
+  "plantgenomics":S("Plant Genomics MCP","gen","registry","32-tool plant-genomics MCP: Ensembl Plants, Phytozome, NCBI BLAST, KEGG & more.","MCP: musharna/plant-genomics-mcp — pip install plant-genomics-mcp.","https://github.com/musharna/plant-genomics-mcp"),
+  "sparqlmcp":    S("SPARQL-LLM MCP","gen","registry","SIB Swiss: LLM-aided SPARQL generation + MCP server for biomedical ontology endpoints.","MCP: sib-swiss/sparql-llm — pip install sparql-llm.","https://github.com/sib-swiss/sparql-llm"),
 
   # ====================================================== Compute ⚫
   "python":       S("Python · scanpy/squidpy","comp","live","scanpy/squidpy/anndata for sc & spatial; pandas/numpy/scipy — all verified installed.","Bash + Python 3.12; Claude writes & runs the analysis now."),
@@ -129,6 +135,7 @@ STATIONS = {
   "omnipath":     S("OmniPath MCP","comp","registry","Signaling/regulatory networks (Saez lab).","MCP: saezlab/omnipath-next."),
   "biocypher":    S("BioCypher MCP","comp","registry","Build & query biomedical knowledge graphs.","MCP: biocypher/biocypher-mcp."),
   "gget":         S("gget MCP","comp","registry","Swiss-army genomics queries (Ensembl/UniProt/BLAST/…).","MCP: longevity-genie/gget-mcp."),
+  "proteinhunter":S("Protein Hunter MCP","comp","registry","Protein design & analysis via Boltz, Chai-lab, PyRosetta & LigandMPNN over MCP.","MCP: longevity-genie/protein_hunter_mcp — confirm repo, add to config.","https://github.com/longevity-genie/protein_hunter_mcp"),
 
   # ====================================================== Statistics 🔵
   "statsmodels":  S("statsmodels / scipy","stat","live","Regression, GLM, mixed models, hypothesis tests in Python.","Bash + Python; Claude writes the analysis."),
@@ -141,6 +148,8 @@ STATIONS = {
   "ctgmcp":       S("ClinTrials.gov MCP","stat","verified","Trial-registry queries over MCP (CTG API v2 + NCI CTS).","MCP: cyanheads/clinicaltrialsgov-mcp-server.","https://github.com/cyanheads/clinicaltrialsgov-mcp-server"),
   "aact":         S("AACT MCP","stat","registry","Aggregate Content of ClinicalTrials.gov (AACT) database.","MCP: navisbio/AACT_MCP."),
   "medcalc":      S("MedCalc MCP","stat","registry","Medical calculators & clinical equations.","MCP: winninghealth/medcalcmcp."),
+  "synergyage":   S("SynergyAge MCP","stat","registry","Synergistic genetic interventions for longevity — aging model-organism data over MCP.","MCP: longevity-genie/synergy-age-mcp — pip install synergy-age-mcp.","https://github.com/longevity-genie/synergy-age-mcp"),
+  "bqbiomedical": S("BigQuery Biomedical MCP","stat","registry","Google BigQuery biomedical datasets via MCP (AACT, Open Targets, etc.; needs GCP account).","MCP: navisbio/mcp_bigquery_biomedical — confirm repo, needs GCP service account.","https://github.com/navisbio/mcp_bigquery_biomedical"),
 
   # ====================================================== Clinical 🟣
   "clinreports":  S("clinical-reports","clin","live","Case reports (CARE), CSR (ICH-E3), SOAP, discharge summaries.","Skill: claude-scientific-writer:clinical-reports."),
@@ -196,6 +205,7 @@ STATIONS = {
   "biocontextai": S("BioContextAI Registry","ops","verified","Nature-Biotech-backed index of ~60 biomedical MCP servers.","Browse biocontext.ai/registry · github.com/biocontext-ai/registry.","https://biocontext.ai/registry"),
   "biocontextmeta":S("BioContextAI meta-MCP","ops","verified","Meta layer: knowledgebase / skill-to-mcp / protocol / registry servers.","github.com/biocontext-ai — add the meta server to your config."),
   "tooluniverse": S("ToolUniverse","ops","registry","Harvard MIMS aggregator — 200+ biomedical tools in one MCP.","MCP: mims-harvard/ToolUniverse.","https://github.com/mims-harvard/ToolUniverse"),
+  "dataagg":      S("Data Aggregator MCP","ops","registry","Federated research-data acquisition across Zenodo, DataCite, NCBI omics & PubMed in one MCP.","MCP: musharna/data-aggregator-mcp — pip install data-aggregator-mcp.","https://github.com/musharna/data-aggregator-mcp"),
   "nar":          S("NAR DB Collection","ops","verified","2,173 curated molecular-biology databases (2026 issue) — the cross-check.","Reference index: academic.oup.com/nar.","https://academic.oup.com/nar/article/54/D1/D1/8402365"),
   "biomcp":       S("BioMCP","ops","verified","One server federating literature, variants, trials & cancer genomics.","MCP: genomoncology/biomcp — the single best biomedical addition.","https://github.com/genomoncology/biomcp"),
 

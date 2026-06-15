@@ -71,6 +71,12 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - 📇 Cellosaurus cell lines — biocontext-ai-unofficial-cellosaurus-mcp · 📇 BioStudies — EBIBioStudies-biostudies-mcp-server
 - 🌐 GDC/TCGA API (incl. /analysis/survival) — gdc.cancer.gov/developers (⚠️ no GDC MCP found)
 - 🌐 No-MCP-verified but public: UCSC, dbSNP/dbVar, ENCODE (use via API/browser)
+- 📇 SPOKEAgent (biomedical knowledge graph: drugs/genes/diseases/proteins/phenotypes) — BaranziniLab/SPOKEAgent
+- 📇 AlphaFold MCP (AlphaFold DB + 8 biomedical sources, local SQLite KG) — smaniches/alphafold-sovereign-mcp
+- 📇 OpenGenes MCP (aging & longevity genes, interventions, hallmarks) — longevity-genie/opengenes-mcp
+- 📇 FlyBase MCP (Drosophila melanogaster genetics & molecular biology) — sviatkh/flybase-mcp-server
+- 📇 Plant Genomics MCP (32 tools: Ensembl Plants, Phytozome, NCBI BLAST, KEGG…) — musharna/plant-genomics-mcp
+- 📇 SPARQL-LLM MCP (SIB Swiss: LLM-aided SPARQL + MCP for biomedical ontology endpoints) — sib-swiss/sparql-llm
 
 ### ⚫ Line 3 — Compute & Pipelines (incl. single-cell / spatial)
 - ✅ ChatSpatial (spatial, ~60 methods) — cafferychen777/ChatSpatial
@@ -80,6 +86,7 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - 📇 STRING (PPI) — meringlab-string-mcp · 📇 Reactome (pathways) — Augmented-Nature-Reactome-MCP-Server
 - 📇 OmniPath networks (Saez lab) — saezlab-omnipath-next · 📇 BioCypher knowledge graphs — biocypher-biocypher-mcp
 - 📇 ToolUniverse (Harvard MIMS, 200+ tools aggregator) — mims-harvard-ToolUniverse · 📇 gget — longevity-genie-gget-mcp
+- 📇 Protein Hunter MCP (protein design/analysis: Boltz, Chai-lab, PyRosetta, LigandMPNN) — longevity-genie/protein_hunter_mcp
 - ✅ Marketplace skills: single-cell-rna-qc, nextflow-development (nf-core), scvi-tools — anthropics/life-sciences
 - Local (already installed): Python+scanpy/squidpy/anndata ✓ · R 4.5 ✓ (add Seurat/DESeq2 via BiocManager)
 
@@ -87,6 +94,8 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - ✅ ClinicalTrials.gov MCP — cyanheads/clinicaltrialsgov-mcp-server · 🌐 API v2: clinicaltrials.gov/api/v2/studies
 - ✅ BioMCP (trials via CTG v2 + NCI CTS) — genomoncology/biomcp
 - 📇 AACT (CTG aggregate DB) MCP — navisbio-AACT_MCP · 📇 MedCalc MCP — winninghealth-medcalcmcp
+- 📇 SynergyAge MCP (synergistic genetic longevity interventions, model organisms) — longevity-genie/synergy-age-mcp
+- 📇 BigQuery Biomedical MCP (GCP BigQuery biomedical datasets: AACT, Open Targets…) — navisbio/mcp_bigquery_biomedical
 - Local: statsmodels/lifelines ✓ (PyMC/Stan/brms ⚠️ to install)
 
 ### 🟣 Line 5 — Clinical & Regulatory
@@ -107,6 +116,7 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 ### ⚪ Line 8 — Orchestration & Lab Ops
 - ✅ Claude for Life Sciences marketplace — anthropics/life-sciences (install channel)
 - ✅ BioContextAI meta-layer — biocontext-ai-meta-mcp · -knowledgebase-mcp · -skill-to-mcp · -protocol-mcp · -registry
+- 📇 Data Aggregator MCP (federated: Zenodo, DataCite, NCBI omics, PubMed) — musharna/data-aggregator-mcp
 - ✅ Codex / GPT-5.5 (already live) · workflows/subagents · schedule/cron
 
 ---

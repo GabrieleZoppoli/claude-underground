@@ -54,6 +54,7 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - ✅ PubMed MCP — cyanheads/pubmed-mcp-server (107★; PubMed + Europe PMC full text, MeSH, citations; STDIO or public endpoint pubmed.caseyjhand.com/mcp; same author as the wired ClinicalTrials.gov MCP) · 📇 older/simpler: andybrandt-mcp-simple-pubmed · grll-pubmedmcp
 - 📇 Google Scholar MCP — JackKuo666-Google-Scholar-MCP-Server
 - ✅ Marketplace: PubMed (no-auth), Wiley Scholar Gateway, Consensus — anthropics/life-sciences
+- 📇 OpenEvidence — clinical evidence Q&A for verified clinicians; wireable via the unofficial browser-session MCP bakhtiersizhaev/openevidence-mcp (uses your existing OpenEvidence login, no API token) or the official API (Mayo Platform; powers Elsevier ClinicalKey AI). ⚠️ not yet installed; needs a US VPN when outside the US (non-blocking). Caveat: Vishwanath et al. (Nat Med 2026) found frontier LLMs incl. Claude Opus outperform it on MedQA/HealthBench/RCQ.
 - 🌐 Europe PMC API · Semantic Scholar API (both public; ⚠️ standalone MCPs not separately confirmed)
 
 ### 🟢 Line 2 — Genomic Data & Sequencing
@@ -134,3 +135,4 @@ github.com/scmcphub/scmcp · academic.oup.com/nar/article/54/D1/D1/8402365
 
 ## Maintenance log
 - **2026-06-17** — triaged the weekly connector-discovery backlog (PRs #1 · #2 · #13). Added **5 verified connectors** above, each confirmed **HTTP 200**: cyanheads/pubmed-mcp-server, cyanheads/ensembl-mcp-server, cyanheads/protein-mcp-server, ammawla/encode-toolkit, BaranziniLab/SPOKEAgent. The first two upgrade existing 📇 entries; the rest fill genuine gaps (ENCODE, consolidated protein structures, cross-domain SPOKE knowledge graph). Remaining candidates were dropped — out-of-scope (plant / Drosophila / aging-only), duplicate, or infra-heavy (GPU protein design); the full list stays readable in the closed PRs. Per the standing "don't grow the board" decision these are **catalogue-only**, not placed on the rendered map. Discovery procedure: see [docs/connector-discovery.md](docs/connector-discovery.md).
+- **2026-06-17** — added **OpenEvidence** to Line 1 (catalogue-only) after reviewing three clinical-AI papers (MIRA, AMIE, the Vishwanath/Oermann benchmark). Wireable via the unofficial browser-session MCP or the official API; US VPN needed outside the US. **MIRA** (github.com/Dyke-F/MIRA) and **AMIE** (Google, unreleased) were reviewed but **not** added — research systems, not connectors; MIRA's building blocks (FHIR, openFDA, UMLS, OMOP) already sit on Line 5.

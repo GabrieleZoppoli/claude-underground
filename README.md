@@ -5,6 +5,8 @@ can boot your research — **genomics · medicine · computational biology · st
 trial design** — with **Claude Code as the grand-central interchange** on your
 workstation, and **Codex / GPT-5.5** as the sister terminus ("second engine").
 
+> 🗺 **[View the live interactive map →](https://gabrielezoppoli.github.io/claude-underground/)** — the dark-premium board, served from this repo via GitHub Pages.
+
 ---
 
 ## 🚀 Quickstart — install the plugin

@@ -51,18 +51,21 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 
 ### 🔴 Line 1 — Literature & Evidence
 - ✅ BioMCP (lit federation: PubMed/PubTator3/Europe PMC/Semantic Scholar) — genomoncology/biomcp
-- 📇 PubMed MCPs — andybrandt-mcp-simple-pubmed · grll-pubmedmcp
+- ✅ PubMed MCP — cyanheads/pubmed-mcp-server (107★; PubMed + Europe PMC full text, MeSH, citations; STDIO or public endpoint pubmed.caseyjhand.com/mcp; same author as the wired ClinicalTrials.gov MCP) · 📇 older/simpler: andybrandt-mcp-simple-pubmed · grll-pubmedmcp
 - 📇 Google Scholar MCP — JackKuo666-Google-Scholar-MCP-Server
 - ✅ Marketplace: PubMed (no-auth), Wiley Scholar Gateway, Consensus — anthropics/life-sciences
+- 📇 OpenEvidence — clinical evidence Q&A for verified clinicians; wireable via the unofficial browser-session MCP bakhtiersizhaev/openevidence-mcp (uses your existing OpenEvidence login, no API token) or the official API (Mayo Platform; powers Elsevier ClinicalKey AI). ⚠️ not yet installed; needs a US VPN when outside the US (non-blocking). Caveat: Vishwanath et al. (Nat Med 2026) found frontier LLMs incl. Claude Opus outperform it on MedQA/HealthBench/RCQ.
 - 🌐 Europe PMC API · Semantic Scholar API (both public; ⚠️ standalone MCPs not separately confirmed)
 
 ### 🟢 Line 2 — Genomic Data & Sequencing
 - ✅ BioMCP (variants: MyVariant/ClinVar/gnomAD/CIViC/OncoKB/GWAS) — genomoncology/biomcp
 - ✅ cBioPortal MCP (official) — cBioPortal/cbioportal-mcp · 🌐 REST: cbioportal.org/api/v3/api-docs
 - ✅ Open Targets MCP (official) — opentargets/open-targets-platform-mcp · 🌐 GraphQL: api.platform.opentargets.org
+- ✅ SPOKEAgent — BaranziniLab/SPOKEAgent (official UCSF MCP for the SPOKE biomedical knowledge graph: cross-domain links across genes, diseases, drugs, proteins & phenotypes)
 - ✅ ENA Nucleotide Archive MCP — biocontext-ai/nucleotide_archive_mcp
-- 📇 Ensembl MCP — effieklimi-ensembl-mcp-server · 🌐 rest.ensembl.org (VEP)
+- ✅ Ensembl MCP — cyanheads/ensembl-mcp-server (gene lookup, sequences, VEP variant consequences, orthologs, cross-db xrefs; no API key) · 📇 alt: effieklimi-ensembl-mcp-server · 🌐 rest.ensembl.org
 - 📇 UniProt MCP — TakumiY235-uniprot-mcp-server · 🌐 uniprot.org/help/api_queries
+- ✅ Protein structures MCP — cyanheads/protein-mcp-server (RCSB PDB + PDBe + UniProt in one server: structural search, comparison, ligand tracking — consolidates the separate PDBe/UniProt structure entries)
 - 📇 NCBI MCP — noahzeidenberg-ncbi-mcp · 📇 BioMart — jzinno-biomart-mcp · 📇 biobtree (ID map) — tamerh-biobtree
 - 📇 GWAS Catalog — koido-gwas-catalog-mcp · 📇 HGNC nomenclature — armish-hgnc.mcp
 - 📇 VEP — not-a-feature-VEPmcp · 📇 Evo2 genomic LM — not-a-feature-evo2-mcp
@@ -70,7 +73,8 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - 📇 InterPro — bio-mcp-interpro · 📇 RNAcentral — RNAcentral-rnacentral-mcp-server · 📇 PDBe structures — PDBeurope-PDBe-MCP-Servers
 - 📇 Cellosaurus cell lines — biocontext-ai-unofficial-cellosaurus-mcp · 📇 BioStudies — EBIBioStudies-biostudies-mcp-server
 - 🌐 GDC/TCGA API (incl. /analysis/survival) — gdc.cancer.gov/developers (⚠️ no GDC MCP found)
-- 🌐 No-MCP-verified but public: UCSC, dbSNP/dbVar, ENCODE (use via API/browser)
+- ✅ ENCODE toolkit MCP — ammawla/encode-toolkit (35★; 20 MCP tools across 14 databases + 47 Nextflow workflow skills; Claude plugin; v0.3.0) — fills the former ENCODE gap
+- 🌐 No-MCP-verified but public: UCSC, dbSNP/dbVar (use via API/browser)
 
 ### ⚫ Line 3 — Compute & Pipelines (incl. single-cell / spatial)
 - ✅ ChatSpatial (spatial, ~60 methods) — cafferychen777/ChatSpatial
@@ -126,3 +130,9 @@ github.com/anthropics/life-sciences · biocontext.ai/registry · github.com/bioc
 github.com/genomoncology/biomcp · github.com/cBioPortal/cbioportal-mcp ·
 github.com/opentargets/open-targets-platform-mcp · github.com/cafferychen777/ChatSpatial ·
 github.com/scmcphub/scmcp · academic.oup.com/nar/article/54/D1/D1/8402365
+
+---
+
+## Maintenance log
+- **2026-06-17** — triaged the weekly connector-discovery backlog (PRs #1 · #2 · #13). Added **5 verified connectors** above, each confirmed **HTTP 200**: cyanheads/pubmed-mcp-server, cyanheads/ensembl-mcp-server, cyanheads/protein-mcp-server, ammawla/encode-toolkit, BaranziniLab/SPOKEAgent. The first two upgrade existing 📇 entries; the rest fill genuine gaps (ENCODE, consolidated protein structures, cross-domain SPOKE knowledge graph). Remaining candidates were dropped — out-of-scope (plant / Drosophila / aging-only), duplicate, or infra-heavy (GPU protein design); the full list stays readable in the closed PRs. Per the standing "don't grow the board" decision these are **catalogue-only**, not placed on the rendered map. Discovery procedure: see [docs/connector-discovery.md](docs/connector-discovery.md).
+- **2026-06-17** — added **OpenEvidence** to Line 1 (catalogue-only) after reviewing three clinical-AI papers (MIRA, AMIE, the Vishwanath/Oermann benchmark). Wireable via the unofficial browser-session MCP or the official API; US VPN needed outside the US. **MIRA** (github.com/Dyke-F/MIRA) and **AMIE** (Google, unreleased) were reviewed but **not** added — research systems, not connectors; MIRA's building blocks (FHIR, openFDA, UMLS, OMOP) already sit on Line 5.

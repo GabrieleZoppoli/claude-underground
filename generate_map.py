@@ -106,6 +106,11 @@ STATIONS = {
   "cellosaurus":  S("Cellosaurus MCP","gen","registry","Cell-line knowledge resource.","MCP: biocontext-ai/unofficial-cellosaurus-mcp."),
   "biostudies":   S("BioStudies MCP","gen","registry","EBI BioStudies datasets & supplementary data.","MCP: EBIBioStudies/biostudies-mcp-server — confirm repo."),
   "gwas":         S("GWAS Catalog MCP","gen","registry","GWAS associations (also inside BioMCP).","MCP: koido/gwas-catalog-mcp — confirm repo."),
+  "bqbiomedical": S("BigQuery Biomedical","gen","registry","NCI/ChEMBL/biopharma datasets via Google BigQuery — biopharma-optimised queries.","MCP: navisbio/mcp_bigquery_biomedical — requires GCP service account.","https://github.com/navisbio/mcp_bigquery_biomedical"),
+  "sparqlllm":    S("SPARQL-LLM MCP","gen","registry","SIB Swiss: MCP for SPARQL queries over UniProt/neXtProt/biomedical knowledge graphs.","MCP: sib-swiss/sparql-llm — supports federated SPARQL endpoints.","https://github.com/sib-swiss/sparql-llm"),
+  "opengenes":    S("OpenGenes MCP","gen","registry","Curated aging-related genes, interventions & lifespan data (OpenGenes database).","MCP: longevity-genie/opengenes-mcp — pip install opengenes-mcp.","https://github.com/longevity-genie/opengenes-mcp"),
+  "synergyage":   S("SynergyAge MCP","gen","registry","Synergistic genetic interventions and longevity/lifespan extension data.","MCP: longevity-genie/synergy-age-mcp — pip install synergy-age-mcp.","https://github.com/longevity-genie/synergy-age-mcp"),
+  "flybase":      S("FlyBase MCP","gen","registry","Drosophila melanogaster genetics & molecular biology (FlyBase).","MCP: sviatkh/flybase-mcp-server — confirm repo.","https://github.com/sviatkh/flybase-mcp-server"),
 
   # ====================================================== Compute ⚫
   "python":       S("Python · scanpy/squidpy","comp","live","scanpy/squidpy/anndata for sc & spatial; pandas/numpy/scipy — all verified installed.","Bash + Python 3.12; Claude writes & runs the analysis now."),
@@ -129,6 +134,7 @@ STATIONS = {
   "omnipath":     S("OmniPath MCP","comp","registry","Signaling/regulatory networks (Saez lab).","MCP: saezlab/omnipath-next."),
   "biocypher":    S("BioCypher MCP","comp","registry","Build & query biomedical knowledge graphs.","MCP: biocypher/biocypher-mcp."),
   "gget":         S("gget MCP","comp","registry","Swiss-army genomics queries (Ensembl/UniProt/BLAST/…).","MCP: longevity-genie/gget-mcp."),
+  "proteinhunter":S("Protein Hunter MCP","comp","registry","Protein design & analysis: Boltz, Chai-lab, PyRosetta, LigandMPNN.","MCP: longevity-genie/protein_hunter_mcp — unofficial wrapper; requires upstream tools.","https://github.com/longevity-genie/protein_hunter_mcp"),
 
   # ====================================================== Statistics 🔵
   "statsmodels":  S("statsmodels / scipy","stat","live","Regression, GLM, mixed models, hypothesis tests in Python.","Bash + Python; Claude writes the analysis."),
@@ -141,6 +147,7 @@ STATIONS = {
   "ctgmcp":       S("ClinTrials.gov MCP","stat","verified","Trial-registry queries over MCP (CTG API v2 + NCI CTS).","MCP: cyanheads/clinicaltrialsgov-mcp-server.","https://github.com/cyanheads/clinicaltrialsgov-mcp-server"),
   "aact":         S("AACT MCP","stat","registry","Aggregate Content of ClinicalTrials.gov (AACT) database.","MCP: navisbio/AACT_MCP."),
   "medcalc":      S("MedCalc MCP","stat","registry","Medical calculators & clinical equations.","MCP: winninghealth/medcalcmcp."),
+  "ctrprotocol":  S("ClinTrial Protocol skill","stat","verified","Generate Phase 2/3 protocols (IDE/IND) from NIH/FDA guidelines (marketplace skill).","Skill: /plugin install clinical-trial-protocol@life-sciences (anthropics/life-sciences).","https://github.com/anthropics/life-sciences/tree/main/clinical-trial-protocol-skill"),
 
   # ====================================================== Clinical 🟣
   "clinreports":  S("clinical-reports","clin","live","Case reports (CARE), CSR (ICH-E3), SOAP, discharge summaries.","Skill: claude-scientific-writer:clinical-reports."),
@@ -198,6 +205,9 @@ STATIONS = {
   "tooluniverse": S("ToolUniverse","ops","registry","Harvard MIMS aggregator — 200+ biomedical tools in one MCP.","MCP: mims-harvard/ToolUniverse.","https://github.com/mims-harvard/ToolUniverse"),
   "nar":          S("NAR DB Collection","ops","verified","2,173 curated molecular-biology databases (2026 issue) — the cross-check.","Reference index: academic.oup.com/nar.","https://academic.oup.com/nar/article/54/D1/D1/8402365"),
   "biomcp":       S("BioMCP","ops","verified","One server federating literature, variants, trials & cancer genomics.","MCP: genomoncology/biomcp — the single best biomedical addition.","https://github.com/genomoncology/biomcp"),
+  "dataaggregator":S("Data Aggregator MCP","ops","registry","Federation across Zenodo/GEO/SRA/BioProject/PubMed/HuggingFace — one query, 12 sources.","MCP: musharna/data-aggregator-mcp — pip install data-aggregator-mcp.","https://github.com/musharna/data-aggregator-mcp"),
+  "allotrope":    S("Instrument→Allotrope skill","ops","verified","Convert lab instrument files (PDF/CSV/Excel) to Allotrope ASM JSON for LIMS upload (marketplace skill).","Skill: /plugin install instrument-data-to-allotrope@life-sciences (anthropics/life-sciences).","https://github.com/anthropics/life-sciences/tree/main/instrument-data-to-allotrope"),
+  "sciproblems":  S("Sci-Problem Selection skill","write","verified","Research problem selection framework — Fischbach & Walsh (Cell 2024): pitch, troubleshoot, decide.","Skill: /plugin install scientific-problem-selection@life-sciences (anthropics/life-sciences).","https://github.com/anthropics/life-sciences/tree/main/scientific-problem-selection"),
 
   # ====================================================== Legal ⚖️
   "gdpr":        S("GDPR & data protection","legal","live","EU GDPR (2016/679): DPAs, transfers, Art. 89 research exemptions.","Reference module — cited to EUR-Lex; verify before relying.","https://eur-lex.europa.eu/eli/reg/2016/679/oj"),

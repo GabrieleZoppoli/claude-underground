@@ -69,6 +69,11 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - 📇 BioThings (MyGene/MyVariant) — Augmented-Nature-BioThings-MCP-Server · longevity-genie-biothings-mcp
 - 📇 InterPro — bio-mcp-interpro · 📇 RNAcentral — RNAcentral-rnacentral-mcp-server · 📇 PDBe structures — PDBeurope-PDBe-MCP-Servers
 - 📇 Cellosaurus cell lines — biocontext-ai-unofficial-cellosaurus-mcp · 📇 BioStudies — EBIBioStudies-biostudies-mcp-server
+- 📇 BigQuery Biomedical (NCI/ChEMBL datasets, GCP) — navisbio-mcp_bigquery_biomedical *(requires GCP service account)*
+- 📇 SPARQL-LLM MCP (SIB Swiss — UniProt/neXtProt/biomedical KGs, ⭐116) — sib-swiss-sparql-llm
+- 📇 OpenGenes MCP (aging-related gene database) — longevity-genie-opengenes-mcp
+- 📇 SynergyAge MCP (synergistic lifespan interventions) — longevity-genie-synergy-age-mcp
+- 📇 FlyBase MCP (Drosophila melanogaster genetics) — sviatkh-flybase-mcp-server
 - 🌐 GDC/TCGA API (incl. /analysis/survival) — gdc.cancer.gov/developers (⚠️ no GDC MCP found)
 - 🌐 No-MCP-verified but public: UCSC, dbSNP/dbVar, ENCODE (use via API/browser)
 
@@ -80,6 +85,7 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - 📇 STRING (PPI) — meringlab-string-mcp · 📇 Reactome (pathways) — Augmented-Nature-Reactome-MCP-Server
 - 📇 OmniPath networks (Saez lab) — saezlab-omnipath-next · 📇 BioCypher knowledge graphs — biocypher-biocypher-mcp
 - 📇 ToolUniverse (Harvard MIMS, 200+ tools aggregator) — mims-harvard-ToolUniverse · 📇 gget — longevity-genie-gget-mcp
+- 📇 Protein Hunter MCP (Boltz/Chai/PyRosetta/LigandMPNN protein design) — longevity-genie-protein_hunter_mcp
 - ✅ Marketplace skills: single-cell-rna-qc, nextflow-development (nf-core), scvi-tools — anthropics/life-sciences
 - Local (already installed): Python+scanpy/squidpy/anndata ✓ · R 4.5 ✓ (add Seurat/DESeq2 via BiocManager)
 
@@ -87,6 +93,7 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - ✅ ClinicalTrials.gov MCP — cyanheads/clinicaltrialsgov-mcp-server · 🌐 API v2: clinicaltrials.gov/api/v2/studies
 - ✅ BioMCP (trials via CTG v2 + NCI CTS) — genomoncology/biomcp
 - 📇 AACT (CTG aggregate DB) MCP — navisbio-AACT_MCP · 📇 MedCalc MCP — winninghealth-medcalcmcp
+- ✅ Clinical Trial Protocol skill (Phase 2/3 protocol generator, marketplace) — anthropics/life-sciences · clinical-trial-protocol-skill
 - Local: statsmodels/lifelines ✓ (PyMC/Stan/brms ⚠️ to install)
 
 ### 🟣 Line 5 — Clinical & Regulatory
@@ -108,6 +115,9 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - ✅ Claude for Life Sciences marketplace — anthropics/life-sciences (install channel)
 - ✅ BioContextAI meta-layer — biocontext-ai-meta-mcp · -knowledgebase-mcp · -skill-to-mcp · -protocol-mcp · -registry
 - ✅ Codex / GPT-5.5 (already live) · workflows/subagents · schedule/cron
+- 📇 Data Aggregator MCP (Zenodo/GEO/SRA/BioProject/PubMed/HuggingFace — 12 sources) — musharna-data-aggregator-mcp
+- ✅ Instrument Data → Allotrope skill (ASM JSON converter for LIMS, marketplace) — anthropics/life-sciences · instrument-data-to-allotrope
+- ✅ Scientific Problem Selection skill (Fischbach & Walsh framework, marketplace) — anthropics/life-sciences · scientific-problem-selection
 
 ---
 

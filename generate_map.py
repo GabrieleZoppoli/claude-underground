@@ -106,6 +106,10 @@ STATIONS = {
   "cellosaurus":  S("Cellosaurus MCP","gen","registry","Cell-line knowledge resource.","MCP: biocontext-ai/unofficial-cellosaurus-mcp."),
   "biostudies":   S("BioStudies MCP","gen","registry","EBI BioStudies datasets & supplementary data.","MCP: EBIBioStudies/biostudies-mcp-server — confirm repo."),
   "gwas":         S("GWAS Catalog MCP","gen","registry","GWAS associations (also inside BioMCP).","MCP: koido/gwas-catalog-mcp — confirm repo."),
+  "expasgpt":     S("ExpasyGPT / SIB SPARQL","gen","verified","SIB gateway to UniProt, Bgee, Rhea, OMA, Cellosaurus & SwissLipids via SPARQL.","MCP: sib-swiss/sparql-llm · official remote endpoint: chat.expasy.org/mcp.","https://github.com/sib-swiss/sparql-llm"),
+  "bqbiomed":     S("BigQuery Biomedical","gen","registry","Google BigQuery access to biomedical datasets incl. AACT clinical-trial aggregate.","MCP: j-walheim/mcp_bigquery_biomedical — confirm repo, add to config.","https://github.com/j-walheim/mcp_bigquery_biomedical"),
+  "disphase":     S("DisPhaseDB MCP","gen","registry","Proteins in liquid-liquid phase separation: disease mutations, condensates, functional regions.","MCP: gitlab.com/bioinformatics-fil/disphase-mcp · remote: mcp.disphasedb.leloir.org.ar/mcp.","https://gitlab.com/bioinformatics-fil/disphase-mcp"),
+  "polymergenom": S("Polymer Genomics","gen","registry","DNA biophysics, methylation, epigenomics, transposable elements & structural annotations.","MCP: beldez01/Polymer-Genomics-API — confirm repo, add to config.","https://github.com/beldez01/Polymer-Genomics-API"),
 
   # ====================================================== Compute ⚫
   "python":       S("Python · scanpy/squidpy","comp","live","scanpy/squidpy/anndata for sc & spatial; pandas/numpy/scipy — all verified installed.","Bash + Python 3.12; Claude writes & runs the analysis now."),
@@ -129,6 +133,7 @@ STATIONS = {
   "omnipath":     S("OmniPath MCP","comp","registry","Signaling/regulatory networks (Saez lab).","MCP: saezlab/omnipath-next."),
   "biocypher":    S("BioCypher MCP","comp","registry","Build & query biomedical knowledge graphs.","MCP: biocypher/biocypher-mcp."),
   "gget":         S("gget MCP","comp","registry","Swiss-army genomics queries (Ensembl/UniProt/BLAST/…).","MCP: longevity-genie/gget-mcp."),
+  "proteinhunter":S("Protein Hunter MCP","comp","registry","Structure prediction (Boltz/Chai/AlphaFold3) via GPU-accelerated wrappers.","MCP: longevity-genie/protein_hunter_mcp — confirm repo, add to config.","https://github.com/longevity-genie/protein_hunter_mcp"),
 
   # ====================================================== Statistics 🔵
   "statsmodels":  S("statsmodels / scipy","stat","live","Regression, GLM, mixed models, hypothesis tests in Python.","Bash + Python; Claude writes the analysis."),
@@ -141,6 +146,7 @@ STATIONS = {
   "ctgmcp":       S("ClinTrials.gov MCP","stat","verified","Trial-registry queries over MCP (CTG API v2 + NCI CTS).","MCP: cyanheads/clinicaltrialsgov-mcp-server.","https://github.com/cyanheads/clinicaltrialsgov-mcp-server"),
   "aact":         S("AACT MCP","stat","registry","Aggregate Content of ClinicalTrials.gov (AACT) database.","MCP: navisbio/AACT_MCP."),
   "medcalc":      S("MedCalc MCP","stat","registry","Medical calculators & clinical equations.","MCP: winninghealth/medcalcmcp."),
+  "ctpskill":     S("Clinical Trial Protocol","stat","verified","Generate full IND/IDE trial protocols with sample-size calc & CTG/FDA research.","Skill: clinical-trial-protocol-skill@life-sciences — install from marketplace.","https://github.com/anthropics/life-sciences"),
 
   # ====================================================== Clinical 🟣
   "clinreports":  S("clinical-reports","clin","live","Case reports (CARE), CSR (ICH-E3), SOAP, discharge summaries.","Skill: claude-scientific-writer:clinical-reports."),
@@ -158,6 +164,8 @@ STATIONS = {
   "pubchem":      S("PubChem MCP","clin","registry","Chemical structures, properties & bioassays.","MCP: cyanheads/pubchem-mcp-server."),
   "pharmacology": S("Pharmacology MCP","clin","registry","Guide to PHARMACOLOGY — targets & ligands.","MCP: longevity-genie/pharmacology-mcp."),
   "nexonco":      S("NexOnco MCP","clin","registry","Oncology clinical decisioning.","MCP: Nexgene-Research/nexonco-mcp."),
+  "opengenes":    S("OpenGenes MCP","clin","registry","Curated lifespan-intervention DB for aging research across model organisms.","MCP: longevity-genie/opengenes-mcp · remote: opengenes-mcp.longevity-genie.info/mcp.","https://github.com/longevity-genie/opengenes-mcp"),
+  "synergyage":   S("SynergyAge MCP","clin","registry","Validated genetic interactions (synergistic/antagonistic/epistatic) affecting lifespan.","MCP: longevity-genie/synergy-age-mcp · remote: synergy-age-mcp.longevity-genie.info/mcp.","https://github.com/longevity-genie/synergy-age-mcp"),
 
   # ====================================================== Visualization 🟡
   "biorender":    S("BioRender","viz","live","Publication figures from a vast bio icon/template library.","MCP connected now — search icons & templates.","https://www.biorender.com"),
@@ -198,6 +206,8 @@ STATIONS = {
   "tooluniverse": S("ToolUniverse","ops","registry","Harvard MIMS aggregator — 200+ biomedical tools in one MCP.","MCP: mims-harvard/ToolUniverse.","https://github.com/mims-harvard/ToolUniverse"),
   "nar":          S("NAR DB Collection","ops","verified","2,173 curated molecular-biology databases (2026 issue) — the cross-check.","Reference index: academic.oup.com/nar.","https://academic.oup.com/nar/article/54/D1/D1/8402365"),
   "biomcp":       S("BioMCP","ops","verified","One server federating literature, variants, trials & cancer genomics.","MCP: genomoncology/biomcp — the single best biomedical addition.","https://github.com/genomoncology/biomcp"),
+  "dataggmcp":    S("Data Aggregator MCP","ops","registry","Federated dataset search across Zenodo, DataCite, GEO/SRA/BioProject & PubMed — DOI dedup, checksum fetch.","MCP: musharna/data-aggregator-mcp.","https://github.com/musharna/data-aggregator-mcp"),
+  "sciselect":    S("scientific-problem-selection","ops","verified","Research problem ideation, project risk evaluation & strategic scientific decision support.","Skill: scientific-problem-selection@life-sciences — install from marketplace.","https://github.com/anthropics/life-sciences"),
 
   # ====================================================== Legal ⚖️
   "gdpr":        S("GDPR & data protection","legal","live","EU GDPR (2016/679): DPAs, transfers, Art. 89 research exemptions.","Reference module — cited to EUR-Lex; verify before relying.","https://eur-lex.europa.eu/eli/reg/2016/679/oj"),

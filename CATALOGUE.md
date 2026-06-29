@@ -71,6 +71,10 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - 📇 Cellosaurus cell lines — biocontext-ai-unofficial-cellosaurus-mcp · 📇 BioStudies — EBIBioStudies-biostudies-mcp-server
 - 🌐 GDC/TCGA API (incl. /analysis/survival) — gdc.cancer.gov/developers (⚠️ no GDC MCP found)
 - 🌐 No-MCP-verified but public: UCSC, dbSNP/dbVar, ENCODE (use via API/browser)
+- ✅ **ExpasyGPT / SIB SPARQL** — sib-swiss/sparql-llm · official remote: chat.expasy.org/mcp (SIB Swiss Institute of Bioinformatics; UniProt, Bgee, Rhea, OMA, Cellosaurus, SwissLipids via SPARQL; 116 ★; added 2026-06-29)
+- 📇 **BigQuery Biomedical** — j-walheim/mcp_bigquery_biomedical (BioContextAI registry: navisbio/mcp_bigquery_biomedical → redirects to j-walheim; Google BigQuery access to AACT and biomedical datasets; added 2026-06-29)
+- 📇 **DisPhaseDB MCP** — gitlab.com/bioinformatics-fil/disphase-mcp · remote: mcp.disphasedb.leloir.org.ar/mcp (liquid–liquid phase separation proteins, disease mutations, condensate associations; Fundación Instituto Leloir; added 2026-06-29)
+- 📇 **Polymer Genomics API** — beldez01/Polymer-Genomics-API (DNA biophysics, methylation, epigenomics, transposable elements, structural annotations as composable MCP tools; added 2026-06-29)
 
 ### ⚫ Line 3 — Compute & Pipelines (incl. single-cell / spatial)
 - ✅ ChatSpatial (spatial, ~60 methods) — cafferychen777/ChatSpatial
@@ -80,6 +84,7 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - 📇 STRING (PPI) — meringlab-string-mcp · 📇 Reactome (pathways) — Augmented-Nature-Reactome-MCP-Server
 - 📇 OmniPath networks (Saez lab) — saezlab-omnipath-next · 📇 BioCypher knowledge graphs — biocypher-biocypher-mcp
 - 📇 ToolUniverse (Harvard MIMS, 200+ tools aggregator) — mims-harvard-ToolUniverse · 📇 gget — longevity-genie-gget-mcp
+- 📇 **Protein Hunter MCP** — longevity-genie/protein_hunter_mcp (structure prediction via Boltz/Chai/AlphaFold3; GPU-accelerated; added 2026-06-29)
 - ✅ Marketplace skills: single-cell-rna-qc, nextflow-development (nf-core), scvi-tools — anthropics/life-sciences
 - Local (already installed): Python+scanpy/squidpy/anndata ✓ · R 4.5 ✓ (add Seurat/DESeq2 via BiocManager)
 
@@ -87,6 +92,7 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - ✅ ClinicalTrials.gov MCP — cyanheads/clinicaltrialsgov-mcp-server · 🌐 API v2: clinicaltrials.gov/api/v2/studies
 - ✅ BioMCP (trials via CTG v2 + NCI CTS) — genomoncology/biomcp
 - 📇 AACT (CTG aggregate DB) MCP — navisbio-AACT_MCP · 📇 MedCalc MCP — winninghealth-medcalcmcp
+- ✅ **Clinical Trial Protocol skill** — anthropics/life-sciences (skill: clinical-trial-protocol-skill; generates full IND/IDE protocols with sample-size calc; new marketplace addition; added 2026-06-29)
 - Local: statsmodels/lifelines ✓ (PyMC/Stan/brms ⚠️ to install)
 
 ### 🟣 Line 5 — Clinical & Regulatory
@@ -94,6 +100,8 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - 📇 Ontologies: OLS4 (EBI) — EBISPOT-ols4 · BioPortal (SNOMED/UMLS etc.) — ncbo-bioportal-mcp
 - 📇 Drugs/chem: ChEMBL — JackKuo666-ChEMBL-MCP-Server · PubChem — cyanheads-pubchem-mcp-server / JackKuo666-PubChem-MCP-Server · pharmacology — longevity-genie-pharmacology-mcp
 - 📇 Oncology decisioning — Nexgene-Research-nexonco-mcp
+- 📇 **OpenGenes MCP** — longevity-genie/opengenes-mcp · remote: opengenes-mcp.longevity-genie.info/mcp (curated lifespan-intervention DB; aging research across model organisms; added 2026-06-29)
+- 📇 **SynergyAge MCP** — longevity-genie/synergy-age-mcp · remote: synergy-age-mcp.longevity-genie.info/mcp (validated genetic interactions—synergistic/antagonistic/epistatic—affecting lifespan; added 2026-06-29)
 - 🌐 openFDA · EU CTIS/CTR · WHO ICTRP · EMA · HL7 FHIR · REDCap (public APIs; ⚠️ MCPs not confirmed)
 
 ### 🟡 Line 6 — Visualization & Figures
@@ -108,6 +116,8 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - ✅ Claude for Life Sciences marketplace — anthropics/life-sciences (install channel)
 - ✅ BioContextAI meta-layer — biocontext-ai-meta-mcp · -knowledgebase-mcp · -skill-to-mcp · -protocol-mcp · -registry
 - ✅ Codex / GPT-5.5 (already live) · workflows/subagents · schedule/cron
+- 📇 **Data Aggregator MCP** — musharna/data-aggregator-mcp (federated search across Zenodo, DataCite, GEO/SRA/BioProject & PubMed; DOI dedup; checksum-verified fetch; added 2026-06-29)
+- ✅ **scientific-problem-selection skill** — anthropics/life-sciences (research problem ideation, project risk evaluation & strategic scientific decision support; new marketplace skill; added 2026-06-29)
 
 ---
 

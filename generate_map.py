@@ -106,6 +106,11 @@ STATIONS = {
   "cellosaurus":  S("Cellosaurus MCP","gen","registry","Cell-line knowledge resource.","MCP: biocontext-ai/unofficial-cellosaurus-mcp."),
   "biostudies":   S("BioStudies MCP","gen","registry","EBI BioStudies datasets & supplementary data.","MCP: EBIBioStudies/biostudies-mcp-server — confirm repo."),
   "gwas":         S("GWAS Catalog MCP","gen","registry","GWAS associations (also inside BioMCP).","MCP: koido/gwas-catalog-mcp — confirm repo."),
+  "gwas_ebi":    S("GWAS Catalog MCP (EBI)","gen","verified","Official EBISPOT GWAS Catalog MCP — natural-language queries of associations, studies & traits.","Official remote MCP: ebi.ac.uk/gwas/mcp — add to Claude Desktop config.","https://github.com/EBISPOT/gwas-mcp"),
+  "expasy":      S("Expasy SPARQL MCP","gen","verified","SIB Swiss Institute of Bioinformatics: SPARQL-driven access to UniProt, Bgee, Rhea, Cellosaurus & more.","Official remote MCP: chat.expasy.org/mcp.","https://github.com/sib-swiss/sparql-llm"),
+  "prs":         S("PRS / PGS Catalog MCP","gen","registry","Polygenic risk score computation & percentile ranking across 5,000+ PGS Catalog models.","MCP: dna-seq/just-prs-mcp — confirm repo, add to config.","https://github.com/dna-seq/just-prs-mcp"),
+  "opengenes":   S("OpenGenes MCP","gen","registry","Aging/longevity gene database — lifespan interventions across model organisms.","MCP: longevity-genie/opengenes-mcp.","https://github.com/longevity-genie/opengenes-mcp"),
+  "synergyage":  S("SynergyAge MCP","gen","registry","Synergistic & epistatic genetic interactions affecting lifespan across model organisms.","MCP: longevity-genie/synergy-age-mcp.","https://github.com/longevity-genie/synergy-age-mcp"),
 
   # ====================================================== Compute ⚫
   "python":       S("Python · scanpy/squidpy","comp","live","scanpy/squidpy/anndata for sc & spatial; pandas/numpy/scipy — all verified installed.","Bash + Python 3.12; Claude writes & runs the analysis now."),
@@ -129,6 +134,9 @@ STATIONS = {
   "omnipath":     S("OmniPath MCP","comp","registry","Signaling/regulatory networks (Saez lab).","MCP: saezlab/omnipath-next."),
   "biocypher":    S("BioCypher MCP","comp","registry","Build & query biomedical knowledge graphs.","MCP: biocypher/biocypher-mcp."),
   "gget":         S("gget MCP","comp","registry","Swiss-army genomics queries (Ensembl/UniProt/BLAST/…).","MCP: longevity-genie/gget-mcp."),
+  "scvimcp":     S("scvi-tools MCP","comp","registry","Official YosefLab MCP — access scvi-tools docs, API, tutorials & pretrained model catalogue.","MCP: YosefLab/scvi-tools-mcp — confirm repo, add to config.","https://github.com/YosefLab/scvi-tools-mcp"),
+  "disphase":    S("DisPhaseDB MCP","comp","registry","Liquid-liquid phase separation proteins, disease-associated mutations & condensate associations.","MCP: gitlab.com/bioinformatics-fil/disphase-mcp.","https://gitlab.com/bioinformatics-fil/disphase-mcp"),
+  "proteinhunter":S("Protein Hunter MCP","comp","registry","GPU-accelerated protein structure prediction & design (Boltz / Chai / LigandMPNN) via MCP.","MCP: longevity-genie/protein_hunter_mcp.","https://github.com/longevity-genie/protein_hunter_mcp"),
 
   # ====================================================== Statistics 🔵
   "statsmodels":  S("statsmodels / scipy","stat","live","Regression, GLM, mixed models, hypothesis tests in Python.","Bash + Python; Claude writes the analysis."),
@@ -198,6 +206,8 @@ STATIONS = {
   "tooluniverse": S("ToolUniverse","ops","registry","Harvard MIMS aggregator — 200+ biomedical tools in one MCP.","MCP: mims-harvard/ToolUniverse.","https://github.com/mims-harvard/ToolUniverse"),
   "nar":          S("NAR DB Collection","ops","verified","2,173 curated molecular-biology databases (2026 issue) — the cross-check.","Reference index: academic.oup.com/nar.","https://academic.oup.com/nar/article/54/D1/D1/8402365"),
   "biomcp":       S("BioMCP","ops","verified","One server federating literature, variants, trials & cancer genomics.","MCP: genomoncology/biomcp — the single best biomedical addition.","https://github.com/genomoncology/biomcp"),
+  "dataagg":     S("Data Aggregator MCP","ops","registry","Federated dataset search across Zenodo, DataCite, NCBI GEO/SRA/BioProject & PubMed in one interface.","MCP: musharna/data-aggregator-mcp.","https://github.com/musharna/data-aggregator-mcp"),
+  "bigquerybio": S("BigQuery Biomedical MCP","ops","registry","Google BigQuery biomedical datasets (biopharma, clinical trials) accessible via MCP.","MCP: navisbio/mcp_bigquery_biomedical.","https://github.com/navisbio/mcp_bigquery_biomedical"),
 
   # ====================================================== Legal ⚖️
   "gdpr":        S("GDPR & data protection","legal","live","EU GDPR (2016/679): DPAs, transfers, Art. 89 research exemptions.","Reference module — cited to EUR-Lex; verify before relying.","https://eur-lex.europa.eu/eli/reg/2016/679/oj"),

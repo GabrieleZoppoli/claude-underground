@@ -64,6 +64,11 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - 📇 Ensembl MCP — effieklimi-ensembl-mcp-server · 🌐 rest.ensembl.org (VEP)
 - 📇 UniProt MCP — TakumiY235-uniprot-mcp-server · 🌐 uniprot.org/help/api_queries
 - 📇 NCBI MCP — noahzeidenberg-ncbi-mcp · 📇 BioMart — jzinno-biomart-mcp · 📇 biobtree (ID map) — tamerh-biobtree
+- ✅ **GWAS Catalog MCP** (official EBI/EBISPOT) — EBISPOT/gwas-mcp · 🌐 remote endpoint: ebi.ac.uk/gwas/mcp
+- ✅ **Expasy SPARQL MCP** (SIB Swiss Institute of Bioinformatics) — sib-swiss/sparql-llm · 🌐 chat.expasy.org/mcp · UniProt, Bgee, Rhea, Cellosaurus & more
+- 📇 PRS / PGS Catalog MCP (5,000+ polygenic risk score models) — dna-seq/just-prs-mcp
+- 📇 OpenGenes MCP (aging/longevity gene database) — longevity-genie/opengenes-mcp
+- 📇 SynergyAge MCP (synergistic & epistatic lifespan interventions) — longevity-genie/synergy-age-mcp
 - 📇 GWAS Catalog — koido-gwas-catalog-mcp · 📇 HGNC nomenclature — armish-hgnc.mcp
 - 📇 VEP — not-a-feature-VEPmcp · 📇 Evo2 genomic LM — not-a-feature-evo2-mcp
 - 📇 BioThings (MyGene/MyVariant) — Augmented-Nature-BioThings-MCP-Server · longevity-genie-biothings-mcp
@@ -80,6 +85,9 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - 📇 STRING (PPI) — meringlab-string-mcp · 📇 Reactome (pathways) — Augmented-Nature-Reactome-MCP-Server
 - 📇 OmniPath networks (Saez lab) — saezlab-omnipath-next · 📇 BioCypher knowledge graphs — biocypher-biocypher-mcp
 - 📇 ToolUniverse (Harvard MIMS, 200+ tools aggregator) — mims-harvard-ToolUniverse · 📇 gget — longevity-genie-gget-mcp
+- 📇 scvi-tools MCP (official YosefLab — docs, API, pretrained models) — YosefLab/scvi-tools-mcp
+- 📇 DisPhaseDB MCP (liquid-liquid phase separation proteins, disease mutations) — gitlab.com/bioinformatics-fil/disphase-mcp
+- 📇 Protein Hunter MCP (Boltz / Chai / LigandMPNN structure prediction) — longevity-genie/protein_hunter_mcp
 - ✅ Marketplace skills: single-cell-rna-qc, nextflow-development (nf-core), scvi-tools — anthropics/life-sciences
 - Local (already installed): Python+scanpy/squidpy/anndata ✓ · R 4.5 ✓ (add Seurat/DESeq2 via BiocManager)
 
@@ -108,6 +116,8 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - ✅ Claude for Life Sciences marketplace — anthropics/life-sciences (install channel)
 - ✅ BioContextAI meta-layer — biocontext-ai-meta-mcp · -knowledgebase-mcp · -skill-to-mcp · -protocol-mcp · -registry
 - ✅ Codex / GPT-5.5 (already live) · workflows/subagents · schedule/cron
+- 📇 Data Aggregator MCP (federated search: Zenodo/DataCite/NCBI GEO+SRA/PubMed) — musharna/data-aggregator-mcp
+- 📇 BigQuery Biomedical MCP (biopharma & clinical trial datasets via BigQuery) — navisbio/mcp_bigquery_biomedical
 
 ---
 

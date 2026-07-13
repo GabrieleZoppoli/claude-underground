@@ -76,6 +76,7 @@ STATIONS = {
   "researchlookup":S("research-lookup","lit","live","Fast current-research lookup (Parallel/Perplexity) for facts & papers.","Skill: claude-scientific-writer:research-lookup."),
   "pubmedmcp":    S("PubMed MCP","lit","registry","Standalone PubMed search/fetch over MCP.","MCP: andybrandt/mcp-simple-pubmed or grll/pubmedmcp — confirm repo, add to config."),
   "gscholar":     S("Google Scholar MCP","lit","registry","Scholar search over MCP (no official API; scrapes).","MCP: JackKuo666/Google-Scholar-MCP-Server — confirm repo."),
+  "pubtator3mcp": S("PubTator3 MCP","lit","registry","Biomedical entity annotation & relationship mining via PubTator3 API.","MCP: BioMCP-Hub/PubTator-MCP-Server — standalone; also federated inside BioMCP.","https://github.com/BioMCP-Hub/PubTator-MCP-Server"),
   "wiley":        S("Wiley Scholar Gateway","lit","verified","Wiley full-text scholarly gateway (marketplace remote MCP).","Install via /plugin marketplace add anthropics/life-sciences."),
 
   # ====================================================== Genomic 🟢
@@ -106,6 +107,7 @@ STATIONS = {
   "cellosaurus":  S("Cellosaurus MCP","gen","registry","Cell-line knowledge resource.","MCP: biocontext-ai/unofficial-cellosaurus-mcp."),
   "biostudies":   S("BioStudies MCP","gen","registry","EBI BioStudies datasets & supplementary data.","MCP: EBIBioStudies/biostudies-mcp-server — confirm repo."),
   "gwas":         S("GWAS Catalog MCP","gen","registry","GWAS associations (also inside BioMCP).","MCP: koido/gwas-catalog-mcp — confirm repo."),
+  "geomcp":       S("GEO MCP","gen","registry","Query & download Gene Expression Omnibus datasets via NCBI E-Utils.","MCP: MCPmed/GEOmcp — pip install geomcp, then add to mcp config.","https://github.com/MCPmed/GEOmcp"),
 
   # ====================================================== Compute ⚫
   "python":       S("Python · scanpy/squidpy","comp","live","scanpy/squidpy/anndata for sc & spatial; pandas/numpy/scipy — all verified installed.","Bash + Python 3.12; Claude writes & runs the analysis now."),
@@ -129,6 +131,10 @@ STATIONS = {
   "omnipath":     S("OmniPath MCP","comp","registry","Signaling/regulatory networks (Saez lab).","MCP: saezlab/omnipath-next."),
   "biocypher":    S("BioCypher MCP","comp","registry","Build & query biomedical knowledge graphs.","MCP: biocypher/biocypher-mcp."),
   "gget":         S("gget MCP","comp","registry","Swiss-army genomics queries (Ensembl/UniProt/BLAST/…).","MCP: longevity-genie/gget-mcp."),
+  "bioskills":    S("bioSkills","comp","verified","561 Claude Code skills for RNA-seq, variants, sc-omics, epigenomics, liquid biopsy & more.","Skills: GPTomics/bioSkills — run ./install-claude.sh for global install.","https://github.com/GPTomics/bioSkills"),
+  "clawbio":      S("ClawBio","comp","registry","94 bioinformatics skills: GWAS, ACMG classification, pharmacogenomics, sc-RNA, spatial.","Skills: ClawBio/ClawBio — pip install clawbio (1k GitHub stars, Apr 2026).","https://github.com/ClawBio/ClawBio"),
+  "knowledgebasemcp":S("BioContextAI KB MCP","comp","registry","14-DB federation: PRIDE proteomics, Protein Atlas, PanglaoDB, KEGG, Antibody Registry & more.","MCP: biocontext-ai/knowledgebase-mcp — add to claude mcp config.","https://github.com/biocontext-ai/knowledgebase-mcp"),
+  "scienceskills": S("DeepMind science-skills","comp","registry","~36 SKILL.md skills spanning genomics, structural biology & cheminformatics (DeepMind).","Skills: google-deepmind/science-skills — npx skills add (AlphaGenome, AFDB, UniProt…).","https://github.com/google-deepmind/science-skills"),
 
   # ====================================================== Statistics 🔵
   "statsmodels":  S("statsmodels / scipy","stat","live","Regression, GLM, mixed models, hypothesis tests in Python.","Bash + Python; Claude writes the analysis."),
@@ -158,6 +164,9 @@ STATIONS = {
   "pubchem":      S("PubChem MCP","clin","registry","Chemical structures, properties & bioassays.","MCP: cyanheads/pubchem-mcp-server."),
   "pharmacology": S("Pharmacology MCP","clin","registry","Guide to PHARMACOLOGY — targets & ligands.","MCP: longevity-genie/pharmacology-mcp."),
   "nexonco":      S("NexOnco MCP","clin","registry","Oncology clinical decisioning.","MCP: Nexgene-Research/nexonco-mcp."),
+  "fhirmcp":      S("SMART on FHIR MCP","clin","registry","Secure LLM access to EHR records via SMART on FHIR (Epic, SMART sandbox).","MCP: jmandel/health-record-mcp — TypeScript; grep/SQL/eval on FHIR patient data.","https://github.com/jmandel/health-record-mcp"),
+  "cortellis":    S("Cortellis","clin","verified","Drug regulatory intelligence: submissions, approvals & guidance docs worldwide.","Install: /plugin marketplace add anthropics/life-sciences · cortellis@life-sciences (paid sub).","https://github.com/anthropics/life-sciences"),
+  "adisinsight":  S("AdisInsight","clin","verified","Drug development pipeline, clinical trials, safety & deals intelligence.","Install: /plugin marketplace add anthropics/life-sciences · adisinsight@life-sciences (paid sub).","https://github.com/anthropics/life-sciences"),
 
   # ====================================================== Visualization 🟡
   "biorender":    S("BioRender","viz","live","Publication figures from a vast bio icon/template library.","MCP connected now — search icons & templates.","https://www.biorender.com"),

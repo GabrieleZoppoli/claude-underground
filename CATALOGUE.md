@@ -55,6 +55,8 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - 📇 Google Scholar MCP — JackKuo666-Google-Scholar-MCP-Server
 - ✅ Marketplace: PubMed (no-auth), Wiley Scholar Gateway, Consensus — anthropics/life-sciences
 - 🌐 Europe PMC API · Semantic Scholar API (both public; ⚠️ standalone MCPs not separately confirmed)
+- 📇 PubMed+EPMC MCP (full-text, citations, MeSH, Unpaywall open-access, 124⭐) — cyanheads/pubmed-mcp-server
+- 📇 PatSnap Patent MCP (200M+ patents + pharma & chemistry R&D records) — patsnap/mcp-for-patent-literature
 
 ### 🟢 Line 2 — Genomic Data & Sequencing
 - ✅ BioMCP (variants: MyVariant/ClinVar/gnomAD/CIViC/OncoKB/GWAS) — genomoncology/biomcp
@@ -71,11 +73,15 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - 📇 Cellosaurus cell lines — biocontext-ai-unofficial-cellosaurus-mcp · 📇 BioStudies — EBIBioStudies-biostudies-mcp-server
 - 🌐 GDC/TCGA API (incl. /analysis/survival) — gdc.cancer.gov/developers (⚠️ no GDC MCP found)
 - 🌐 No-MCP-verified but public: UCSC, dbSNP/dbVar, ENCODE (use via API/browser)
+- 📇 GWAS Catalog MCP (EBI OFFICIAL) — EBISPOT/gwas-mcp · live remote endpoint: ebi.ac.uk/gwas/mcp
+- 📇 AlphaFold MCP — Augmented-Nature/AlphaFold-MCP-Server (35⭐; AlphaFold DB protein structures)
+- 📇 ExpasyGPT / SIB SPARQL — sib-swiss/sparql-llm (UniProt, Bgee, Rhea, SwissLipids; live: chat.expasy.org/mcp)
 
 ### ⚫ Line 3 — Compute & Pipelines (incl. single-cell / spatial)
 - ✅ ChatSpatial (spatial, ~60 methods) — cafferychen777/ChatSpatial
 - ✅ SCMCP (scRNA-seq, scverse) — scmcphub/scmcp
 - 📇 AnnData MCP — biocontext-ai-anndata-mcp · 📇 CELLxGENE Census MCP — MaxMLang-cxg-census-mcp
+- 📇 scvi-tools MCP (Yosef Lab official) — YosefLab/scvi-tools-mcp (deep probabilistic single-cell models)
 - 📇 Galaxy MCP — galaxyproject-galaxy-mcp · 📇 Enrichr enrichment — tianqitang1-enrichr-mcp-server
 - 📇 STRING (PPI) — meringlab-string-mcp · 📇 Reactome (pathways) — Augmented-Nature-Reactome-MCP-Server
 - 📇 OmniPath networks (Saez lab) — saezlab-omnipath-next · 📇 BioCypher knowledge graphs — biocypher-biocypher-mcp
@@ -87,6 +93,7 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - ✅ ClinicalTrials.gov MCP — cyanheads/clinicaltrialsgov-mcp-server · 🌐 API v2: clinicaltrials.gov/api/v2/studies
 - ✅ BioMCP (trials via CTG v2 + NCI CTS) — genomoncology/biomcp
 - 📇 AACT (CTG aggregate DB) MCP — navisbio-AACT_MCP · 📇 MedCalc MCP — winninghealth-medcalcmcp
+- 📇 just-prs MCP — dna-seq/just-prs-mcp (polygenic risk scores wrapping just-prs + PGS Catalog)
 - Local: statsmodels/lifelines ✓ (PyMC/Stan/brms ⚠️ to install)
 
 ### 🟣 Line 5 — Clinical & Regulatory
@@ -108,6 +115,7 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - ✅ Claude for Life Sciences marketplace — anthropics/life-sciences (install channel)
 - ✅ BioContextAI meta-layer — biocontext-ai-meta-mcp · -knowledgebase-mcp · -skill-to-mcp · -protocol-mcp · -registry
 - ✅ Codex / GPT-5.5 (already live) · workflows/subagents · schedule/cron
+- 📇 GeneFoundry Router — berntpopp/genefoundry-router (Streamable-HTTP gateway federating 21 clinical-genetics MCPs)
 
 ---
 

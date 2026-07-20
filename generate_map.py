@@ -77,6 +77,8 @@ STATIONS = {
   "pubmedmcp":    S("PubMed MCP","lit","registry","Standalone PubMed search/fetch over MCP.","MCP: andybrandt/mcp-simple-pubmed or grll/pubmedmcp — confirm repo, add to config."),
   "gscholar":     S("Google Scholar MCP","lit","registry","Scholar search over MCP (no official API; scrapes).","MCP: JackKuo666/Google-Scholar-MCP-Server — confirm repo."),
   "wiley":        S("Wiley Scholar Gateway","lit","verified","Wiley full-text scholarly gateway (marketplace remote MCP).","Install via /plugin marketplace add anthropics/life-sciences."),
+  "cyanheadspubmed": S("PubMed+EPMC MCP","lit","registry","PubMed & Europe PMC full-text, citations & MeSH via MCP; Unpaywall open-access (124⭐).","MCP: cyanheads/pubmed-mcp-server.","https://github.com/cyanheads/pubmed-mcp-server"),
+  "patsnap":         S("PatSnap Patent MCP","lit","registry","200M+ patents + pharma & chemistry records; prior art & R&D intelligence via MCP.","MCP: patsnap/mcp-for-patent-literature.","https://github.com/patsnap/mcp-for-patent-literature"),
 
   # ====================================================== Genomic 🟢
   "synapse":      S("Synapse.org","gen","live","Sage Bionetworks repository — controlled-access cohorts, consortium data.","MCP connected now — search & pull datasets (auth for controlled access).","https://www.synapse.org"),
@@ -106,6 +108,9 @@ STATIONS = {
   "cellosaurus":  S("Cellosaurus MCP","gen","registry","Cell-line knowledge resource.","MCP: biocontext-ai/unofficial-cellosaurus-mcp."),
   "biostudies":   S("BioStudies MCP","gen","registry","EBI BioStudies datasets & supplementary data.","MCP: EBIBioStudies/biostudies-mcp-server — confirm repo."),
   "gwas":         S("GWAS Catalog MCP","gen","registry","GWAS associations (also inside BioMCP).","MCP: koido/gwas-catalog-mcp — confirm repo."),
+  "gwasebi":      S("GWAS Catalog MCP (EBI)","gen","registry","Official EBI GWAS Catalog MCP — associations, studies & traits; live endpoint at ebi.ac.uk/gwas/mcp.","MCP: EBISPOT/gwas-mcp · live: https://ebi.ac.uk/gwas/mcp.","https://github.com/EBISPOT/gwas-mcp"),
+  "alphafoldmcp": S("AlphaFold MCP","gen","registry","AlphaFold Protein Structure Database via MCP — predicted structures & analysis (35⭐).","MCP: Augmented-Nature/AlphaFold-MCP-Server.","https://github.com/Augmented-Nature/AlphaFold-MCP-Server"),
+  "expasygpt":    S("ExpasyGPT / SIB SPARQL","gen","registry","UniProt, Bgee, Rhea & SwissLipids via SPARQL (SIB Swiss Bioinformatics); live endpoint.","MCP: sib-swiss/sparql-llm · live: chat.expasy.org/mcp.","https://github.com/sib-swiss/sparql-llm"),
 
   # ====================================================== Compute ⚫
   "python":       S("Python · scanpy/squidpy","comp","live","scanpy/squidpy/anndata for sc & spatial; pandas/numpy/scipy — all verified installed.","Bash + Python 3.12; Claude writes & runs the analysis now."),
@@ -120,6 +125,7 @@ STATIONS = {
   "scqc":         S("sc-RNA-QC skill","comp","verified","Official single-cell-rna-qc skill (marketplace).","Install: /plugin install single-cell-rna-qc@life-sciences."),
   "nfcoreskill":  S("nf-core dev skill","comp","verified","Official nextflow-development skill (marketplace).","Install via anthropics/life-sciences marketplace."),
   "scvitools":    S("scvi-tools","comp","verified","Probabilistic single-cell models skill (marketplace).","Install via anthropics/life-sciences marketplace."),
+  "scvimcp":      S("scvi-tools MCP","comp","registry","Official Yosef Lab MCP for scvi-tools — deep probabilistic single-cell omics models.","MCP: YosefLab/scvi-tools-mcp.","https://github.com/YosefLab/scvi-tools-mcp"),
   "anndata":      S("AnnData MCP","comp","registry","Operate on AnnData (.h5ad) objects over MCP.","MCP: biocontext-ai/anndata-mcp."),
   "cxgcensus":    S("CxG Census MCP","comp","registry","Query the CZ CELLxGENE Census single-cell atlas.","MCP: MaxMLang/cxg-census-mcp — confirm repo."),
   "galaxymcp":    S("Galaxy MCP","comp","registry","Drive Galaxy workflows & histories over MCP.","MCP: galaxyproject/galaxy-mcp."),
@@ -141,6 +147,7 @@ STATIONS = {
   "ctgmcp":       S("ClinTrials.gov MCP","stat","verified","Trial-registry queries over MCP (CTG API v2 + NCI CTS).","MCP: cyanheads/clinicaltrialsgov-mcp-server.","https://github.com/cyanheads/clinicaltrialsgov-mcp-server"),
   "aact":         S("AACT MCP","stat","registry","Aggregate Content of ClinicalTrials.gov (AACT) database.","MCP: navisbio/AACT_MCP."),
   "medcalc":      S("MedCalc MCP","stat","registry","Medical calculators & clinical equations.","MCP: winninghealth/medcalcmcp."),
+  "justprs":      S("just-prs MCP","stat","registry","Polygenic risk score computation wrapping just-prs + PGS Catalog — variant-to-risk pipelines.","MCP: dna-seq/just-prs-mcp.","https://github.com/dna-seq/just-prs-mcp"),
 
   # ====================================================== Clinical 🟣
   "clinreports":  S("clinical-reports","clin","live","Case reports (CARE), CSR (ICH-E3), SOAP, discharge summaries.","Skill: claude-scientific-writer:clinical-reports."),
@@ -196,6 +203,7 @@ STATIONS = {
   "biocontextai": S("BioContextAI Registry","ops","verified","Nature-Biotech-backed index of ~60 biomedical MCP servers.","Browse biocontext.ai/registry · github.com/biocontext-ai/registry.","https://biocontext.ai/registry"),
   "biocontextmeta":S("BioContextAI meta-MCP","ops","verified","Meta layer: knowledgebase / skill-to-mcp / protocol / registry servers.","github.com/biocontext-ai — add the meta server to your config."),
   "tooluniverse": S("ToolUniverse","ops","registry","Harvard MIMS aggregator — 200+ biomedical tools in one MCP.","MCP: mims-harvard/ToolUniverse.","https://github.com/mims-harvard/ToolUniverse"),
+  "genefoundry":  S("GeneFoundry Router","ops","registry","Gateway federating 21 clinical-genetics MCPs (gnomAD, ClinVar, HPO, UniProt, VEP, PanelApp…).","MCP: berntpopp/genefoundry-router — Streamable-HTTP endpoint.","https://github.com/berntpopp/genefoundry-router"),
   "nar":          S("NAR DB Collection","ops","verified","2,173 curated molecular-biology databases (2026 issue) — the cross-check.","Reference index: academic.oup.com/nar.","https://academic.oup.com/nar/article/54/D1/D1/8402365"),
   "biomcp":       S("BioMCP","ops","verified","One server federating literature, variants, trials & cancer genomics.","MCP: genomoncology/biomcp — the single best biomedical addition.","https://github.com/genomoncology/biomcp"),
 
@@ -268,7 +276,7 @@ def place(sid, gx, gy):
 trunk("lit", "W", ["pubmed","consensus","europepmc","biorxiv","medrxiv","semscholar"])
 branch("lit", "pubmed", "S", ["deepresearch","litreview","researchlookup"])
 branch("lit", "consensus", "N", ["wiley"])
-branch("lit", "europepmc", "N", ["pubmedmcp","gscholar"])
+branch("lit", "europepmc", "N", ["pubmedmcp","gscholar","cyanheadspubmed","patsnap"])
 
 # ----- Genomic (NW quadrant) ---------------------------------------------------
 trunk("gen", "NW", ["synapse","geosra","ensembldb","ucsc","gdc"], exit=2.0)
@@ -279,14 +287,14 @@ branch("gen", "ensembldb", "W", ["biomart","biobtree","biothings"])
 branch("gen", "ensembldb", "N", ["cellxgene","ensemblmcp"])
 branch("gen", "ucsc", "W", ["interpro","rnacentral","pdbe"])
 branch("gen", "ucsc", "N", ["uniprot","hgnc","vep"])
-branch("gen", "gdc", "W", ["gwas","evo2"])
+branch("gen", "gdc", "W", ["gwas","evo2","gwasebi","alphafoldmcp","expasygpt"])
 branch("gen", "gdc", "N", ["cellosaurus","biostudies"])
 
 # ----- Compute (North) ---------------------------------------------------------
 trunk("comp", "N", ["python","bioconductor","nextflow","snakemake"])
 branch("comp", "python", "E", ["scmcp","chatspatial"])
 branch("comp", "python", "W", ["jupyter","galaxy","cfdna"])
-branch("comp", "bioconductor", "E", ["scqc","nfcoreskill","scvitools"])
+branch("comp", "bioconductor", "E", ["scqc","nfcoreskill","scvitools","scvimcp"])
 branch("comp", "nextflow", "E", ["anndata","cxgcensus","galaxymcp"])
 branch("comp", "snakemake", "W", ["enrichr","stringppi","reactome"])
 branch("comp", "snakemake", "E", ["omnipath","biocypher","gget"])
@@ -294,7 +302,7 @@ branch("comp", "snakemake", "E", ["omnipath","biocypher","gget"])
 # ----- Statistics (NE quadrant) ------------------------------------------------
 trunk("stat", "NE", ["statsmodels","survival","reporting","peerreview"], exit=2.0)
 branch("stat", "statsmodels", "N", ["power","bayes"])
-branch("stat", "survival", "E", ["ctgmcp","aact","medcalc"])
+branch("stat", "survival", "E", ["ctgmcp","aact","medcalc","justprs"])
 branch("stat", "peerreview", "E", ["critthink"])
 
 # ----- Clinical (East) ---------------------------------------------------------
@@ -318,7 +326,7 @@ branch("write", "venue", "W", ["paper2web","posters"])
 branch("write", "grants", "E", ["zotero","overleaf"])
 
 # ----- Orchestration (SW quadrant) ---------------------------------------------
-trunk("ops", "SW", ["drive","workflows","codex"], exit=2.0)
+trunk("ops", "SW", ["drive","workflows","codex","genefoundry"], exit=2.0)
 branch("ops", "drive", "W", ["gmail","calendar","slack","schedule"])
 
 # ----- Legal (SSE — regulatory neighbour of Clinical) --------------------------

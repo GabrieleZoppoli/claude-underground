@@ -52,6 +52,7 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 ### 🔴 Line 1 — Literature & Evidence
 - ✅ BioMCP (lit federation: PubMed/PubTator3/Europe PMC/Semantic Scholar) — genomoncology/biomcp
 - 📇 PubMed MCPs — andybrandt-mcp-simple-pubmed · grll-pubmedmcp
+- 📇 **PubMed+EuropePMC MCP** — cyanheads/pubmed-mcp-server (126 ★, active; search, full-text via PMC/Unpaywall, MeSH, citations; STDIO or HTTP)
 - 📇 Google Scholar MCP — JackKuo666-Google-Scholar-MCP-Server
 - ✅ Marketplace: PubMed (no-auth), Wiley Scholar Gateway, Consensus — anthropics/life-sciences
 - 🌐 Europe PMC API · Semantic Scholar API (both public; ⚠️ standalone MCPs not separately confirmed)
@@ -69,8 +70,12 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - 📇 BioThings (MyGene/MyVariant) — Augmented-Nature-BioThings-MCP-Server · longevity-genie-biothings-mcp
 - 📇 InterPro — bio-mcp-interpro · 📇 RNAcentral — RNAcentral-rnacentral-mcp-server · 📇 PDBe structures — PDBeurope-PDBe-MCP-Servers
 - 📇 Cellosaurus cell lines — biocontext-ai-unofficial-cellosaurus-mcp · 📇 BioStudies — EBIBioStudies-biostudies-mcp-server
+- 📇 **ENCODE Toolkit** — ammawla/encode-toolkit (30 ★; ChIP-seq, ATAC-seq, RNA-seq, Hi-C, 14 databases, 47 workflow skills; also a Claude plugin)
+- 📇 **Monarch Initiative MCP** — nickzren/monarch-mcp (33 integrated sources: OMIM, Orphanet, HPO, MONDO, MGI, ZFIN, Reactome; rare-disease diagnosis via phenotype matching)
+- 📇 **ClinGen MCP** — berntpopp/clingen-link (gene–disease validity, dosage sensitivity, ERepo variant pathogenicity)
+- 📇 **GTEx MCP** — berntpopp/gtex-link (tissue-specific expression: median & per-sample TPM, top expressed genes per tissue)
 - 🌐 GDC/TCGA API (incl. /analysis/survival) — gdc.cancer.gov/developers (⚠️ no GDC MCP found)
-- 🌐 No-MCP-verified but public: UCSC, dbSNP/dbVar, ENCODE (use via API/browser)
+- 🌐 ENCODE API (functional genomics, now also wrapped by encode-toolkit above)
 
 ### ⚫ Line 3 — Compute & Pipelines (incl. single-cell / spatial)
 - ✅ ChatSpatial (spatial, ~60 methods) — cafferychen777/ChatSpatial
@@ -108,6 +113,8 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - ✅ Claude for Life Sciences marketplace — anthropics/life-sciences (install channel)
 - ✅ BioContextAI meta-layer — biocontext-ai-meta-mcp · -knowledgebase-mcp · -skill-to-mcp · -protocol-mcp · -registry
 - ✅ Codex / GPT-5.5 (already live) · workflows/subagents · schedule/cron
+- 📇 **GeneFoundry Router** — berntpopp/genefoundry-router (federation of 21 clinical-genetics MCP servers: gnomAD, ClinVar, HPO, UniProt, VEP, PanelApp, ClinGen, GTEx, SpliceAI, PubTator, Orphanet…)
+- 📇 **GrEBI (EBI)** — EBISPOT/GrEBI (official EBI HPC aggregation MCP; endpoint wwwdev.ebi.ac.uk/kg/api/v1/mcp; integrates EMBL-EBI resources, Monarch, ROBOKOP, IMPC)
 
 ---
 

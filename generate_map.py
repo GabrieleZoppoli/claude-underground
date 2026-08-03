@@ -77,6 +77,8 @@ STATIONS = {
   "pubmedmcp":    S("PubMed MCP","lit","registry","Standalone PubMed search/fetch over MCP.","MCP: andybrandt/mcp-simple-pubmed or grll/pubmedmcp — confirm repo, add to config."),
   "gscholar":     S("Google Scholar MCP","lit","registry","Scholar search over MCP (no official API; scrapes).","MCP: JackKuo666/Google-Scholar-MCP-Server — confirm repo."),
   "wiley":        S("Wiley Scholar Gateway","lit","verified","Wiley full-text scholarly gateway (marketplace remote MCP).","Install via /plugin marketplace add anthropics/life-sciences."),
+  "cyanheadspubmed": S("PubMed MCP (cyanheads)","lit","registry","PubMed/Europe PMC + full text (PMC/EPMC/Unpaywall), citations & MeSH — 128★ TypeScript.","MCP: cyanheads/pubmed-mcp-server — confirm repo, add to config.","https://github.com/cyanheads/pubmed-mcp-server"),
+  "biorxivmcp":   S("bioRxiv/medRxiv MCP","lit","registry","Search & retrieve preprints from bioRxiv and medRxiv by DOI, date, or keyword.","MCP: cyanheads/biorxiv-mcp-server — confirm repo, add to config.","https://github.com/cyanheads/biorxiv-mcp-server"),
 
   # ====================================================== Genomic 🟢
   "synapse":      S("Synapse.org","gen","live","Sage Bionetworks repository — controlled-access cohorts, consortium data.","MCP connected now — search & pull datasets (auth for controlled access).","https://www.synapse.org"),
@@ -106,6 +108,10 @@ STATIONS = {
   "cellosaurus":  S("Cellosaurus MCP","gen","registry","Cell-line knowledge resource.","MCP: biocontext-ai/unofficial-cellosaurus-mcp."),
   "biostudies":   S("BioStudies MCP","gen","registry","EBI BioStudies datasets & supplementary data.","MCP: EBIBioStudies/biostudies-mcp-server — confirm repo."),
   "gwas":         S("GWAS Catalog MCP","gen","registry","GWAS associations (also inside BioMCP).","MCP: koido/gwas-catalog-mcp — confirm repo."),
+  "grebi":        S("GrEBI (EBI)","gen","registry","EMBL-EBI biomedical data-integration MCP — cross-resource knowledge-graph queries.","MCP: EBISPOT/GrEBI — official EBI project; confirm setup.","https://github.com/EBISPOT/GrEBI"),
+  "cligenlink":   S("ClinGen MCP","gen","registry","Gene–disease validity, dosage sensitivity & variant pathogenicity from ClinGen (ACMG-curated).","MCP: berntpopp/clingen-link — GeneFoundry suite.","https://github.com/berntpopp/clingen-link"),
+  "panelapplinkm":S("PanelApp MCP","gen","registry","Genomics England & PanelApp Australia diagnostic gene panels & gene–disease ratings.","MCP: berntpopp/panelapp-link — GeneFoundry suite.","https://github.com/berntpopp/panelapp-link"),
+  "mavedblink":   S("MaveDB MCP","gen","registry","Variant-effect scores from deep mutational scanning / MAVE assays (MaveDB).","MCP: berntpopp/mavedb-link — GeneFoundry suite.","https://github.com/berntpopp/mavedb-link"),
 
   # ====================================================== Compute ⚫
   "python":       S("Python · scanpy/squidpy","comp","live","scanpy/squidpy/anndata for sc & spatial; pandas/numpy/scipy — all verified installed.","Bash + Python 3.12; Claude writes & runs the analysis now."),
@@ -158,6 +164,9 @@ STATIONS = {
   "pubchem":      S("PubChem MCP","clin","registry","Chemical structures, properties & bioassays.","MCP: cyanheads/pubchem-mcp-server."),
   "pharmacology": S("Pharmacology MCP","clin","registry","Guide to PHARMACOLOGY — targets & ligands.","MCP: longevity-genie/pharmacology-mcp."),
   "nexonco":      S("NexOnco MCP","clin","registry","Oncology clinical decisioning.","MCP: Nexgene-Research/nexonco-mcp."),
+  "monarchmcp":   S("Monarch Initiative MCP","clin","registry","Cross-species gene–disease–phenotype queries via the Monarch Initiative API.","MCP: nickzren/monarch-mcp — confirm repo, add to config.","https://github.com/nickzren/monarch-mcp"),
+  "hpolink":      S("HPO MCP","clin","registry","Human Phenotype Ontology — phenotype term lookup, hierarchy & gene–phenotype–disease links.","MCP: berntpopp/hpo-link — GeneFoundry suite.","https://github.com/berntpopp/hpo-link"),
+  "orphanetlink": S("Orphanet MCP","clin","registry","Orphanet rare-disease nomenclature, gene–disease associations & epidemiology.","MCP: berntpopp/orphanet-link — GeneFoundry suite.","https://github.com/berntpopp/orphanet-link"),
 
   # ====================================================== Visualization 🟡
   "biorender":    S("BioRender","viz","live","Publication figures from a vast bio icon/template library.","MCP connected now — search icons & templates.","https://www.biorender.com"),
@@ -198,6 +207,7 @@ STATIONS = {
   "tooluniverse": S("ToolUniverse","ops","registry","Harvard MIMS aggregator — 200+ biomedical tools in one MCP.","MCP: mims-harvard/ToolUniverse.","https://github.com/mims-harvard/ToolUniverse"),
   "nar":          S("NAR DB Collection","ops","verified","2,173 curated molecular-biology databases (2026 issue) — the cross-check.","Reference index: academic.oup.com/nar.","https://academic.oup.com/nar/article/54/D1/D1/8402365"),
   "biomcp":       S("BioMCP","ops","verified","One server federating literature, variants, trials & cancer genomics.","MCP: genomoncology/biomcp — the single best biomedical addition.","https://github.com/genomoncology/biomcp"),
+  "genefoundryrouter": S("GeneFoundry Router","ops","registry","MCP gateway federating 21 biomedical servers (gnomAD, ClinVar, HPO, VEP, PanelApp…) behind one endpoint.","MCP: berntpopp/genefoundry-router — meta-layer; confirm before wiring.","https://github.com/berntpopp/genefoundry-router"),
 
   # ====================================================== Legal ⚖️
   "gdpr":        S("GDPR & data protection","legal","live","EU GDPR (2016/679): DPAs, transfers, Art. 89 research exemptions.","Reference module — cited to EUR-Lex; verify before relying.","https://eur-lex.europa.eu/eli/reg/2016/679/oj"),

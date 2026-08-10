@@ -52,6 +52,8 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 ### 🔴 Line 1 — Literature & Evidence
 - ✅ BioMCP (lit federation: PubMed/PubTator3/Europe PMC/Semantic Scholar) — genomoncology/biomcp
 - 📇 PubMed MCPs — andybrandt-mcp-simple-pubmed · grll-pubmedmcp
+- 📇 **PubMed+EuropePMC MCP** (github.com/cyanheads/pubmed-mcp-server, 133⭐) — search PubMed/Europe PMC, full text via PMC/EPMC/Unpaywall, MeSH; STDIO or Streamable HTTP. ✅ repo confirmed 2026-08-10.
+- 📇 **PubTator3 MCP** (github.com/berntpopp/pubtator-link) — NCBI PubTator3 NER for biomedical literature: gene, variant, disease & chemical entity annotation. ✅ repo confirmed 2026-08-10.
 - 📇 Google Scholar MCP — JackKuo666-Google-Scholar-MCP-Server
 - ✅ Marketplace: PubMed (no-auth), Wiley Scholar Gateway, Consensus — anthropics/life-sciences
 - 🌐 Europe PMC API · Semantic Scholar API (both public; ⚠️ standalone MCPs not separately confirmed)
@@ -66,6 +68,10 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - 📇 NCBI MCP — noahzeidenberg-ncbi-mcp · 📇 BioMart — jzinno-biomart-mcp · 📇 biobtree (ID map) — tamerh-biobtree
 - 📇 GWAS Catalog — koido-gwas-catalog-mcp · 📇 HGNC nomenclature — armish-hgnc.mcp
 - 📇 VEP — not-a-feature-VEPmcp · 📇 Evo2 genomic LM — not-a-feature-evo2-mcp
+- 📇 **PanelApp MCP** (github.com/berntpopp/panelapp-link) — Genomics England + PanelApp Australia consensus diagnostic gene panels & gene–disease ratings. ✅ repo confirmed 2026-08-10.
+- 📇 **ClinGen MCP** (github.com/berntpopp/clingen-link) — gene–disease validity, dosage sensitivity, clinical actionability & ERepo variant pathogenicity. ✅ repo confirmed 2026-08-10.
+- 📇 **SpliceAI Lookup MCP** (github.com/berntpopp/spliceailookup-link) — SpliceAI, Pangolin & SpliceAI-10k splice-impact predictions (Broad Institute endpoint). ✅ repo confirmed 2026-08-10.
+- 📇 **GTEx MCP** (github.com/berntpopp/gtex-link) — tissue-specific gene expression (median & per-sample TPM, top genes per tissue) from GTEx Portal. ✅ repo confirmed 2026-08-10.
 - 📇 BioThings (MyGene/MyVariant) — Augmented-Nature-BioThings-MCP-Server · longevity-genie-biothings-mcp
 - 📇 InterPro — bio-mcp-interpro · 📇 RNAcentral — RNAcentral-rnacentral-mcp-server · 📇 PDBe structures — PDBeurope-PDBe-MCP-Servers
 - 📇 Cellosaurus cell lines — biocontext-ai-unofficial-cellosaurus-mcp · 📇 BioStudies — EBIBioStudies-biostudies-mcp-server
@@ -94,6 +100,8 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - 📇 Ontologies: OLS4 (EBI) — EBISPOT-ols4 · BioPortal (SNOMED/UMLS etc.) — ncbo-bioportal-mcp
 - 📇 Drugs/chem: ChEMBL — JackKuo666-ChEMBL-MCP-Server · PubChem — cyanheads-pubchem-mcp-server / JackKuo666-PubChem-MCP-Server · pharmacology — longevity-genie-pharmacology-mcp
 - 📇 Oncology decisioning — Nexgene-Research-nexonco-mcp
+- 📇 **Monarch Initiative MCP** (github.com/nickzren/monarch-mcp) — HPO/Mondo phenotype-to-gene links, disease ontology, rare-disease associations via Monarch Initiative API. ✅ repo confirmed 2026-08-10.
+- 📇 **MyDisease MCP** (github.com/nickzren/mydisease-mcp) — MyDisease.info: disease search, gene–disease associations, variant analysis across BioThings disease databases. ✅ repo confirmed 2026-08-10.
 - 🌐 openFDA · EU CTIS/CTR · WHO ICTRP · EMA · HL7 FHIR · REDCap (public APIs; ⚠️ MCPs not confirmed)
 
 ### 🟡 Line 6 — Visualization & Figures
@@ -108,6 +116,8 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - ✅ Claude for Life Sciences marketplace — anthropics/life-sciences (install channel)
 - ✅ BioContextAI meta-layer — biocontext-ai-meta-mcp · -knowledgebase-mcp · -skill-to-mcp · -protocol-mcp · -registry
 - ✅ Codex / GPT-5.5 (already live) · workflows/subagents · schedule/cron
+- 📇 **GeneFoundry Router** (github.com/berntpopp/genefoundry-router) — MCP gateway federating 21 biomedical servers (gnomAD, ClinVar, HPO, UniProt, Ensembl VEP, PanelApp, and more) behind one Streamable-HTTP endpoint with BM25 tool search. ✅ repo confirmed 2026-08-10.
+- ✅ **GrEBI (EBI)** (github.com/EBISPOT/GrEBI) — EMBL-EBI knowledge-graph MCP aggregating EBI biomedical resources; live Streamable-HTTP endpoint at wwwdev.ebi.ac.uk/kg/api/v1/mcp. ✅ repo confirmed 2026-08-10.
 
 ---
 

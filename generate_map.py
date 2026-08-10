@@ -75,6 +75,8 @@ STATIONS = {
   "litreview":    S("literature-review","lit","live","Systematic reviews across PubMed/arXiv/bioRxiv/Semantic Scholar (PRISMA).","Skill: claude-scientific-writer:literature-review."),
   "researchlookup":S("research-lookup","lit","live","Fast current-research lookup (Parallel/Perplexity) for facts & papers.","Skill: claude-scientific-writer:research-lookup."),
   "pubmedmcp":    S("PubMed MCP","lit","registry","Standalone PubMed search/fetch over MCP.","MCP: andybrandt/mcp-simple-pubmed or grll/pubmedmcp — confirm repo, add to config."),
+  "cyanpubmed":   S("PubMed+EuropePMC MCP","lit","registry","Search PubMed/Europe PMC, fetch full text (PMC/EPMC/Unpaywall), citations, MeSH — STDIO or Streamable HTTP.","MCP: cyanheads/pubmed-mcp-server — npm install; add to config.","https://github.com/cyanheads/pubmed-mcp-server"),
+  "pubtatorlink": S("PubTator3 MCP","lit","registry","NCBI PubTator3 biomedical NER: literature search with gene, variant, disease & chemical entity annotation.","MCP: berntpopp/pubtator-link — pip install; add to config.","https://github.com/berntpopp/pubtator-link"),
   "gscholar":     S("Google Scholar MCP","lit","registry","Scholar search over MCP (no official API; scrapes).","MCP: JackKuo666/Google-Scholar-MCP-Server — confirm repo."),
   "wiley":        S("Wiley Scholar Gateway","lit","verified","Wiley full-text scholarly gateway (marketplace remote MCP).","Install via /plugin marketplace add anthropics/life-sciences."),
 
@@ -106,6 +108,10 @@ STATIONS = {
   "cellosaurus":  S("Cellosaurus MCP","gen","registry","Cell-line knowledge resource.","MCP: biocontext-ai/unofficial-cellosaurus-mcp."),
   "biostudies":   S("BioStudies MCP","gen","registry","EBI BioStudies datasets & supplementary data.","MCP: EBIBioStudies/biostudies-mcp-server — confirm repo."),
   "gwas":         S("GWAS Catalog MCP","gen","registry","GWAS associations (also inside BioMCP).","MCP: koido/gwas-catalog-mcp — confirm repo."),
+  "panelappmcp":  S("PanelApp MCP","gen","registry","Consensus diagnostic gene panels & gene–disease ratings (Genomics England + PanelApp Australia).","MCP: berntpopp/panelapp-link — pip install; add to config.","https://github.com/berntpopp/panelapp-link"),
+  "clingenmcp":   S("ClinGen MCP","gen","registry","Gene–disease validity, dosage sensitivity, clinical actionability, and ERepo variant pathogenicity (ClinGen).","MCP: berntpopp/clingen-link — pip install; add to config.","https://github.com/berntpopp/clingen-link"),
+  "spliceaimcp":  S("SpliceAI Lookup MCP","gen","registry","SpliceAI, Pangolin & SpliceAI-10k splice-impact predictions for variants (Broad Institute endpoint).","MCP: berntpopp/spliceailookup-link — pip install; add to config.","https://github.com/berntpopp/spliceailookup-link"),
+  "gtexmcp":      S("GTEx MCP","gen","registry","Tissue-specific gene expression (median & per-sample TPM, top genes per tissue) from GTEx Portal.","MCP: berntpopp/gtex-link — pip install; add to config.","https://github.com/berntpopp/gtex-link"),
 
   # ====================================================== Compute ⚫
   "python":       S("Python · scanpy/squidpy","comp","live","scanpy/squidpy/anndata for sc & spatial; pandas/numpy/scipy — all verified installed.","Bash + Python 3.12; Claude writes & runs the analysis now."),
@@ -158,6 +164,8 @@ STATIONS = {
   "pubchem":      S("PubChem MCP","clin","registry","Chemical structures, properties & bioassays.","MCP: cyanheads/pubchem-mcp-server."),
   "pharmacology": S("Pharmacology MCP","clin","registry","Guide to PHARMACOLOGY — targets & ligands.","MCP: longevity-genie/pharmacology-mcp."),
   "nexonco":      S("NexOnco MCP","clin","registry","Oncology clinical decisioning.","MCP: Nexgene-Research/nexonco-mcp."),
+  "monarchmcp":   S("Monarch Initiative MCP","clin","registry","HPO/Mondo phenotype-to-gene links, disease ontology, rare-disease associations (Monarch Initiative API).","MCP: nickzren/monarch-mcp — pip install; add to config.","https://github.com/nickzren/monarch-mcp"),
+  "mydiseasemcp": S("MyDisease MCP","clin","registry","MyDisease.info: disease search, gene–disease associations, variant analysis across BioThings disease DBs.","MCP: nickzren/mydisease-mcp — pip install; add to config.","https://github.com/nickzren/mydisease-mcp"),
 
   # ====================================================== Visualization 🟡
   "biorender":    S("BioRender","viz","live","Publication figures from a vast bio icon/template library.","MCP connected now — search icons & templates.","https://www.biorender.com"),
@@ -196,6 +204,8 @@ STATIONS = {
   "biocontextai": S("BioContextAI Registry","ops","verified","Nature-Biotech-backed index of ~60 biomedical MCP servers.","Browse biocontext.ai/registry · github.com/biocontext-ai/registry.","https://biocontext.ai/registry"),
   "biocontextmeta":S("BioContextAI meta-MCP","ops","verified","Meta layer: knowledgebase / skill-to-mcp / protocol / registry servers.","github.com/biocontext-ai — add the meta server to your config."),
   "tooluniverse": S("ToolUniverse","ops","registry","Harvard MIMS aggregator — 200+ biomedical tools in one MCP.","MCP: mims-harvard/ToolUniverse.","https://github.com/mims-harvard/ToolUniverse"),
+  "genefoundry":  S("GeneFoundry Router","ops","registry","MCP gateway federating 21 biomedical servers (gnomAD, ClinVar, HPO, UniProt, VEP, PanelApp) behind one Streamable-HTTP endpoint with BM25 tool search.","MCP: berntpopp/genefoundry-router — docker run or pip; add single endpoint to config.","https://github.com/berntpopp/genefoundry-router"),
+  "grebi":        S("GrEBI (EBI)","ops","verified","EMBL-EBI knowledge-graph MCP aggregating EBI biomedical resources; live Streamable-HTTP endpoint from wwwdev.ebi.ac.uk.","Remote MCP: https://wwwdev.ebi.ac.uk/kg/api/v1/mcp — add to config or wire directly.","https://github.com/EBISPOT/GrEBI"),
   "nar":          S("NAR DB Collection","ops","verified","2,173 curated molecular-biology databases (2026 issue) — the cross-check.","Reference index: academic.oup.com/nar.","https://academic.oup.com/nar/article/54/D1/D1/8402365"),
   "biomcp":       S("BioMCP","ops","verified","One server federating literature, variants, trials & cancer genomics.","MCP: genomoncology/biomcp — the single best biomedical addition.","https://github.com/genomoncology/biomcp"),
 

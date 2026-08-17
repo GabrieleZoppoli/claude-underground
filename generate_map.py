@@ -106,6 +106,11 @@ STATIONS = {
   "cellosaurus":  S("Cellosaurus MCP","gen","registry","Cell-line knowledge resource.","MCP: biocontext-ai/unofficial-cellosaurus-mcp."),
   "biostudies":   S("BioStudies MCP","gen","registry","EBI BioStudies datasets & supplementary data.","MCP: EBIBioStudies/biostudies-mcp-server — confirm repo."),
   "gwas":         S("GWAS Catalog MCP","gen","registry","GWAS associations (also inside BioMCP).","MCP: koido/gwas-catalog-mcp — confirm repo."),
+  "gwas_ebi":     S("GWAS Catalog MCP (EBI)","gen","verified","Official EMBL-EBI GWAS Catalog MCP — natural-language queries of associations, studies & traits; hosted remote endpoint.","Official remote MCP: https://ebi.ac.uk/gwas/mcp — EBISPOT/gwas-mcp.","https://github.com/EBISPOT/gwas-mcp"),
+  "interpro_ebi": S("InterPro MCP (EBI)","gen","verified","Official EMBL-EBI InterPro — protein domains, families & InterProScan 6 sequence analysis; hosted remote endpoint.","Remote MCP: https://www.ebi.ac.uk/interpro/mcp — ebi-pf-team/interpro-mcp.","https://github.com/ebi-pf-team/interpro-mcp"),
+  "expasygpt":    S("ExpasyGPT (SIB Swiss)","gen","verified","SIB Swiss SPARQL gateway — UniProt, Bgee, Rhea, Cellosaurus, OMA, OrthoDB, MetaNetX, SwissLipids; hosted remote endpoint.","Remote MCP: https://chat.expasy.org/mcp — sib-swiss/sparql-llm.","https://github.com/sib-swiss/sparql-llm"),
+  "opengenes":    S("OpenGenes MCP","gen","verified","Curated aging-gene data & lifespan interventions (OpenGenes DB); hosted remote endpoint.","Remote MCP: https://opengenes-mcp.longevity-genie.info/mcp — longevity-genie/opengenes-mcp.","https://github.com/longevity-genie/opengenes-mcp"),
+  "flybasemcp":   S("FlyBase MCP","gen","registry","Drosophila melanogaster genetics & molecular biology via FlyBase.","MCP: sviatkh/flybase-mcp-server — confirm repo, add to config.","https://github.com/sviatkh/flybase-mcp-server"),
 
   # ====================================================== Compute ⚫
   "python":       S("Python · scanpy/squidpy","comp","live","scanpy/squidpy/anndata for sc & spatial; pandas/numpy/scipy — all verified installed.","Bash + Python 3.12; Claude writes & runs the analysis now."),
@@ -129,6 +134,7 @@ STATIONS = {
   "omnipath":     S("OmniPath MCP","comp","registry","Signaling/regulatory networks (Saez lab).","MCP: saezlab/omnipath-next."),
   "biocypher":    S("BioCypher MCP","comp","registry","Build & query biomedical knowledge graphs.","MCP: biocypher/biocypher-mcp."),
   "gget":         S("gget MCP","comp","registry","Swiss-army genomics queries (Ensembl/UniProt/BLAST/…).","MCP: longevity-genie/gget-mcp."),
+  "scvitoolsmcp": S("scvi-tools MCP (YosefLab)","comp","verified","Official YosefLab MCP: docs, tutorials, API reference & pretrained models for scVI/scANVI/totalVI/PeakVI/MultiVI.","MCP: YosefLab/scvi-tools-mcp — official team server.","https://github.com/YosefLab/scvi-tools-mcp"),
 
   # ====================================================== Statistics 🔵
   "statsmodels":  S("statsmodels / scipy","stat","live","Regression, GLM, mixed models, hypothesis tests in Python.","Bash + Python; Claude writes the analysis."),
@@ -141,6 +147,8 @@ STATIONS = {
   "ctgmcp":       S("ClinTrials.gov MCP","stat","verified","Trial-registry queries over MCP (CTG API v2 + NCI CTS).","MCP: cyanheads/clinicaltrialsgov-mcp-server.","https://github.com/cyanheads/clinicaltrialsgov-mcp-server"),
   "aact":         S("AACT MCP","stat","registry","Aggregate Content of ClinicalTrials.gov (AACT) database.","MCP: navisbio/AACT_MCP."),
   "medcalc":      S("MedCalc MCP","stat","registry","Medical calculators & clinical equations.","MCP: winninghealth/medcalcmcp."),
+  "justprs":      S("just-prs MCP","stat","registry","Polygenic risk score computation wrapping PGS Catalog — VCF normalisation, risk stratification.","MCP: dna-seq/just-prs-mcp — confirm repo, add to config.","https://github.com/dna-seq/just-prs-mcp"),
+  "bqbiomedical": S("BigQuery Biomedical","stat","registry","Google BigQuery biomedical datasets (AACT + others) via MCP — requires GCP credentials.","MCP: navisbio/mcp_bigquery_biomedical — confirm repo, add GCP credentials.","https://github.com/navisbio/mcp_bigquery_biomedical"),
 
   # ====================================================== Clinical 🟣
   "clinreports":  S("clinical-reports","clin","live","Case reports (CARE), CSR (ICH-E3), SOAP, discharge summaries.","Skill: claude-scientific-writer:clinical-reports."),
@@ -158,6 +166,8 @@ STATIONS = {
   "pubchem":      S("PubChem MCP","clin","registry","Chemical structures, properties & bioassays.","MCP: cyanheads/pubchem-mcp-server."),
   "pharmacology": S("Pharmacology MCP","clin","registry","Guide to PHARMACOLOGY — targets & ligands.","MCP: longevity-genie/pharmacology-mcp."),
   "nexonco":      S("NexOnco MCP","clin","registry","Oncology clinical decisioning.","MCP: Nexgene-Research/nexonco-mcp."),
+  "folklore":     S("Folklore Variant MCP","clin","verified","Helena Bioinformatics germline SNV/indel (GRCh38) ACMG/AMP evidence — read-only, no patient data; hosted remote endpoint.","Remote MCP: https://api.helena.bio/folklore/v1/mcp — helena-bioinformatics/folklore-mcp.","https://github.com/helena-bioinformatics/folklore-mcp"),
+  "askhelena":    S("Ask Helena MCP","clin","registry","Helena Bioinformatics knowledge base — source-cited answers about Helena products & Folklore.","Remote MCP: https://api.helena.bio/ask/v1/mcp — helena-bioinformatics/ask-helena-mcp.","https://github.com/helena-bioinformatics/ask-helena-mcp"),
 
   # ====================================================== Visualization 🟡
   "biorender":    S("BioRender","viz","live","Publication figures from a vast bio icon/template library.","MCP connected now — search icons & templates.","https://www.biorender.com"),

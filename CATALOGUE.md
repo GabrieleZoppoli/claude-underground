@@ -61,6 +61,11 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - ✅ cBioPortal MCP (official) — cBioPortal/cbioportal-mcp · 🌐 REST: cbioportal.org/api/v3/api-docs
 - ✅ Open Targets MCP (official) — opentargets/open-targets-platform-mcp · 🌐 GraphQL: api.platform.opentargets.org
 - ✅ ENA Nucleotide Archive MCP — biocontext-ai/nucleotide_archive_mcp
+- ✅ **GWAS Catalog MCP (EBISPOT official)** — EBISPOT/gwas-mcp · remote endpoint ebi.ac.uk/gwas/mcp · natural-language queries of associations, studies & traits (supersedes community koido entry)
+- ✅ **InterPro MCP (EBI official)** — ebi-pf-team/interpro-mcp · remote endpoint ebi.ac.uk/interpro/mcp · InterProScan 6, protein domains/families (official EMBL-EBI; supplements community bio-mcp entry)
+- ✅ **ExpasyGPT (SIB Swiss)** — sib-swiss/sparql-llm · remote endpoint chat.expasy.org/mcp · SPARQL gateway over UniProt, Bgee, Rhea, Cellosaurus, OMA, OrthoDB, MetaNetX, SwissLipids
+- ✅ **OpenGenes MCP** — longevity-genie/opengenes-mcp · remote endpoint opengenes-mcp.longevity-genie.info/mcp · curated aging-gene data & lifespan interventions
+- 📇 **FlyBase MCP** — sviatkh/flybase-mcp-server · Drosophila melanogaster genetics & molecular biology (model-organism genomics)
 - 📇 Ensembl MCP — effieklimi-ensembl-mcp-server · 🌐 rest.ensembl.org (VEP)
 - 📇 UniProt MCP — TakumiY235-uniprot-mcp-server · 🌐 uniprot.org/help/api_queries
 - 📇 NCBI MCP — noahzeidenberg-ncbi-mcp · 📇 BioMart — jzinno-biomart-mcp · 📇 biobtree (ID map) — tamerh-biobtree
@@ -80,6 +85,7 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - 📇 STRING (PPI) — meringlab-string-mcp · 📇 Reactome (pathways) — Augmented-Nature-Reactome-MCP-Server
 - 📇 OmniPath networks (Saez lab) — saezlab-omnipath-next · 📇 BioCypher knowledge graphs — biocypher-biocypher-mcp
 - 📇 ToolUniverse (Harvard MIMS, 200+ tools aggregator) — mims-harvard-ToolUniverse · 📇 gget — longevity-genie-gget-mcp
+- ✅ **scvi-tools MCP (YosefLab official)** — YosefLab/scvi-tools-mcp · docs, tutorials, API reference & pretrained models for scVI/scANVI/totalVI/PeakVI/MultiVI (standalone MCP from the library authors)
 - ✅ Marketplace skills: single-cell-rna-qc, nextflow-development (nf-core), scvi-tools — anthropics/life-sciences
 - Local (already installed): Python+scanpy/squidpy/anndata ✓ · R 4.5 ✓ (add Seurat/DESeq2 via BiocManager)
 
@@ -87,6 +93,8 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - ✅ ClinicalTrials.gov MCP — cyanheads/clinicaltrialsgov-mcp-server · 🌐 API v2: clinicaltrials.gov/api/v2/studies
 - ✅ BioMCP (trials via CTG v2 + NCI CTS) — genomoncology/biomcp
 - 📇 AACT (CTG aggregate DB) MCP — navisbio-AACT_MCP · 📇 MedCalc MCP — winninghealth-medcalcmcp
+- 📇 **just-prs MCP** — dna-seq/just-prs-mcp · PGS Catalog wrapper, polygenic risk scores, VCF normalisation, risk stratification
+- 📇 **BigQuery Biomedical** — navisbio/mcp_bigquery_biomedical · GCP BigQuery biomedical datasets (AACT + others; requires GCP credentials)
 - Local: statsmodels/lifelines ✓ (PyMC/Stan/brms ⚠️ to install)
 
 ### 🟣 Line 5 — Clinical & Regulatory
@@ -94,6 +102,8 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - 📇 Ontologies: OLS4 (EBI) — EBISPOT-ols4 · BioPortal (SNOMED/UMLS etc.) — ncbo-bioportal-mcp
 - 📇 Drugs/chem: ChEMBL — JackKuo666-ChEMBL-MCP-Server · PubChem — cyanheads-pubchem-mcp-server / JackKuo666-PubChem-MCP-Server · pharmacology — longevity-genie-pharmacology-mcp
 - 📇 Oncology decisioning — Nexgene-Research-nexonco-mcp
+- ✅ **Folklore Variant MCP** (Helena Bioinformatics) — helena-bioinformatics/folklore-mcp · remote endpoint api.helena.bio/folklore/v1/mcp · read-only germline GRCh38 SNV/indel ACMG/AMP evidence, no patient data
+- 📇 **Ask Helena MCP** — helena-bioinformatics/ask-helena-mcp · Helena Bioinformatics public knowledge base; remote endpoint api.helena.bio/ask/v1/mcp
 - 🌐 openFDA · EU CTIS/CTR · WHO ICTRP · EMA · HL7 FHIR · REDCap (public APIs; ⚠️ MCPs not confirmed)
 
 ### 🟡 Line 6 — Visualization & Figures

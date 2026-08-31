@@ -53,6 +53,8 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - ✅ BioMCP (lit federation: PubMed/PubTator3/Europe PMC/Semantic Scholar) — genomoncology/biomcp
 - 📇 PubMed MCPs — andybrandt-mcp-simple-pubmed · grll-pubmedmcp
 - 📇 Google Scholar MCP — JackKuo666-Google-Scholar-MCP-Server
+- 📇 **PubMed+EPMC MCP** — cyanheads/pubmed-mcp-server (141★) — full-text PubMed & Europe PMC search, MeSH, citations, Unpaywall; TypeScript, STDIO/HTTP; active 2026-08
+- 📇 **PubCrawl MCP** — nickjlamb/pubcrawl — federated PubMed, Europe PMC, US/UK drug labelling & ClinicalTrials.gov in one server; active 2026-08
 - ✅ Marketplace: PubMed (no-auth), Wiley Scholar Gateway, Consensus — anthropics/life-sciences
 - 🌐 Europe PMC API · Semantic Scholar API (both public; ⚠️ standalone MCPs not separately confirmed)
 
@@ -65,6 +67,8 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - 📇 UniProt MCP — TakumiY235-uniprot-mcp-server · 🌐 uniprot.org/help/api_queries
 - 📇 NCBI MCP — noahzeidenberg-ncbi-mcp · 📇 BioMart — jzinno-biomart-mcp · 📇 biobtree (ID map) — tamerh-biobtree
 - 📇 GWAS Catalog — koido-gwas-catalog-mcp · 📇 HGNC nomenclature — armish-hgnc.mcp
+- 📇 **GTEx MCP** — berntpopp/gtex-link — tissue-specific gene expression (median & per-sample TPM, top-expressed genes per tissue); active 2026-08
+- 📇 **ClinGen MCP** — berntpopp/clingen-link — gene–disease validity, dosage sensitivity, clinical actionability & ERepo variant pathogenicity; active 2026-08
 - 📇 VEP — not-a-feature-VEPmcp · 📇 Evo2 genomic LM — not-a-feature-evo2-mcp
 - 📇 BioThings (MyGene/MyVariant) — Augmented-Nature-BioThings-MCP-Server · longevity-genie-biothings-mcp
 - 📇 InterPro — bio-mcp-interpro · 📇 RNAcentral — RNAcentral-rnacentral-mcp-server · 📇 PDBe structures — PDBeurope-PDBe-MCP-Servers
@@ -94,6 +98,8 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - 📇 Ontologies: OLS4 (EBI) — EBISPOT-ols4 · BioPortal (SNOMED/UMLS etc.) — ncbo-bioportal-mcp
 - 📇 Drugs/chem: ChEMBL — JackKuo666-ChEMBL-MCP-Server · PubChem — cyanheads-pubchem-mcp-server / JackKuo666-PubChem-MCP-Server · pharmacology — longevity-genie-pharmacology-mcp
 - 📇 Oncology decisioning — Nexgene-Research-nexonco-mcp
+- 📇 **Monarch Initiative MCP** — nickzren/monarch-mcp — gene–disease–phenotype knowledge graph (HPO, Mondo, OMIM, Orphanet); rare-disease focus; active 2026-05
+- 📇 **PanelApp MCP** — berntpopp/panelapp-link — Genomics England PanelApp diagnostic gene panels & gene–disease ratings (UK + Australia); active 2026-08
 - 🌐 openFDA · EU CTIS/CTR · WHO ICTRP · EMA · HL7 FHIR · REDCap (public APIs; ⚠️ MCPs not confirmed)
 
 ### 🟡 Line 6 — Visualization & Figures
@@ -107,6 +113,8 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 ### ⚪ Line 8 — Orchestration & Lab Ops
 - ✅ Claude for Life Sciences marketplace — anthropics/life-sciences (install channel)
 - ✅ BioContextAI meta-layer — biocontext-ai-meta-mcp · -knowledgebase-mcp · -skill-to-mcp · -protocol-mcp · -registry
+- 📇 **GeneFoundry Router** — berntpopp/genefoundry-router — MCP gateway federating 21 biomedical servers (gnomAD, ClinVar, HPO, UniProt, VEP, PanelApp) behind one Streamable-HTTP endpoint; active 2026-08
+- 📇 **GrEBI** — EBISPOT/GrEBI — EBI HPC biomedical data-integration MCP, knowledge-graph aggregation for LLM-mediated queries; official EBISPOT org; active 2026-08
 - ✅ Codex / GPT-5.5 (already live) · workflows/subagents · schedule/cron
 
 ---

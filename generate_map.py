@@ -76,6 +76,8 @@ STATIONS = {
   "researchlookup":S("research-lookup","lit","live","Fast current-research lookup (Parallel/Perplexity) for facts & papers.","Skill: claude-scientific-writer:research-lookup."),
   "pubmedmcp":    S("PubMed MCP","lit","registry","Standalone PubMed search/fetch over MCP.","MCP: andybrandt/mcp-simple-pubmed or grll/pubmedmcp — confirm repo, add to config."),
   "gscholar":     S("Google Scholar MCP","lit","registry","Scholar search over MCP (no official API; scrapes).","MCP: JackKuo666/Google-Scholar-MCP-Server — confirm repo."),
+  "pubmedmcpfull":S("PubMed+EPMC MCP","lit","registry","PubMed & Europe PMC full-text search, citations, MeSH, Unpaywall — TypeScript STDIO/HTTP (141★).","MCP: cyanheads/pubmed-mcp-server — confirm repo, add to config.","https://github.com/cyanheads/pubmed-mcp-server"),
+  "pubcrawl":     S("PubCrawl MCP","lit","registry","Federated PubMed, Europe PMC, US/UK drug labelling & ClinicalTrials.gov over one MCP.","MCP: nickjlamb/pubcrawl — confirm repo, add to config.","https://github.com/nickjlamb/pubcrawl"),
   "wiley":        S("Wiley Scholar Gateway","lit","verified","Wiley full-text scholarly gateway (marketplace remote MCP).","Install via /plugin marketplace add anthropics/life-sciences."),
 
   # ====================================================== Genomic 🟢
@@ -106,6 +108,8 @@ STATIONS = {
   "cellosaurus":  S("Cellosaurus MCP","gen","registry","Cell-line knowledge resource.","MCP: biocontext-ai/unofficial-cellosaurus-mcp."),
   "biostudies":   S("BioStudies MCP","gen","registry","EBI BioStudies datasets & supplementary data.","MCP: EBIBioStudies/biostudies-mcp-server — confirm repo."),
   "gwas":         S("GWAS Catalog MCP","gen","registry","GWAS associations (also inside BioMCP).","MCP: koido/gwas-catalog-mcp — confirm repo."),
+  "gtexlink":     S("GTEx MCP","gen","registry","GTEx tissue-specific gene expression — median & per-sample TPM, top-expressed genes per tissue.","MCP: berntpopp/gtex-link — confirm repo, add to config.","https://github.com/berntpopp/gtex-link"),
+  "clingenlink":  S("ClinGen MCP","gen","registry","ClinGen gene–disease validity, dosage sensitivity, clinical actionability & variant pathogenicity (ERepo).","MCP: berntpopp/clingen-link — confirm repo, add to config.","https://github.com/berntpopp/clingen-link"),
 
   # ====================================================== Compute ⚫
   "python":       S("Python · scanpy/squidpy","comp","live","scanpy/squidpy/anndata for sc & spatial; pandas/numpy/scipy — all verified installed.","Bash + Python 3.12; Claude writes & runs the analysis now."),
@@ -158,6 +162,8 @@ STATIONS = {
   "pubchem":      S("PubChem MCP","clin","registry","Chemical structures, properties & bioassays.","MCP: cyanheads/pubchem-mcp-server."),
   "pharmacology": S("Pharmacology MCP","clin","registry","Guide to PHARMACOLOGY — targets & ligands.","MCP: longevity-genie/pharmacology-mcp."),
   "nexonco":      S("NexOnco MCP","clin","registry","Oncology clinical decisioning.","MCP: Nexgene-Research/nexonco-mcp."),
+  "monarchmcp":   S("Monarch Initiative MCP","clin","registry","Gene–disease–phenotype knowledge graph: HPO, Mondo, OMIM, Orphanet — rare-disease focus.","MCP: nickzren/monarch-mcp — confirm repo, add to config.","https://github.com/nickzren/monarch-mcp"),
+  "panelappmcp":  S("PanelApp MCP","clin","registry","Genomics England PanelApp diagnostic gene panels & gene–disease ratings (UK + Australia).","MCP: berntpopp/panelapp-link — confirm repo, add to config.","https://github.com/berntpopp/panelapp-link"),
 
   # ====================================================== Visualization 🟡
   "biorender":    S("BioRender","viz","live","Publication figures from a vast bio icon/template library.","MCP connected now — search icons & templates.","https://www.biorender.com"),
@@ -198,6 +204,8 @@ STATIONS = {
   "tooluniverse": S("ToolUniverse","ops","registry","Harvard MIMS aggregator — 200+ biomedical tools in one MCP.","MCP: mims-harvard/ToolUniverse.","https://github.com/mims-harvard/ToolUniverse"),
   "nar":          S("NAR DB Collection","ops","verified","2,173 curated molecular-biology databases (2026 issue) — the cross-check.","Reference index: academic.oup.com/nar.","https://academic.oup.com/nar/article/54/D1/D1/8402365"),
   "biomcp":       S("BioMCP","ops","verified","One server federating literature, variants, trials & cancer genomics.","MCP: genomoncology/biomcp — the single best biomedical addition.","https://github.com/genomoncology/biomcp"),
+  "genefoundry":  S("GeneFoundry Router","ops","registry","MCP gateway federating 21 biomedical servers (gnomAD, ClinVar, HPO, UniProt, VEP, PanelApp) behind one Streamable-HTTP endpoint.","MCP: berntpopp/genefoundry-router — confirm repo, add to config.","https://github.com/berntpopp/genefoundry-router"),
+  "grebi":        S("GrEBI (EBI)","ops","registry","EBI HPC biomedical data-integration MCP — knowledge-graph aggregation for LLM-mediated queries.","MCP: EBISPOT/GrEBI — confirm repo, add to config.","https://github.com/EBISPOT/GrEBI"),
 
   # ====================================================== Legal ⚖️
   "gdpr":        S("GDPR & data protection","legal","live","EU GDPR (2016/679): DPAs, transfers, Art. 89 research exemptions.","Reference module — cited to EUR-Lex; verify before relying.","https://eur-lex.europa.eu/eli/reg/2016/679/oj"),

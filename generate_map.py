@@ -106,6 +106,13 @@ STATIONS = {
   "cellosaurus":  S("Cellosaurus MCP","gen","registry","Cell-line knowledge resource.","MCP: biocontext-ai/unofficial-cellosaurus-mcp."),
   "biostudies":   S("BioStudies MCP","gen","registry","EBI BioStudies datasets & supplementary data.","MCP: EBIBioStudies/biostudies-mcp-server — confirm repo."),
   "gwas":         S("GWAS Catalog MCP","gen","registry","GWAS associations (also inside BioMCP).","MCP: koido/gwas-catalog-mcp — confirm repo."),
+  # ------ 2026-09-07 weekly discovery additions ------
+  "ebigwas":      S("EBI GWAS MCP","gen","verified","Official EBI GWAS Catalog MCP — NL queries of traits, studies & variant associations.","Remote MCP: ebi.ac.uk/gwas/mcp · self-host: github.com/ebispot/gwas-mcp.","https://github.com/ebispot/gwas-mcp"),
+  "sparqlllm":    S("SIB SPARQL-LLM","gen","verified","SIB Swiss SPARQL-LLM — SPARQL queries over ExPASy life-sciences linked-data endpoints.","Remote MCP: chat.expasy.org/mcp · self-host: github.com/sib-swiss/sparql-llm.","https://github.com/sib-swiss/sparql-llm"),
+  "bigquerybio":  S("BigQuery Biomedical","gen","registry","BigQuery-backed biomedical queries: OpenTargets, ChEMBL, AlphaFold, gnomAD, FDA, patents.","MCP: navisbio/mcp_bigquery_biomedical — requires Google Cloud auth, cost-guarded.","https://github.com/navisbio/mcp_bigquery_biomedical"),
+  "opengenes":    S("OpenGenes MCP","gen","registry","OpenGenes DB — aging & longevity genes, lifespan interventions & aging hallmarks (multi-organism).","MCP: longevity-genie/opengenes-mcp — SQL or NL queries over aging gene database.","https://github.com/longevity-genie/opengenes-mcp"),
+  "synergyage":   S("SynergyAge MCP","gen","registry","SynergyAge DB — synergistic genetic interventions affecting lifespan across model organisms.","MCP: longevity-genie/synergy-age-mcp — SQL access to validated longevity genetic synergy data.","https://github.com/longevity-genie/synergy-age-mcp"),
+  "flybase":      S("FlyBase MCP","gen","registry","FlyBase — gene summaries & Gene Ontology for Drosophila melanogaster.","MCP: sviatkh/flybase-mcp-server — gene summary and GO term retrieval via FlyBase REST.","https://github.com/sviatkh/flybase-mcp-server"),
 
   # ====================================================== Compute ⚫
   "python":       S("Python · scanpy/squidpy","comp","live","scanpy/squidpy/anndata for sc & spatial; pandas/numpy/scipy — all verified installed.","Bash + Python 3.12; Claude writes & runs the analysis now."),
@@ -129,6 +136,7 @@ STATIONS = {
   "omnipath":     S("OmniPath MCP","comp","registry","Signaling/regulatory networks (Saez lab).","MCP: saezlab/omnipath-next."),
   "biocypher":    S("BioCypher MCP","comp","registry","Build & query biomedical knowledge graphs.","MCP: biocypher/biocypher-mcp."),
   "gget":         S("gget MCP","comp","registry","Swiss-army genomics queries (Ensembl/UniProt/BLAST/…).","MCP: longevity-genie/gget-mcp."),
+  "scvimcp":      S("scvi-tools MCP","comp","registry","20+ tools for scvi-tools KB — model docs, tutorials, API refs & pretrained models.","MCP: YosefLab/scvi-tools-mcp — KB complement to the scvi-tools marketplace skill.","https://github.com/YosefLab/scvi-tools-mcp"),
 
   # ====================================================== Statistics 🔵
   "statsmodels":  S("statsmodels / scipy","stat","live","Regression, GLM, mixed models, hypothesis tests in Python.","Bash + Python; Claude writes the analysis."),
@@ -158,6 +166,8 @@ STATIONS = {
   "pubchem":      S("PubChem MCP","clin","registry","Chemical structures, properties & bioassays.","MCP: cyanheads/pubchem-mcp-server."),
   "pharmacology": S("Pharmacology MCP","clin","registry","Guide to PHARMACOLOGY — targets & ligands.","MCP: longevity-genie/pharmacology-mcp."),
   "nexonco":      S("NexOnco MCP","clin","registry","Oncology clinical decisioning.","MCP: Nexgene-Research/nexonco-mcp."),
+  "cortellis":    S("Cortellis","clin","verified","Clarivate drug regulatory intelligence: global submissions, approvals & guidance documents.","Marketplace remote MCP: /plugin install cortellis@life-sciences (subscription required).","https://github.com/anthropics/life-sciences"),
+  "adisinsight":  S("AdisInsight","clin","verified","Springer Nature drug pipeline intelligence: trials, safety, deals & development stages.","Marketplace remote MCP: /plugin install adisinsight@life-sciences (subscription required).","https://github.com/anthropics/life-sciences"),
 
   # ====================================================== Visualization 🟡
   "biorender":    S("BioRender","viz","live","Publication figures from a vast bio icon/template library.","MCP connected now — search icons & templates.","https://www.biorender.com"),
@@ -198,6 +208,7 @@ STATIONS = {
   "tooluniverse": S("ToolUniverse","ops","registry","Harvard MIMS aggregator — 200+ biomedical tools in one MCP.","MCP: mims-harvard/ToolUniverse.","https://github.com/mims-harvard/ToolUniverse"),
   "nar":          S("NAR DB Collection","ops","verified","2,173 curated molecular-biology databases (2026 issue) — the cross-check.","Reference index: academic.oup.com/nar.","https://academic.oup.com/nar/article/54/D1/D1/8402365"),
   "biomcp":       S("BioMCP","ops","verified","One server federating literature, variants, trials & cancer genomics.","MCP: genomoncology/biomcp — the single best biomedical addition.","https://github.com/genomoncology/biomcp"),
+  "askhelena":    S("Ask Helena MCP","ops","registry","Helena Bioinformatics public KB — bioinformatics search & reference queries (no-auth remote endpoint).","MCP: helena-bioinformatics/ask-helena-mcp · endpoint: api.helena.bio/ask/v1/mcp.","https://github.com/helena-bioinformatics/ask-helena-mcp"),
 
   # ====================================================== Legal ⚖️
   "gdpr":        S("GDPR & data protection","legal","live","EU GDPR (2016/679): DPAs, transfers, Art. 89 research exemptions.","Reference module — cited to EUR-Lex; verify before relying.","https://eur-lex.europa.eu/eli/reg/2016/679/oj"),

@@ -71,6 +71,12 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - 📇 Cellosaurus cell lines — biocontext-ai-unofficial-cellosaurus-mcp · 📇 BioStudies — EBIBioStudies-biostudies-mcp-server
 - 🌐 GDC/TCGA API (incl. /analysis/survival) — gdc.cancer.gov/developers (⚠️ no GDC MCP found)
 - 🌐 No-MCP-verified but public: UCSC, dbSNP/dbVar, ENCODE (use via API/browser)
+- ✅ **EBI GWAS MCP** (official EBI, live endpoint ebi.ac.uk/gwas/mcp) — github.com/ebispot/gwas-mcp · NL queries of traits, studies & variant–trait associations · Apache-2.0
+- ✅ **SIB SPARQL-LLM** (SIB Swiss Institute, live endpoint chat.expasy.org/mcp) — github.com/sib-swiss/sparql-llm · SPARQL query generation & execution over ExPASy life-sciences linked data
+- 📇 **BigQuery Biomedical** — navisbio/mcp_bigquery_biomedical · BigQuery over OpenTargets, ChEMBL, AlphaFold, gnomAD, FDA, patents (GCP auth required)
+- 📇 **OpenGenes MCP** — longevity-genie/opengenes-mcp · aging & longevity gene DB: lifespan interventions, aging hallmarks, longevity associations (multi-organism) · Bio×AI Hackathon 2025 winner
+- 📇 **SynergyAge MCP** — longevity-genie/synergy-age-mcp · synergistic genetic interventions affecting lifespan across model organisms
+- 📇 **FlyBase MCP** — sviatkh/flybase-mcp-server · gene summaries & GO terms for Drosophila melanogaster · Apache-2.0
 
 ### ⚫ Line 3 — Compute & Pipelines (incl. single-cell / spatial)
 - ✅ ChatSpatial (spatial, ~60 methods) — cafferychen777/ChatSpatial
@@ -81,6 +87,7 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - 📇 OmniPath networks (Saez lab) — saezlab-omnipath-next · 📇 BioCypher knowledge graphs — biocypher-biocypher-mcp
 - 📇 ToolUniverse (Harvard MIMS, 200+ tools aggregator) — mims-harvard-ToolUniverse · 📇 gget — longevity-genie-gget-mcp
 - ✅ Marketplace skills: single-cell-rna-qc, nextflow-development (nf-core), scvi-tools — anthropics/life-sciences
+- 📇 **scvi-tools MCP** — YosefLab/scvi-tools-mcp · 20+ tools for scvi-tools knowledge base (model docs, tutorials, API refs, pretrained models) · BSD-3 · complements the marketplace skill
 - Local (already installed): Python+scanpy/squidpy/anndata ✓ · R 4.5 ✓ (add Seurat/DESeq2 via BiocManager)
 
 ### 🔵 Line 4 — Statistics & Trial Design
@@ -94,6 +101,8 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - 📇 Ontologies: OLS4 (EBI) — EBISPOT-ols4 · BioPortal (SNOMED/UMLS etc.) — ncbo-bioportal-mcp
 - 📇 Drugs/chem: ChEMBL — JackKuo666-ChEMBL-MCP-Server · PubChem — cyanheads-pubchem-mcp-server / JackKuo666-PubChem-MCP-Server · pharmacology — longevity-genie-pharmacology-mcp
 - 📇 Oncology decisioning — Nexgene-Research-nexonco-mcp
+- ✅ **Cortellis** (Clarivate, marketplace) — plugin install cortellis@life-sciences · drug regulatory intelligence: global submissions, approvals & guidance (subscription required)
+- ✅ **AdisInsight** (Springer Nature, marketplace) — plugin install adisinsight@life-sciences · drug pipeline: trials, safety, deals & development stages (subscription required)
 - 🌐 openFDA · EU CTIS/CTR · WHO ICTRP · EMA · HL7 FHIR · REDCap (public APIs; ⚠️ MCPs not confirmed)
 
 ### 🟡 Line 6 — Visualization & Figures
@@ -108,6 +117,7 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - ✅ Claude for Life Sciences marketplace — anthropics/life-sciences (install channel)
 - ✅ BioContextAI meta-layer — biocontext-ai-meta-mcp · -knowledgebase-mcp · -skill-to-mcp · -protocol-mcp · -registry
 - ✅ Codex / GPT-5.5 (already live) · workflows/subagents · schedule/cron
+- 📇 **Ask Helena MCP** — helena-bioinformatics/ask-helena-mcp · Helena Bioinformatics public KB for bioinformatics search & reference (no-auth remote endpoint api.helena.bio/ask/v1/mcp) · Apache-2.0
 
 ---
 

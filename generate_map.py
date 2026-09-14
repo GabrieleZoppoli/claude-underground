@@ -76,6 +76,9 @@ STATIONS = {
   "researchlookup":S("research-lookup","lit","live","Fast current-research lookup (Parallel/Perplexity) for facts & papers.","Skill: claude-scientific-writer:research-lookup."),
   "pubmedmcp":    S("PubMed MCP","lit","registry","Standalone PubMed search/fetch over MCP.","MCP: andybrandt/mcp-simple-pubmed or grll/pubmedmcp — confirm repo, add to config."),
   "gscholar":     S("Google Scholar MCP","lit","registry","Scholar search over MCP (no official API; scrapes).","MCP: JackKuo666/Google-Scholar-MCP-Server — confirm repo."),
+  "biorxivmcp":   S("bioRxiv/medRxiv MCP","lit","registry","Search and retrieve bioRxiv and medRxiv preprints by DOI, date interval, or keyword.","MCP: cyanheads/biorxiv-mcp-server — confirm repo, add to config.","https://github.com/cyanheads/biorxiv-mcp-server"),
+  "pubcrawl":     S("pubcrawl MCP","lit","registry","Multi-source pharma-research MCP — PubMed, Europe PMC, FDA drug labelling & ClinicalTrials.gov.","MCP: nickjlamb/pubcrawl (PharmaTools.AI) — confirm repo, add to config.","https://github.com/nickjlamb/pubcrawl"),
+  "litvarmcp":    S("LitVar2 MCP","lit","registry","NCBI LitVar2 — search biomedical literature by genetic variant (links variants to publications).","MCP: berntpopp/litvar-link — add to config.","https://github.com/berntpopp/litvar-link"),
   "wiley":        S("Wiley Scholar Gateway","lit","verified","Wiley full-text scholarly gateway (marketplace remote MCP).","Install via /plugin marketplace add anthropics/life-sciences."),
 
   # ====================================================== Genomic 🟢
@@ -106,6 +109,9 @@ STATIONS = {
   "cellosaurus":  S("Cellosaurus MCP","gen","registry","Cell-line knowledge resource.","MCP: biocontext-ai/unofficial-cellosaurus-mcp."),
   "biostudies":   S("BioStudies MCP","gen","registry","EBI BioStudies datasets & supplementary data.","MCP: EBIBioStudies/biostudies-mcp-server — confirm repo."),
   "gwas":         S("GWAS Catalog MCP","gen","registry","GWAS associations (also inside BioMCP).","MCP: koido/gwas-catalog-mcp — confirm repo."),
+  "clingen":      S("ClinGen MCP","gen","registry","Gene–disease validity, dosage sensitivity, clinical actionability & expert variant pathogenicity (ClinGen ERepo).","MCP: berntpopp/clingen-link — add to config.","https://github.com/berntpopp/clingen-link"),
+  "gtexmcp":      S("GTEx MCP","gen","registry","Tissue-specific gene expression (median + per-sample TPM) across 54 GTEx tissues.","MCP: berntpopp/gtex-link — add to config.","https://github.com/berntpopp/gtex-link"),
+  "monarchmcp":   S("Monarch Initiative MCP","gen","registry","Gene–disease–phenotype associations and cross-species orthology (Monarch Initiative).","MCP: nickzren/monarch-mcp — confirm repo, add to config.","https://github.com/nickzren/monarch-mcp"),
 
   # ====================================================== Compute ⚫
   "python":       S("Python · scanpy/squidpy","comp","live","scanpy/squidpy/anndata for sc & spatial; pandas/numpy/scipy — all verified installed.","Bash + Python 3.12; Claude writes & runs the analysis now."),
@@ -129,6 +135,7 @@ STATIONS = {
   "omnipath":     S("OmniPath MCP","comp","registry","Signaling/regulatory networks (Saez lab).","MCP: saezlab/omnipath-next."),
   "biocypher":    S("BioCypher MCP","comp","registry","Build & query biomedical knowledge graphs.","MCP: biocypher/biocypher-mcp."),
   "gget":         S("gget MCP","comp","registry","Swiss-army genomics queries (Ensembl/UniProt/BLAST/…).","MCP: longevity-genie/gget-mcp."),
+  "hicmcp":       S("Hi-C MCP","comp","registry","Hi-C / 3D-chromatin analysis via open2c stack (cooler/cooltools) over local .mcool files.","MCP: javrodriguez/hic-mcp — local MCP for Hi-C data; add to config.","https://github.com/javrodriguez/hic-mcp"),
 
   # ====================================================== Statistics 🔵
   "statsmodels":  S("statsmodels / scipy","stat","live","Regression, GLM, mixed models, hypothesis tests in Python.","Bash + Python; Claude writes the analysis."),
@@ -196,6 +203,8 @@ STATIONS = {
   "biocontextai": S("BioContextAI Registry","ops","verified","Nature-Biotech-backed index of ~60 biomedical MCP servers.","Browse biocontext.ai/registry · github.com/biocontext-ai/registry.","https://biocontext.ai/registry"),
   "biocontextmeta":S("BioContextAI meta-MCP","ops","verified","Meta layer: knowledgebase / skill-to-mcp / protocol / registry servers.","github.com/biocontext-ai — add the meta server to your config."),
   "tooluniverse": S("ToolUniverse","ops","registry","Harvard MIMS aggregator — 200+ biomedical tools in one MCP.","MCP: mims-harvard/ToolUniverse.","https://github.com/mims-harvard/ToolUniverse"),
+  "genefoundry":  S("GeneFoundry Router","ops","registry","MCP gateway federating 21 genomic/clinical servers (gnomAD, ClinVar, HPO, UniProt, VEP, PanelApp…) behind one Streamable-HTTP endpoint.","MCP: berntpopp/genefoundry-router — wire once to access 21 sources.","https://github.com/berntpopp/genefoundry-router"),
+  "grebi":        S("GrEBI (EBI SPOT)","ops","registry","EMBL-EBI SPOT official HPC aggregation + API/MCP for LLM-mediated biomedical data integration.","MCP: EBISPOT/GrEBI — official EMBL-EBI SPOT server; add to config.","https://github.com/EBISPOT/GrEBI"),
   "nar":          S("NAR DB Collection","ops","verified","2,173 curated molecular-biology databases (2026 issue) — the cross-check.","Reference index: academic.oup.com/nar.","https://academic.oup.com/nar/article/54/D1/D1/8402365"),
   "biomcp":       S("BioMCP","ops","verified","One server federating literature, variants, trials & cancer genomics.","MCP: genomoncology/biomcp — the single best biomedical addition.","https://github.com/genomoncology/biomcp"),
 

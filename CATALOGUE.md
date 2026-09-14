@@ -55,6 +55,9 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - 📇 Google Scholar MCP — JackKuo666-Google-Scholar-MCP-Server
 - ✅ Marketplace: PubMed (no-auth), Wiley Scholar Gateway, Consensus — anthropics/life-sciences
 - 🌐 Europe PMC API · Semantic Scholar API (both public; ⚠️ standalone MCPs not separately confirmed)
+- 📇 bioRxiv/medRxiv MCP — cyanheads/biorxiv-mcp-server (search preprints by DOI/date/keyword)
+- 📇 pubcrawl MCP (PharmaTools.AI) — nickjlamb/pubcrawl (PubMed + EuropePMC + FDA drug labels + CTG)
+- 📇 LitVar2 MCP — berntpopp/litvar-link (search biomedical lit by genetic variant via NCBI LitVar2)
 
 ### 🟢 Line 2 — Genomic Data & Sequencing
 - ✅ BioMCP (variants: MyVariant/ClinVar/gnomAD/CIViC/OncoKB/GWAS) — genomoncology/biomcp
@@ -66,6 +69,9 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - 📇 NCBI MCP — noahzeidenberg-ncbi-mcp · 📇 BioMart — jzinno-biomart-mcp · 📇 biobtree (ID map) — tamerh-biobtree
 - 📇 GWAS Catalog — koido-gwas-catalog-mcp · 📇 HGNC nomenclature — armish-hgnc.mcp
 - 📇 VEP — not-a-feature-VEPmcp · 📇 Evo2 genomic LM — not-a-feature-evo2-mcp
+- 📇 ClinGen MCP — berntpopp/clingen-link (gene–disease validity, dosage sensitivity, actionability, ERepo pathogenicity)
+- 📇 GTEx MCP — berntpopp/gtex-link (tissue-specific gene expression, 54 tissues, median + per-sample TPM)
+- 📇 Monarch Initiative MCP — nickzren/monarch-mcp (gene–disease–phenotype + cross-species orthology)
 - 📇 BioThings (MyGene/MyVariant) — Augmented-Nature-BioThings-MCP-Server · longevity-genie-biothings-mcp
 - 📇 InterPro — bio-mcp-interpro · 📇 RNAcentral — RNAcentral-rnacentral-mcp-server · 📇 PDBe structures — PDBeurope-PDBe-MCP-Servers
 - 📇 Cellosaurus cell lines — biocontext-ai-unofficial-cellosaurus-mcp · 📇 BioStudies — EBIBioStudies-biostudies-mcp-server
@@ -77,6 +83,7 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - ✅ SCMCP (scRNA-seq, scverse) — scmcphub/scmcp
 - 📇 AnnData MCP — biocontext-ai-anndata-mcp · 📇 CELLxGENE Census MCP — MaxMLang-cxg-census-mcp
 - 📇 Galaxy MCP — galaxyproject-galaxy-mcp · 📇 Enrichr enrichment — tianqitang1-enrichr-mcp-server
+- 📇 Hi-C MCP — javrodriguez/hic-mcp (3D-chromatin analysis via open2c cooler/cooltools over .mcool files)
 - 📇 STRING (PPI) — meringlab-string-mcp · 📇 Reactome (pathways) — Augmented-Nature-Reactome-MCP-Server
 - 📇 OmniPath networks (Saez lab) — saezlab-omnipath-next · 📇 BioCypher knowledge graphs — biocypher-biocypher-mcp
 - 📇 ToolUniverse (Harvard MIMS, 200+ tools aggregator) — mims-harvard-ToolUniverse · 📇 gget — longevity-genie-gget-mcp
@@ -108,6 +115,8 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - ✅ Claude for Life Sciences marketplace — anthropics/life-sciences (install channel)
 - ✅ BioContextAI meta-layer — biocontext-ai-meta-mcp · -knowledgebase-mcp · -skill-to-mcp · -protocol-mcp · -registry
 - ✅ Codex / GPT-5.5 (already live) · workflows/subagents · schedule/cron
+- 📇 GeneFoundry Router — berntpopp/genefoundry-router (MCP gateway federating 21 genomic/clinical servers: gnomAD, ClinVar, HPO, UniProt, VEP, PanelApp…)
+- 📇 GrEBI (EBI SPOT) — EBISPOT/GrEBI (official EMBL-EBI SPOT HPC aggregation + API/MCP for LLM-mediated biomedical data integration)
 
 ---
 

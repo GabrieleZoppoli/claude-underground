@@ -55,6 +55,8 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - 📇 Google Scholar MCP — JackKuo666-Google-Scholar-MCP-Server
 - ✅ Marketplace: PubMed (no-auth), Wiley Scholar Gateway, Consensus — anthropics/life-sciences
 - 🌐 Europe PMC API · Semantic Scholar API (both public; ⚠️ standalone MCPs not separately confirmed)
+- 📇 PubMed MCP (cyanheads, 148★) — cyanheads/pubmed-mcp-server (TypeScript; PubMed + Europe PMC + full text + Unpaywall + MeSH)
+- 📇 bioRxiv/medRxiv MCP — cyanheads/biorxiv-mcp-server (search preprints by DOI, date or keyword; 6 tools, STDIO or HTTP)
 
 ### 🟢 Line 2 — Genomic Data & Sequencing
 - ✅ BioMCP (variants: MyVariant/ClinVar/gnomAD/CIViC/OncoKB/GWAS) — genomoncology/biomcp
@@ -71,6 +73,9 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - 📇 Cellosaurus cell lines — biocontext-ai-unofficial-cellosaurus-mcp · 📇 BioStudies — EBIBioStudies-biostudies-mcp-server
 - 🌐 GDC/TCGA API (incl. /analysis/survival) — gdc.cancer.gov/developers (⚠️ no GDC MCP found)
 - 🌐 No-MCP-verified but public: UCSC, dbSNP/dbVar, ENCODE (use via API/browser)
+- 📇 gnomAD MCP — cyanheads/gnomad-genetics-mcp-server (allele freqs, LoF constraint & coverage joined with ClinVar significance)
+- 📇 LitVar2 MCP — berntpopp/litvar-link (NCBI LitVar2: variant → biomedical literature index)
+- 📇 GrEBI (EBI) — EBISPOT/GrEBI (EMBL-EBI knowledge-graph aggregation pipeline + MCP/API server, MONARCH integration)
 
 ### ⚫ Line 3 — Compute & Pipelines (incl. single-cell / spatial)
 - ✅ ChatSpatial (spatial, ~60 methods) — cafferychen777/ChatSpatial
@@ -94,6 +99,7 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - 📇 Ontologies: OLS4 (EBI) — EBISPOT-ols4 · BioPortal (SNOMED/UMLS etc.) — ncbo-bioportal-mcp
 - 📇 Drugs/chem: ChEMBL — JackKuo666-ChEMBL-MCP-Server · PubChem — cyanheads-pubchem-mcp-server / JackKuo666-PubChem-MCP-Server · pharmacology — longevity-genie-pharmacology-mcp
 - 📇 Oncology decisioning — Nexgene-Research-nexonco-mcp
+- 📇 PubCrawl — nickjlamb/pubcrawl (PubMed + Europe PMC + US/UK drug labelling + ClinicalTrials.gov; by PharmaTools.AI)
 - 🌐 openFDA · EU CTIS/CTR · WHO ICTRP · EMA · HL7 FHIR · REDCap (public APIs; ⚠️ MCPs not confirmed)
 
 ### 🟡 Line 6 — Visualization & Figures
@@ -108,6 +114,7 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - ✅ Claude for Life Sciences marketplace — anthropics/life-sciences (install channel)
 - ✅ BioContextAI meta-layer — biocontext-ai-meta-mcp · -knowledgebase-mcp · -skill-to-mcp · -protocol-mcp · -registry
 - ✅ Codex / GPT-5.5 (already live) · workflows/subagents · schedule/cron
+- 📇 GeneFoundry Router — berntpopp/genefoundry-router (federated gateway: 285 tools across 22 biomedical MCP servers, BM25 tool search, namespaced, Streamable-HTTP)
 
 ---
 

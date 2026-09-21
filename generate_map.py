@@ -77,6 +77,8 @@ STATIONS = {
   "pubmedmcp":    S("PubMed MCP","lit","registry","Standalone PubMed search/fetch over MCP.","MCP: andybrandt/mcp-simple-pubmed or grll/pubmedmcp — confirm repo, add to config."),
   "gscholar":     S("Google Scholar MCP","lit","registry","Scholar search over MCP (no official API; scrapes).","MCP: JackKuo666/Google-Scholar-MCP-Server — confirm repo."),
   "wiley":        S("Wiley Scholar Gateway","lit","verified","Wiley full-text scholarly gateway (marketplace remote MCP).","Install via /plugin marketplace add anthropics/life-sciences."),
+  "pubmedmcp2":   S("PubMed MCP (cyanheads)","lit","registry","PubMed + Europe PMC full-text, MeSH, citations & Unpaywall via MCP (148★ TypeScript).","MCP: cyanheads/pubmed-mcp-server — confirm repo, add to config.","https://github.com/cyanheads/pubmed-mcp-server"),
+  "biorxivmcp":   S("bioRxiv/medRxiv MCP","lit","registry","Search & retrieve preprints by DOI, date or keyword across bioRxiv & medRxiv via MCP.","MCP: cyanheads/biorxiv-mcp-server — confirm repo, add to config.","https://github.com/cyanheads/biorxiv-mcp-server"),
 
   # ====================================================== Genomic 🟢
   "synapse":      S("Synapse.org","gen","live","Sage Bionetworks repository — controlled-access cohorts, consortium data.","MCP connected now — search & pull datasets (auth for controlled access).","https://www.synapse.org"),
@@ -106,6 +108,9 @@ STATIONS = {
   "cellosaurus":  S("Cellosaurus MCP","gen","registry","Cell-line knowledge resource.","MCP: biocontext-ai/unofficial-cellosaurus-mcp."),
   "biostudies":   S("BioStudies MCP","gen","registry","EBI BioStudies datasets & supplementary data.","MCP: EBIBioStudies/biostudies-mcp-server — confirm repo."),
   "gwas":         S("GWAS Catalog MCP","gen","registry","GWAS associations (also inside BioMCP).","MCP: koido/gwas-catalog-mcp — confirm repo."),
+  "gnomadmcp":    S("gnomAD MCP","gen","registry","gnomAD allele frequencies, LoF constraint & coverage joined with ClinVar significance.","MCP: cyanheads/gnomad-genetics-mcp-server — confirm repo, add to config.","https://github.com/cyanheads/gnomad-genetics-mcp-server"),
+  "litvar":       S("LitVar2 MCP","gen","registry","NCBI LitVar2: index linking genetic variants to the biomedical publications that mention them.","MCP: berntpopp/litvar-link — confirm repo, add to config.","https://github.com/berntpopp/litvar-link"),
+  "grebi":        S("GrEBI (EBI)","gen","registry","EBI knowledge-graph server integrating EMBL-EBI & MONARCH biomedical data via MCP/API.","MCP/API: EBISPOT/GrEBI — dev endpoint wwwdev.ebi.ac.uk/kg — confirm before wiring.","https://github.com/EBISPOT/GrEBI"),
 
   # ====================================================== Compute ⚫
   "python":       S("Python · scanpy/squidpy","comp","live","scanpy/squidpy/anndata for sc & spatial; pandas/numpy/scipy — all verified installed.","Bash + Python 3.12; Claude writes & runs the analysis now."),
@@ -158,6 +163,7 @@ STATIONS = {
   "pubchem":      S("PubChem MCP","clin","registry","Chemical structures, properties & bioassays.","MCP: cyanheads/pubchem-mcp-server."),
   "pharmacology": S("Pharmacology MCP","clin","registry","Guide to PHARMACOLOGY — targets & ligands.","MCP: longevity-genie/pharmacology-mcp."),
   "nexonco":      S("NexOnco MCP","clin","registry","Oncology clinical decisioning.","MCP: Nexgene-Research/nexonco-mcp."),
+  "pubcrawl":     S("PubCrawl MCP","clin","registry","PubMed + Europe PMC + US/UK drug labels + ClinicalTrials.gov in one MCP (PharmaTools.AI).","MCP: nickjlamb/pubcrawl — confirm repo, add to config.","https://github.com/nickjlamb/pubcrawl"),
 
   # ====================================================== Visualization 🟡
   "biorender":    S("BioRender","viz","live","Publication figures from a vast bio icon/template library.","MCP connected now — search icons & templates.","https://www.biorender.com"),
@@ -198,6 +204,7 @@ STATIONS = {
   "tooluniverse": S("ToolUniverse","ops","registry","Harvard MIMS aggregator — 200+ biomedical tools in one MCP.","MCP: mims-harvard/ToolUniverse.","https://github.com/mims-harvard/ToolUniverse"),
   "nar":          S("NAR DB Collection","ops","verified","2,173 curated molecular-biology databases (2026 issue) — the cross-check.","Reference index: academic.oup.com/nar.","https://academic.oup.com/nar/article/54/D1/D1/8402365"),
   "biomcp":       S("BioMCP","ops","verified","One server federating literature, variants, trials & cancer genomics.","MCP: genomoncology/biomcp — the single best biomedical addition.","https://github.com/genomoncology/biomcp"),
+  "gfrouter":     S("GeneFoundry Router","ops","registry","Federated gateway aggregating 285 tools across 22 biomedical MCP servers (gnomAD/HPO/VEP/UniProt/…).","MCP: berntpopp/genefoundry-router — Streamable-HTTP endpoint, research use only.","https://github.com/berntpopp/genefoundry-router"),
 
   # ====================================================== Legal ⚖️
   "gdpr":        S("GDPR & data protection","legal","live","EU GDPR (2016/679): DPAs, transfers, Art. 89 research exemptions.","Reference module — cited to EUR-Lex; verify before relying.","https://eur-lex.europa.eu/eli/reg/2016/679/oj"),

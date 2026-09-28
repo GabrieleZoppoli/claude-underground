@@ -77,6 +77,14 @@ STATIONS = {
   "pubmedmcp":    S("PubMed MCP","lit","registry","Standalone PubMed search/fetch over MCP.","MCP: andybrandt/mcp-simple-pubmed or grll/pubmedmcp — confirm repo, add to config."),
   "gscholar":     S("Google Scholar MCP","lit","registry","Scholar search over MCP (no official API; scrapes).","MCP: JackKuo666/Google-Scholar-MCP-Server — confirm repo."),
   "wiley":        S("Wiley Scholar Gateway","lit","verified","Wiley full-text scholarly gateway (marketplace remote MCP).","Install via /plugin marketplace add anthropics/life-sciences."),
+  "pubmedmcp_cy": S("PubMed-EuropePMC MCP","lit","registry","NCBI E-utilities + EuropePMC + Unpaywall + MeSH full-text — STDIO/HTTP (cyanheads, 150 stars).","MCP: cyanheads/pubmed-mcp-server — confirm, add to config.","https://github.com/cyanheads/pubmed-mcp-server"),
+  "pubcrawl":     S("PubCrawl","lit","registry","PubMed · EuropePMC · US/UK drug labelling · ClinTrials.gov federated MCP (PharmaTools.AI).","MCP: nickjlamb/pubcrawl — confirm, add to config.","https://github.com/nickjlamb/pubcrawl"),
+  "pubtatorlink": S("PubTator Link","lit","registry","NCBI PubTator3 — biomedical literature with gene/variant/disease/chemical entity annotation.","MCP: berntpopp/pubtator-link — confirm, add to config.","https://github.com/berntpopp/pubtator-link"),
+  "litvarlink":   S("LitVar Link","gen","registry","NCBI LitVar2 — variant-to-literature index; find papers that mention a specific genetic variant.","MCP: berntpopp/litvar-link — confirm, add to config.","https://github.com/berntpopp/litvar-link"),
+  "autopvs1link": S("AutoPVS1 Link","clin","registry","ACMG PVS1 loss-of-function evidence scoring for sequence variants and CNVs.","MCP: berntpopp/autopvs1-link — confirm, add to config.","https://github.com/berntpopp/autopvs1-link"),
+  "genefdyrtr":   S("GeneFoundry Router","ops","registry","Gateway federating 21 biomedical MCPs (gnomAD, ClinVar, HPO, UniProt, VEP, PanelApp …) behind one HTTP endpoint.","MCP: berntpopp/genefoundry-router — confirm, add to config.","https://github.com/berntpopp/genefoundry-router"),
+  "grebi":        S("GrEBI","ops","registry","EBI HPC aggregation pipeline + MCP/API for LLM-mediated biomedical data integration (neo4j, ontologies, knowledge graphs).","MCP: EBISPOT/GrEBI — confirm, add to config.","https://github.com/EBISPOT/GrEBI"),
+  "amassmcp":     S("Amass MCP","clin","registry","Drug-discovery · clinical-trials · life-sciences remote MCP endpoint (mcp.amass.tech/mcp).","Remote MCP: amass-technologies/amass-mcp — add endpoint to config.","https://github.com/amass-technologies/amass-mcp"),
 
   # ====================================================== Genomic 🟢
   "synapse":      S("Synapse.org","gen","live","Sage Bionetworks repository — controlled-access cohorts, consortium data.","MCP connected now — search & pull datasets (auth for controlled access).","https://www.synapse.org"),

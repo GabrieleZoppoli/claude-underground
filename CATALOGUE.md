@@ -52,6 +52,9 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 ### 🔴 Line 1 — Literature & Evidence
 - ✅ BioMCP (lit federation: PubMed/PubTator3/Europe PMC/Semantic Scholar) — genomoncology/biomcp
 - 📇 PubMed MCPs — andybrandt-mcp-simple-pubmed · grll-pubmedmcp
+- 📇 **PubMed-EuropePMC MCP** — cyanheads/pubmed-mcp-server (150 ★; E-utilities + EuropePMC + Unpaywall + MeSH; STDIO/HTTP) [2026-09-28]
+- 📇 **PubCrawl** — nickjlamb/pubcrawl (PubMed · EuropePMC · US/UK drug labelling · ClinTrials.gov federated; PharmaTools.AI) [2026-09-28]
+- 📇 **PubTator Link** — berntpopp/pubtator-link (NCBI PubTator3 — literature with gene/variant/disease/chemical entity annotation) [2026-09-28]
 - 📇 Google Scholar MCP — JackKuo666-Google-Scholar-MCP-Server
 - ✅ Marketplace: PubMed (no-auth), Wiley Scholar Gateway, Consensus — anthropics/life-sciences
 - 🌐 Europe PMC API · Semantic Scholar API (both public; ⚠️ standalone MCPs not separately confirmed)
@@ -65,6 +68,7 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - 📇 UniProt MCP — TakumiY235-uniprot-mcp-server · 🌐 uniprot.org/help/api_queries
 - 📇 NCBI MCP — noahzeidenberg-ncbi-mcp · 📇 BioMart — jzinno-biomart-mcp · 📇 biobtree (ID map) — tamerh-biobtree
 - 📇 GWAS Catalog — koido-gwas-catalog-mcp · 📇 HGNC nomenclature — armish-hgnc.mcp
+- 📇 **LitVar Link** — berntpopp/litvar-link (NCBI LitVar2 — variant-to-literature index; find papers mentioning a specific genetic variant) [2026-09-28]
 - 📇 VEP — not-a-feature-VEPmcp · 📇 Evo2 genomic LM — not-a-feature-evo2-mcp
 - 📇 BioThings (MyGene/MyVariant) — Augmented-Nature-BioThings-MCP-Server · longevity-genie-biothings-mcp
 - 📇 InterPro — bio-mcp-interpro · 📇 RNAcentral — RNAcentral-rnacentral-mcp-server · 📇 PDBe structures — PDBeurope-PDBe-MCP-Servers
@@ -94,6 +98,8 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - 📇 Ontologies: OLS4 (EBI) — EBISPOT-ols4 · BioPortal (SNOMED/UMLS etc.) — ncbo-bioportal-mcp
 - 📇 Drugs/chem: ChEMBL — JackKuo666-ChEMBL-MCP-Server · PubChem — cyanheads-pubchem-mcp-server / JackKuo666-PubChem-MCP-Server · pharmacology — longevity-genie-pharmacology-mcp
 - 📇 Oncology decisioning — Nexgene-Research-nexonco-mcp
+- 📇 **AutoPVS1 Link** — berntpopp/autopvs1-link (ACMG PVS1 loss-of-function evidence scoring for sequence variants and CNVs) [2026-09-28]
+- 📇 **Amass MCP** — amass-technologies/amass-mcp (drug-discovery · clinical-trials · life-sciences; remote endpoint mcp.amass.tech/mcp) [2026-09-28]
 - 🌐 openFDA · EU CTIS/CTR · WHO ICTRP · EMA · HL7 FHIR · REDCap (public APIs; ⚠️ MCPs not confirmed)
 
 ### 🟡 Line 6 — Visualization & Figures
@@ -107,6 +113,8 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 ### ⚪ Line 8 — Orchestration & Lab Ops
 - ✅ Claude for Life Sciences marketplace — anthropics/life-sciences (install channel)
 - ✅ BioContextAI meta-layer — biocontext-ai-meta-mcp · -knowledgebase-mcp · -skill-to-mcp · -protocol-mcp · -registry
+- 📇 **GeneFoundry Router** — berntpopp/genefoundry-router (gateway federating 21 biomedical MCPs: gnomAD, ClinVar, HPO, UniProt, VEP, PanelApp … behind one Streamable-HTTP endpoint with BM25 tool search) [2026-09-28]
+- 📇 **GrEBI** — EBISPOT/GrEBI (EBI HPC aggregation pipeline + MCP/API for LLM-mediated biomedical data integration; neo4j, ontologies, knowledge graphs) [2026-09-28]
 - ✅ Codex / GPT-5.5 (already live) · workflows/subagents · schedule/cron
 
 ---

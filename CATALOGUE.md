@@ -52,6 +52,8 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 ### 🔴 Line 1 — Literature & Evidence
 - ✅ BioMCP (lit federation: PubMed/PubTator3/Europe PMC/Semantic Scholar) — genomoncology/biomcp
 - 📇 PubMed MCPs — andybrandt-mcp-simple-pubmed · grll-pubmedmcp
+- 📇 **PubMed+EuropePMC MCP** (153 ★, full-text via PMC/Unpaywall, citations, MeSH) — cyanheads-pubmed-mcp-server
+- 📇 **GeneReviews MCP** (expert gene–disease chapters, NCBI Bookshelf, searchable passages) — berntpopp-genereviews-link
 - 📇 Google Scholar MCP — JackKuo666-Google-Scholar-MCP-Server
 - ✅ Marketplace: PubMed (no-auth), Wiley Scholar Gateway, Consensus — anthropics/life-sciences
 - 🌐 Europe PMC API · Semantic Scholar API (both public; ⚠️ standalone MCPs not separately confirmed)
@@ -69,6 +71,9 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - 📇 BioThings (MyGene/MyVariant) — Augmented-Nature-BioThings-MCP-Server · longevity-genie-biothings-mcp
 - 📇 InterPro — bio-mcp-interpro · 📇 RNAcentral — RNAcentral-rnacentral-mcp-server · 📇 PDBe structures — PDBeurope-PDBe-MCP-Servers
 - 📇 Cellosaurus cell lines — biocontext-ai-unofficial-cellosaurus-mcp · 📇 BioStudies — EBIBioStudies-biostudies-mcp-server
+- 📇 **ClinGen MCP** (gene–disease validity, dosage sensitivity, clinical actionability, ERepo) — berntpopp-clingen-link
+- 📇 **MaveDB MCP** (variant-effect scores from deep mutational scanning / MAVE assays) — berntpopp-mavedb-link
+- 📇 **GeneFoundry Router** (federation gateway for 21 clinical-genomics servers: gnomAD, ClinVar, HPO, UniProt, VEP, PanelApp) — berntpopp-genefoundry-router
 - 🌐 GDC/TCGA API (incl. /analysis/survival) — gdc.cancer.gov/developers (⚠️ no GDC MCP found)
 - 🌐 No-MCP-verified but public: UCSC, dbSNP/dbVar, ENCODE (use via API/browser)
 
@@ -94,6 +99,9 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - 📇 Ontologies: OLS4 (EBI) — EBISPOT-ols4 · BioPortal (SNOMED/UMLS etc.) — ncbo-bioportal-mcp
 - 📇 Drugs/chem: ChEMBL — JackKuo666-ChEMBL-MCP-Server · PubChem — cyanheads-pubchem-mcp-server / JackKuo666-PubChem-MCP-Server · pharmacology — longevity-genie-pharmacology-mcp
 - 📇 Oncology decisioning — Nexgene-Research-nexonco-mcp
+- 📇 **HPO MCP** (Human Phenotype Ontology: term lookup, hierarchy, gene–phenotype–disease assoc.) — berntpopp-hpo-link
+- 📇 **Mondo Disease Ontology MCP** (disease term lookup, cross-ontology mapping: OMIM/Orphanet/DOID/NCIT/MeSH) — berntpopp-mondo-link
+- 📇 **Monarch Initiative MCP** (phenotype–gene–disease knowledge graph, rare-disease focus: HPO/MONDO/OMIM/Orphanet) — nickzren-monarch-mcp
 - 🌐 openFDA · EU CTIS/CTR · WHO ICTRP · EMA · HL7 FHIR · REDCap (public APIs; ⚠️ MCPs not confirmed)
 
 ### 🟡 Line 6 — Visualization & Figures

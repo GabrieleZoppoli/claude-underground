@@ -75,6 +75,8 @@ STATIONS = {
   "litreview":    S("literature-review","lit","live","Systematic reviews across PubMed/arXiv/bioRxiv/Semantic Scholar (PRISMA).","Skill: claude-scientific-writer:literature-review."),
   "researchlookup":S("research-lookup","lit","live","Fast current-research lookup (Parallel/Perplexity) for facts & papers.","Skill: claude-scientific-writer:research-lookup."),
   "pubmedmcp":    S("PubMed MCP","lit","registry","Standalone PubMed search/fetch over MCP.","MCP: andybrandt/mcp-simple-pubmed or grll/pubmedmcp — confirm repo, add to config."),
+  "cyanheadspubmed": S("PubMed+EuropePMC MCP","lit","registry","PubMed & Europe PMC with full text (PMC/Unpaywall), citations & MeSH — 153 stars, actively maintained.","MCP: cyanheads/pubmed-mcp-server — confirm repo, add to config.","https://github.com/cyanheads/pubmed-mcp-server"),
+  "genereviewslink": S("GeneReviews MCP","lit","registry","Expert-authored gene–disease chapters (NCBI Bookshelf) as searchable citable passages.","MCP: berntpopp/genereviews-link — confirm repo.","https://github.com/berntpopp/genereviews-link"),
   "gscholar":     S("Google Scholar MCP","lit","registry","Scholar search over MCP (no official API; scrapes).","MCP: JackKuo666/Google-Scholar-MCP-Server — confirm repo."),
   "wiley":        S("Wiley Scholar Gateway","lit","verified","Wiley full-text scholarly gateway (marketplace remote MCP).","Install via /plugin marketplace add anthropics/life-sciences."),
 
@@ -106,6 +108,9 @@ STATIONS = {
   "cellosaurus":  S("Cellosaurus MCP","gen","registry","Cell-line knowledge resource.","MCP: biocontext-ai/unofficial-cellosaurus-mcp."),
   "biostudies":   S("BioStudies MCP","gen","registry","EBI BioStudies datasets & supplementary data.","MCP: EBIBioStudies/biostudies-mcp-server — confirm repo."),
   "gwas":         S("GWAS Catalog MCP","gen","registry","GWAS associations (also inside BioMCP).","MCP: koido/gwas-catalog-mcp — confirm repo."),
+  "clingenlink":  S("ClinGen MCP","gen","registry","Gene–disease validity, dosage sensitivity, clinical actionability & variant pathogenicity (ERepo).","MCP: berntpopp/clingen-link — confirm repo.","https://github.com/berntpopp/clingen-link"),
+  "mavedblink":   S("MaveDB MCP","gen","registry","Quantitative variant-effect scores from deep mutational scanning and MAVE assays.","MCP: berntpopp/mavedb-link — confirm repo.","https://github.com/berntpopp/mavedb-link"),
+  "genefoundrymcp": S("GeneFoundry Router","gen","registry","MCP gateway federating 21 clinical-genomics servers (gnomAD, ClinVar, HPO, UniProt, VEP, PanelApp) behind one endpoint.","MCP: berntpopp/genefoundry-router — confirm repo.","https://github.com/berntpopp/genefoundry-router"),
 
   # ====================================================== Compute ⚫
   "python":       S("Python · scanpy/squidpy","comp","live","scanpy/squidpy/anndata for sc & spatial; pandas/numpy/scipy — all verified installed.","Bash + Python 3.12; Claude writes & runs the analysis now."),
@@ -158,6 +163,9 @@ STATIONS = {
   "pubchem":      S("PubChem MCP","clin","registry","Chemical structures, properties & bioassays.","MCP: cyanheads/pubchem-mcp-server."),
   "pharmacology": S("Pharmacology MCP","clin","registry","Guide to PHARMACOLOGY — targets & ligands.","MCP: longevity-genie/pharmacology-mcp."),
   "nexonco":      S("NexOnco MCP","clin","registry","Oncology clinical decisioning.","MCP: Nexgene-Research/nexonco-mcp."),
+  "hpolink":      S("HPO MCP","clin","registry","Human Phenotype Ontology: phenotype term lookup, is_a hierarchy & gene–phenotype–disease associations.","MCP: berntpopp/hpo-link — confirm repo.","https://github.com/berntpopp/hpo-link"),
+  "mondolink":    S("Mondo Disease MCP","clin","registry","Mondo Disease Ontology: disease term lookup & cross-ontology mapping (OMIM/Orphanet/DOID/NCIT/MeSH).","MCP: berntpopp/mondo-link — confirm repo.","https://github.com/berntpopp/mondo-link"),
+  "monarchmcp":   S("Monarch Initiative MCP","clin","registry","Phenotype–gene–disease knowledge graph (HPO, MONDO, OMIM, Orphanet) — rare-disease focus.","MCP: nickzren/monarch-mcp — confirm repo.","https://github.com/nickzren/monarch-mcp"),
 
   # ====================================================== Visualization 🟡
   "biorender":    S("BioRender","viz","live","Publication figures from a vast bio icon/template library.","MCP connected now — search icons & templates.","https://www.biorender.com"),

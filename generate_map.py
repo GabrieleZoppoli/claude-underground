@@ -77,6 +77,9 @@ STATIONS = {
   "pubmedmcp":    S("PubMed MCP","lit","registry","Standalone PubMed search/fetch over MCP.","MCP: andybrandt/mcp-simple-pubmed or grll/pubmedmcp — confirm repo, add to config."),
   "gscholar":     S("Google Scholar MCP","lit","registry","Scholar search over MCP (no official API; scrapes).","MCP: JackKuo666/Google-Scholar-MCP-Server — confirm repo."),
   "wiley":        S("Wiley Scholar Gateway","lit","verified","Wiley full-text scholarly gateway (marketplace remote MCP).","Install via /plugin marketplace add anthropics/life-sciences."),
+  "pubmedcyan":   S("PubMed MCP (cyanheads)","lit","registry","Full-featured PubMed + Europe PMC + Unpaywall MCP (159 ★, STDIO/HTTP).","MCP: cyanheads/pubmed-mcp-server — npm install, add to config.","https://github.com/cyanheads/pubmed-mcp-server"),
+  "biorxivmcp":   S("bioRxiv MCP","lit","registry","Search/retrieve bioRxiv & medRxiv preprints by DOI, date, or keyword over MCP.","MCP: cyanheads/biorxiv-mcp-server — confirm repo.","https://github.com/cyanheads/biorxiv-mcp-server"),
+  "pubcrawl":     S("PubCrawl MCP","lit","registry","PubMed + Europe PMC + US/UK drug labelling + ClinicalTrials.gov in one MCP.","MCP: nickjlamb/pubcrawl — npm install, add to config.","https://github.com/nickjlamb/pubcrawl"),
 
   # ====================================================== Genomic 🟢
   "synapse":      S("Synapse.org","gen","live","Sage Bionetworks repository — controlled-access cohorts, consortium data.","MCP connected now — search & pull datasets (auth for controlled access).","https://www.synapse.org"),
@@ -106,6 +109,9 @@ STATIONS = {
   "cellosaurus":  S("Cellosaurus MCP","gen","registry","Cell-line knowledge resource.","MCP: biocontext-ai/unofficial-cellosaurus-mcp."),
   "biostudies":   S("BioStudies MCP","gen","registry","EBI BioStudies datasets & supplementary data.","MCP: EBIBioStudies/biostudies-mcp-server — confirm repo."),
   "gwas":         S("GWAS Catalog MCP","gen","registry","GWAS associations (also inside BioMCP).","MCP: koido/gwas-catalog-mcp — confirm repo."),
+  "litvar":       S("LitVar MCP","gen","registry","NCBI LitVar2: search literature by genetic variant (variant→publications index).","MCP: berntpopp/litvar-link — pip install, add to config.","https://github.com/berntpopp/litvar-link"),
+  "genefoundry":  S("GeneFoundry Router","gen","registry","MCP gateway federating 21 biomedical servers (gnomAD, ClinVar, HPO, VEP, PanelApp).","MCP: berntpopp/genefoundry-router — Streamable-HTTP; self-host or connect.","https://github.com/berntpopp/genefoundry-router"),
+  "grebi":        S("GrEBI (EBI)","gen","registry","EBISPOT HPC aggregation pipeline + API/MCP for LLM-mediated biomedical data integration.","MCP: EBISPOT/GrEBI — confirm dev branch; EBI official.","https://github.com/EBISPOT/GrEBI"),
 
   # ====================================================== Compute ⚫
   "python":       S("Python · scanpy/squidpy","comp","live","scanpy/squidpy/anndata for sc & spatial; pandas/numpy/scipy — all verified installed.","Bash + Python 3.12; Claude writes & runs the analysis now."),

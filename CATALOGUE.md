@@ -52,6 +52,9 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 ### 🔴 Line 1 — Literature & Evidence
 - ✅ BioMCP (lit federation: PubMed/PubTator3/Europe PMC/Semantic Scholar) — genomoncology/biomcp
 - 📇 PubMed MCPs — andybrandt-mcp-simple-pubmed · grll-pubmedmcp
+- 📇 **PubMed MCP (cyanheads)** — cyanheads/pubmed-mcp-server (159 ★ TypeScript; PubMed + Europe PMC + Unpaywall full-text, STDIO or Streamable HTTP)
+- 📇 **bioRxiv MCP** — cyanheads/biorxiv-mcp-server (search bioRxiv & medRxiv preprints by DOI/date/keyword)
+- 📇 **PubCrawl MCP** — nickjlamb/pubcrawl (PubMed + Europe PMC + US/UK drug labelling + ClinicalTrials.gov; pharma focus by PharmaTools.AI)
 - 📇 Google Scholar MCP — JackKuo666-Google-Scholar-MCP-Server
 - ✅ Marketplace: PubMed (no-auth), Wiley Scholar Gateway, Consensus — anthropics/life-sciences
 - 🌐 Europe PMC API · Semantic Scholar API (both public; ⚠️ standalone MCPs not separately confirmed)
@@ -65,6 +68,9 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - 📇 UniProt MCP — TakumiY235-uniprot-mcp-server · 🌐 uniprot.org/help/api_queries
 - 📇 NCBI MCP — noahzeidenberg-ncbi-mcp · 📇 BioMart — jzinno-biomart-mcp · 📇 biobtree (ID map) — tamerh-biobtree
 - 📇 GWAS Catalog — koido-gwas-catalog-mcp · 📇 HGNC nomenclature — armish-hgnc.mcp
+- 📇 **LitVar MCP** — berntpopp/litvar-link (NCBI LitVar2: variant→publications index; genetic literature search by variant)
+- 📇 **GeneFoundry Router** — berntpopp/genefoundry-router (MCP gateway federating 21 biomedical MCPs: gnomAD, ClinVar, HPO, UniProt, Ensembl VEP, PanelApp; Streamable-HTTP)
+- 📇 **GrEBI (EBI)** — EBISPOT/GrEBI (EBISPOT official: HPC aggregation pipeline + API/MCP for LLM-mediated biomedical data integration; dev branch active)
 - 📇 VEP — not-a-feature-VEPmcp · 📇 Evo2 genomic LM — not-a-feature-evo2-mcp
 - 📇 BioThings (MyGene/MyVariant) — Augmented-Nature-BioThings-MCP-Server · longevity-genie-biothings-mcp
 - 📇 InterPro — bio-mcp-interpro · 📇 RNAcentral — RNAcentral-rnacentral-mcp-server · 📇 PDBe structures — PDBeurope-PDBe-MCP-Servers

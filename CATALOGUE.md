@@ -71,8 +71,14 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - 📇 Cellosaurus cell lines — biocontext-ai-unofficial-cellosaurus-mcp · 📇 BioStudies — EBIBioStudies-biostudies-mcp-server
 - 🌐 GDC/TCGA API (incl. /analysis/survival) — gdc.cancer.gov/developers (⚠️ no GDC MCP found)
 - 🌐 No-MCP-verified but public: UCSC, dbSNP/dbVar, ENCODE (use via API/browser)
+- 📇 OpenGenes MCP (aging/lifespan interventions) — longevity-genie/opengenes-mcp · remote: opengenes-mcp.longevity-genie.info/mcp
+- 📇 SynergyAge MCP (genetic interactions × lifespan) — longevity-genie/synergy-age-mcp · remote: synergy-age-mcp.longevity-genie.info/mcp
+- ✅ ExpasyGPT MCP (SIB Swiss: UniProt/Bgee/Rhea/OMA/SwissLipids via SPARQL) — sib-swiss/sparql-llm · official remote: chat.expasy.org/mcp
+- 📇 FlyBase MCP (Drosophila genetics & molecular biology) — sviatkh/flybase-mcp-server
+- 📇 BigQuery Biomedical MCP (TCGA/ClinVar/PharmGKB/CTG via GCP BigQuery) — navisbio/mcp_bigquery_biomedical
 
 ### ⚫ Line 3 — Compute & Pipelines (incl. single-cell / spatial)
+- 📇 scvi-tools MCP (YosefLab knowledge layer: models/docs/tutorials/Hugging Face) — YosefLab/scvi-tools-mcp
 - ✅ ChatSpatial (spatial, ~60 methods) — cafferychen777/ChatSpatial
 - ✅ SCMCP (scRNA-seq, scverse) — scmcphub/scmcp
 - 📇 AnnData MCP — biocontext-ai-anndata-mcp · 📇 CELLxGENE Census MCP — MaxMLang-cxg-census-mcp
@@ -84,12 +90,16 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - Local (already installed): Python+scanpy/squidpy/anndata ✓ · R 4.5 ✓ (add Seurat/DESeq2 via BiocManager)
 
 ### 🔵 Line 4 — Statistics & Trial Design
+- ✅ Medidata MCP (marketplace: Rave EDC docs + predictive site ranking for trial planning) — /plugin install medidata@life-sciences
 - ✅ ClinicalTrials.gov MCP — cyanheads/clinicaltrialsgov-mcp-server · 🌐 API v2: clinicaltrials.gov/api/v2/studies
 - ✅ BioMCP (trials via CTG v2 + NCI CTS) — genomoncology/biomcp
 - 📇 AACT (CTG aggregate DB) MCP — navisbio-AACT_MCP · 📇 MedCalc MCP — winninghealth-medcalcmcp
 - Local: statsmodels/lifelines ✓ (PyMC/Stan/brms ⚠️ to install)
 
 ### 🟣 Line 5 — Clinical & Regulatory
+- ✅ AdisInsight MCP (Springer Nature drug development pipeline & clinical trials intelligence) — marketplace: /plugin install adisinsight@life-sciences
+- ✅ Cortellis MCP (Clarivate global drug regulatory data & submissions) — marketplace: /plugin install cortellis@life-sciences
+- ✅ Owkin HistoPLUS (H&E slide analysis, cell-type quantification, TCGA survival analysis) — marketplace: /plugin install owkin@life-sciences
 - 📇 OMOP / OHDSI MCP — OHNLP-omop_mcp · 📇 DICOM imaging MCP — ChristianHinge-dicom-mcp
 - 📇 Ontologies: OLS4 (EBI) — EBISPOT-ols4 · BioPortal (SNOMED/UMLS etc.) — ncbo-bioportal-mcp
 - 📇 Drugs/chem: ChEMBL — JackKuo666-ChEMBL-MCP-Server · PubChem — cyanheads-pubchem-mcp-server / JackKuo666-PubChem-MCP-Server · pharmacology — longevity-genie-pharmacology-mcp

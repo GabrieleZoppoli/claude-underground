@@ -106,6 +106,11 @@ STATIONS = {
   "cellosaurus":  S("Cellosaurus MCP","gen","registry","Cell-line knowledge resource.","MCP: biocontext-ai/unofficial-cellosaurus-mcp."),
   "biostudies":   S("BioStudies MCP","gen","registry","EBI BioStudies datasets & supplementary data.","MCP: EBIBioStudies/biostudies-mcp-server — confirm repo."),
   "gwas":         S("GWAS Catalog MCP","gen","registry","GWAS associations (also inside BioMCP).","MCP: koido/gwas-catalog-mcp — confirm repo."),
+  "opengenes":    S("OpenGenes MCP","gen","registry","Curated lifespan-intervention data for aging & longevity research (model organisms).","MCP: longevity-genie/opengenes-mcp · remote: opengenes-mcp.longevity-genie.info/mcp.","https://github.com/longevity-genie/opengenes-mcp"),
+  "synergyage":   S("SynergyAge MCP","gen","registry","Synergistic/antagonistic genetic interactions affecting lifespan across model organisms.","MCP: longevity-genie/synergy-age-mcp · remote: synergy-age-mcp.longevity-genie.info/mcp.","https://github.com/longevity-genie/synergy-age-mcp"),
+  "expasygpt":    S("ExpasyGPT MCP","gen","verified","SIB Swiss — UniProt, Bgee, Rhea, OMA, SwissLipids, Cellosaurus via SPARQL (official SIB endpoint).","Official remote MCP: chat.expasy.org/mcp — wire directly.","https://github.com/sib-swiss/sparql-llm"),
+  "flybase":      S("FlyBase MCP","gen","registry","FlyBase — genetics & molecular biology of Drosophila melanogaster.","MCP: sviatkh/flybase-mcp-server.","https://github.com/sviatkh/flybase-mcp-server"),
+  "bqbiomedical": S("BigQuery Biomedical","gen","registry","Google BigQuery biomedical datasets (TCGA, ClinVar, PharmGKB, CTG, etc.) via MCP.","MCP: navisbio/mcp_bigquery_biomedical — needs GCP/BigQuery credentials.","https://github.com/navisbio/mcp_bigquery_biomedical"),
 
   # ====================================================== Compute ⚫
   "python":       S("Python · scanpy/squidpy","comp","live","scanpy/squidpy/anndata for sc & spatial; pandas/numpy/scipy — all verified installed.","Bash + Python 3.12; Claude writes & runs the analysis now."),
@@ -129,6 +134,7 @@ STATIONS = {
   "omnipath":     S("OmniPath MCP","comp","registry","Signaling/regulatory networks (Saez lab).","MCP: saezlab/omnipath-next."),
   "biocypher":    S("BioCypher MCP","comp","registry","Build & query biomedical knowledge graphs.","MCP: biocypher/biocypher-mcp."),
   "gget":         S("gget MCP","comp","registry","Swiss-army genomics queries (Ensembl/UniProt/BLAST/…).","MCP: longevity-genie/gget-mcp."),
+  "scvitools_mcp":S("scvi-tools MCP","comp","registry","scvi-tools knowledge layer (models, docs, tutorials, Hugging Face pretrained models) for LLM workflows.","MCP: YosefLab/scvi-tools-mcp — pure knowledge layer, no runtime execution.","https://github.com/YosefLab/scvi-tools-mcp"),
 
   # ====================================================== Statistics 🔵
   "statsmodels":  S("statsmodels / scipy","stat","live","Regression, GLM, mixed models, hypothesis tests in Python.","Bash + Python; Claude writes the analysis."),
@@ -141,6 +147,7 @@ STATIONS = {
   "ctgmcp":       S("ClinTrials.gov MCP","stat","verified","Trial-registry queries over MCP (CTG API v2 + NCI CTS).","MCP: cyanheads/clinicaltrialsgov-mcp-server.","https://github.com/cyanheads/clinicaltrialsgov-mcp-server"),
   "aact":         S("AACT MCP","stat","registry","Aggregate Content of ClinicalTrials.gov (AACT) database.","MCP: navisbio/AACT_MCP."),
   "medcalc":      S("MedCalc MCP","stat","registry","Medical calculators & clinical equations.","MCP: winninghealth/medcalcmcp."),
+  "medidata":     S("Medidata MCP","stat","verified","Medidata platform help (Rave EDC, Data Connect) + predictive site ranking for trial planning.","Install: /plugin install medidata@life-sciences (auth required).","https://medidata.com"),
 
   # ====================================================== Clinical 🟣
   "clinreports":  S("clinical-reports","clin","live","Case reports (CARE), CSR (ICH-E3), SOAP, discharge summaries.","Skill: claude-scientific-writer:clinical-reports."),
@@ -158,6 +165,9 @@ STATIONS = {
   "pubchem":      S("PubChem MCP","clin","registry","Chemical structures, properties & bioassays.","MCP: cyanheads/pubchem-mcp-server."),
   "pharmacology": S("Pharmacology MCP","clin","registry","Guide to PHARMACOLOGY — targets & ligands.","MCP: longevity-genie/pharmacology-mcp."),
   "nexonco":      S("NexOnco MCP","clin","registry","Oncology clinical decisioning.","MCP: Nexgene-Research/nexonco-mcp."),
+  "adisinsight":  S("AdisInsight MCP","clin","verified","Springer Nature drug development pipeline, clinical trials & deals intelligence (marketplace remote MCP).","Install: /plugin install adisinsight@life-sciences (auth required).","https://adisinsight.springer.com"),
+  "cortellis":    S("Cortellis MCP","clin","verified","Clarivate Cortellis regulatory intelligence — global drug regulatory data & submissions.","Install: /plugin install cortellis@life-sciences (auth required).","https://clarivate.com"),
+  "owkin":        S("Owkin HistoPLUS","clin","verified","Owkin AI — H&E slide analysis, cell-type quantification & survival analysis on TCGA cohorts.","Install: /plugin install owkin@life-sciences (auth required).","https://www.owkin.com"),
 
   # ====================================================== Visualization 🟡
   "biorender":    S("BioRender","viz","live","Publication figures from a vast bio icon/template library.","MCP connected now — search icons & templates.","https://www.biorender.com"),

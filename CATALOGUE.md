@@ -71,6 +71,12 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - 📇 Cellosaurus cell lines — biocontext-ai-unofficial-cellosaurus-mcp · 📇 BioStudies — EBIBioStudies-biostudies-mcp-server
 - 🌐 GDC/TCGA API (incl. /analysis/survival) — gdc.cancer.gov/developers (⚠️ no GDC MCP found)
 - 🌐 No-MCP-verified but public: UCSC, dbSNP/dbVar, ENCODE (use via API/browser)
+- 📇 SIB SPARQL LLM (ExpasyGPT) — sib-swiss/sparql-llm · remote: chat.expasy.org/mcp · queries UniProt, Bgee, Rhea, Cellosaurus, OMA, SwissLipids via SPARQL; 130 ⭐ *(registry-listed 2026-06-02)*
+- 📇 Genomics MCP — rewire-bio/genomics-mcp · unified local MCP: EGA/ENA/ENCODE/GEO/NCBI Datasets + evidence from ClinVar, gnomAD, HGNC, Ensembl, UniProt, Open Targets *(registry-listed 2026-09-24)*
+- 📇 OpenGenes MCP — longevity-genie/opengenes-mcp · remote: opengenes-mcp.longevity-genie.info/mcp · lifespan interventions & aging-gene annotations; 21 ⭐ *(registry-listed 2025-06-05)*
+- 📇 SynergyAge MCP — longevity-genie/synergy-age-mcp · remote: synergy-age-mcp.longevity-genie.info/mcp · genetic interactions affecting lifespan across model organisms *(registry-listed 2025-06-06)*
+- 📇 FlyBase MCP — sviatkh/flybase-mcp-server · genetics & molecular biology of Drosophila melanogaster *(registry-listed 2025-09-12)*
+- 📇 Drosophila Stocks MCP — neurorishika/drosophila-stocks-mcp · query BDSC, VDRC, DGRC, NIG-FLY stock centers via FlyBase data *(registry-listed 2026-07-02)*
 
 ### ⚫ Line 3 — Compute & Pipelines (incl. single-cell / spatial)
 - ✅ ChatSpatial (spatial, ~60 methods) — cafferychen777/ChatSpatial
@@ -80,6 +86,9 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - 📇 STRING (PPI) — meringlab-string-mcp · 📇 Reactome (pathways) — Augmented-Nature-Reactome-MCP-Server
 - 📇 OmniPath networks (Saez lab) — saezlab-omnipath-next · 📇 BioCypher knowledge graphs — biocypher-biocypher-mcp
 - 📇 ToolUniverse (Harvard MIMS, 200+ tools aggregator) — mims-harvard-ToolUniverse · 📇 gget — longevity-genie-gget-mcp
+- 📇 scvi-tools MCP — YosefLab/scvi-tools-mcp · official YosefLab MCP: model docs, API reference, pretrained HF Hub models & workflow templates (knowledge layer, no runtime execution) *(registry-listed 2026-06-10)*
+- 📇 Protein Hunter MCP — longevity-genie/protein_hunter_mcp · GPU-accelerated Boltz/Chai/AlphaFold3 protein structure & binder prediction *(registry-listed 2025-11-16)*
+- 📇 PhyloKit MCP — musharna/phylokit-mcp · IQ-TREE 3 phylogenetics — ML trees, bootstrap, model selection (AIC/BIC), Robinson-Foulds distance *(registry-listed 2026-07-30)*
 - ✅ Marketplace skills: single-cell-rna-qc, nextflow-development (nf-core), scvi-tools — anthropics/life-sciences
 - Local (already installed): Python+scanpy/squidpy/anndata ✓ · R 4.5 ✓ (add Seurat/DESeq2 via BiocManager)
 

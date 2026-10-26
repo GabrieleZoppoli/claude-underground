@@ -106,6 +106,12 @@ STATIONS = {
   "cellosaurus":  S("Cellosaurus MCP","gen","registry","Cell-line knowledge resource.","MCP: biocontext-ai/unofficial-cellosaurus-mcp."),
   "biostudies":   S("BioStudies MCP","gen","registry","EBI BioStudies datasets & supplementary data.","MCP: EBIBioStudies/biostudies-mcp-server — confirm repo."),
   "gwas":         S("GWAS Catalog MCP","gen","registry","GWAS associations (also inside BioMCP).","MCP: koido/gwas-catalog-mcp — confirm repo."),
+  "sibasparql":   S("SIB SPARQL LLM","gen","registry","SIB Swiss chat+MCP querying UniProt, Bgee, Rhea, Cellosaurus via SPARQL.","MCP: sib-swiss/sparql-llm · remote: chat.expasy.org/mcp.","https://github.com/sib-swiss/sparql-llm"),
+  "rewiregenomics":S("Genomics MCP","gen","registry","Unified access to EGA/ENA/ENCODE/GEO/NCBI + ClinVar/gnomAD/Open Targets.","MCP: rewire-bio/genomics-mcp — confirm and add to config.","https://github.com/rewire-bio/genomics-mcp"),
+  "opengenes":    S("OpenGenes MCP","gen","registry","OpenGenes DB — lifespan interventions & aging-gene annotations.","MCP: longevity-genie/opengenes-mcp · remote: opengenes-mcp.longevity-genie.info/mcp.","https://github.com/longevity-genie/opengenes-mcp"),
+  "synergyage":   S("SynergyAge MCP","gen","registry","SynergyAge DB — genetic interactions affecting lifespan across model organisms.","MCP: longevity-genie/synergy-age-mcp · remote: synergy-age-mcp.longevity-genie.info/mcp.","https://github.com/longevity-genie/synergy-age-mcp"),
+  "flybase":      S("FlyBase MCP","gen","registry","FlyBase genetics & molecular biology of Drosophila melanogaster.","MCP: sviatkh/flybase-mcp-server — confirm and add to config.","https://github.com/sviatkh/flybase-mcp-server"),
+  "drostocks":    S("Drosophila Stocks MCP","gen","registry","Query BDSC/VDRC/DGRC/NIG-FLY stock centers via FlyBase data.","MCP: neurorishika/drosophila-stocks-mcp — confirm and add to config.","https://github.com/neurorishika/drosophila-stocks-mcp"),
 
   # ====================================================== Compute ⚫
   "python":       S("Python · scanpy/squidpy","comp","live","scanpy/squidpy/anndata for sc & spatial; pandas/numpy/scipy — all verified installed.","Bash + Python 3.12; Claude writes & runs the analysis now."),
@@ -129,6 +135,9 @@ STATIONS = {
   "omnipath":     S("OmniPath MCP","comp","registry","Signaling/regulatory networks (Saez lab).","MCP: saezlab/omnipath-next."),
   "biocypher":    S("BioCypher MCP","comp","registry","Build & query biomedical knowledge graphs.","MCP: biocypher/biocypher-mcp."),
   "gget":         S("gget MCP","comp","registry","Swiss-army genomics queries (Ensembl/UniProt/BLAST/…).","MCP: longevity-genie/gget-mcp."),
+  "scvitoolsmcp": S("scvi-tools MCP","comp","registry","Official YosefLab MCP: scvi-tools docs, API, pretrained models & workflow templates.","MCP: YosefLab/scvi-tools-mcp — confirm and add to config.","https://github.com/YosefLab/scvi-tools-mcp"),
+  "proteinhunter":S("Protein Hunter MCP","comp","registry","Boltz/Chai/AlphaFold3 protein structure & binder prediction via GPU inference.","MCP: longevity-genie/protein_hunter_mcp — GPU-accelerated; confirm and add to config.","https://github.com/longevity-genie/protein_hunter_mcp"),
+  "phylokit":     S("PhyloKit MCP","comp","registry","IQ-TREE 3 phylogenetic inference — ML trees, bootstrap, model selection, RF distance.","MCP: musharna/phylokit-mcp — confirm and add to config.","https://github.com/musharna/phylokit-mcp"),
 
   # ====================================================== Statistics 🔵
   "statsmodels":  S("statsmodels / scipy","stat","live","Regression, GLM, mixed models, hypothesis tests in Python.","Bash + Python; Claude writes the analysis."),

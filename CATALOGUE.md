@@ -53,6 +53,7 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - ✅ BioMCP (lit federation: PubMed/PubTator3/Europe PMC/Semantic Scholar) — genomoncology/biomcp
 - 📇 PubMed MCPs — andybrandt-mcp-simple-pubmed · grll-pubmedmcp
 - 📇 Google Scholar MCP — JackKuo666-Google-Scholar-MCP-Server
+- 📇 **bioRxiv/medRxiv MCP** — cyanheads/biorxiv-mcp-server · Fetch preprints by DOI, date range, or keyword. *Verified 2026-11-02: add_repo status read_available.*
 - ✅ Marketplace: PubMed (no-auth), Wiley Scholar Gateway, Consensus — anthropics/life-sciences
 - 🌐 Europe PMC API · Semantic Scholar API (both public; ⚠️ standalone MCPs not separately confirmed)
 
@@ -69,6 +70,9 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - 📇 BioThings (MyGene/MyVariant) — Augmented-Nature-BioThings-MCP-Server · longevity-genie-biothings-mcp
 - 📇 InterPro — bio-mcp-interpro · 📇 RNAcentral — RNAcentral-rnacentral-mcp-server · 📇 PDBe structures — PDBeurope-PDBe-MCP-Servers
 - 📇 Cellosaurus cell lines — biocontext-ai-unofficial-cellosaurus-mcp · 📇 BioStudies — EBIBioStudies-biostudies-mcp-server
+- 📇 **GeneFoundry Router** — berntpopp/genefoundry-router · Federation gateway routing across 22 human-genetics MCP servers (gnomAD, ClinVar, HPO, UniProt, HGNC…). *Verified 2026-11-02: add_repo status read_available.*
+- 📇 **SpliceAI MCP** — berntpopp/spliceailookup-link · SpliceAI & Pangolin splice-variant predictions via Broad Institute Lookup API. *Verified 2026-11-02: add_repo status read_available.*
+- 📇 **AlphaFold MCP** — smaniches/alphafold-sovereign-mcp · AlphaFold DB + 8 public protein-structure sources with provenance knowledge graph. *Verified 2026-11-02: add_repo status read_available.*
 - 🌐 GDC/TCGA API (incl. /analysis/survival) — gdc.cancer.gov/developers (⚠️ no GDC MCP found)
 - 🌐 No-MCP-verified but public: UCSC, dbSNP/dbVar, ENCODE (use via API/browser)
 
@@ -94,6 +98,9 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - 📇 Ontologies: OLS4 (EBI) — EBISPOT-ols4 · BioPortal (SNOMED/UMLS etc.) — ncbo-bioportal-mcp
 - 📇 Drugs/chem: ChEMBL — JackKuo666-ChEMBL-MCP-Server · PubChem — cyanheads-pubchem-mcp-server / JackKuo666-PubChem-MCP-Server · pharmacology — longevity-genie-pharmacology-mcp
 - 📇 Oncology decisioning — Nexgene-Research-nexonco-mcp
+- 📇 **Orphanet MCP** — berntpopp/orphanet-link · Rare-disease nomenclature & gene–disease associations (Orphadata). *Verified 2026-11-02: add_repo status read_available.*
+- 📇 **PanelApp MCP** — berntpopp/panelapp-link · NHS Genomics England consensus diagnostic gene panels & gene–disease ratings. *Verified 2026-11-02: add_repo status read_available.*
+- 📇 **Mondo MCP** — berntpopp/mondo-link · Mondo Disease Ontology — cross-ontology disease term lookup & is_a hierarchy. *Verified 2026-11-02: add_repo status read_available.*
 - 🌐 openFDA · EU CTIS/CTR · WHO ICTRP · EMA · HL7 FHIR · REDCap (public APIs; ⚠️ MCPs not confirmed)
 
 ### 🟡 Line 6 — Visualization & Figures
@@ -108,6 +115,7 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - ✅ Claude for Life Sciences marketplace — anthropics/life-sciences (install channel)
 - ✅ BioContextAI meta-layer — biocontext-ai-meta-mcp · -knowledgebase-mcp · -skill-to-mcp · -protocol-mcp · -registry
 - ✅ Codex / GPT-5.5 (already live) · workflows/subagents · schedule/cron
+- 📇 **GrEBI** — EBISPOT/GrEBI · Official EMBL-EBI HPC aggregation pipeline & MCP server for LLM-mediated biomedical data integration across EBI resources. *Verified 2026-11-02: add_repo status read_available.*
 
 ---
 

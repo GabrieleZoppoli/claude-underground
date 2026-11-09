@@ -126,3 +126,49 @@ github.com/anthropics/life-sciences · biocontext.ai/registry · github.com/bioc
 github.com/genomoncology/biomcp · github.com/cBioPortal/cbioportal-mcp ·
 github.com/opentargets/open-targets-platform-mcp · github.com/cafferychen777/ChatSpatial ·
 github.com/scmcphub/scmcp · academic.oup.com/nar/article/54/D1/D1/8402365
+
+---
+
+## Weekly discovery additions — 2026-11-09
+
+Ten new entries found in the BioContextAI registry that were absent from the catalogue.
+All repos verified via `git ls-remote HEAD` (returned a commit SHA — confirmed real). None merged; PR pending review.
+
+### 🟢 Line 2 — Genomic Data & Sequencing
+- ✅ **InterPro MCP (EBI official)** (github.com/ebi-pf-team/interpro-mcp, MIT) — Official EMBL-EBI InterPro server with
+  a **live Streamable HTTP endpoint** (https://www.ebi.ac.uk/interpro/mcp). 13 tools: EBI Search free-text, InterPro REST
+  (entries/proteins/GO/taxonomy/structures/architectures), Matches API (MD5 precomputed) and live InterProScan 6 jobs.
+  Supersedes the community bio-mcp/interpro entry. Registry ID: `InterPro/mcp-server`.
+- 📇 **scvi-tools MCP (YosefLab)** (github.com/YosefLab/scvi-tools-mcp, BSD-3) — Official Yosef Lab knowledge server
+  for scvi-tools: model docs, tutorials, API reference, workflow templates, pretrained HuggingFace Hub models, FAQ.
+  Pure knowledge layer (no runtime execution). Directly relevant to single-cell work. Registry ID: `YosefLab/scvi-tools-mcp`.
+- ✅ **Genomics MCP (rewire.bio)** (github.com/rewire-bio/genomics-mcp, MIT) — Local MCP with broad genomic data
+  coverage: EGA/ENA/ENCODE/GEO/NCBI Datasets discovery; bounded reads from BAM/CRAM/VCF/BCF/FASTA/BED/GFF/bigWig on
+  local disk, HTTPS or S3; checksummed file transfers; ClinVar/gnomAD/HGNC/Ensembl/UniProt/Open Targets evidence with
+  provenance. Registry ID: `rewire-bio/genomics-mcp`.
+- ✅ **ExpasyGPT / SIB SPARQL** (github.com/sib-swiss/sparql-llm, MIT) — SIB Swiss Institute of Bioinformatics MCP
+  over SPARQL with **live endpoint** (https://chat.expasy.org/mcp). Covers UniProt, Bgee, Rhea, Cellosaurus, OMA,
+  OrthoDB, MetaNetX, SwissLipids. Registry ID: `sib-swiss/sparql-llm`.
+- 📇 **FlyBase MCP** (github.com/sviatkh/flybase-mcp-server, Apache-2.0) — Access to FlyBase (Drosophila melanogaster
+  genetics & molecular biology). Niche but useful for model-organism cross-referencing. Registry ID: `sviatkh/flybase-mcp-server`.
+
+### 🔴 Line 1 — Literature & Evidence
+- 📇 **PubMed+EuropePMC MCP (cyanheads)** (github.com/cyanheads/pubmed-mcp-server, Apache-2.0) — TypeScript MCP
+  combining PubMed and EuropePMC search with full-text retrieval, MeSH terms and citation links. Complements the
+  existing `andybrandt/mcp-simple-pubmed`. Registry ID: `cyanheads/pubmed-mcp-server`.
+
+### ⚫ Line 3 — Compute & Pipelines
+- 📇 **Protein Hunter MCP** (github.com/longevity-genie/protein_hunter_mcp, MIT) — GPU-accelerated protein structure
+  inference wrapper (Boltz/Chai/AlphaFold3-style) exposed via MCP. Useful for structure prediction in AI-assisted
+  drug discovery workflows. Registry ID: `longevity-genie/protein_hunter_mcp`.
+
+### 🔵 Line 4 — Statistics & Trial Design
+- ✅ **OpenGenes MCP** (github.com/longevity-genie/opengenes-mcp, MIT) — Curated OpenGenes aging research database:
+  lifespan interventions in model organisms. **Live public endpoint** (https://opengenes-mcp.longevity-genie.info/mcp).
+  Registry ID: `longevity-genie/opengenes-mcp`.
+- ✅ **SynergyAge MCP** (github.com/longevity-genie/synergy-age-mcp, MIT) — SynergyAge database: experimentally
+  validated genetic interactions (synergistic/antagonistic/epistatic) affecting lifespan. **Live public endpoint**
+  (https://synergy-age-mcp.longevity-genie.info/mcp). Registry ID: `longevity-genie/synergy-age-mcp`.
+- 📇 **BigQuery Biomedical MCP** (github.com/navisbio/mcp_bigquery_biomedical, GPL-3.0) — Google BigQuery access
+  for public biomedical datasets (AACT + other public tables). Complements the existing navisbio/AACT_MCP.
+  Registry ID: `navisbio/mcp_bigquery_biomedical`.

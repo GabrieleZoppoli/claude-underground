@@ -121,6 +121,45 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - Review tooling (Rayyan, Covidence, PROSPERO, ROBIS, ResearchRabbit/Connected Papers) — no
   dedicated MCP confirmed; use via web/API.
 
+---
+
+## Weekly discovery additions — 2026-11-16
+
+Ten new BioContextAI-registered servers not previously catalogued, all verified (git ls-remote returned
+a HEAD commit hash confirming the repo exists):
+
+### 🟢 Line 2 — Genomic Data & Sequencing (new)
+- ✅ **GWAS Catalog MCP (official)** — github.com/gwas-catalog/mcp
+  Remote endpoint: www.ebi.ac.uk/gwas/mcp. Official EMBL-EBI server; replaces community koido entry for production use.
+- ✅ **InterPro MCP (official EBI)** — github.com/ebi-pf-team/interpro-mcp
+  Remote endpoint: www.ebi.ac.uk/interpro/mcp. 13 tools: domain lookup, live InterProScan jobs, GO, taxonomy.
+  Supersedes the registry-only bio-mcp/interpro entry with an official remote endpoint.
+- 📇 **Rewire Genomics MCP** — github.com/rewire-bio/genomics-mcp
+  Local MCP: BAM/CRAM/VCF bounded reads, EGA/ENA/GEO/ENCODE discovery, ClinVar/gnomAD/HGNC provenance.
+- 📇 **just-prs MCP** — github.com/dna-seq/just-prs-mcp
+  Polygenic risk score computation via PGS Catalog; VCF normalisation, percentile ranking, absolute risk.
+
+### ⚫ Line 3 — Compute & Pipelines (new)
+- 📇 **scvi-tools MCP** — github.com/YosefLab/scvi-tools-mcp (official YosefLab)
+  Knowledge-layer MCP: scvi-tools docs, API reference, tutorials, pretrained Hugging Face Hub models.
+  No runtime GPU needed; complements the existing scvi-tools marketplace skill.
+- 📇 **PhyloKit MCP** — github.com/musharna/phylokit-mcp
+  ML phylogenetic trees via IQ-TREE 2 — bootstrap support, model selection (100+ models), RF distance.
+
+### 🔵 Line 4 — Statistics & Trial Design (new)
+- ✅ **OpenGenes MCP** — github.com/longevity-genie/opengenes-mcp
+  Remote endpoint: opengenes-mcp.longevity-genie.info/mcp. Lifespan interventions on model organisms; aging research.
+- ✅ **SynergyAge MCP** — github.com/longevity-genie/synergy-age-mcp
+  Remote endpoint: synergy-age-mcp.longevity-genie.info/mcp. Synergistic/antagonistic genetic interactions affecting lifespan.
+
+### 🟣 Line 5 — Clinical & Regulatory (new)
+- ✅ **PepBank MCP** — github.com/pepbank/peptide-research-mcp
+  Remote endpoint: pepbank.io/mcp. 160+ peptides with evidence-graded findings, clinical trials, doses, approval status.
+- ✅ **ExpasyGPT / SIB Swiss SPARQL MCP** — github.com/sib-swiss/sparql-llm
+  Remote endpoint: chat.expasy.org/mcp. Official SIB: UniProt, Bgee, Rhea, SwissLipids, OMA via SPARQL.
+
+---
+
 ## Key sources
 github.com/anthropics/life-sciences · biocontext.ai/registry · github.com/biocontext-ai/registry ·
 github.com/genomoncology/biomcp · github.com/cBioPortal/cbioportal-mcp ·

@@ -52,6 +52,8 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 ### 🔴 Line 1 — Literature & Evidence
 - ✅ BioMCP (lit federation: PubMed/PubTator3/Europe PMC/Semantic Scholar) — genomoncology/biomcp
 - 📇 PubMed MCPs — andybrandt-mcp-simple-pubmed · grll-pubmedmcp
+- 📇 **PubMed+EuropePMC MCP (cyanheads)** — cyanheads/pubmed-mcp-server · full text, MeSH, citations, Europe PMC; BioContextAI-listed; ✅ repo verified 2026-11-23
+- 📇 **bioRxiv/medRxiv MCP** — cyanheads/biorxiv-mcp-server · search & retrieve preprints by DOI/date/keyword; ✅ repo verified 2026-11-23
 - 📇 Google Scholar MCP — JackKuo666-Google-Scholar-MCP-Server
 - ✅ Marketplace: PubMed (no-auth), Wiley Scholar Gateway, Consensus — anthropics/life-sciences
 - 🌐 Europe PMC API · Semantic Scholar API (both public; ⚠️ standalone MCPs not separately confirmed)
@@ -68,6 +70,12 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - 📇 VEP — not-a-feature-VEPmcp · 📇 Evo2 genomic LM — not-a-feature-evo2-mcp
 - 📇 BioThings (MyGene/MyVariant) — Augmented-Nature-BioThings-MCP-Server · longevity-genie-biothings-mcp
 - 📇 InterPro — bio-mcp-interpro · 📇 RNAcentral — RNAcentral-rnacentral-mcp-server · 📇 PDBe structures — PDBeurope-PDBe-MCP-Servers
+- ✅ **InterPro MCP (official EBI)** — ebi-pf-team/interpro-mcp · official EMBL-EBI server, remote endpoint www.ebi.ac.uk/interpro/mcp, 13 tools (InterProScan, domain arch, GO, taxonomy); ✅ repo verified 2026-11-23
+- 📇 **CIViC MCP** — berntpopp/civic-link · clinical interpretation of cancer variants (molecular profiles, evidence items); ✅ repo verified 2026-11-23
+- 📇 **ClinGen MCP** — berntpopp/clingen-link · gene–disease validity, dosage sensitivity, clinical actionability; ✅ repo verified 2026-11-23
+- ✅ **ExpasyGPT / SIB SPARQL** — sib-swiss/sparql-llm · SIB Swiss official SPARQL MCP: UniProt, Bgee, Rhea, Cellosaurus via chat.expasy.org/mcp; ✅ repo verified 2026-11-23
+- 📇 **GTEx MCP** — berntpopp/gtex-link · tissue-specific gene expression (median/per-sample TPM, top-expressed genes); ✅ repo verified 2026-11-23
+- 📇 **Genomics MCP (rewire-bio)** — rewire-bio/genomics-mcp · local BAM/CRAM/VCF/FASTA/BigWig reads + EGA/ENA/ENCODE/GEO archive discovery + ClinVar/gnomAD/HGNC evidence; ✅ repo verified 2026-11-23
 - 📇 Cellosaurus cell lines — biocontext-ai-unofficial-cellosaurus-mcp · 📇 BioStudies — EBIBioStudies-biostudies-mcp-server
 - 🌐 GDC/TCGA API (incl. /analysis/survival) — gdc.cancer.gov/developers (⚠️ no GDC MCP found)
 - 🌐 No-MCP-verified but public: UCSC, dbSNP/dbVar, ENCODE (use via API/browser)
@@ -80,6 +88,7 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - 📇 STRING (PPI) — meringlab-string-mcp · 📇 Reactome (pathways) — Augmented-Nature-Reactome-MCP-Server
 - 📇 OmniPath networks (Saez lab) — saezlab-omnipath-next · 📇 BioCypher knowledge graphs — biocypher-biocypher-mcp
 - 📇 ToolUniverse (Harvard MIMS, 200+ tools aggregator) — mims-harvard-ToolUniverse · 📇 gget — longevity-genie-gget-mcp
+- 📇 **scvi-tools MCP (official YosefLab)** — YosefLab/scvi-tools-mcp · knowledge layer for scvi-tools: docs, tutorials, API, Hugging Face models (no runtime execution); ✅ repo verified 2026-11-23
 - ✅ Marketplace skills: single-cell-rna-qc, nextflow-development (nf-core), scvi-tools — anthropics/life-sciences
 - Local (already installed): Python+scanpy/squidpy/anndata ✓ · R 4.5 ✓ (add Seurat/DESeq2 via BiocManager)
 
@@ -87,6 +96,7 @@ plus targeted follow-up fetches. Generated 2026-06-02.
 - ✅ ClinicalTrials.gov MCP — cyanheads/clinicaltrialsgov-mcp-server · 🌐 API v2: clinicaltrials.gov/api/v2/studies
 - ✅ BioMCP (trials via CTG v2 + NCI CTS) — genomoncology/biomcp
 - 📇 AACT (CTG aggregate DB) MCP — navisbio-AACT_MCP · 📇 MedCalc MCP — winninghealth-medcalcmcp
+- 📇 **PRS / PGS Catalog MCP** — dna-seq/just-prs-mcp · polygenic risk score computation, PGS Catalog search, percentile, absolute risk; BioContextAI-listed; ✅ repo verified 2026-11-23
 - Local: statsmodels/lifelines ✓ (PyMC/Stan/brms ⚠️ to install)
 
 ### 🟣 Line 5 — Clinical & Regulatory

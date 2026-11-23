@@ -75,6 +75,8 @@ STATIONS = {
   "litreview":    S("literature-review","lit","live","Systematic reviews across PubMed/arXiv/bioRxiv/Semantic Scholar (PRISMA).","Skill: claude-scientific-writer:literature-review."),
   "researchlookup":S("research-lookup","lit","live","Fast current-research lookup (Parallel/Perplexity) for facts & papers.","Skill: claude-scientific-writer:research-lookup."),
   "pubmedmcp":    S("PubMed MCP","lit","registry","Standalone PubMed search/fetch over MCP.","MCP: andybrandt/mcp-simple-pubmed or grll/pubmedmcp — confirm repo, add to config."),
+  "pubmedmcp2":   S("PubMed+EuropePMC MCP","lit","registry","PubMed & Europe PMC: full text, MeSH terms, citations (cyanheads, BioContextAI-listed).","MCP: cyanheads/pubmed-mcp-server.","https://github.com/cyanheads/pubmed-mcp-server"),
+  "biorxivmcp":   S("bioRxiv/medRxiv MCP","lit","registry","Search & retrieve bioRxiv and medRxiv preprints by DOI, date or keyword.","MCP: cyanheads/biorxiv-mcp-server — confirm repo.","https://github.com/cyanheads/biorxiv-mcp-server"),
   "gscholar":     S("Google Scholar MCP","lit","registry","Scholar search over MCP (no official API; scrapes).","MCP: JackKuo666/Google-Scholar-MCP-Server — confirm repo."),
   "wiley":        S("Wiley Scholar Gateway","lit","verified","Wiley full-text scholarly gateway (marketplace remote MCP).","Install via /plugin marketplace add anthropics/life-sciences."),
 
@@ -106,6 +108,12 @@ STATIONS = {
   "cellosaurus":  S("Cellosaurus MCP","gen","registry","Cell-line knowledge resource.","MCP: biocontext-ai/unofficial-cellosaurus-mcp."),
   "biostudies":   S("BioStudies MCP","gen","registry","EBI BioStudies datasets & supplementary data.","MCP: EBIBioStudies/biostudies-mcp-server — confirm repo."),
   "gwas":         S("GWAS Catalog MCP","gen","registry","GWAS associations (also inside BioMCP).","MCP: koido/gwas-catalog-mcp — confirm repo."),
+  "interproofficial": S("InterPro MCP (EBI)","gen","verified","Official EMBL-EBI InterPro: protein families, domains, InterProScan via Streamable HTTP.","Remote MCP endpoint: www.ebi.ac.uk/interpro/mcp (ebi-pf-team/interpro-mcp).","https://github.com/ebi-pf-team/interpro-mcp"),
+  "civic":        S("CIViC MCP","gen","registry","CIViC: clinical interpretation of cancer variants — molecular profiles & evidence items.","MCP: berntpopp/civic-link — confirm repo.","https://github.com/berntpopp/civic-link"),
+  "clingen":      S("ClinGen MCP","gen","registry","ClinGen: gene–disease validity, dosage sensitivity, clinical actionability.","MCP: berntpopp/clingen-link — confirm repo.","https://github.com/berntpopp/clingen-link"),
+  "sibsparql":    S("ExpasyGPT (SIB SPARQL)","gen","verified","SIB Swiss: UniProt, Bgee expression, Rhea reactions, Cellosaurus via SPARQL.","Remote MCP endpoint: chat.expasy.org/mcp (sib-swiss/sparql-llm).","https://github.com/sib-swiss/sparql-llm"),
+  "genomicsmcp":  S("Genomics MCP (rewire)","gen","registry","Read BAM/CRAM/VCF/FASTA/BigWig locally + discover EGA/ENA/ENCODE/GEO archives.","MCP: rewire-bio/genomics-mcp — local file server.","https://github.com/rewire-bio/genomics-mcp"),
+  "gtex":         S("GTEx MCP","gen","registry","GTEx Portal: tissue-specific gene expression (median/per-sample TPM, top-expressed genes).","MCP: berntpopp/gtex-link — confirm repo.","https://github.com/berntpopp/gtex-link"),
 
   # ====================================================== Compute ⚫
   "python":       S("Python · scanpy/squidpy","comp","live","scanpy/squidpy/anndata for sc & spatial; pandas/numpy/scipy — all verified installed.","Bash + Python 3.12; Claude writes & runs the analysis now."),
@@ -129,6 +137,7 @@ STATIONS = {
   "omnipath":     S("OmniPath MCP","comp","registry","Signaling/regulatory networks (Saez lab).","MCP: saezlab/omnipath-next."),
   "biocypher":    S("BioCypher MCP","comp","registry","Build & query biomedical knowledge graphs.","MCP: biocypher/biocypher-mcp."),
   "gget":         S("gget MCP","comp","registry","Swiss-army genomics queries (Ensembl/UniProt/BLAST/…).","MCP: longevity-genie/gget-mcp."),
+  "scvimcp":      S("scvi-tools MCP","comp","registry","Official YosefLab knowledge MCP: scvi-tools docs, tutorials, API & Hugging Face models.","MCP: YosefLab/scvi-tools-mcp — knowledge layer (no runtime execution).","https://github.com/YosefLab/scvi-tools-mcp"),
 
   # ====================================================== Statistics 🔵
   "statsmodels":  S("statsmodels / scipy","stat","live","Regression, GLM, mixed models, hypothesis tests in Python.","Bash + Python; Claude writes the analysis."),
@@ -141,6 +150,7 @@ STATIONS = {
   "ctgmcp":       S("ClinTrials.gov MCP","stat","verified","Trial-registry queries over MCP (CTG API v2 + NCI CTS).","MCP: cyanheads/clinicaltrialsgov-mcp-server.","https://github.com/cyanheads/clinicaltrialsgov-mcp-server"),
   "aact":         S("AACT MCP","stat","registry","Aggregate Content of ClinicalTrials.gov (AACT) database.","MCP: navisbio/AACT_MCP."),
   "medcalc":      S("MedCalc MCP","stat","registry","Medical calculators & clinical equations.","MCP: winninghealth/medcalcmcp."),
+  "prsmcp":       S("PRS / PGS Catalog MCP","stat","registry","Polygenic risk score computation + PGS Catalog search, percentile & absolute risk.","MCP: dna-seq/just-prs-mcp (BioContextAI-listed).","https://github.com/dna-seq/just-prs-mcp"),
 
   # ====================================================== Clinical 🟣
   "clinreports":  S("clinical-reports","clin","live","Case reports (CARE), CSR (ICH-E3), SOAP, discharge summaries.","Skill: claude-scientific-writer:clinical-reports."),
